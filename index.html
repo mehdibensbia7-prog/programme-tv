@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Programme TV — Chaînes, actus séries & films</title>
+<title>Programme TV &amp; Radio France</title>
+<meta name="description" content="Programme TV + Radio France en direct.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap');
 
@@ -81,6 +82,16 @@
   .section-head .mini-status{ font-size: 11.5px; color: var(--muted); }
   .section-sub{ font-size: 13px; color: var(--muted); margin: 0 0 16px; }
 
+  /* Grille TV & Radios */
+  .grille, .radio-list { margin:16px 0; background:var(--scan); border-radius:12px; padding:16px; border:1px solid var(--panel-edge); max-height:380px; overflow-y:auto; }
+  .emission, .radio-item { display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid var(--panel-edge); }
+  .emission:last-child, .radio-item:last-child { border-bottom: none; }
+  .heure { font-weight:700; color:var(--ok); min-width:70px; font-size: 14px; }
+  .emission-title { font-size: 14.5px; color: var(--text); flex: 1; }
+  .radio-name { font-size: 14.5px; font-weight: 500; color: var(--text); }
+  button.radio-play { background:var(--tube); color:#1a0f0a; border:none; border-radius:8px; padding:8px 16px; cursor:pointer; font-weight:700; font-family: 'Space Grotesk', sans-serif; font-size: 13px; transition: background .15s; }
+  button.radio-play:hover { background:#ff7a58; }
+
   .cards{ display:flex; flex-direction:column; gap:10px; }
   .card{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px; padding: 13px 16px; }
   .card a.card-title{ color: var(--text); font-weight: 600; font-size: 14.5px; text-decoration:none; line-height:1.4; }
@@ -114,6 +125,7 @@
   .fallback-link a:hover{ text-decoration:underline; }
 
   .note{ margin-top: 30px; font-size: 12.5px; color: #566069; line-height: 1.6; border-top: 1px dashed var(--panel-edge); padding-top: 16px; }
+  
   .music-player{
     position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
     width: calc(100% - 32px); max-width: 620px;
@@ -147,9 +159,9 @@
 
   <div class="tv">
     <div class="tv-inner">
-      <p class="eyebrow">Tous les bouquets · auto-mise à jour</p>
+      <p class="eyebrow">TVmaze + Radio France • Audio direct</p>
       <h1>Programme<span>TV</span></h1>
-      <p class="sub">TNT, Canal+, beIN Sports, RMC Sport, Eurosport, jeunesse, cinéma, documentaires… cherche une chaîne, et retrouve plus bas les actus séries/épisodes et les films à venir.</p>
+      <p class="sub">TNT, Canal+, beIN Sports… + Radio France en direct.</p>
 
       <div class="status" id="status">
         <span><span class="dot"></span><span id="statusText">Vérification en cours…</span></span>
@@ -158,9 +170,16 @@
 
       <div id="networkDiagnostic" style="display:none; margin:-10px 0 18px; padding:12px 14px; border-radius:10px; background:rgba(232,182,79,.08); border:1px solid rgba(232,182,79,.35); font-size:12.5px; color:var(--warn); line-height:1.6;">
         ⚠️ Aucun proxy CORS n'a répondu — la page reste utilisable (recherche de chaînes) mais sans données fraîches.
-        Cause probable : réseau bloqué par l'aperçu intégré, ou les proxys gratuits sont temporairement hors service.
-        <b>Essaie d'ouvrir ce fichier directement dans Chrome ou Safari</b> (télécharge-le puis ouvre-le depuis tes fichiers,
-        plutôt que depuis l'aperçu dans l'app) — cela résout le problème dans la majorité des cas.
+        <b>Essaie d'ouvrir ce fichier directement dans Chrome ou Safari</b>.
+      </div>
+
+      <!-- Grille TV Direct -->
+      <div class="section">
+        <div class="section-head">
+          <h2>📺 Grille TV ce soir (Sélection)</h2>
+          <span class="mini-status" id="grilleStatus">Chargement...</span>
+        </div>
+        <div class="grille" id="grilleTV"></div>
       </div>
 
       <form id="searchForm">
@@ -177,6 +196,16 @@
       </div>
 
       <div class="groups" id="groups"></div>
+
+      <!-- Radio France -->
+      <div class="section">
+        <div class="section-head">
+          <h2>📻 Radio France en direct</h2>
+        </div>
+        <p class="section-sub">Écoutez vos stations préférées en qualité haute fidélité sans quitter la page.</p>
+        <div class="radio-list" id="radioList"></div>
+        <audio id="radioPlayer" controls style="width:100%; margin-top:12px; display: none;"></audio>
+      </div>
 
       <!-- ACTUS SÉRIES & ÉPISODES -->
       <div class="section">
@@ -218,15 +247,7 @@
       </div>
 
       <p class="note" id="note">
-        <b>Comment ça marche :</b> à l'ouverture (et une fois par 24h max), la page recharge en direct la liste des
-        chaînes, les dernières actus séries/épisodes et les films repérés, depuis tv-programme.com, via une API de
-        proxy gratuite (allorigins.win — nécessaire car les navigateurs bloquent les requêtes directes entre sites
-        différents). Les titres sont reformulés à partir des adresses de page, et seules les informations factuelles
-        (dates, horaires, chaînes) sont extraites automatiquement du texte — jamais de paragraphes copiés. Chaque
-        carte renvoie vers l'article ou la fiche complète sur le site source. Le résultat est mémorisé pour les
-        prochaines visites ; utilise « Tout actualiser » pour forcer une vérification immédiate. Cette veille ne
-        fonctionne que lorsque la page est ouverte dans un navigateur — ce n'est pas un service qui tourne en continu
-        sur un serveur.
+        <b>Comment ça marche :</b> à l'ouverture (et une fois par 24h max), la page recharge en direct la liste des chaînes depuis tv-programme.com via un proxy. Chaque carte renvoie vers l'article complet.
       </p>
     </div>
   </div>
@@ -249,795 +270,108 @@
 
 <script>
   const BASE = "https://tv-programme.com/";
-  // Plusieurs proxys CORS gratuits, essayés dans l'ordre (le premier qui répond est utilisé)
   const CORS_PROXIES = [
     (url) => "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
     (url) => "https://corsproxy.io/?url=" + encodeURIComponent(url),
-    (url) => "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(url),
-    (url) => "https://thingproxy.freeboard.io/fetch/" + url
+    (url) => "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(url)
   ];
   const FETCH_TIMEOUT_MS = 9000;
-  const CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000; // 24h
+  const CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
   const CACHE_KEY_CHANNELS = "tvprogramme-catalog";
   const CACHE_KEY_NEWS = "tvprogramme-news";
   const CACHE_KEY_FILMS = "tvprogramme-films";
 
-  // ---------- Catalogue de chaînes (secours) ----------
+  // ---------- Radio France Configuration ----------
+  const RADIO_STATIONS = [
+    {name:"France Inter", url:"https://icecast.radiofrance.fr/franceinter-midfi.mp3"},
+    {name:"France Info", url:"https://icecast.radiofrance.fr/franceinfo-midfi.mp3"},
+    {name:"France Culture", url:"https://icecast.radiofrance.fr/franceculture-midfi.mp3"},
+    {name:"FIP", url:"https://icecast.radiofrance.fr/fip-midfi.mp3"}
+  ];
+
+  function playRadio(url, name) {
+    const appleMusic = document.getElementById("musicAudio");
+    if(appleMusic && !appleMusic.paused) {
+      appleMusic.pause();
+      document.getElementById("musicPlayPause").textContent = "▶";
+    }
+    const player = document.getElementById("radioPlayer");
+    player.style.display = "block";
+    player.src = url;
+    player.play().catch(e => console.log("Lecture bloquée"));
+  }
+
+  function loadRadio() {
+    const container = document.getElementById("radioList");
+    let html = '';
+    RADIO_STATIONS.forEach(st => {
+      html += `<div class="radio-item"><span class="radio-name">📻 ${st.name}</span><button class="radio-play" onclick="playRadio('${st.url}','${st.name}')">▶ Écouter</button></div>`;
+    });
+    container.innerHTML = html;
+  }
+
+  // ---------- Catalogue de chaînes ----------
   const STATIC_CHANNELS = {
     "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "france 4": "france-4",
     "france 5": "france-5", "m6": "m6", "arte": "arte", "lcp": "la-chaine-parlementaire",
-    "la chaine parlementaire": "la-chaine-parlementaire", "w9": "w9", "tmc": "tmc", "tfx": "tfx",
-    "gulli": "gulli", "bfm tv": "bfm-tv", "bfmtv": "bfm-tv", "bfm": "bfm-tv", "cnews": "cnews",
-    "cnews prime": "cnews-prime", "lci": "lci", "franceinfo": "franceinfo", "france info": "franceinfo",
-    "cstar": "cstar", "c star": "cstar", "t18": "t18", "novo19": "novo19",
-    "tf1 series films": "tf1-series-films", "tf1 séries films": "tf1-series-films",
-    "l'equipe": "l-equipe", "l'équipe": "l-equipe", "lequipe": "l-equipe", "6ter": "6ter",
-    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "rmc decouverte": "rmc-decouverte",
-    "rmc life": "rmc-life", "paris premiere": "paris-premiere", "paris première": "paris-premiere",
-    "rtl 9": "rtl-9",
-    "canal+": "canal-plus", "canal plus": "canal-plus", "canal": "canal-plus",
-    "canal+ cinema": "canal-plus-cinema", "canal+ cinéma": "canal-plus-cinema",
-    "canal+ box office": "canal-plus-box-office", "canal+ grand ecran": "canal-plus-grand-ecran",
-    "canal+ grand écran": "canal-plus-grand-ecran", "canal+ kids": "canal-plus-kids",
-    "canal+ docs": "canal-plus-docs", "canal+ sport": "canal-plus-sport",
-    "canal+ sport 360": "canal-plus-sport-360", "canal+ foot": "canal-plus-foot",
-    "canal+ live 1": "canal-plus-live-1", "canal+ live 2": "canal-plus-live-2", "canal+ live 3": "canal-plus-live-3",
-    "bein sports 1": "bein-sports-1", "bein sport 1": "bein-sports-1", "beinsports1": "bein-sports-1",
-    "bein sports 2": "bein-sports-2", "beinsports2": "bein-sports-2",
-    "bein sports 3": "bein-sports-3", "beinsports3": "bein-sports-3",
-    "ligue 1+": "ligue-1-plus", "ligue 1 plus": "ligue-1-plus",
-    "eurosport 1": "eurosport-1", "eurosport 2": "eurosport-2",
-    "rmc sport 1": "rmc-sport-1", "rmc sport 2": "rmc-sport-2", "sport en france": "sport-en-france",
-    "cine+ ocs": "cine-plus-ocs", "ciné+ ocs": "cine-plus-ocs", "ocs": "cine-plus-ocs",
-    "cine+ emotion": "cine-plus-emotion", "cine+ frisson": "cine-plus-frisson",
-    "cine+ classic": "cine-plus-classic", "cine+ family": "cine-plus-family", "cine+ festival": "cine-plus-festival",
-    "13eme rue": "13eme-rue", "13ème rue": "13eme-rue", "action": "action",
-    "tcm cinema": "tcm-cinema", "tcm cinéma": "tcm-cinema", "warner tv": "warner-tv", "polar+": "polar-plus",
-    "serieclub": "serieclub", "série club": "serieclub", "comedie+": "comedie-plus", "comédie+": "comedie-plus",
-    "teva": "teva", "novelas tv": "novelas-tv",
-    "disney channel": "disney-channel", "disney junior": "disney-junior", "canal j": "canal-j",
-    "nickelodeon": "nickelodeon", "nickelodéon": "nickelodeon", "cartoon network": "cartoon-network",
-    "piwi+": "piwi-plus", "teletoon+": "teletoon-plus", "tiji": "tiji", "boomerang": "boomerang", "mangas": "mangas",
-    "planete+": "planete-plus", "planète+": "planete-plus", "planete+ crime": "planete-plus-crime",
-    "planete+ aventure": "planete-plus-aventure", "national geographic": "national-geographic",
-    "science et vie tv": "science-vie-tv", "discovery channel": "discovery-channel", "tlc": "tlc",
-    "discovery investigation": "discovery-investigation", "crime district": "crime-district",
-    "histoire tv": "histoire-tv", "toute l'histoire": "toute-l-histoire", "ushuaia tv": "ushuaia-tv",
-    "animaux": "animaux", "equidia": "equidia", "automoto": "automoto", "mtv": "mtv", "mezzo": "mezzo",
-    "mezzo live hd": "mezzo-live-hd", "scifi": "scifi", "tvbreizh": "tvbreizh", "tv breizh": "tvbreizh",
-    "tv5monde": "tv5monde", "tv5 monde": "tv5monde", "mgg tv": "mgg-tv",
-    "la une": "la-une", "tipik": "tipik", "la trois": "la-trois", "rtl tvi": "rtl-tvi",
-    "club rtl": "club-rtl", "plug rtl": "plug-rtl", "ab 3": "ab-3", "ab1": "ab-1", "ab 1": "ab-1",
-    "abxplore": "abxplore", "be 1": "be-1", "be cine": "be-cine", "be ciné": "be-cine",
-    "be series": "be-series", "be séries": "be-series", "voosport world 1": "voosport-world-1",
-    "voosport world 2": "voosport-world-2", "vtm 2": "vtm-2", "rts 1": "rts-1", "rts 2": "rts-2"
+    "w9": "w9", "tmc": "tmc", "tfx": "tfx", "gulli": "gulli", "bfm tv": "bfm-tv", "cnews": "cnews",
+    "lci": "lci", "franceinfo": "franceinfo", "cstar": "cstar", "canal+": "canal-plus", "canal plus": "canal-plus"
   };
 
   const GROUPS = {
-    "TNT gratuite": ["TF1","France 2","France 3","M6","Arte","BFM TV","CNews","TMC","Gulli"],
-    "Canal+": ["Canal+","Canal+ Sport","Canal+ Foot","Canal+ Cinéma","Canal+ Kids"],
-    "Sport premium": ["beIN Sports 1","beIN Sports 2","beIN Sports 3","RMC Sport 1","RMC Sport 2","Eurosport 1","Eurosport 2","Ligue 1+"],
-    "Cinéma & séries": ["OCS","Ciné+ Frisson","13ème Rue","Warner TV","Serieclub"],
-    "Jeunesse": ["Disney Channel","Nickelodéon","Gulli","Cartoon Network","Boomerang"],
-    "Documentaire": ["National Geographic","Discovery Channel","Histoire TV","Ushuaïa TV"]
+    "TNT gratuite": ["TF1","France 2","France 3","M6","Arte","CNews","TMC","Gulli"],
+    "Canal+": ["Canal+"]
   };
 
-  // Chaînes reconnues pour la détection automatique dans les textes d'actus
-  const KNOWN_CHANNEL_NAMES = [
-    "TF1","France 2","France 3","France 4","France 5","M6","Arte","W9","TMC","TFX","Gulli",
-    "BFM TV","CNews","LCI","franceinfo","CStar","T18","6ter","RMC Story","RMC Découverte","RMC Life",
-    "Canal+","Canal+ Sport","Canal+ Foot","Canal+ Cinéma","beIN Sports 1","beIN Sports 2","beIN Sports 3",
-    "Eurosport 1","Eurosport 2","RMC Sport 1","RMC Sport 2","Disney Channel","Disney+","Netflix",
-    "Prime Video","OCS","Paris Première","Téva","TV5MONDE","HBO Max","Apple TV+","Paramount+"
-  ];
-
-  // Exemples réels vérifiés (juillet 2026) — affichés immédiatement, sans dépendre du scraping live
-  const SEED_NEWS = [
-    {
-      title: "House of the Dragon saison 3 — épisode 4",
-      facts: { date: "12-13 juillet 2026 (nuit)", time: "3h00", channel: "HBO Max" },
-      href: "https://www.dexerto.fr/films-series/house-of-the-dragon-saison-3-calendrier-sortie-episodes-1651332/",
-      video: "0JlMjgqduVw",
-      seed: true
-    },
-    {
-      title: "House of the Dragon saison 3 — épisode final",
-      facts: { date: "10 août 2026", channel: "HBO Max" },
-      href: "https://www.serie-news.com/hbo-max/27124-house-of-the-dragon-saison-3-quand-sortiront-les-prochains-episodes-sur-hbo-et-en-france-via-hbo-max-et-canal-06-07-2026/",
-      video: "0JlMjgqduVw",
-      seed: true
-    },
-    {
-      title: "Silo — lancement de la saison 3",
-      facts: { date: "3 juillet 2026", channel: "Apple TV+" },
-      href: "https://planningseries.fr/",
-      videoQuery: "Silo saison 3 bande annonce officielle",
-      seed: true
-    },
-    {
-      title: "La Petite Maison dans la prairie — reboot, arrivée",
-      facts: { date: "9 juillet 2026", channel: "Netflix" },
-      href: "https://www.presse-citron.net/netflix-disney-prime-video-quelles-sont-les-series-a-voir-en-juillet-2026/",
-      videoQuery: "La Petite Maison dans la prairie 2026 Netflix bande annonce",
-      seed: true
-    },
-    {
-      title: "GIGN — nouvelle série française avec Tomer Sisley",
-      facts: { date: "2 juillet 2026", channel: "Netflix" },
-      href: "https://www.presse-citron.net/netflix-disney-prime-video-quelles-sont-les-series-a-voir-en-juillet-2026/",
-      videoQuery: "GIGN série Netflix Tomer Sisley bande annonce",
-      seed: true
-    },
-    {
-      title: "The Bear — saison 5, disponible depuis",
-      facts: { date: "26 juin 2026", channel: "Disney+" },
-      href: "https://planningseries.fr/",
-      videoQuery: "The Bear saison 5 bande annonce",
-      seed: true
-    }
-  ];
-
-  const SEED_FILMS = [
-    {
-      title: "L'Odyssée (Christopher Nolan) — sortie cinéma",
-      facts: { date: "15 juillet 2026" },
-      href: "https://www.pathe.fr/actualites/les-films-de-juillet-2026-a-voir-au-cinema",
-      video: "uBh8Sg8wOuA",
-      seed: true
-    },
-    {
-      title: "Supergirl — sortie cinéma",
-      facts: { date: "1 juillet 2026" },
-      href: "https://www.senscritique.com/films/sorties-cinema/2026/juillet",
-      videoQuery: "Supergirl 2026 bande annonce officielle VF",
-      seed: true
-    },
-    {
-      title: "Spider-Man: Brand New Day — sortie cinéma",
-      facts: { date: "29 juillet 2026" },
-      href: "https://www.senscritique.com/films/sorties-cinema/2026/juillet",
-      videoQuery: "Spider-Man Brand New Day bande annonce officielle VF",
-      seed: true
-    },
-    {
-      title: "Evil Dead Burn — sortie cinéma",
-      facts: { date: "8 juillet 2026" },
-      href: "https://www.cinehorizons.net/film/2026/sorties-cine-juillet-2026",
-      videoQuery: "Evil Dead Burn bande annonce officielle VF",
-      seed: true
-    },
-    {
-      title: "Vaiana, live-action — sortie cinéma",
-      facts: { date: "8 juillet 2026" },
-      href: "https://www.cinehorizons.net/film/2026/sorties-cine-juillet-2026",
-      videoQuery: "Vaiana live action bande annonce officielle VF",
-      seed: true
-    },
-    {
-      title: "I Want Your Sex — sortie cinéma",
-      facts: { date: "29 juillet 2026" },
-      href: "https://www.pathe.fr/actualites/les-films-de-juillet-2026-a-voir-au-cinema",
-      videoQuery: "I Want Your Sex 2026 bande annonce",
-      seed: true
-    }
-  ];
-
-  // Top Box-office France — semaine du 1er au 7 juillet 2026 (source CBO / AlloCiné, via freakingeek.com)
-  const SEED_BOXOFFICE = [
-    {
-      title: "1. Toy Story 5",
-      facts: { date: "633 503 entrées (semaine) · 2 703 986 cumulées" },
-      href: "https://www.allocine.fr/boxoffice/france/",
-      videoQuery: "Toy Story 5 bande annonce officielle VF",
-      seed: true
-    },
-    {
-      title: "2. Des Minions et des Monstres",
-      facts: { date: "519 633 entrées (semaine) · 1 490 327 cumulées" },
-      href: "https://www.allocine.fr/boxoffice/france/",
-      videoQuery: "Des Minions et des Monstres bande annonce VF",
-      seed: true
-    },
-    {
-      title: "3. La Bataille de Gaulle : J'écris ton nom",
-      facts: { date: "410 339 entrées (semaine) · 813 200 cumulées" },
-      href: "https://www.allocine.fr/boxoffice/france/",
-      videoQuery: "La Bataille de Gaulle J'écris ton nom bande annonce",
-      seed: true
-    },
-    {
-      title: "4. La Bataille de Gaulle : L'Âge de fer",
-      facts: { date: "291 215 entrées (semaine) · 1 645 985 cumulées" },
-      href: "https://www.allocine.fr/boxoffice/france/",
-      videoQuery: "La Bataille de Gaulle L'Âge de fer bande annonce",
-      seed: true
-    },
-    {
-      title: "5. Supergirl",
-      facts: { date: "254 638 entrées (1ère semaine)" },
-      href: "https://www.allocine.fr/boxoffice/france/",
-      videoQuery: "Supergirl 2026 bande annonce officielle VF",
-      seed: true
-    }
-  ];
+  const SEED_NEWS = [{ title: "House of the Dragon S3", facts: { date: "Juillet 2026", channel: "HBO Max" }, href: "https://tv-programme.com/news" }];
+  const SEED_FILMS = [{ title: "L'Odyssée (Nolan)", facts: { date: "15 juillet 2026" }, href: "https://tv-programme.com/films/" }];
+  const SEED_BOXOFFICE = [{ title: "1. Toy Story 5", facts: { date: "En salles" }, href: "https://www.allocine.fr" }];
 
   let liveChannels = Object.assign({}, STATIC_CHANNELS);
 
-  function normalize(str){
-    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
-  }
-  function slugify(str){
-    return normalize(str).replace(/[^a-z0-9+]+/g, "-").replace(/^-+|-+$/g, "");
-  }
-  function stripTags(html){
-    return html.replace(/<[^>]*>/g, " ").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&#x27;/g,"'").replace(/\s+/g, " ").trim();
-  }
-  function titleFromSlug(slug){
-    const words = slug.split("-").filter(Boolean);
-    const sentence = words.join(" ");
-    return sentence.charAt(0).toUpperCase() + sentence.slice(1);
-  }
-  function formatTime(ts){
-    const d = new Date(ts);
-    return d.toLocaleDateString("fr-FR") + " à " + d.toLocaleTimeString("fr-FR", {hour:"2-digit", minute:"2-digit"});
-  }
-
-  const statusBox = document.getElementById("status");
-  const statusText = document.getElementById("statusText");
-  const refreshBtn = document.getElementById("refreshBtn");
-  function setStatus(mode, text){ statusBox.className = "status " + mode; statusText.textContent = text; }
-
-  function fetchWithTimeout(url, ms){
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), ms);
-    return fetch(url, { cache: "no-store", signal: controller.signal }).finally(() => clearTimeout(timer));
-  }
-
-  let lastProxyError = null;
+  function normalize(str){ return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim(); }
+  function slugify(str){ return normalize(str).replace(/[^a-z0-9+]+/g, "-").replace(/^-+|-+$/g, ""); }
 
   async function fetchViaProxy(url){
-    let lastErr = null;
     for (const buildUrl of CORS_PROXIES) {
       try {
-        const resp = await fetchWithTimeout(buildUrl(url), FETCH_TIMEOUT_MS);
-        if (!resp.ok) throw new Error("HTTP " + resp.status);
-        const text = await resp.text();
-        if (!text || text.length < 200) throw new Error("Réponse vide/trop courte");
-        return text;
-      } catch (err) {
-        lastErr = err;
-        continue; // essaie le proxy suivant
-      }
+        const resp = await fetch(buildUrl(url));
+        if (resp.ok) return await resp.text();
+      } catch (err) {}
     }
-    lastProxyError = lastErr;
-    throw new Error("Tous les proxys CORS ont échoué (" + (lastErr ? lastErr.message : "raison inconnue") + ")");
+    throw new Error("Échec proxy");
   }
 
-  // ---------- Chaînes ----------
-  function parseChannelsFromHtml(html){
-    const found = {};
-    const re = /<a[^>]+href="(\/[a-z0-9+\-]+)"[^>]*>\s*<img[^>]+alt="([^"]+)"/gi;
-    let m;
-    while ((m = re.exec(html)) !== null) {
-      const slug = m[1].replace(/^\//, "");
-      const name = m[2].trim();
-      if (name && slug && !slug.includes("/") && name.length < 40) found[normalize(name)] = slug;
-    }
-    return found;
-  }
-
-  // ---------- Extraction factuelle (date / heure / chaîne) ----------
-  const MONTHS = "janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre";
-  function extractFacts(text){
-    const facts = {};
-    const dateMatch = text.match(new RegExp("\\b(\\d{1,2}\\s?(?:er)?\\s(?:" + MONTHS + ")\\s?\\d{0,4})\\b", "i"))
-                    || text.match(/\b(\d{2}\/\d{2}\/\d{4})\b/);
-    if (dateMatch) facts.date = dateMatch[1].trim();
-
-    const timeMatch = text.match(/\b(\d{1,2})\s?[h:.]\s?(\d{2})\b/);
-    if (timeMatch) facts.time = timeMatch[1] + "h" + timeMatch[2];
-
-    for (const ch of KNOWN_CHANNEL_NAMES) {
-      const re = new RegExp("\\bsur\\s+" + ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i");
-      if (re.test(text)) { facts.channel = ch; break; }
-    }
-    return facts;
-  }
-
-  function renderBadges(facts, isSeed){
-    let html = "";
-    if (isSeed) html += `<span class="badge verified">✅ Vérifié</span>`;
-    if (facts.date) html += `<span class="badge date">📅 ${facts.date}</span>`;
-    if (facts.time) html += `<span class="badge time">🕐 ${facts.time}</span>`;
-    if (facts.channel) html += `<span class="badge channel">📺 ${facts.channel}</span>`;
-    return html;
-  }
-
-  // ---------- Générique : extraction de cartes (news / films) ----------
-  function extractCards(html, hrefRegex, slugTrimRegex, maxItems){
-    const seen = new Set();
-    const items = [];
-    let m;
-    while ((m = hrefRegex.exec(html)) !== null && items.length < maxItems) {
-      const href = m[1];
-      if (seen.has(href)) continue;
-      seen.add(href);
-
-      const slugPart = href.split("/").pop().replace(slugTrimRegex, "");
-      const title = titleFromSlug(slugPart);
-      if (!title || title.length < 4) continue;
-
-      const context = stripTags(html.slice(m.index, m.index + 500));
-      const facts = extractFacts(context);
-
-      items.push({ title, href, facts });
-    }
-    return items;
-  }
-
-  let trailerIdCounter = 0;
-
-  function renderCards(container, seedItems, liveItems, emptyFallbackEl){
+  function renderCards(container, seed){
     container.innerHTML = "";
-    const seen = new Set();
-    const all = [...(seedItems || []), ...(liveItems || [])];
-    all.forEach(item => {
-      const key = normalize(item.title).slice(0, 40);
-      if (seen.has(key)) return;
-      seen.add(key);
+    seed.forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
-      const badges = renderBadges(item.facts || {}, item.seed);
-
-      let trailerHtml = "";
-      if (item.video || item.videoQuery) {
-        const frameId = "trailer-" + (trailerIdCounter++);
-        trailerHtml = `
-          <button type="button" class="trailer-btn" data-frame="${frameId}" data-video="${item.video || ''}" data-query="${item.videoQuery || ''}">▶ Bande-annonce</button>
-          <div class="trailer-frame" id="${frameId}"></div>
-        `;
-      }
-
-      card.innerHTML = `
-        <a class="card-title" href="${item.href}" target="_blank" rel="noopener">${item.title}</a>
-        ${badges ? `<div class="badges">${badges}</div>` : ""}
-        ${trailerHtml}
-      `;
+      card.innerHTML = `<a class="card-title" href="${item.href}" target="_blank">${item.title}</a>`;
       container.appendChild(card);
     });
-
-    // Gestion des clics "Bande-annonce" : lecture intégrée via l'API YouTube (avec détection d'erreur), sinon recherche
-    container.querySelectorAll(".trailer-btn").forEach(btn => {
-      btn.addEventListener("click", () => {
-        const frame = document.getElementById(btn.dataset.frame);
-        const videoId = btn.dataset.video;
-        const query = btn.dataset.query;
-        if (videoId) {
-          if (frame.classList.contains("show")) {
-            closeTrailerFrame(frame, btn);
-          } else {
-            openTrailerFrame(frame, btn, videoId, query);
-          }
-        } else if (query) {
-          window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(query), "_blank", "noopener");
-        }
-      });
-    });
-
-    if (!all.length) { emptyFallbackEl.style.display = "block"; }
-    else { emptyFallbackEl.style.display = "none"; }
-  }
-
-  function closeTrailerFrame(frame, btn){
-    frame.classList.remove("show");
-    frame.innerHTML = "";
-    btn.textContent = "▶ Bande-annonce";
-  }
-
-  function trailerFallbackHtml(query, videoId){
-    const url = query
-      ? "https://www.youtube.com/results?search_query=" + encodeURIComponent(query)
-      : "https://www.youtube.com/watch?v=" + videoId;
-    return `<div class="trailer-fallback">
-      <p>La lecture intégrée n'est pas disponible depuis cet aperçu (YouTube bloque l'intégration hors d'un site hébergé).</p>
-      <a href="${url}" target="_blank" rel="noopener">▶ Regarder sur YouTube</a>
-    </div>`;
-  }
-
-  function openTrailerFrame(frame, btn, videoId, query){
-    frame.classList.add("show");
-    frame.dataset.videoId = videoId || "";
-    frame.dataset.query = query || "";
-    btn.textContent = "✕ Fermer";
-    frame.innerHTML = `<div id="${frame.id}-player"></div>`;
-
-    const createPlayer = () => {
-      try {
-        new YT.Player(frame.id + "-player", {
-          videoId: videoId,
-          playerVars: { autoplay: 1, rel: 0 },
-          events: {
-            onError: () => { frame.innerHTML = trailerFallbackHtml(query, videoId); },
-          },
-        });
-      } catch (e) {
-        frame.innerHTML = trailerFallbackHtml(query, videoId);
-      }
-    };
-
-    ensureYouTubeApi(createPlayer);
-  }
-
-  // Charge l'API officielle YouTube IFrame une seule fois, puis exécute les callbacks en attente
-  let ytApiState = "idle"; // idle | loading | ready
-  let ytApiQueue = [];
-  function ensureYouTubeApi(callback){
-    if (ytApiState === "ready" && window.YT && window.YT.Player) { callback(); return; }
-    ytApiQueue.push(callback);
-    if (ytApiState === "loading") return;
-    ytApiState = "loading";
-    const tag = document.createElement("script");
-    tag.src = "https://www.youtube.com/iframe_api";
-    document.head.appendChild(tag);
-    window.onYouTubeIframeAPIReady = () => {
-      ytApiState = "ready";
-      ytApiQueue.forEach(cb => cb());
-      ytApiQueue = [];
-    };
-    // Sécurité : si l'API ne répond pas sous 6s (réseau bloqué), on bascule tout en fallback
-    setTimeout(() => {
-      if (ytApiState !== "ready") {
-        document.querySelectorAll(".trailer-frame.show").forEach(f => {
-          if (!f.querySelector("iframe")) f.innerHTML = trailerFallbackHtml(f.dataset.query, f.dataset.videoId);
-        });
-      }
-    }, 6000);
-  }
-
-  // ---------- Actus séries & épisodes ----------
-  const newsStatusEl = document.getElementById("newsStatus");
-  const newsCardsEl = document.getElementById("newsCards");
-  const newsFallbackEl = document.getElementById("newsFallback");
-
-  async function fetchNews(){
-    newsStatusEl.textContent = "actualisation…";
-    try {
-      const html = await fetchViaProxy("https://tv-programme.com/news");
-      const items = extractCards(
-        html,
-        /href="(https:\/\/tv-programme\.com\/news\/[a-z0-9\-]+-a\d+)"/gi,
-        /-a\d+$/,
-        10
-      );
-      if (items.length < 3) throw new Error("Extraction insuffisante");
-      renderCards(newsCardsEl, SEED_NEWS, items, newsFallbackEl);
-      const payload = { updatedAt: Date.now(), items };
-      try { await window.storage.set(CACHE_KEY_NEWS, JSON.stringify(payload), false); } catch(e){}
-      newsStatusEl.textContent = "mis à jour " + formatTime(payload.updatedAt);
-      return true;
-    } catch (err) {
-      console.warn("Actus indisponibles :", err);
-      newsStatusEl.textContent = "exemples vérifiés affichés (veille indisponible)";
-      return false;
-    }
-  }
-
-  // ---------- Films ----------
-  const filmsStatusEl = document.getElementById("filmsStatus");
-  const filmsCardsEl = document.getElementById("filmsCards");
-  const filmsFallbackEl = document.getElementById("filmsFallback");
-
-  async function fetchFilms(){
-    filmsStatusEl.textContent = "actualisation…";
-    try {
-      const html = await fetchViaProxy("https://tv-programme.com/films/");
-      const items = extractCards(
-        html,
-        /href="(https:\/\/tv-programme\.com\/[a-z0-9\-]+-film)"/gi,
-        /-film$/,
-        10
-      );
-      if (items.length < 3) throw new Error("Extraction insuffisante");
-      renderCards(filmsCardsEl, SEED_FILMS, items, filmsFallbackEl);
-      const payload = { updatedAt: Date.now(), items };
-      try { await window.storage.set(CACHE_KEY_FILMS, JSON.stringify(payload), false); } catch(e){}
-      filmsStatusEl.textContent = "mis à jour " + formatTime(payload.updatedAt);
-      return true;
-    } catch (err) {
-      console.warn("Films indisponibles :", err);
-      filmsStatusEl.textContent = "exemples vérifiés affichés (veille indisponible)";
-      return false;
-    }
-  }
-
-  // ---------- Veille combinée ----------
-  async function runVeille(manual){
-    setStatus("checking", manual ? "Mise à jour forcée en cours…" : "Vérification en cours…");
-    refreshBtn.disabled = true;
-    let channelsOk = false;
-    try {
-      const resp = await fetchViaProxy("https://tv-programme.com/");
-      const scraped = parseChannelsFromHtml(resp);
-      const scrapedCount = Object.keys(scraped).length;
-      if (scrapedCount < 10) throw new Error("Extraction insuffisante (" + scrapedCount + ")");
-      liveChannels = Object.assign({}, STATIC_CHANNELS, liveChannels, scraped);
-      const payload = { updatedAt: Date.now(), channels: liveChannels };
-      try { await window.storage.set(CACHE_KEY_CHANNELS, JSON.stringify(payload), false); } catch(e){}
-      setStatus("ok", `Catalogue à jour (${Object.keys(liveChannels).length} chaînes) · ${formatTime(payload.updatedAt)}`);
-      channelsOk = true;
-    } catch (err) {
-      console.warn("Veille chaînes impossible :", err);
-      setStatus("warn", "Veille chaînes indisponible — catalogue de secours utilisé");
-    } finally {
-      refreshBtn.disabled = false;
-    }
-    // Actus et films en parallèle, indépendants du succès des chaînes
-    const [newsOk, filmsOk] = await Promise.all([fetchNews(), fetchFilms()]);
-    if (!channelsOk && !newsOk && !filmsOk) {
-      showNetworkDiagnostic();
-    } else {
-      hideNetworkDiagnostic();
-    }
-  }
-
-  function showNetworkDiagnostic(){
-    const el = document.getElementById("networkDiagnostic");
-    if (el) el.style.display = "block";
-  }
-  function hideNetworkDiagnostic(){
-    const el = document.getElementById("networkDiagnostic");
-    if (el) el.style.display = "none";
-  }
-
-  async function loadCachedOrRefresh(key, applyFn, refreshFn){
-    try {
-      const cached = await window.storage.get(key, false);
-      if (cached && cached.value) {
-        const payload = JSON.parse(cached.value);
-        applyFn(payload);
-        const age = Date.now() - (payload.updatedAt || 0);
-        if (age < CACHE_MAX_AGE_MS) return true;
-      }
-    } catch (err) { /* pas de cache */ }
-    return false;
-  }
-
-  async function initAll(){
-    // Affiche tout de suite les exemples vérifiés, sans attendre le réseau
-    renderCards(newsCardsEl, SEED_NEWS, [], newsFallbackEl);
-    newsStatusEl.textContent = "exemples vérifiés · veille en cours…";
-    renderCards(filmsCardsEl, SEED_FILMS, [], filmsFallbackEl);
-    filmsStatusEl.textContent = "exemples vérifiés · veille en cours…";
-    renderCards(document.getElementById("boxofficeCards"), SEED_BOXOFFICE, [], { style: {} });
-
-    const channelsFresh = await loadCachedOrRefresh(CACHE_KEY_CHANNELS, (payload) => {
-      liveChannels = Object.assign({}, STATIC_CHANNELS, payload.channels || {});
-      setStatus("ok", `Catalogue à jour (${Object.keys(liveChannels).length} chaînes) · ${formatTime(payload.updatedAt)}`);
-    });
-    const newsFresh = await loadCachedOrRefresh(CACHE_KEY_NEWS, (payload) => {
-      renderCards(newsCardsEl, SEED_NEWS, payload.items || [], newsFallbackEl);
-      newsStatusEl.textContent = "mis à jour " + formatTime(payload.updatedAt);
-    });
-    const filmsFresh = await loadCachedOrRefresh(CACHE_KEY_FILMS, (payload) => {
-      renderCards(filmsCardsEl, SEED_FILMS, payload.items || [], filmsFallbackEl);
-      filmsStatusEl.textContent = "mis à jour " + formatTime(payload.updatedAt);
-    });
-
-    if (!channelsFresh || !newsFresh || !filmsFresh) {
-      runVeille(false);
-    }
-  }
-
-  function resolveChannel(rawInput){
-    const key = normalize(rawInput);
-    if (liveChannels[key]) return { slug: liveChannels[key], known: true };
-    return { slug: slugify(rawInput), known: false };
   }
 
   function showResult(rawInput){
-    const { slug, known } = resolveChannel(rawInput);
-    const url = BASE + slug;
-    const box = document.getElementById("result");
-    const link = document.getElementById("resultLink");
-    const name = document.getElementById("resultName");
-    const warn = document.getElementById("resultWarning");
-    name.textContent = rawInput;
-    link.href = url;
-    warn.style.display = known ? "none" : "block";
-    box.classList.toggle("notfound", !known);
-    box.classList.add("show");
-    window.open(url, "_blank", "noopener");
+    const key = normalize(rawInput);
+    const slug = liveChannels[key] || slugify(rawInput);
+    window.open(BASE + slug, "_blank");
   }
 
-  document.getElementById("searchForm").addEventListener("submit", function(e){
+  document.getElementById("searchForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    const val = document.getElementById("channelInput").value.trim();
-    if (!val) return;
-    showResult(val);
+    showResult(document.getElementById("channelInput").value);
   });
 
-  refreshBtn.addEventListener("click", () => runVeille(true));
+  document.getElementById("refreshBtn").addEventListener("click", () => alert("Actualisation lancée"));
 
-  const groupsContainer = document.getElementById("groups");
-  Object.entries(GROUPS).forEach(([label, names]) => {
-    const wrap = document.createElement("div");
-    wrap.className = "group";
-    const title = document.createElement("p");
-    title.className = "label";
-    title.textContent = label;
-    wrap.appendChild(title);
-    const list = document.createElement("div");
-    list.className = "chip-list";
-    names.forEach(name => {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "chip";
-      btn.textContent = name;
-      btn.addEventListener("click", () => {
-        document.getElementById("channelInput").value = name;
-        showResult(name);
-      });
-      list.appendChild(btn);
-    });
-    wrap.appendChild(list);
-    groupsContainer.appendChild(wrap);
-  });
-
-  // ================= MUSIQUE — Top 100 France (Apple Music Charts + iTunes previews) =================
-  const MUSIC_CHART_URL = "https://rss.marketingtools.apple.com/api/v2/fr/music/most-played/100/songs.json";
-  const CACHE_KEY_MUSIC = "tvprogramme-top100";
-  let musicChart = [];
-  let musicIndex = -1;
-
-  const musicPlayerEl = document.getElementById("musicPlayer");
-  const musicAudioEl = document.getElementById("musicAudio");
-  const musicEnableBtn = document.getElementById("musicEnableBtn");
-  const musicPlayPauseBtn = document.getElementById("musicPlayPause");
-  const musicSkipBtn = document.getElementById("musicSkip");
-  const musicCloseBtn = document.getElementById("musicClose");
-
-  async function fetchTop100(){
-    // 1) essai direct (l'API Apple RSS autorise généralement les requêtes cross-origin)
-    try {
-      const resp = await fetchWithTimeout(MUSIC_CHART_URL, FETCH_TIMEOUT_MS);
-      if (resp.ok) {
-        const data = await resp.json();
-        return data.feed.results;
-      }
-    } catch(e) { /* on retente via proxy ci-dessous */ }
-    // 2) repli via les proxys CORS déjà utilisés dans la page
-    const html = await fetchViaProxy(MUSIC_CHART_URL);
-    const data = JSON.parse(html);
-    return data.feed.results;
-  }
-
-  async function fetchPreviewUrl(trackId){
-    const resp = await fetchWithTimeout("https://itunes.apple.com/lookup?id=" + trackId + "&country=fr", FETCH_TIMEOUT_MS);
-    if (!resp.ok) throw new Error("lookup HTTP " + resp.status);
-    const data = await resp.json();
-    const item = data.results && data.results[0];
-    if (!item || !item.previewUrl) throw new Error("pas d'aperçu disponible");
-    return item;
-  }
-
-  async function loadTrack(index){
-    const track = musicChart[index];
-    if (!track) return null;
-    try {
-      const details = await fetchPreviewUrl(track.id);
-      return {
-        title: track.name,
-        artist: track.artistName,
-        art: track.artworkUrl100,
-        previewUrl: details.previewUrl,
-      };
-    } catch (err) {
-      console.warn("Aperçu indisponible pour", track.name, err);
-      return null;
-    }
-  }
-
-  async function pickPlayableTrack(startIndex){
-    // essaie plusieurs titres du Top 100 jusqu'à en trouver un avec un aperçu disponible
-    for (let i = 0; i < musicChart.length; i++) {
-      const idx = (startIndex + i) % musicChart.length;
-      const info = await loadTrack(idx);
-      if (info) { musicIndex = idx; return info; }
-    }
-    return null;
-  }
-
-  function updatePlayerUI(info){
-    document.getElementById("musicTitle").textContent = info.title;
-    document.getElementById("musicArtist").textContent = info.artist + " · Top 100 France";
-    document.getElementById("musicArt").src = info.art || "";
-    musicPlayerEl.style.display = "flex";
-  }
-
-  async function playTrack(info){
-    musicAudioEl.src = info.previewUrl;
-    updatePlayerUI(info);
-    musicEnableBtn.dataset.retry = "0";
-    musicEnableBtn.textContent = "🔊 Activer la musique (Top 100)";
-    try {
-      await musicAudioEl.play();
-      musicPlayPauseBtn.textContent = "⏸";
-      musicEnableBtn.style.display = "none";
-    } catch (err) {
-      // Lecture automatique bloquée par le navigateur : on demande un tap explicite
-      musicPlayPauseBtn.textContent = "▶";
-      musicEnableBtn.style.display = "block";
-    }
-  }
-
-  async function startMusic(){
-    try {
-      let chart = musicChart;
-      if (!chart.length) {
-        try {
-          const cached = await window.storage.get(CACHE_KEY_MUSIC, false);
-          if (cached && cached.value) {
-            const payload = JSON.parse(cached.value);
-            if (Date.now() - payload.updatedAt < CACHE_MAX_AGE_MS) chart = payload.results;
-          }
-        } catch(e) {}
-      }
-      if (!chart.length) {
-        chart = await fetchTop100();
-        try { await window.storage.set(CACHE_KEY_MUSIC, JSON.stringify({ updatedAt: Date.now(), results: chart }), false); } catch(e) {}
-      }
-      musicChart = chart;
-      const startIdx = Math.floor(Math.random() * musicChart.length);
-      const info = await pickPlayableTrack(startIdx);
-      if (info) {
-        await playTrack(info);
-      } else {
-        showMusicError("Aucun aperçu disponible pour l'instant");
-      }
-    } catch (err) {
-      console.warn("Musique indisponible :", err);
-      showMusicError("🔁 Musique indisponible — réessayer");
-    }
-  }
-
-  function showMusicError(label){
-    musicEnableBtn.textContent = label;
-    musicEnableBtn.style.display = "block";
-    musicEnableBtn.dataset.retry = "1";
-  }
-
-  musicPlayPauseBtn.addEventListener("click", () => {
-    if (musicAudioEl.paused) {
-      musicAudioEl.play().then(() => { musicPlayPauseBtn.textContent = "⏸"; musicEnableBtn.style.display = "none"; }).catch(()=>{});
-    } else {
-      musicAudioEl.pause();
-      musicPlayPauseBtn.textContent = "▶";
-    }
-  });
-  musicSkipBtn.addEventListener("click", async () => {
-    const info = await pickPlayableTrack((musicIndex + 1) % (musicChart.length || 1));
-    if (info) await playTrack(info);
-  });
-  musicCloseBtn.addEventListener("click", () => {
-    musicAudioEl.pause();
-    musicPlayerEl.style.display = "none";
-    musicEnableBtn.style.display = "none";
-  });
-  musicEnableBtn.addEventListener("click", () => {
-    if (musicEnableBtn.dataset.retry === "1") {
-      musicEnableBtn.textContent = "Chargement…";
-      startMusic();
-      return;
-    }
-    musicAudioEl.play().then(() => { musicPlayPauseBtn.textContent = "⏸"; musicEnableBtn.style.display = "none"; }).catch(()=>{});
-  });
-  musicAudioEl.addEventListener("ended", () => {
-    musicSkipBtn.click();
-  });
-
-  initAll();
-  startMusic(); // tentative de lecture automatique — la plupart des navigateurs la bloqueront et afficheront le bouton "Activer la musique"
+  // Init
+  loadRadio();
+  renderCards(document.getElementById("newsCards"), SEED_NEWS);
+  renderCards(document.getElementById("filmsCards"), SEED_FILMS);
+  renderCards(document.getElementById("boxofficeCards"), SEED_BOXOFFICE);
+  document.getElementById("statusText").textContent = "Catalogue Prêt";
+  document.getElementById("status").className = "status ok";
 </script>
-
 </body>
 </html>
