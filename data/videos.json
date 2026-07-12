@@ -1,9 +1,26 @@
-{
-  "items": [
-    { 
-      "title": "House of the Dragon S2 - Trailer", 
-      "link": "https://www.youtube.com/watch?v=fNCAe2YVS6w", 
-      "desc": "Bande-annonce officielle." 
-    }
-  ]
+// Simulation d'une fonction de test
+async function testAffichage() {
+    // Données de test (simulant votre fichier JSON)
+    const mockData = {
+        "items": [
+            { "title": "Test Vidéo 1", "link": "#", "desc": "Ceci est un test" },
+            { "title": "Test Vidéo 2", "link": "#", "desc": "Deuxième test réussi" }
+        ]
+    };
+
+    const container = document.getElementById('videosCards'); // Cible votre div existante
+    if (!container) return console.error("L'élément #videosCards est introuvable");
+
+    container.innerHTML = mockData.items.map(item => `
+      <div class="card" style="border: 1px solid #ccc; padding: 10px; margin-bottom: 5px;">
+        <div class="card-body">
+          <a class="card-title" href="${item.link}">${item.title}</a>
+          <p>${item.desc}</p>
+        </div>
+      </div>
+    `).join('');
+    
+    console.log("Test terminé : Si vous voyez les cartes ci-dessus, le script est validé.");
 }
+
+testAffichage();
