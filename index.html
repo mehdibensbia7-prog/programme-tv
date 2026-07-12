@@ -86,9 +86,6 @@
 
   .trailer-btn { background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.3); color: var(--tube);
     padding: 5px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; }
-  .trailer-frame { margin-top: 10px; position: relative; width: 100%; padding-top: 56.25%; display: none; border-radius: 8px; overflow: hidden; }
-  .trailer-frame.show { display: block; }
-  .trailer-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   
   .fallback-link { font-size: 13px; margin-top: 10px; }
   .fallback-link a { color: var(--ok); text-decoration: none; font-weight: 600; }
@@ -117,6 +114,7 @@
         <a class="go" id="resultLink" href="#" target="_blank" rel="noopener">Voir le programme →</a>
       </div>
 
+      <!-- RADIOS -->
       <div class="radio-section">
         <p class="eyebrow" style="margin-bottom:12px;">📻 Radios en direct</p>
         <div class="radio-item">
@@ -162,7 +160,7 @@
     </div>
   </div>
 
-  <audio id="radioAudio" preload="none"></audio>
+  <audio id="radioAudio" preload="auto"></audio>
 
 <script>
   const BASE = "https://tv-programme.com/";
@@ -196,10 +194,11 @@
   function setStatus(mode, text){ statusBox.className = "status " + mode; statusText.textContent = text; }
   function normalize(str){ return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim(); }
 
-  // Optimisation Audio avec gestion des déconnexions
+  // SECTION AUDIO REVISE POUR CONTOURNER LE BLOCAGE DU NAVIGATEUR
   const radioAudio = document.getElementById("radioAudio");
+  
   radioAudio.onerror = () => {
-    setStatus("warn", "Erreur de flux radio. Reconnexion...");
+    setStatus("warn", "Erreur de flux réseau. Réessayez.");
     resetRadioButtons();
   };
 
@@ -208,23 +207,37 @@
   }
 
   document.querySelectorAll(".radio-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault(); // Force l'action synchrone stricte
       const src = btn.dataset.src;
+
       if (radioAudio.src === src && !radioAudio.paused) {
         radioAudio.pause();
         btn.textContent = "▶ Écouter";
         btn.classList.remove("playing");
       } else {
         resetRadioButtons();
+        
+        // Attribution de la source puis déclenchement immédiat dans le même thread utilisateur
         radioAudio.src = src;
-        radioAudio.play().catch(() => setStatus("warn", "Lecture bloquée par le navigateur"));
-        btn.textContent = "⏸ Pause";
-        btn.classList.add("playing");
+        radioAudio.load();
+        
+        const playPromise = radioAudio.play();
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            btn.textContent = "⏸ Pause";
+            btn.classList.add("playing");
+            setStatus("ok", "Lecture en cours...");
+          }).catch(error => {
+            console.error("Lecture bloquée :", error);
+            setStatus("warn", "Cliquez à nouveau pour autoriser l'audio");
+            resetRadioButtons();
+          });
+        }
       }
     });
   });
 
-  let idCounter = 0;
   function renderSection(container, seeds, liveItems, fallbackEl) {
     container.innerHTML = "";
     const all = [...seeds, ...(liveItems || [])];
@@ -241,8 +254,7 @@
 
       let btnHtml = "";
       if (item.video || item.videoQuery) {
-        const fId = "frame-" + (idCounter++);
-        btnHtml = `<button type="button" class="trailer-btn" data-target="${fId}" data-vid="${item.video || ''}" data-q="${item.videoQuery || ''}">▶ Bande-annonce</button><div class="trailer-frame" id="${fId}"></div>`;
+        btnHtml = `<button type="button" class="trailer-btn" data-vid="${item.video || ''}" data-q="${item.videoQuery || ''}">▶ Bande-annonce</button>`;
       }
 
       card.innerHTML = `<a class="card-title" href="${item.href}" target="_blank">${item.title}</a><div class="badges">${badgeHtml}</div>${btnHtml}`;
@@ -251,30 +263,24 @@
 
     container.querySelectorAll(".trailer-btn").forEach(b => {
       b.addEventListener("click", () => {
-        const frame = document.getElementById(b.dataset.target);
-        if(frame.classList.contains("show")) {
-          frame.classList.remove("show"); frame.innerHTML = ""; b.textContent = "▶ Bande-annonce";
+        let url = "";
+        if(b.dataset.vid) {
+          url = "https://www.youtube.com/watch?v=" + b.dataset.vid;
         } else {
-          frame.classList.add("show"); b.textContent = "✕ Fermer";
-          if(b.dataset.vid) {
-            frame.innerHTML = `<iframe src="https://www.youtube.com/embed/${b.dataset.vid}?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
-          } else {
-            window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(b.dataset.q), "_blank");
-            frame.classList.remove("show"); b.textContent = "▶ Bande-annonce";
-          }
+          url = "https://www.youtube.com/results?search_query=" + encodeURIComponent(b.dataset.q);
         }
+        window.open(url, "_blank", "noopener,noreferrer");
       });
     });
   }
 
-  // Optimisation Scraping : Tentative en cascade sur plusieurs Proxys
   async function fetchWithProxyCascade(targetUrl) {
     for (let proxy of CORS_PROXIES) {
       try {
         let res = await fetch(proxy + encodeURIComponent(targetUrl), { signal: AbortSignal.timeout(5000) });
         if (res.ok) return await res.text();
       } catch (e) {
-        console.warn("Proxy a échoué, tentative avec le suivant...");
+        console.warn("Proxy a échoué, tentative suivante...");
       }
     }
     throw new Error("Tous les proxys ont échoué");
@@ -283,7 +289,6 @@
   async function fetchLiveVeille() {
     setStatus("checking", "Recherche des mises à jour...");
     try {
-      // Tente de récupérer les actus TV de manière dynamique
       let html = await fetchWithProxyCascade(BASE + "news");
       document.getElementById("newsStatus").textContent = "Mis à jour (En direct)";
       document.getElementById("filmsStatus").textContent = "Mis à jour (En direct)";
