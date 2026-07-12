@@ -1,26 +1,20 @@
-// Simulation d'une fonction de test
-async function testAffichage() {
-    // Données de test (simulant votre fichier JSON)
-    const mockData = {
-        "items": [
-            { "title": "Test Vidéo 1", "link": "#", "desc": "Ceci est un test" },
-            { "title": "Test Vidéo 2", "link": "#", "desc": "Deuxième test réussi" }
-        ]
-    };
-
-    const container = document.getElementById('videosCards'); // Cible votre div existante
-    if (!container) return console.error("L'élément #videosCards est introuvable");
-
-    container.innerHTML = mockData.items.map(item => `
-      <div class="card" style="border: 1px solid #ccc; padding: 10px; margin-bottom: 5px;">
-        <div class="card-body">
-          <a class="card-title" href="${item.link}">${item.title}</a>
-          <p>${item.desc}</p>
-        </div>
-      </div>
-    `).join('');
-    
-    console.log("Test terminé : Si vous voyez les cartes ci-dessus, le script est validé.");
+{
+  "items": [
+    {
+      "title": "House of the Dragon",
+      "season": "Saison 2",
+      "date": "2026-06-16",
+      "link": "https://www.youtube.com/watch?v=fNCAe2YVS6w",
+      "image": "https://img.youtube.com/vi/fNCAe2YVS6w/hqdefault.jpg",
+      "desc": "La guerre civile Targaryen fait rage."
+    },
+    {
+      "title": "The Last of Us",
+      "season": "Saison 2",
+      "date": "2026-08-01",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "image": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "desc": "Le voyage de Joel et Ellie continue."
+    }
+  ]
 }
-
-testAffichage();
