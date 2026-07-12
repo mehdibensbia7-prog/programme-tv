@@ -37,6 +37,12 @@
     border-radius: 12px; padding: 12px 16px; margin-bottom: 26px; }
   .status .dot{ display:inline-block; width:7px; height:7px; border-radius:50%; background: var(--ok); box-shadow: 0 0 6px 1px var(--ok); margin-right:6px; }
 
+  .tabs{ display:flex; gap:8px; margin-bottom: 26px; border-bottom: 1px solid var(--panel-edge); }
+  .tab{ padding: 10px 4px; margin-right: 18px; color: var(--muted); text-decoration:none; font-weight:600; font-size:14.5px;
+    border-bottom: 2px solid transparent; }
+  .tab.active{ color: #fff; border-bottom-color: var(--tube); }
+  .tab:hover{ color: var(--text); }
+
   form{ display:flex; gap:10px; margin-bottom: 28px; }
   input[type="text"]{ flex:1; background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px;
     padding: 15px 16px; color: var(--text); font-family: inherit; font-size: 16px; outline: none;
@@ -96,6 +102,12 @@
     <p class="eyebrow">Tous les bouquets · mise à jour automatique</p>
     <h1>Programme<span>TV</span></h1>
     <p class="sub">TNT, Canal+, beIN Sports, RMC Sport, Eurosport, jeunesse, cinéma, documentaires… cherche une chaîne, écoute la radio en direct, et retrouve plus bas les actus séries/films.</p>
+
+    <div class="tabs">
+      <a class="tab active" href="./index.html">Accueil</a>
+      <a class="tab" href="./films.html">Films</a>
+      <a class="tab" href="./series.html">Séries</a>
+    </div>
 
     <div class="status">
       <span><span class="dot"></span>Recherche de chaînes disponible hors-ligne, sans dépendance externe</span>
