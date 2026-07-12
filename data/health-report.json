@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-07-12T21:27:00.691Z",
+  "globalStatus": "🟢 SAIN",
+  "summary": {
+    "ok": 12,
+    "warn": 0,
+    "fail": 0,
+    "repaired": 0
+  },
+  "checks": [
+    {
+      "check": "data/news-ai.json",
+      "status": "ok",
+      "detail": "5 élément(s).",
+      "repaired": false
+    },
+    {
+      "check": "data/trends-ai.json",
+      "status": "ok",
+      "detail": "6 élément(s).",
+      "repaired": false
+    },
+    {
+      "check": "data/videos.json",
+      "status": "ok",
+      "detail": "10 élément(s).",
+      "repaired": false
+    },
+    {
+      "check": "data/films-releases.json",
+      "status": "ok",
+      "detail": "8 élément(s), mis à jour il y a 0.4h.",
+      "repaired": false
+    },
+    {
+      "check": "data/series-releases.json",
+      "status": "ok",
+      "detail": "8 élément(s), mis à jour il y a 0.4h.",
+      "repaired": false
+    },
+    {
+      "check": "Radio · France Info",
+      "status": "ok",
+      "detail": "Flux joignable (HTTP 200).",
+      "repaired": false
+    },
+    {
+      "check": "Radio · France Culture",
+      "status": "ok",
+      "detail": "Flux joignable (HTTP 200).",
+      "repaired": false
+    },
+    {
+      "check": "Radio · France Musique",
+      "status": "ok",
+      "detail": "Flux joignable (HTTP 200).",
+      "repaired": false
+    },
+    {
+      "check": "Radio · FIP",
+      "status": "ok",
+      "detail": "Flux joignable (HTTP 200).",
+      "repaired": false
+    },
+    {
+      "check": "index.html",
+      "status": "ok",
+      "detail": "Présente.",
+      "repaired": false
+    },
+    {
+      "check": "films.html",
+      "status": "ok",
+      "detail": "Présente.",
+      "repaired": false
+    },
+    {
+      "check": "series.html",
+      "status": "ok",
+      "detail": "Présente.",
+      "repaired": false
+    }
+  ]
+}
