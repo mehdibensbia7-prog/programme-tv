@@ -1,83 +1,206 @@
+Voici le code complet et mis à jour pour votre fichier index.html. J'ai intégré la nouvelle logique d'affichage dans la fonction loadData afin qu'elle puisse afficher les champs Saison et Date de manière élégante.
+Vous pouvez copier ce bloc entier et remplacer le contenu actuel de votre fichier index.html.
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Programme TV & Actus</title>
-    <style>
-        :root { --bg: #101418; --panel: #171d24; --text: #e8ecef; --tube: #ff5f3c; }
-        * { box-sizing: border-box; }
-        body { 
-            margin: 0; 
-            padding: 10px; 
-            background: var(--bg); 
-            color: var(--text); 
-            font-family: sans-serif; 
-            display: flex; 
-            justify-content: center; 
-            min-height: 100vh;
-            overflow-x: hidden; /* Empêche le débordement horizontal */
-        }
-        .container { 
-            width: 100%; 
-            max-width: 600px; 
-            background: var(--panel); 
-            padding: 20px; 
-            border-radius: 15px; 
-        }
-        h1 { color: var(--tube); font-size: 24px; margin-top: 0; }
-        .card { 
-            background: #1c232b; 
-            padding: 15px; 
-            margin-bottom: 10px; 
-            border-radius: 10px; 
-            display: flex; 
-            gap: 10px; 
-        }
-        .card img { width: 60px; height: 60px; object-fit: cover; border-radius: 5px; }
-        .card-body { overflow: hidden; }
-        .card-title { font-weight: bold; color: #fff; margin: 0 0 5px 0; display: block; text-decoration: none; }
-        .meta { font-size: 12px; color: #97a0aa; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programme TV — Chaînes, actus séries & films</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --screen: #101418; --panel: #171d24; --panel-edge: #232b34; --scan: #1c232b;
+    --tube: #ff5f3c; --text: #e8ecef; --muted: #97a0aa; --ok: #4fd1a5; --warn: #e8b64f; --err: #ff6b6b;
+  }
+  *{ box-sizing: border-box; }
+  html,body{
+    margin:0; padding:0; min-height:100vh;
+    background: radial-gradient(ellipse at 50% -10%, #1a2129 0%, var(--screen) 55%);
+    color: var(--text); font-family: 'Space Grotesk', sans-serif; line-height: 1.55;
+    display:flex; align-items:flex-start; justify-content:center;
+    padding: 32px 16px;
+  }
+  .tv{ width:100%; max-width: 780px; background: linear-gradient(180deg,#20272e,#141a1f);
+    border-radius: 28px; padding: 10px; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7), inset 0 0 0 1px #2c343d; }
+  .tv-inner{ background: var(--panel); border-radius: 20px; padding: 38px 28px 32px; position: relative; overflow:hidden; }
+  .tv-inner::before{ content:""; position:absolute; inset:0;
+    background: repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0px, rgba(255,255,255,0.012) 1px, transparent 1px, transparent 3px); pointer-events:none; }
+
+  .eyebrow{ font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--tube); font-weight: 700; margin: 0 0 10px; display:flex; align-items:center; gap:8px; }
+  .eyebrow::before{ content:""; width:7px; height:7px; border-radius:50%; background: var(--tube); box-shadow: 0 0 8px 2px var(--tube); }
+  h1{ font-family: 'Bebas Neue', sans-serif; font-size: 46px; letter-spacing: .03em; margin: 0 0 10px; line-height: 1; color: #fff; }
+  h1 span{ color: var(--tube); }
+  .sub{ color: var(--muted); font-size: 15px; margin: 0 0 24px; max-width: 58ch; line-height: 1.6; }
+
+  .status{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
+    font-size: 13px; color: var(--muted); background: var(--scan); border: 1px solid var(--panel-edge);
+    border-radius: 12px; padding: 12px 16px; margin-bottom: 26px; }
+  .status .dot{ display:inline-block; width:7px; height:7px; border-radius:50%; background: var(--ok); box-shadow: 0 0 6px 1px var(--ok); margin-right:6px; }
+
+  form{ display:flex; gap:10px; margin-bottom: 28px; }
+  input[type="text"]{ flex:1; background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px;
+    padding: 15px 16px; color: var(--text); font-family: inherit; font-size: 16px; outline: none;
+    transition: border-color .15s, box-shadow .15s; }
+  input[type="text"]::placeholder{ color: #5a636c; }
+  input[type="text"]:focus{ border-color: var(--tube); box-shadow: 0 0 0 3px rgba(255,95,60,.15); }
+  button.submit{ background: var(--tube); color: #1a0f0a; border: none; border-radius: 12px; padding: 0 22px;
+    font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer; white-space: nowrap; }
+  button.submit:hover{ background: #ff7a58; }
+
+  .result{ margin-top: -12px; margin-bottom: 24px; padding: 16px 18px; border-radius: 12px; background: var(--scan);
+    border: 1px solid var(--panel-edge); display:none; align-items:center; justify-content:space-between; gap: 12px; flex-wrap: wrap; }
+  .result.show{ display:flex; }
+  .result-text{ font-size: 14px; color: var(--muted); }
+  .result-text b{ color: var(--text); }
+  .result a.go{ color: var(--ok); font-weight: 700; text-decoration:none; font-size: 14px;
+    border: 1px solid rgba(79,209,165,.35); padding: 8px 14px; border-radius: 9px; }
+  .result a.go:hover{ background: rgba(79,209,165,.1); }
+
+  .section{ margin-top: 38px; border-top: 1px solid var(--panel-edge); padding-top: 28px; }
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .section-head h2{ font-family:'Bebas Neue', sans-serif; font-size: 25px; letter-spacing:.02em; margin:0; color:#fff; font-weight:400; }
+  .section-head .mini-status{ font-size: 12px; color: var(--muted); }
+  .section-sub{ font-size: 13.5px; color: var(--muted); margin: 0 0 18px; line-height: 1.6; }
+
+  .radio-section{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 14px; padding: 8px 18px; }
+  .radio-item{ display:flex; align-items:center; justify-content:space-between; padding: 14px 0; border-bottom: 1px solid var(--panel-edge); }
+  .radio-item:last-child{ border-bottom: none; }
+  .radio-name{ font-weight:600; font-size: 15px; color: var(--text); }
+  .radio-btn{ background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube);
+    padding: 8px 16px; border-radius: 8px; font-weight:700; cursor:pointer; font-size: 13px; font-family: inherit; }
+  .radio-btn.playing{ background: var(--ok); border-color: transparent; color:#062018; }
+  .radio-btn.error{ background: rgba(255,107,107,.15); border-color: rgba(255,107,107,.4); color: var(--err); }
+
+  .cards{ display:flex; flex-direction:column; gap:12px; }
+  .card{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 14px; padding: 16px 18px; display:flex; gap:14px; align-items:flex-start; }
+  .card img{ width: 72px; height: 72px; object-fit: cover; border-radius: 10px; flex-shrink:0; background:#000; }
+  .card-body{ min-width: 0; }
+  .card a.card-title{ color: var(--text); font-weight: 700; font-size: 15px; text-decoration:none; line-height:1.4; display:block; margin-bottom:6px; }
+  .card a.card-title:hover{ color: var(--tube); }
+  .card p{ font-size: 13.5px; line-height: 1.55; margin: 0; color: var(--muted); }
+
+  .placeholder{ color: var(--muted); font-size: 14px; padding: 6px 2px; }
+
+  .fallback-link{ font-size: 13.5px; margin-top: 14px; }
+  .fallback-link a{ color: var(--ok); text-decoration:none; font-weight:600; }
+  .fallback-link a:hover{ text-decoration:underline; }
+
+  .note{ margin-top: 34px; font-size: 12.5px; color: #566069; line-height: 1.7; border-top: 1px dashed var(--panel-edge); padding-top: 18px; }
+  .note code{ background: var(--scan); padding: 1px 6px; border-radius: 5px; }
+</style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Programme TV</h1>
-    
-    <div id="content">
-        <p>Chargement des données...</p>
+<div class="tv">
+  <div class="tv-inner">
+    <p class="eyebrow">Tous les bouquets · mise à jour automatique</p>
+    <h1>Programme<span>TV</span></h1>
+    <p class="sub">TNT, Canal+, beIN Sports, RMC Sport, Eurosport, jeunesse, cinéma, documentaires… cherche une chaîne, écoute la radio en direct, et retrouve plus bas les actus séries/films.</p>
+
+    <div class="status">
+      <span><span class="dot"></span>Recherche de chaînes disponible hors-ligne, sans dépendance externe</span>
     </div>
+
+    <form id="searchForm">
+      <input type="text" id="channelInput" placeholder="ex : Canal+, TF1, beIN Sports 1…" autocomplete="off">
+      <button class="submit" type="submit">Chercher</button>
+    </form>
+
+    <div class="result" id="result">
+      <div class="result-text">Chaîne : <b id="resultName"></b></div>
+      <a class="go" id="resultLink" href="#" target="_blank" rel="noopener">Voir le programme →</a>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>📻 Radios en direct</h2></div>
+      <p class="section-sub">Flux publics officiels Radio France — aucune clé requise.</p>
+      <div class="radio-section">
+        <div class="radio-item"><span class="radio-name">France Info</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceinfo-midfi.mp3">▶ Écouter</button></div>
+        <div class="radio-item"><span class="radio-name">France Culture</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceculture-midfi.mp3">▶ Écouter</button></div>
+        <div class="radio-item"><span class="radio-name">France Musique</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/francemusique-midfi.mp3">▶ Écouter</button></div>
+        <div class="radio-item"><span class="radio-name">FIP</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/fip-midfi.mp3">▶ Écouter</button></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>🎬 Tendances, pitch IA</h2><span class="mini-status" id="trendsStatus">—</span></div>
+      <p class="section-sub">Films tendance TMDB avec synopsis reformulé par IA.</p>
+      <div class="cards" id="trendsCards"><p class="placeholder">Chargement…</p></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>📺 Bande-annonces</h2><span class="mini-status" id="videosStatus">—</span></div>
+      <p class="section-sub">Dernières bande-annonces repérées.</p>
+      <div class="cards" id="videosCards"><p class="placeholder">Chargement…</p></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>🧠 Actus ciné, version choc (IA)</h2><span class="mini-status" id="newsStatus">—</span></div>
+      <p class="section-sub">Actualités AlloCiné réécrites par IA.</p>
+      <div class="cards" id="newsCards"><p class="placeholder">Chargement…</p></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>🏆 Top Box-office France</h2></div>
+      <p class="section-sub">Classement des entrées cinéma.</p>
+      <div class="fallback-link"><a href="https://www.allocine.fr/boxoffice/france/" target="_blank" rel="noopener">→ Voir le classement complet sur AlloCiné</a></div>
+    </div>
+  </div>
 </div>
 
+<audio id="musicAudio"></audio>
+
 <script>
-    async function loadData() {
-        const container = document.getElementById('content');
-        try {
-            // Remplacez 'videos.json' par le chemin de votre fichier de données
-            const res = await fetch('./data/videos.json', { cache: "no-store" });
-            const data = await res.json();
-            
-            if (!data.items || data.items.length === 0) {
-                container.innerHTML = "<p>Aucune donnée disponible.</p>";
-                return;
-            }
+  const STATIC_CHANNELS = {
+    "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "france 4": "france-4",
+    "france 5": "france-5", "m6": "m6", "arte": "arte", "lcp": "la-chaine-parlementaire",
+    "w9": "w9", "tmc": "tmc", "tfx": "tfx", "gulli": "gulli", "bfm tv": "bfm-tv",
+    "cnews": "cnews", "lci": "lci", "franceinfo": "franceinfo", "cstar": "cstar",
+    "tf1 series films": "tf1-series-films", "l'equipe": "l-equipe", "6ter": "6ter",
+    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "canal+": "canal-plus",
+    "bein sports 1": "bein-sports-1", "eurosport 1": "eurosport-1"
+  };
 
-            container.innerHTML = data.items.map(item => `
-                <div class="card">
-                    ${item.image ? `<img src="${item.image}" alt="">` : ''}
-                    <div class="card-body">
-                        <a class="card-title" href="${item.link}" target="_blank">${item.title}</a>
-                        <div class="meta">Saison : ${item.season || 'N/A'} | Date : ${item.date || 'N/A'}</div>
-                    </div>
-                </div>
-            `).join('');
-        } catch (e) {
-            container.innerHTML = "<p>Erreur de chargement des données.</p>";
-        }
+  document.getElementById("searchForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const raw = document.getElementById("channelInput").value.trim();
+    if (!raw) return;
+    const slug = raw.toLowerCase().replace(/\s+/g, "-");
+    window.open("https://tv-programme.com/" + slug, "_blank");
+  });
+
+  async function loadData(file, cardsId, statusId) {
+    const container = document.getElementById(cardsId);
+    const status = document.getElementById(statusId);
+    try {
+      const res = await fetch(`./data/${file}`, { cache: "no-store" });
+      const data = await res.json();
+      if (!data.items || !data.items.length) throw new Error();
+
+      container.innerHTML = data.items.map(item => `
+        <div class="card">
+          ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
+          <div class="card-body">
+            <a class="card-title" href="${item.link}" target="_blank">${item.title}</a>
+            <p style="font-size:12px; color:var(--tube);">Saison : ${item.season || 'N/A'} | Sortie : ${item.date || 'N/A'}</p>
+            <p>${item.desc || ''}</p>
+          </div>
+        </div>
+      `).join('');
+      if (status) status.textContent = "Synchronisé";
+    } catch (e) {
+      container.innerHTML = "<p class='placeholder'>Données en attente de mise à jour…</p>";
     }
+  }
 
-    loadData();
+  document.addEventListener('DOMContentLoaded', () => {
+    loadData('trends-ai.json', 'trendsCards', 'trendsStatus');
+    loadData('videos.json', 'videosCards', 'videosStatus');
+    loadData('news-ai.json', 'newsCards', 'newsStatus');
+  });
 </script>
+
 </body>
 </html>
