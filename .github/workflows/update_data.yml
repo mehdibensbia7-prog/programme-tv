@@ -1,0 +1,30 @@
+name: Mise à jour auto
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Toutes les 6 heures
+  workflow_dispatch:      # Pour tester manuellement
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important pour pouvoir pousser le fichier modifié
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: {python-version: '3.9'}
+      - name: Install requests
+        run: pip install requests
+      - name: Run Script
+        run: python scripts/fetch_data.py
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      - name: Push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add data/videos.json
+          git commit -m "MAJ auto des données" || exit 0
+          git push
+          
