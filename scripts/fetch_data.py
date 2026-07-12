@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 
 # Récupération de la clé depuis les secrets GitHub
 API_KEY = os.getenv('TMDB_API_KEY')
@@ -10,7 +11,7 @@ def fetch_data():
     url = f"{BASE_URL}/tv/on_the_air?api_key={API_KEY}&language=fr-FR"
     response = requests.get(url)
     data = response.json()
-    
+
     items = []
     # On limite à 5 séries pour ne pas surcharger la page
     for show in data.get('results', [])[:5]:
@@ -22,10 +23,9 @@ def fetch_data():
             "image": f"https://image.tmdb.org/t/p/w500{show['poster_path']}",
             "desc": (show['overview'][:80] + '...') if show['overview'] else "Pas de résumé."
         })
-    
+
     with open('data/videos.json', 'w', encoding='utf-8') as f:
-        json.dump({"items": items}, f, ensure_ascii=False, indent=2)
+        json.dump({"updatedAt": int(time.time() * 1000), "items": items}, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     fetch_data()
-  
