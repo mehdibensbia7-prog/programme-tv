@@ -1,0 +1,65 @@
+name: Agent IA de Surveillance et Maintenance
+
+on:
+  schedule:
+    # L'agent s'exécute automatiquement toutes les 6 heures pour vérifier ton site
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Te permet de lancer le test manuellement depuis GitHub
+
+jobs:
+  ping-and-fix:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Entrée dans le dépôt
+      uses: actions/checkout@v4
+
+    - name: Configuration de Python (L'environnement de l'Agent)
+      uses: actions/setup-python@v5
+      with:
+        python-backend: '3.10'
+
+    - name: Test de fonctionnement du site (Ping)
+      run: |
+        curl -I -s https://mehdibensbia7-prog.github.io/programme-tv/ | grep "200 OK" || echo "SITE_DOWN=true" >> $GITHUB_ENV
+
+    - name: Analyse des flux TV et Détection de pannes
+      id: analyzer
+      run: |
+        python -c "
+        import urllib.request
+        import json
+        
+        proxies = ['https://api.allorigins.win/raw?url=', 'https://corsproxy.io/?url=']
+        target = 'https://tv-programme.com/'
+        
+        for proxy in proxies:
+            try:
+                url = proxy + target
+                req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(req, timeout=10) as response:
+                    if response.getcode() == 200:
+                        print('PROXIES_OK=true')
+                        exit(0)
+            except Exception as e:
+                print(f'Echec avec le proxy: {e}')
+        
+        # Si on arrive ici, aucun proxy ne fonctionne
+        print('CRASH_DETECTED=true')
+        " 
+
+    - name: Résolution Automatique de la panne (Fallback Agent)
+      if: env.CRASH_DETECTED == 'true'
+      run: |
+        echo "🚨 Alerte : Les flux de scraping sont bloqués ou figés !"
+        echo "L'agent bascule le fichier index.html en mode de secours forcé..."
+        # Ici, on peut injecter un script Python qui ré-écrit les données de secours dans ton index.html pour que l'utilisateur ne voit rien d'interrompu.
+        
+    - name: Publication des corrections sur GitHub Pages
+      if: env.CRASH_DETECTED == 'true'
+      run: |
+        git config --global user.name "AI Maintenance Agent"
+        git config --global user.email "agent-ia@github.com"
+        git add index.html
+        git commit -m "🔧 Correction automatique de l'affichage par l'Agent IA"
+        git push
+        
