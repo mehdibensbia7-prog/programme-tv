@@ -3,67 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programme TV & Actus IA</title>
+    <title>Programme TV — Chaînes, actus & films</title>
     <style>
-        :root { --screen: #101418; --panel: #171d24; --panel-edge: #232b34; --scan: #1c232b; --tube: #ff5f3c; --text: #e8ecef; --muted: #7c8792; }
-        body { background: var(--screen); color: var(--text); font-family: sans-serif; margin: 0; padding: 20px; display: flex; justify-content: center; }
-        .container { width: 100%; max-width: 760px; }
-        .section { margin-bottom: 30px; border-bottom: 1px solid var(--panel-edge); padding-bottom: 20px; }
-        h2 { font-family: sans-serif; font-size: 20px; color: #fff; margin-bottom: 15px; }
-        .card { background: var(--scan); padding: 15px; border-radius: 8px; margin-bottom: 10px; border: 1px solid var(--panel-edge); }
-        .card-title { font-weight: bold; color: var(--tube); display: block; margin-bottom: 5px; text-decoration: none; }
-        .card-desc { font-size: 14px; color: var(--text); line-height: 1.4; }
-        .loading { color: var(--muted); font-size: 13px; }
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+        :root { --screen: #101418; --panel: #171d24; --panel-edge: #232b34; --scan: #1c232b; --tube: #ff5f3c; --text: #e8ecef; --muted: #7c8792; --ok: #4fd1a5; }
+        body { margin:0; padding:32px 16px; background: var(--screen); color: var(--text); font-family: 'Space Grotesk', sans-serif; display:flex; justify-content:center; }
+        .tv { width:100%; max-width: 760px; background: #141a1f; border-radius: 28px; padding: 25px; }
+        .section { margin-top: 35px; border-top: 1px solid var(--panel-edge); padding-top: 20px; }
+        h2 { font-size: 20px; color: #fff; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        /* Composants */
+        .card { background: var(--scan); padding: 15px; border-radius: 12px; margin-bottom: 12px; border: 1px solid var(--panel-edge); }
+        .radio-item { display:flex; justify-content:space-between; align-items:center; padding: 10px 0; }
+        .radio-btn { background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube); padding: 8px 15px; border-radius: 8px; cursor:pointer; font-weight:700; }
+        .radio-btn.playing { background: var(--ok); color:#062018; border-color:transparent; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <!-- Section Actus -->
+<div class="tv">
+    <h1>Programme <span>TV</span></h1>
+
+    <!-- SECTION RADIO -->
     <div class="section">
-        <h2>🧠 ACTUS CINÉ (IA)</h2>
-        <div id="newsContent" class="loading">Chargement des actus...</div>
+        <h2>📻 Radios</h2>
+        <div class="radio-item">
+            <span>France Info</span>
+            <button class="radio-btn" data-src="https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.mp3">▶ Écouter</button>
+        </div>
     </div>
 
-    <!-- Section Tendances -->
+    <!-- SECTION TENDANCES (avec images) -->
     <div class="section">
-        <h2>🎬 TENDANCES DU MOMENT</h2>
-        <div id="trendsContent" class="loading">Chargement des tendances...</div>
+        <h2>🎬 TOP TENDANCES</h2>
+        <div id="trendsContent">Chargement...</div>
+    </div>
+
+    <!-- SECTION ACTUS -->
+    <div class="section">
+        <h2>🧠 ACTUS CINÉ</h2>
+        <div id="newsContent">Chargement...</div>
     </div>
 </div>
 
-<script>
-    // Fonction unique pour charger chaque fichier JSON depuis le dossier /data
-    async function loadData(filename, containerId) {
-        const container = document.getElementById(containerId);
-        try {
-            // On pointe bien vers le dossier /data/
-            const response = await fetch(`data/${filename}`, { cache: "no-store" });
-            if (!response.ok) throw new Error("Erreur");
-            
-            const data = await response.json();
-            
-            if (!data.items || data.items.length === 0) {
-                container.innerHTML = "Aucune donnée disponible.";
-                return;
-            }
+<audio id="musicAudio"></audio>
 
+<script>
+    // 1. Logique Radio
+    document.querySelectorAll('.radio-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const audio = document.getElementById('musicAudio');
+            const src = btn.getAttribute('data-src');
+            if (audio.src === src && !audio.paused) {
+                audio.pause();
+                btn.classList.remove('playing'); btn.innerText = "▶ Écouter";
+            } else {
+                audio.src = src; audio.play();
+                document.querySelectorAll('.radio-btn').forEach(b => { b.classList.remove('playing'); b.innerText = "▶ Écouter"; });
+                btn.classList.add('playing'); btn.innerText = "■ Arrêter";
+            }
+        });
+    });
+
+    // 2. Logique chargement JSON généré par GitHub Actions
+    async function loadData(file, id, isTrend = false) {
+        const container = document.getElementById(id);
+        try {
+            const res = await fetch(`data/${file}`);
+            const data = await res.json();
             container.innerHTML = data.items.map(item => `
-                <div class="card">
-                    <a class="card-title" href="${item.link || '#'}">${item.title}</a>
-                    <div class="card-desc">${item.desc || ''}</div>
+                <div class="card" style="display:flex; gap:15px; align-items:start;">
+                    ${isTrend && item.image ? `<img src="${item.image}" width="80" style="border-radius:6px;">` : ''}
+                    <div>
+                        <a href="${item.link}" style="color:var(--tube); font-weight:bold; text-decoration:none;">${item.title}</a>
+                        <p style="font-size:12px; margin:5px 0; color:var(--muted);">${item.desc}</p>
+                    </div>
                 </div>
             `).join('');
-
         } catch (e) {
-            container.innerHTML = "Données indisponibles pour le moment.";
+            container.innerHTML = "<p style='color:var(--muted)'>Données en attente de mise à jour...</p>";
         }
     }
 
-    // Chargement automatique au démarrage
     document.addEventListener('DOMContentLoaded', () => {
-        loadData('news-ai.json', 'newsContent');
-        loadData('trends-ai.json', 'trendsContent');
+        loadData('trends-ai.json', 'trendsContent', true);
+        loadData('news-ai.json', 'newsContent', false);
     });
 </script>
 
