@@ -14,13 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install deps
-        run: npm install
-
       - name: Générer contenu IA
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -34,3 +27,4 @@ jobs:
           git add data/ -f
           git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Update AI Content"
           git push
+          
