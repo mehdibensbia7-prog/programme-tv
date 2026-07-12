@@ -41,20 +41,20 @@
       "desc": "Pas de résumé."
     },
     {
-      "title": "Chainsmoker Cat",
-      "season": "En cours",
-      "date": "2026-07-03",
-      "link": "https://www.themoviedb.org/tv/312949",
-      "image": "https://image.tmdb.org/t/p/w500/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
-      "desc": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-c..."
-    },
-    {
       "title": "House of the Dragon",
       "season": "En cours",
       "date": "2022-08-21",
       "link": "https://www.themoviedb.org/tv/94997",
       "image": "https://image.tmdb.org/t/p/w500/lP73xk4HGJ9CPxDWouzKzK6j82o.jpg",
       "desc": "Près de 200 ans avant les évènements de Game of Thrones, le continent de Westero..."
+    },
+    {
+      "title": "Chainsmoker Cat",
+      "season": "En cours",
+      "date": "2026-07-03",
+      "link": "https://www.themoviedb.org/tv/312949",
+      "image": "https://image.tmdb.org/t/p/w500/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
+      "desc": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-c..."
     },
     {
       "title": "Mushoku Tensei: Jobless Reincarnation",
