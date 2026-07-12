@@ -160,8 +160,6 @@
     </div>
   </div>
 
-  <audio id="radioAudio" preload="auto"></audio>
-
 <script>
   const BASE = "https://tv-programme.com/";
   const CORS_PROXIES = [
@@ -194,13 +192,9 @@
   function setStatus(mode, text){ statusBox.className = "status " + mode; statusText.textContent = text; }
   function normalize(str){ return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim(); }
 
-  // SECTION AUDIO REVISE POUR CONTOURNER LE BLOCAGE DU NAVIGATEUR
-  const radioAudio = document.getElementById("radioAudio");
-  
-  radioAudio.onerror = () => {
-    setStatus("warn", "Erreur de flux réseau. Réessayez.");
-    resetRadioButtons();
-  };
+  // GESTION AUDIO PAR INSTANCES INDÉPENDANTES (ANTI-BLOCAGE MOBILE CHROME)
+  let currentAudio = null;
+  let currentSrc = "";
 
   function resetRadioButtons() {
     document.querySelectorAll(".radio-btn").forEach(b => { b.textContent = "▶ Écouter"; b.classList.remove("playing"); });
@@ -208,33 +202,56 @@
 
   document.querySelectorAll(".radio-btn").forEach(btn => {
     btn.addEventListener("click", (e) => {
-      e.preventDefault(); // Force l'action synchrone stricte
+      e.preventDefault();
       const src = btn.dataset.src;
 
-      if (radioAudio.src === src && !radioAudio.paused) {
-        radioAudio.pause();
-        btn.textContent = "▶ Écouter";
-        btn.classList.remove("playing");
-      } else {
+      // Si le même flux tourne déjà, on coupe tout proprement
+      if (currentAudio && currentSrc === src) {
+        currentAudio.pause();
+        currentAudio.src = "";
+        currentAudio.load();
+        currentAudio = null;
+        currentSrc = "";
         resetRadioButtons();
-        
-        // Attribution de la source puis déclenchement immédiat dans le même thread utilisateur
-        radioAudio.src = src;
-        radioAudio.load();
-        
-        const playPromise = radioAudio.play();
-        if (playPromise !== undefined) {
-          playPromise.then(() => {
-            btn.textContent = "⏸ Pause";
-            btn.classList.add("playing");
-            setStatus("ok", "Lecture en cours...");
-          }).catch(error => {
-            console.error("Lecture bloquée :", error);
-            setStatus("warn", "Cliquez à nouveau pour autoriser l'audio");
-            resetRadioButtons();
-          });
-        }
+        setStatus("ok", "Lecture arrêtée.");
+        return;
       }
+
+      // Si un autre flux tournait, on le détruit d'abord
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.src = "";
+        currentAudio.load();
+      }
+
+      resetRadioButtons();
+      setStatus("checking", "Connexion au flux direct...");
+
+      // Création instantanée dans la fonction de clic (Synchrone strict validé par Chrome)
+      const audioInstance = new Audio(src);
+      audioInstance.preload = "auto";
+      
+      audioInstance.play().then(() => {
+        currentAudio = audioInstance;
+        currentSrc = src;
+        btn.textContent = "⏸ Pause";
+        btn.classList.add("playing");
+        setStatus("ok", "Radio en direct");
+      }).catch(err => {
+        console.error("Erreur de lancement :", err);
+        setStatus("warn", "Relancez l'écoute");
+        resetRadioButtons();
+      });
+
+      // Sécurité en cas de micro-coupure réseau
+      audioInstance.onerror = () => {
+        setStatus("warn", "Liaison interrompue avec la radio");
+        if(currentAudio === audioInstance) {
+          resetRadioButtons();
+          currentAudio = null;
+          currentSrc = "";
+        }
+      };
     });
   });
 
@@ -280,7 +297,7 @@
         let res = await fetch(proxy + encodeURIComponent(targetUrl), { signal: AbortSignal.timeout(5000) });
         if (res.ok) return await res.text();
       } catch (e) {
-        console.warn("Proxy a échoué, tentative suivante...");
+        console.warn("Proxy en échec, bascule...");
       }
     }
     throw new Error("Tous les proxys ont échoué");
