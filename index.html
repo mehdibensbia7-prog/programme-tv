@@ -10,7 +10,7 @@
         body { margin:0; padding:32px 16px; background: var(--screen); color: var(--text); font-family: 'Space Grotesk', sans-serif; display:flex; justify-content:center; }
         .tv { width:100%; max-width: 760px; background: #141a1f; border-radius: 28px; padding: 25px; }
         .section { margin-top: 35px; border-top: 1px solid var(--panel-edge); padding-top: 20px; }
-        h2 { font-size: 20px; color: #fff; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        h2 { font-size: 20px; color: #fff; margin-bottom: 20px; text-transform: uppercase; }
         .card { background: var(--scan); padding: 15px; border-radius: 12px; margin-bottom: 12px; border: 1px solid var(--panel-edge); }
         .radio-btn { background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube); padding: 8px 15px; border-radius: 8px; cursor:pointer; font-weight:700; }
         .radio-btn.playing { background: var(--ok); color:#062018; border-color:transparent; }
@@ -20,8 +20,6 @@
 
 <div class="tv">
     <h1>Programme <span>TV</span></h1>
-
-    <!-- RADIO -->
     <div class="section">
         <h2>📻 Radios</h2>
         <div style="display:flex; justify-content:space-between; align-items:center;">
@@ -29,30 +27,14 @@
             <button class="radio-btn" data-src="https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.mp3">▶ Écouter</button>
         </div>
     </div>
-
-    <!-- TENDANCES -->
-    <div class="section">
-        <h2>🎬 TOP TENDANCES</h2>
-        <div id="trendsContent">Chargement...</div>
-    </div>
-
-    <!-- BANDE-ANNONCES -->
-    <div class="section">
-        <h2>📺 BANDE-ANNONCES</h2>
-        <div id="videoContent">Chargement...</div>
-    </div>
-
-    <!-- ACTUS -->
-    <div class="section">
-        <h2>🧠 ACTUS CINÉ</h2>
-        <div id="newsContent">Chargement...</div>
-    </div>
+    <div class="section"><h2>🎬 TOP TENDANCES</h2><div id="trendsContent">Chargement...</div></div>
+    <div class="section"><h2>📺 BANDE-ANNONCES</h2><div id="videoContent">Chargement...</div></div>
+    <div class="section"><h2>🧠 ACTUS CINÉ</h2><div id="newsContent">Chargement...</div></div>
 </div>
 
 <audio id="musicAudio"></audio>
 
 <script>
-    // Logique Radio
     document.querySelectorAll('.radio-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             const audio = document.getElementById('musicAudio');
@@ -67,23 +49,24 @@
         });
     });
 
-    // Chargement dynamique
     async function loadData(file, id, isTrend = false) {
         const container = document.getElementById(id);
         try {
-            const res = await fetch(`data/${file}`);
+            // Notez le "./" pour forcer le chemin relatif
+            const res = await fetch(`./data/${file}`, { cache: "no-store" });
+            if (!res.ok) throw new Error("404");
             const data = await res.json();
             container.innerHTML = data.items.map(item => `
                 <div class="card" style="display:flex; gap:15px; align-items:start;">
                     ${isTrend && item.image ? `<img src="${item.image}" width="80" style="border-radius:6px;">` : ''}
                     <div>
-                        <a href="${item.link}" style="color:var(--tube); font-weight:bold; text-decoration:none;">${item.title}</a>
+                        <a href="${item.link}" target="_blank" style="color:var(--tube); font-weight:bold; text-decoration:none;">${item.title}</a>
                         <p style="font-size:12px; margin:5px 0; color:var(--muted);">${item.desc}</p>
                     </div>
                 </div>
             `).join('');
         } catch (e) {
-            container.innerHTML = "<p style='color:var(--muted)'>En attente de mise à jour...</p>";
+            container.innerHTML = "<p style='color:var(--muted)'>Données en cours de synchronisation...</p>";
         }
     }
 
@@ -93,6 +76,5 @@
         loadData('news-ai.json', 'newsContent', false);
     });
 </script>
-
 </body>
 </html>
