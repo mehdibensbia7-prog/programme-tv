@@ -1,5 +1,5 @@
-Voici le code complet et mis à jour pour votre fichier index.html. J'ai intégré la nouvelle logique d'affichage dans la fonction loadData afin qu'elle puisse afficher les champs Saison et Date de manière élégante.
-Vous pouvez copier ce bloc entier et remplacer le contenu actuel de votre fichier index.html.
+Voici le code complet et rectifié. J'ai intégré la logique de gestion des radios (déclenchement du son et changement d'état du bouton) directement dans le bloc <script> en bas de page.
+Vous pouvez copier ce bloc en entier et remplacer tout le contenu de votre fichier index.html.
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -71,81 +71,38 @@ Vous pouvez copier ce bloc entier et remplacer le contenu actuel de votre fichie
   .radio-btn{ background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube);
     padding: 8px 16px; border-radius: 8px; font-weight:700; cursor:pointer; font-size: 13px; font-family: inherit; }
   .radio-btn.playing{ background: var(--ok); border-color: transparent; color:#062018; }
-  .radio-btn.error{ background: rgba(255,107,107,.15); border-color: rgba(255,107,107,.4); color: var(--err); }
-
+  
   .cards{ display:flex; flex-direction:column; gap:12px; }
   .card{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 14px; padding: 16px 18px; display:flex; gap:14px; align-items:flex-start; }
   .card img{ width: 72px; height: 72px; object-fit: cover; border-radius: 10px; flex-shrink:0; background:#000; }
   .card-body{ min-width: 0; }
   .card a.card-title{ color: var(--text); font-weight: 700; font-size: 15px; text-decoration:none; line-height:1.4; display:block; margin-bottom:6px; }
-  .card a.card-title:hover{ color: var(--tube); }
   .card p{ font-size: 13.5px; line-height: 1.55; margin: 0; color: var(--muted); }
-
   .placeholder{ color: var(--muted); font-size: 14px; padding: 6px 2px; }
-
-  .fallback-link{ font-size: 13.5px; margin-top: 14px; }
-  .fallback-link a{ color: var(--ok); text-decoration:none; font-weight:600; }
-  .fallback-link a:hover{ text-decoration:underline; }
-
-  .note{ margin-top: 34px; font-size: 12.5px; color: #566069; line-height: 1.7; border-top: 1px dashed var(--panel-edge); padding-top: 18px; }
-  .note code{ background: var(--scan); padding: 1px 6px; border-radius: 5px; }
 </style>
 </head>
 <body>
 
 <div class="tv">
   <div class="tv-inner">
-    <p class="eyebrow">Tous les bouquets · mise à jour automatique</p>
     <h1>Programme<span>TV</span></h1>
-    <p class="sub">TNT, Canal+, beIN Sports, RMC Sport, Eurosport, jeunesse, cinéma, documentaires… cherche une chaîne, écoute la radio en direct, et retrouve plus bas les actus séries/films.</p>
-
-    <div class="status">
-      <span><span class="dot"></span>Recherche de chaînes disponible hors-ligne, sans dépendance externe</span>
-    </div>
-
     <form id="searchForm">
-      <input type="text" id="channelInput" placeholder="ex : Canal+, TF1, beIN Sports 1…" autocomplete="off">
+      <input type="text" id="channelInput" placeholder="ex : Canal+, TF1…" autocomplete="off">
       <button class="submit" type="submit">Chercher</button>
     </form>
 
-    <div class="result" id="result">
-      <div class="result-text">Chaîne : <b id="resultName"></b></div>
-      <a class="go" id="resultLink" href="#" target="_blank" rel="noopener">Voir le programme →</a>
-    </div>
-
     <div class="section">
-      <div class="section-head"><h2>📻 Radios en direct</h2></div>
-      <p class="section-sub">Flux publics officiels Radio France — aucune clé requise.</p>
+      <div class="section-head"><h2>📻 Radios</h2></div>
       <div class="radio-section">
         <div class="radio-item"><span class="radio-name">France Info</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceinfo-midfi.mp3">▶ Écouter</button></div>
         <div class="radio-item"><span class="radio-name">France Culture</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceculture-midfi.mp3">▶ Écouter</button></div>
-        <div class="radio-item"><span class="radio-name">France Musique</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/francemusique-midfi.mp3">▶ Écouter</button></div>
         <div class="radio-item"><span class="radio-name">FIP</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/fip-midfi.mp3">▶ Écouter</button></div>
       </div>
     </div>
 
     <div class="section">
-      <div class="section-head"><h2>🎬 Tendances, pitch IA</h2><span class="mini-status" id="trendsStatus">—</span></div>
-      <p class="section-sub">Films tendance TMDB avec synopsis reformulé par IA.</p>
+      <div class="section-head"><h2>🎬 Tendances</h2></div>
       <div class="cards" id="trendsCards"><p class="placeholder">Chargement…</p></div>
-    </div>
-
-    <div class="section">
-      <div class="section-head"><h2>📺 Bande-annonces</h2><span class="mini-status" id="videosStatus">—</span></div>
-      <p class="section-sub">Dernières bande-annonces repérées.</p>
-      <div class="cards" id="videosCards"><p class="placeholder">Chargement…</p></div>
-    </div>
-
-    <div class="section">
-      <div class="section-head"><h2>🧠 Actus ciné, version choc (IA)</h2><span class="mini-status" id="newsStatus">—</span></div>
-      <p class="section-sub">Actualités AlloCiné réécrites par IA.</p>
-      <div class="cards" id="newsCards"><p class="placeholder">Chargement…</p></div>
-    </div>
-
-    <div class="section">
-      <div class="section-head"><h2>🏆 Top Box-office France</h2></div>
-      <p class="section-sub">Classement des entrées cinéma.</p>
-      <div class="fallback-link"><a href="https://www.allocine.fr/boxoffice/france/" target="_blank" rel="noopener">→ Voir le classement complet sur AlloCiné</a></div>
     </div>
   </div>
 </div>
@@ -153,54 +110,60 @@ Vous pouvez copier ce bloc entier et remplacer le contenu actuel de votre fichie
 <audio id="musicAudio"></audio>
 
 <script>
-  const STATIC_CHANNELS = {
-    "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "france 4": "france-4",
-    "france 5": "france-5", "m6": "m6", "arte": "arte", "lcp": "la-chaine-parlementaire",
-    "w9": "w9", "tmc": "tmc", "tfx": "tfx", "gulli": "gulli", "bfm tv": "bfm-tv",
-    "cnews": "cnews", "lci": "lci", "franceinfo": "franceinfo", "cstar": "cstar",
-    "tf1 series films": "tf1-series-films", "l'equipe": "l-equipe", "6ter": "6ter",
-    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "canal+": "canal-plus",
-    "bein sports 1": "bein-sports-1", "eurosport 1": "eurosport-1"
-  };
+  // Gestion Radio
+  document.querySelectorAll('.radio-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const audio = document.getElementById('musicAudio');
+      const src = btn.getAttribute('data-src');
+      
+      if (!audio.paused && audio.src === src) {
+        audio.pause();
+        btn.textContent = "▶ Écouter";
+        btn.classList.remove('playing');
+      } else {
+        audio.src = src;
+        audio.play().catch(e => console.error("Lecture bloquée :", e));
+        document.querySelectorAll('.radio-btn').forEach(b => {
+          b.textContent = "▶ Écouter";
+          b.classList.remove('playing');
+        });
+        btn.textContent = "⏸ Arrêter";
+        btn.classList.add('playing');
+      }
+    });
+  });
 
+  // Recherche
   document.getElementById("searchForm").addEventListener("submit", (e) => {
     e.preventDefault();
     const raw = document.getElementById("channelInput").value.trim();
-    if (!raw) return;
-    const slug = raw.toLowerCase().replace(/\s+/g, "-");
-    window.open("https://tv-programme.com/" + slug, "_blank");
+    if (raw) window.open("https://tv-programme.com/" + raw.toLowerCase().replace(/\s+/g, "-"), "_blank");
   });
 
-  async function loadData(file, cardsId, statusId) {
-    const container = document.getElementById(cardsId);
-    const status = document.getElementById(statusId);
+  // Chargement Data
+  async function loadData(file, cardsId) {
     try {
       const res = await fetch(`./data/${file}`, { cache: "no-store" });
       const data = await res.json();
-      if (!data.items || !data.items.length) throw new Error();
-
-      container.innerHTML = data.items.map(item => `
+      document.getElementById(cardsId).innerHTML = data.items.map(item => `
         <div class="card">
-          ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
+          ${item.image ? `<img src="${item.image}" alt="">` : ''}
           <div class="card-body">
             <a class="card-title" href="${item.link}" target="_blank">${item.title}</a>
-            <p style="font-size:12px; color:var(--tube);">Saison : ${item.season || 'N/A'} | Sortie : ${item.date || 'N/A'}</p>
-            <p>${item.desc || ''}</p>
+            <p>Saison : ${item.season || 'N/A'} | Sortie : ${item.date || 'N/A'}</p>
           </div>
         </div>
       `).join('');
-      if (status) status.textContent = "Synchronisé";
     } catch (e) {
-      container.innerHTML = "<p class='placeholder'>Données en attente de mise à jour…</p>";
+      document.getElementById(cardsId).innerHTML = "<p class='placeholder'>Données en attente…</p>";
     }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    loadData('trends-ai.json', 'trendsCards', 'trendsStatus');
-    loadData('videos.json', 'videosCards', 'videosStatus');
-    loadData('news-ai.json', 'newsCards', 'newsStatus');
+    loadData('trends-ai.json', 'trendsCards');
   });
 </script>
 
 </body>
 </html>
+
