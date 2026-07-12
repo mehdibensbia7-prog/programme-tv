@@ -39,6 +39,46 @@
       "link": "https://www.themoviedb.org/tv/316540",
       "image": "https://image.tmdb.org/t/p/w500/8cp0T45VlImvWqnuJXxTEoDwKjG.jpg",
       "desc": "Pas de résumé."
+    },
+    {
+      "title": "Chainsmoker Cat",
+      "season": "En cours",
+      "date": "2026-07-03",
+      "link": "https://www.themoviedb.org/tv/312949",
+      "image": "https://image.tmdb.org/t/p/w500/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
+      "desc": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-c..."
+    },
+    {
+      "title": "House of the Dragon",
+      "season": "En cours",
+      "date": "2022-08-21",
+      "link": "https://www.themoviedb.org/tv/94997",
+      "image": "https://image.tmdb.org/t/p/w500/lP73xk4HGJ9CPxDWouzKzK6j82o.jpg",
+      "desc": "Près de 200 ans avant les évènements de Game of Thrones, le continent de Westero..."
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "season": "En cours",
+      "date": "2021-01-11",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "image": "https://image.tmdb.org/t/p/w500/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "desc": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, rec..."
+    },
+    {
+      "title": "Silo",
+      "season": "En cours",
+      "date": "2023-05-04",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "image": "https://image.tmdb.org/t/p/w500/zGMLj5ZTybGpgYtNnDbMbN1rOcp.jpg",
+      "desc": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un g..."
+    },
+    {
+      "title": "嫁入高门",
+      "season": "En cours",
+      "date": "2026-07-03",
+      "link": "https://www.themoviedb.org/tv/316540",
+      "image": "https://image.tmdb.org/t/p/w500/8cp0T45VlImvWqnuJXxTEoDwKjG.jpg",
+      "desc": "Pas de résumé."
     }
   ]
 }
