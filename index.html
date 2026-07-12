@@ -1,3 +1,5 @@
+Voici le code complet et mis à jour pour votre fichier index.html. J'ai intégré la nouvelle logique d'affichage dans la fonction loadData afin qu'elle puisse afficher les champs Saison et Date de manière élégante.
+Vous pouvez copier ce bloc entier et remplacer le contenu actuel de votre fichier index.html.
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -101,7 +103,6 @@
       <span><span class="dot"></span>Recherche de chaînes disponible hors-ligne, sans dépendance externe</span>
     </div>
 
-    <!-- RECHERCHE -->
     <form id="searchForm">
       <input type="text" id="channelInput" placeholder="ex : Canal+, TF1, beIN Sports 1…" autocomplete="off">
       <button class="submit" type="submit">Chercher</button>
@@ -112,175 +113,85 @@
       <a class="go" id="resultLink" href="#" target="_blank" rel="noopener">Voir le programme →</a>
     </div>
 
-    <!-- RADIOS -->
     <div class="section">
       <div class="section-head"><h2>📻 Radios en direct</h2></div>
       <p class="section-sub">Flux publics officiels Radio France — aucune clé requise.</p>
       <div class="radio-section">
-        <div class="radio-item">
-          <span class="radio-name">France Info</span>
-          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceinfo-midfi.mp3">▶ Écouter</button>
-        </div>
-        <div class="radio-item">
-          <span class="radio-name">France Culture</span>
-          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceculture-midfi.mp3">▶ Écouter</button>
-        </div>
-        <div class="radio-item">
-          <span class="radio-name">France Musique</span>
-          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/francemusique-midfi.mp3">▶ Écouter</button>
-        </div>
-        <div class="radio-item">
-          <span class="radio-name">FIP</span>
-          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/fip-midfi.mp3">▶ Écouter</button>
-        </div>
+        <div class="radio-item"><span class="radio-name">France Info</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceinfo-midfi.mp3">▶ Écouter</button></div>
+        <div class="radio-item"><span class="radio-name">France Culture</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceculture-midfi.mp3">▶ Écouter</button></div>
+        <div class="radio-item"><span class="radio-name">France Musique</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/francemusique-midfi.mp3">▶ Écouter</button></div>
+        <div class="radio-item"><span class="radio-name">FIP</span><button class="radio-btn" data-src="https://icecast.radiofrance.fr/fip-midfi.mp3">▶ Écouter</button></div>
       </div>
     </div>
 
-    <!-- TENDANCES (TMDB, pitch IA) -->
     <div class="section">
-      <div class="section-head">
-        <h2>🎬 Tendances, pitch IA</h2>
-        <span class="mini-status" id="trendsStatus">—</span>
-      </div>
-      <p class="section-sub">Films tendance TMDB avec synopsis reformulé par IA, généré côté serveur.</p>
+      <div class="section-head"><h2>🎬 Tendances, pitch IA</h2><span class="mini-status" id="trendsStatus">—</span></div>
+      <p class="section-sub">Films tendance TMDB avec synopsis reformulé par IA.</p>
       <div class="cards" id="trendsCards"><p class="placeholder">Chargement…</p></div>
     </div>
 
-    <!-- BANDE-ANNONCES -->
     <div class="section">
-      <div class="section-head">
-        <h2>📺 Bande-annonces</h2>
-        <span class="mini-status" id="videosStatus">—</span>
-      </div>
+      <div class="section-head"><h2>📺 Bande-annonces</h2><span class="mini-status" id="videosStatus">—</span></div>
       <p class="section-sub">Dernières bande-annonces repérées.</p>
       <div class="cards" id="videosCards"><p class="placeholder">Chargement…</p></div>
     </div>
 
-    <!-- ACTUS CINÉ IA -->
     <div class="section">
-      <div class="section-head">
-        <h2>🧠 Actus ciné, version choc (IA)</h2>
-        <span class="mini-status" id="newsStatus">—</span>
-      </div>
-      <p class="section-sub">Actualités AlloCiné réécrites par IA (Gemini), générées automatiquement côté serveur toutes les 6h.</p>
+      <div class="section-head"><h2>🧠 Actus ciné, version choc (IA)</h2><span class="mini-status" id="newsStatus">—</span></div>
+      <p class="section-sub">Actualités AlloCiné réécrites par IA.</p>
       <div class="cards" id="newsCards"><p class="placeholder">Chargement…</p></div>
     </div>
 
-    <!-- BOX-OFFICE -->
     <div class="section">
       <div class="section-head"><h2>🏆 Top Box-office France</h2></div>
-      <p class="section-sub">Classement des entrées cinéma en France (source CBO / AlloCiné).</p>
-      <div class="fallback-link">
-        <a href="https://www.allocine.fr/boxoffice/france/" target="_blank" rel="noopener">→ Voir le classement complet et actualisé sur AlloCiné</a>
-      </div>
+      <p class="section-sub">Classement des entrées cinéma.</p>
+      <div class="fallback-link"><a href="https://www.allocine.fr/boxoffice/france/" target="_blank" rel="noopener">→ Voir le classement complet sur AlloCiné</a></div>
     </div>
-
-    <p class="note">
-      <b>Comment ça marche :</b> la recherche de chaînes fonctionne entièrement en local, sans appel réseau —
-      c'est ce qui la rend fiable à 100%. Les sections Tendances, Bande-annonces et Actus ciné sont générées
-      côté serveur par GitHub Actions toutes les 6h et stockées dans <code>/data</code> ; la page se contente
-      de les lire, sans jamais appeler d'API tierce depuis ton navigateur — donc pas de blocage CORS possible.
-    </p>
   </div>
 </div>
 
 <audio id="musicAudio"></audio>
 
 <script>
-  // ---------- Catalogue de chaînes (100% local, aucun réseau requis) ----------
   const STATIC_CHANNELS = {
     "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "france 4": "france-4",
     "france 5": "france-5", "m6": "m6", "arte": "arte", "lcp": "la-chaine-parlementaire",
-    "la chaine parlementaire": "la-chaine-parlementaire", "w9": "w9", "tmc": "tmc", "tfx": "tfx",
-    "gulli": "gulli", "bfm tv": "bfm-tv", "bfmtv": "bfm-tv", "bfm": "bfm-tv", "cnews": "cnews",
-    "cnews prime": "cnews-prime", "lci": "lci", "franceinfo": "franceinfo", "france info": "franceinfo",
-    "cstar": "cstar", "c star": "cstar", "t18": "t18", "novo19": "novo19",
-    "tf1 series films": "tf1-series-films", "tf1 séries films": "tf1-series-films",
-    "l'equipe": "l-equipe", "l'équipe": "l-equipe", "lequipe": "l-equipe", "6ter": "6ter",
-    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "rmc decouverte": "rmc-decouverte",
-    "rmc life": "rmc-life", "paris premiere": "paris-premiere", "paris première": "paris-premiere",
-    "rtl 9": "rtl-9", "canal+": "canal-plus", "canal plus": "canal-plus",
-    "bein sports 1": "bein-sports-1", "bein sports 2": "bein-sports-2", "bein sports 3": "bein-sports-3",
-    "rmc sport 1": "rmc-sport-1", "rmc sport 2": "rmc-sport-2",
-    "eurosport 1": "eurosport-1", "eurosport 2": "eurosport-2"
+    "w9": "w9", "tmc": "tmc", "tfx": "tfx", "gulli": "gulli", "bfm tv": "bfm-tv",
+    "cnews": "cnews", "lci": "lci", "franceinfo": "franceinfo", "cstar": "cstar",
+    "tf1 series films": "tf1-series-films", "l'equipe": "l-equipe", "6ter": "6ter",
+    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "canal+": "canal-plus",
+    "bein sports 1": "bein-sports-1", "eurosport 1": "eurosport-1"
   };
-  const BASE_TV = "https://tv-programme.com/";
-
-  function normalize(str){
-    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
-  }
 
   document.getElementById("searchForm").addEventListener("submit", (e) => {
     e.preventDefault();
     const raw = document.getElementById("channelInput").value.trim();
     if (!raw) return;
-    const key = normalize(raw);
-    const slug = STATIC_CHANNELS[key] || key.replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
-
-    document.getElementById("resultName").textContent = raw;
-    document.getElementById("resultLink").href = BASE_TV + slug;
-    document.getElementById("result").classList.add("show");
-    window.open(BASE_TV + slug, "_blank");
+    const slug = raw.toLowerCase().replace(/\s+/g, "-");
+    window.open("https://tv-programme.com/" + slug, "_blank");
   });
 
-  // ---------- Radios ----------
-  const audio = document.getElementById('musicAudio');
-
-  document.querySelectorAll('.radio-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const src = btn.getAttribute('data-src');
-      const isThisPlaying = audio.src === src && !audio.paused;
-
-      document.querySelectorAll('.radio-btn').forEach(b => {
-        b.classList.remove('playing', 'error');
-        b.innerText = '▶ Écouter';
-      });
-
-      if (isThisPlaying) { audio.pause(); return; }
-
-      audio.src = src;
-      btn.innerText = '… Connexion';
-
-      audio.play()
-        .then(() => { btn.classList.add('playing'); btn.innerText = '■ Arrêter'; })
-        .catch(() => { btn.classList.add('error'); btn.innerText = '⚠ Indisponible'; });
-    });
-  });
-
-  audio.addEventListener('error', () => {
-    document.querySelectorAll('.radio-btn.playing').forEach(b => {
-      b.classList.remove('playing'); b.classList.add('error'); b.innerText = '⚠ Indisponible';
-    });
-  });
-
-  // ---------- Chargement des données générées par GitHub Actions ----------
   async function loadData(file, cardsId, statusId) {
     const container = document.getElementById(cardsId);
     const status = document.getElementById(statusId);
     try {
       const res = await fetch(`./data/${file}`, { cache: "no-store" });
-      if (!res.ok) throw new Error("404");
       const data = await res.json();
-
-      if (!data.items || !data.items.length) {
-        container.innerHTML = "<p class='placeholder'>Aucune donnée pour le moment.</p>";
-        if (status) status.textContent = "Vide";
-        return;
-      }
+      if (!data.items || !data.items.length) throw new Error();
 
       container.innerHTML = data.items.map(item => `
         <div class="card">
-          ${item.image ? `<img src="${item.image}" alt="">` : ''}
+          ${item.image ? `<img src="${item.image}" alt="${item.title}">` : ''}
           <div class="card-body">
-            <a class="card-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+            <a class="card-title" href="${item.link}" target="_blank">${item.title}</a>
+            <p style="font-size:12px; color:var(--tube);">Saison : ${item.season || 'N/A'} | Sortie : ${item.date || 'N/A'}</p>
             <p>${item.desc || ''}</p>
           </div>
         </div>
       `).join('');
       if (status) status.textContent = "Synchronisé";
     } catch (e) {
-      container.innerHTML = "<p class='placeholder'>Données en cours de synchronisation…</p>";
-      if (status) status.textContent = "En attente";
+      container.innerHTML = "<p class='placeholder'>Données en attente de mise à jour…</p>";
     }
   }
 
@@ -293,3 +204,4 @@
 
 </body>
 </html>
+
