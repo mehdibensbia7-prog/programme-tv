@@ -1,29 +1,41 @@
 {
+  "updatedAt": 1783892258700,
   "items": [
     {
-      "title": "\"On ne met pas un acteur de télévision dans un film\" : personne ne voulait de John Travolta dans ce film culte sorti il y a 48 ans",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212868.html",
-      "desc": "Avant de devenir une icône, John Travolta était considéré comme un pari risqué. ..."
+      "title": "\"Je m’étais trompé sur l’idée que je me faisais du rôle\" : il y a 5 ans, Zac Efron a refusé de jouer dans l'un des meilleurs thrillers horrifiques de ces 10 dernières années",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212885.html",
+      "desc": "Avant Justin Long, c’est Zac Efron qui devait tenir l’un des rôles clés de “Barbare”. Son refus a poussé le réalisateur à repenser totalemen",
+      "isAI": false
     },
     {
-      "title": "Plus belle la vie : plusieurs mois après avoir tué Hugo, le secret d'Ophélie est sur le point d'être découvert",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212728.html",
-      "desc": "L'été s'annonce riche en révélations dans \"Plus belle la vie, encore plus belle\"..."
+      "title": "Smallville sur Netflix : que devient Tom Welling depuis la fin de la série culte il y a 15 ans ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000211281.html",
+      "desc": "Découvrez la quasi reconversion amorcée par Tom Welling, jadis le flamboyant héros de la série \"Smallville\".",
+      "isAI": false
     },
     {
-      "title": "\"Il y a une scène qu'on a tournée 24 fois\" : pour Isabelle Nanty, c'est le tournage le plus drôle de sa carrière !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212866.html",
-      "desc": "Plus de 30 ans après “Les Visiteurs”, Isabelle Nanty se souvient d’un tournage e..."
+      "title": "\"Sa carrière est fichue\" : il y a 37 ans, cette légende du cinéma en voulait à Al Pacino d'avoir refusé de jouer dans deux de ses plus grands chefs-d'oeuvre",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212884.html",
+      "desc": "Oliver Stone était persuadé qu’Al Pacino avait ruiné sa carrière après avoir refusé deux de ses films. Près de 40 ans plus tard, l’histoire ",
+      "isAI": false
     },
     {
-      "title": "\"On était tous épuisés\" : Vin Diesel a failli commettre la plus grosse erreur de sa carrière en quittant l'un des meilleurs films de Spielberg… Heureusement que Tom Hanks était là !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212864.html",
-      "desc": "Avant même le tournage de “Il faut sauver le soldat Ryan”, plusieurs acteurs, do..."
+      "title": "Ce soir en famille : tous les enfants des années 90 ont grandi avec ce film fantastique... 29 ans après, il émerveille toujours autant",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212502.html",
+      "desc": "Si vous cherchez un super programme feel good à voir en famille, foncez sur Prime Video et lancez cette pépite des années 90 ! Bon moment ga",
+      "isAI": false
     },
     {
-      "title": "Ce soir à la télé : noté 4 sur 5, c'est l'un des meilleurs polars des 20 dernières années... et il est signé James Gray",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000210965.html",
-      "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : un..."
+      "title": "\"Un choc cinématographique dont on ne se remet pas tout à fait\" : noté 4,3 sur 5, c'est le film à voir absolument cette semaine !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212131.html",
+      "desc": "Actuellement en salles, \"Dry Leaf\" de Alexandre Koberidze affiche une moyenne presse de 4,3 sur 5 (sur AlloCiné, pour 16 supports).",
+      "isAI": false
+    },
+    {
+      "title": "A sa sortie il y a 10 ans, ce film avec Gary Oldman n'a été vu que par une seule personne au cinéma... Un échec total !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212872.html",
+      "desc": "Gary Oldman a connu des succès planétaires avec “Harry Potter”, “The Dark Knight” ou “Oppenheimer”. Pourtant, l’un de ses films a vécu un de",
+      "isAI": false
     }
   ]
 }
