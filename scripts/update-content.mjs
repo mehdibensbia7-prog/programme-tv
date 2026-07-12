@@ -1,30 +1,32 @@
-name: Update AI Content
+import { writeFileSync, mkdirSync } from "fs";
 
-on:
-  schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
 
-permissions:
-  contents: write
+async function run() {
+  mkdirSync("data", { recursive: true });
+  
+  try {
+    const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://www.allocine.fr/rss/news.xml");
+    const data = await res.json();
+    const items = [];
+    if (data.status === "ok") {
+      for (const item of data.items.slice(0, 6)) {
+        const cleanDesc = (item.description || "").replace(/<[^>]*>/g, "");
+        items.push({ title: item.title, link: item.link, desc: cleanDesc.slice(0, 140) });
+      }
+    }
+    writeFileSync("data/news-ai.json", JSON.stringify({ updatedAt: Date.now(), items }, null, 2));
+  } catch (e) { console.error("Erreur News:", e); }
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+  try {
+    if (TMDB_API_KEY) {
+      const res = await fetch(`https://api.themoviedb.org/3/trending/movie/week?api_key=${TMDB_API_KEY}&language=fr-FR`);
+      const data = await res.json();
+      const items = (data.results || []).slice(0, 6).map(m => ({ title: m.title, desc: m.overview?.slice(0, 140) || "Aucun synopsis." }));
+      writeFileSync("data/trends-ai.json", JSON.stringify({ updatedAt: Date.now(), items }, null, 2));
+    }
+  } catch (e) { console.error("Erreur Trends:", e); }
+}
 
-      - name: Générer contenu IA
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: node scripts/update-content.mjs
-
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ -f
-          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Update AI Content"
-          git push
-          
+run();
