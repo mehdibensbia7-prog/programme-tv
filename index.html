@@ -1,130 +1,295 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programme TV — Dashboard</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programme TV — Chaînes, actus séries & films</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --screen: #101418; --panel: #171d24; --panel-edge: #232b34; --scan: #1c232b;
+    --tube: #ff5f3c; --text: #e8ecef; --muted: #97a0aa; --ok: #4fd1a5; --warn: #e8b64f; --err: #ff6b6b;
+  }
+  *{ box-sizing: border-box; }
+  html,body{
+    margin:0; padding:0; min-height:100vh;
+    background: radial-gradient(ellipse at 50% -10%, #1a2129 0%, var(--screen) 55%);
+    color: var(--text); font-family: 'Space Grotesk', sans-serif; line-height: 1.55;
+    display:flex; align-items:flex-start; justify-content:center;
+    padding: 32px 16px;
+  }
+  .tv{ width:100%; max-width: 780px; background: linear-gradient(180deg,#20272e,#141a1f);
+    border-radius: 28px; padding: 10px; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7), inset 0 0 0 1px #2c343d; }
+  .tv-inner{ background: var(--panel); border-radius: 20px; padding: 38px 28px 32px; position: relative; overflow:hidden; }
+  .tv-inner::before{ content:""; position:absolute; inset:0;
+    background: repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0px, rgba(255,255,255,0.012) 1px, transparent 1px, transparent 3px); pointer-events:none; }
 
-        :root {
-            --screen: #101418;
-            --panel: #171d24;
-            --panel-edge: #232b34;
-            --scan: #1c232b;
-            --tube: #ff5f3c;
-            --text: #e8ecef;
-            --muted: #97a0aa;
-            --ok: #4fd1a5;
-            --err: #ff6b6b;
-        }
+  .eyebrow{ font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--tube); font-weight: 700; margin: 0 0 10px; display:flex; align-items:center; gap:8px; }
+  .eyebrow::before{ content:""; width:7px; height:7px; border-radius:50%; background: var(--tube); box-shadow: 0 0 8px 2px var(--tube); }
+  h1{ font-family: 'Bebas Neue', sans-serif; font-size: 46px; letter-spacing: .03em; margin: 0 0 10px; line-height: 1; color: #fff; }
+  h1 span{ color: var(--tube); }
+  .sub{ color: var(--muted); font-size: 15px; margin: 0 0 24px; max-width: 58ch; line-height: 1.6; }
 
-        body {
-            margin: 0;
-            padding: 32px 16px;
-            background: var(--screen);
-            color: var(--text);
-            font-family: 'Space Grotesk', sans-serif;
-            display: flex;
-            justify-content: center;
-            line-height: 1.5;
-        }
+  .status{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
+    font-size: 13px; color: var(--muted); background: var(--scan); border: 1px solid var(--panel-edge);
+    border-radius: 12px; padding: 12px 16px; margin-bottom: 26px; }
+  .status .dot{ display:inline-block; width:7px; height:7px; border-radius:50%; background: var(--ok); box-shadow: 0 0 6px 1px var(--ok); margin-right:6px; }
 
-        .tv {
-            width: 100%;
-            max-width: 760px;
-            background: #141a1f;
-            border-radius: 28px;
-            padding: 28px 24px;
-        }
+  form{ display:flex; gap:10px; margin-bottom: 28px; }
+  input[type="text"]{ flex:1; background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px;
+    padding: 15px 16px; color: var(--text); font-family: inherit; font-size: 16px; outline: none;
+    transition: border-color .15s, box-shadow .15s; }
+  input[type="text"]::placeholder{ color: #5a636c; }
+  input[type="text"]:focus{ border-color: var(--tube); box-shadow: 0 0 0 3px rgba(255,95,60,.15); }
+  button.submit{ background: var(--tube); color: #1a0f0a; border: none; border-radius: 12px; padding: 0 22px;
+    font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer; white-space: nowrap; }
+  button.submit:hover{ background: #ff7a58; }
 
-        h1 { font-size: 26px; margin: 0 0 8px; }
-        h1 span { color: var(--tube); }
+  .result{ margin-top: -12px; margin-bottom: 24px; padding: 16px 18px; border-radius: 12px; background: var(--scan);
+    border: 1px solid var(--panel-edge); display:none; align-items:center; justify-content:space-between; gap: 12px; flex-wrap: wrap; }
+  .result.show{ display:flex; }
+  .result-text{ font-size: 14px; color: var(--muted); }
+  .result-text b{ color: var(--text); }
+  .result a.go{ color: var(--ok); font-weight: 700; text-decoration:none; font-size: 14px;
+    border: 1px solid rgba(79,209,165,.35); padding: 8px 14px; border-radius: 9px; }
+  .result a.go:hover{ background: rgba(79,209,165,.1); }
 
-        .section {
-            margin-top: 32px;
-            border-top: 1px solid var(--panel-edge);
-            padding-top: 22px;
-        }
+  .section{ margin-top: 38px; border-top: 1px solid var(--panel-edge); padding-top: 28px; }
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .section-head h2{ font-family:'Bebas Neue', sans-serif; font-size: 25px; letter-spacing:.02em; margin:0; color:#fff; font-weight:400; }
+  .section-head .mini-status{ font-size: 12px; color: var(--muted); }
+  .section-sub{ font-size: 13.5px; color: var(--muted); margin: 0 0 18px; line-height: 1.6; }
 
-        h2 {
-            font-size: 18px;
-            color: #fff;
-            margin-bottom: 18px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+  .radio-section{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 14px; padding: 8px 18px; }
+  .radio-item{ display:flex; align-items:center; justify-content:space-between; padding: 14px 0; border-bottom: 1px solid var(--panel-edge); }
+  .radio-item:last-child{ border-bottom: none; }
+  .radio-name{ font-weight:600; font-size: 15px; color: var(--text); }
+  .radio-btn{ background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube);
+    padding: 8px 16px; border-radius: 8px; font-weight:700; cursor:pointer; font-size: 13px; font-family: inherit; }
+  .radio-btn.playing{ background: var(--ok); border-color: transparent; color:#062018; }
+  .radio-btn.error{ background: rgba(255,107,107,.15); border-color: rgba(255,107,107,.4); color: var(--err); }
 
-        .radio-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 4px;
-            border-bottom: 1px solid var(--panel-edge);
-        }
-        .radio-row:last-child { border-bottom: none; }
-        .radio-row span { font-size: 15px; }
+  .cards{ display:flex; flex-direction:column; gap:12px; }
+  .card{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 14px; padding: 16px 18px; display:flex; gap:14px; align-items:flex-start; }
+  .card img{ width: 72px; height: 72px; object-fit: cover; border-radius: 10px; flex-shrink:0; background:#000; }
+  .card-body{ min-width: 0; }
+  .card a.card-title{ color: var(--text); font-weight: 700; font-size: 15px; text-decoration:none; line-height:1.4; display:block; margin-bottom:6px; }
+  .card a.card-title:hover{ color: var(--tube); }
+  .card p{ font-size: 13.5px; line-height: 1.55; margin: 0; color: var(--muted); }
 
-        .card {
-            background: var(--scan);
-            padding: 16px 18px;
-            border-radius: 12px;
-            margin-bottom: 14px;
-            border: 1px solid var(--panel-edge);
-            display: flex;
-            gap: 15px;
-            align-items: flex-start;
-        }
-        .card img { border-radius: 8px; flex-shrink: 0; }
-        .card a {
-            color: var(--tube);
-            font-weight: 700;
-            text-decoration: none;
-            font-size: 15px;
-        }
-        .card p {
-            font-size: 14px;
-            line-height: 1.5;
-            margin: 8px 0 0;
-            color: var(--muted);
-        }
+  .placeholder{ color: var(--muted); font-size: 14px; padding: 6px 2px; }
 
-        .radio-btn {
-            background: rgba(255, 95, 60, .1);
-            border: 1px solid rgba(255, 95, 60, .35);
-            color: var(--tube);
-            padding: 9px 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 700;
-            font-family: inherit;
-            font-size: 13px;
-        }
-        .radio-btn.playing {
-            background: var(--ok);
-            color: #062018;
-            border-color: transparent;
-        }
-        .radio-btn.error {
-            background: rgba(255, 107, 107, .15);
-            color: var(--err);
-            border-color: rgba(255, 107, 107, .4);
-        }
+  .fallback-link{ font-size: 13.5px; margin-top: 14px; }
+  .fallback-link a{ color: var(--ok); text-decoration:none; font-weight:600; }
+  .fallback-link a:hover{ text-decoration:underline; }
 
-        .placeholder {
-            color: var(--muted);
-            font-size: 14px;
-            padding: 4px 0;
-        }
-    </style>
+  .note{ margin-top: 34px; font-size: 12.5px; color: #566069; line-height: 1.7; border-top: 1px dashed var(--panel-edge); padding-top: 18px; }
+  .note code{ background: var(--scan); padding: 1px 6px; border-radius: 5px; }
+</style>
 </head>
 <body>
 
 <div class="tv">
-    <h1>Programme <span>TV</span></h1>
+  <div class="tv-inner">
+    <p class="eyebrow">Tous les bouquets · mise à jour automatique</p>
+    <h1>Programme<span>TV</span></h1>
+    <p class="sub">TNT, Canal+, beIN Sports, RMC Sport, Eurosport, jeunesse, cinéma, documentaires… cherche une chaîne, écoute la radio en direct, et retrouve plus bas les actus séries/films.</p>
 
-    <!-- RADIO -->
+    <div class="status">
+      <span><span class="dot"></span>Recherche de chaînes disponible hors-ligne, sans dépendance externe</span>
+    </div>
+
+    <!-- RECHERCHE -->
+    <form id="searchForm">
+      <input type="text" id="channelInput" placeholder="ex : Canal+, TF1, beIN Sports 1…" autocomplete="off">
+      <button class="submit" type="submit">Chercher</button>
+    </form>
+
+    <div class="result" id="result">
+      <div class="result-text">Chaîne : <b id="resultName"></b></div>
+      <a class="go" id="resultLink" href="#" target="_blank" rel="noopener">Voir le programme →</a>
+    </div>
+
+    <!-- RADIOS -->
     <div class="section">
-        <h2>📻 Radios</h2>
+      <div class="section-head"><h2>📻 Radios en direct</h2></div>
+      <p class="section-sub">Flux publics officiels Radio France — aucune clé requise.</p>
+      <div class="radio-section">
+        <div class="radio-item">
+          <span class="radio-name">France Info</span>
+          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceinfo-midfi.mp3">▶ Écouter</button>
+        </div>
+        <div class="radio-item">
+          <span class="radio-name">France Culture</span>
+          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/franceculture-midfi.mp3">▶ Écouter</button>
+        </div>
+        <div class="radio-item">
+          <span class="radio-name">France Musique</span>
+          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/francemusique-midfi.mp3">▶ Écouter</button>
+        </div>
+        <div class="radio-item">
+          <span class="radio-name">FIP</span>
+          <button class="radio-btn" data-src="https://icecast.radiofrance.fr/fip-midfi.mp3">▶ Écouter</button>
+        </div>
+      </div>
+    </div>
 
-        <div class="radio-row">
+    <!-- TENDANCES (TMDB, pitch IA) -->
+    <div class="section">
+      <div class="section-head">
+        <h2>🎬 Tendances, pitch IA</h2>
+        <span class="mini-status" id="trendsStatus">—</span>
+      </div>
+      <p class="section-sub">Films tendance TMDB avec synopsis reformulé par IA, généré côté serveur.</p>
+      <div class="cards" id="trendsCards"><p class="placeholder">Chargement…</p></div>
+    </div>
+
+    <!-- BANDE-ANNONCES -->
+    <div class="section">
+      <div class="section-head">
+        <h2>📺 Bande-annonces</h2>
+        <span class="mini-status" id="videosStatus">—</span>
+      </div>
+      <p class="section-sub">Dernières bande-annonces repérées.</p>
+      <div class="cards" id="videosCards"><p class="placeholder">Chargement…</p></div>
+    </div>
+
+    <!-- ACTUS CINÉ IA -->
+    <div class="section">
+      <div class="section-head">
+        <h2>🧠 Actus ciné, version choc (IA)</h2>
+        <span class="mini-status" id="newsStatus">—</span>
+      </div>
+      <p class="section-sub">Actualités AlloCiné réécrites par IA (Gemini), générées automatiquement côté serveur toutes les 6h.</p>
+      <div class="cards" id="newsCards"><p class="placeholder">Chargement…</p></div>
+    </div>
+
+    <!-- BOX-OFFICE -->
+    <div class="section">
+      <div class="section-head"><h2>🏆 Top Box-office France</h2></div>
+      <p class="section-sub">Classement des entrées cinéma en France (source CBO / AlloCiné).</p>
+      <div class="fallback-link">
+        <a href="https://www.allocine.fr/boxoffice/france/" target="_blank" rel="noopener">→ Voir le classement complet et actualisé sur AlloCiné</a>
+      </div>
+    </div>
+
+    <p class="note">
+      <b>Comment ça marche :</b> la recherche de chaînes fonctionne entièrement en local, sans appel réseau —
+      c'est ce qui la rend fiable à 100%. Les sections Tendances, Bande-annonces et Actus ciné sont générées
+      côté serveur par GitHub Actions toutes les 6h et stockées dans <code>/data</code> ; la page se contente
+      de les lire, sans jamais appeler d'API tierce depuis ton navigateur — donc pas de blocage CORS possible.
+    </p>
+  </div>
+</div>
+
+<audio id="musicAudio"></audio>
+
+<script>
+  // ---------- Catalogue de chaînes (100% local, aucun réseau requis) ----------
+  const STATIC_CHANNELS = {
+    "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "france 4": "france-4",
+    "france 5": "france-5", "m6": "m6", "arte": "arte", "lcp": "la-chaine-parlementaire",
+    "la chaine parlementaire": "la-chaine-parlementaire", "w9": "w9", "tmc": "tmc", "tfx": "tfx",
+    "gulli": "gulli", "bfm tv": "bfm-tv", "bfmtv": "bfm-tv", "bfm": "bfm-tv", "cnews": "cnews",
+    "cnews prime": "cnews-prime", "lci": "lci", "franceinfo": "franceinfo", "france info": "franceinfo",
+    "cstar": "cstar", "c star": "cstar", "t18": "t18", "novo19": "novo19",
+    "tf1 series films": "tf1-series-films", "tf1 séries films": "tf1-series-films",
+    "l'equipe": "l-equipe", "l'équipe": "l-equipe", "lequipe": "l-equipe", "6ter": "6ter",
+    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "rmc decouverte": "rmc-decouverte",
+    "rmc life": "rmc-life", "paris premiere": "paris-premiere", "paris première": "paris-premiere",
+    "rtl 9": "rtl-9", "canal+": "canal-plus", "canal plus": "canal-plus",
+    "bein sports 1": "bein-sports-1", "bein sports 2": "bein-sports-2", "bein sports 3": "bein-sports-3",
+    "rmc sport 1": "rmc-sport-1", "rmc sport 2": "rmc-sport-2",
+    "eurosport 1": "eurosport-1", "eurosport 2": "eurosport-2"
+  };
+  const BASE_TV = "https://tv-programme.com/";
+
+  function normalize(str){
+    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  }
+
+  document.getElementById("searchForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const raw = document.getElementById("channelInput").value.trim();
+    if (!raw) return;
+    const key = normalize(raw);
+    const slug = STATIC_CHANNELS[key] || key.replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+
+    document.getElementById("resultName").textContent = raw;
+    document.getElementById("resultLink").href = BASE_TV + slug;
+    document.getElementById("result").classList.add("show");
+    window.open(BASE_TV + slug, "_blank");
+  });
+
+  // ---------- Radios ----------
+  const audio = document.getElementById('musicAudio');
+
+  document.querySelectorAll('.radio-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const src = btn.getAttribute('data-src');
+      const isThisPlaying = audio.src === src && !audio.paused;
+
+      document.querySelectorAll('.radio-btn').forEach(b => {
+        b.classList.remove('playing', 'error');
+        b.innerText = '▶ Écouter';
+      });
+
+      if (isThisPlaying) { audio.pause(); return; }
+
+      audio.src = src;
+      btn.innerText = '… Connexion';
+
+      audio.play()
+        .then(() => { btn.classList.add('playing'); btn.innerText = '■ Arrêter'; })
+        .catch(() => { btn.classList.add('error'); btn.innerText = '⚠ Indisponible'; });
+    });
+  });
+
+  audio.addEventListener('error', () => {
+    document.querySelectorAll('.radio-btn.playing').forEach(b => {
+      b.classList.remove('playing'); b.classList.add('error'); b.innerText = '⚠ Indisponible';
+    });
+  });
+
+  // ---------- Chargement des données générées par GitHub Actions ----------
+  async function loadData(file, cardsId, statusId) {
+    const container = document.getElementById(cardsId);
+    const status = document.getElementById(statusId);
+    try {
+      const res = await fetch(`./data/${file}`, { cache: "no-store" });
+      if (!res.ok) throw new Error("404");
+      const data = await res.json();
+
+      if (!data.items || !data.items.length) {
+        container.innerHTML = "<p class='placeholder'>Aucune donnée pour le moment.</p>";
+        if (status) status.textContent = "Vide";
+        return;
+      }
+
+      container.innerHTML = data.items.map(item => `
+        <div class="card">
+          ${item.image ? `<img src="${item.image}" alt="">` : ''}
+          <div class="card-body">
+            <a class="card-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+            <p>${item.desc || ''}</p>
+          </div>
+        </div>
+      `).join('');
+      if (status) status.textContent = "Synchronisé";
+    } catch (e) {
+      container.innerHTML = "<p class='placeholder'>Données en cours de synchronisation…</p>";
+      if (status) status.textContent = "En attente";
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    loadData('trends-ai.json', 'trendsCards', 'trendsStatus');
+    loadData('videos.json', 'videosCards', 'videosStatus');
+    loadData('news-ai.json', 'newsCards', 'newsStatus');
+  });
+</script>
+
+</body>
+</html>
