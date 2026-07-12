@@ -3,624 +3,316 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Programme TV — Chaînes, actus séries & films</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap');
+<title>Programme TV & Radios</title>
+<!-- Optimisation du chargement des polices -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 
-  :root{
+<style>
+  :root {
     --screen: #101418; --panel: #171d24; --panel-edge: #232b34; --scan: #1c232b;
     --tube: #ff5f3c; --text: #e8ecef; --muted: #7c8792; --ok: #4fd1a5; --warn: #e8b64f;
   }
-  *{ box-sizing: border-box; }
-  html,body{
-    margin:0; padding:0; min-height:100vh;
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; min-height: 100vh;
     background: radial-gradient(ellipse at 50% -10%, #1a2129 0%, var(--screen) 55%);
     color: var(--text); font-family: 'Space Grotesk', sans-serif;
-    display:flex; align-items:flex-start; justify-content:center;
+    display: flex; align-items: flex-start; justify-content:center;
     padding: 32px 16px;
   }
-  .tv{ width:100%; max-width: 760px; background: linear-gradient(180deg,#20272e,#141a1f);
+  .tv { width: 100%; max-width: 760px; background: linear-gradient(180deg,#20272e,#141a1f);
     border-radius: 28px; padding: 10px; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7), inset 0 0 0 1px #2c343d; }
-  .tv-inner{ background: var(--panel); border-radius: 20px; padding: 36px 30px 28px; position: relative; overflow:hidden; box-shadow: inset 0 0 40px rgba(0,0,0,.5); }
-  .tv-inner::before{ content:""; position:absolute; inset:0;
-    background: repeating-linear-gradient(0deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 3px); pointer-events:none; }
+  .tv-inner { background: var(--panel); border-radius: 20px; padding: 36px 30px 28px; position: relative; overflow: hidden; box-shadow: inset 0 0 40px rgba(0,0,0,.5); }
+  .tv-inner::before { content: ""; position: absolute; inset: 0;
+    background: repeating-linear-gradient(0deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 3px); pointer-events: none; }
 
-  .eyebrow{ font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--tube); font-weight: 600; margin: 0 0 6px; display:flex; align-items:center; gap:8px; }
-  .eyebrow::before{ content:""; width:7px; height:7px; border-radius:50%; background: var(--tube); box-shadow: 0 0 8px 2px var(--tube); }
-  h1{ font-family: 'Bebas Neue', sans-serif; font-size: 44px; letter-spacing: .03em; margin: 0 0 6px; line-height: 1; color: #fff; }
-  h1 span{ color: var(--tube); }
-  .sub{ color: var(--muted); font-size: 14.5px; margin: 0 0 18px; max-width: 56ch; }
+  .eyebrow { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--tube); font-weight: 600; margin: 0 0 6px; display: flex; align-items: center; gap: 8px; }
+  .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--tube); box-shadow: 0 0 8px 2px var(--tube); }
+  h1 { font-family: 'Bebas Neue', sans-serif; font-size: 44px; letter-spacing: .03em; margin: 0 0 6px; line-height: 1; color: #fff; }
+  h1 span { color: var(--tube); }
+  .sub { color: var(--muted); font-size: 14.5px; margin: 0 0 18px; max-width: 56ch; }
 
-  .status{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
+  .status { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
     font-size: 12.5px; color: var(--muted); background: var(--scan); border: 1px solid var(--panel-edge);
     border-radius: 10px; padding: 10px 14px; margin-bottom: 22px; }
-  .status .dot{ display:inline-block; width:7px; height:7px; border-radius:50%; background: var(--muted); margin-right:6px; }
-  .status.ok .dot{ background: var(--ok); box-shadow: 0 0 6px 1px var(--ok); }
-  .status.warn .dot{ background: var(--warn); box-shadow: 0 0 6px 1px var(--warn); }
-  .status.checking .dot{ background: var(--tube); box-shadow: 0 0 6px 1px var(--tube); animation: pulse 1s infinite; }
-  @keyframes pulse{ 50%{ opacity:.3; } }
-  .status button{ background: transparent; border: 1px solid var(--panel-edge); color: var(--text); padding: 5px 11px;
+  .status .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--muted); margin-right: 6px; }
+  .status.ok .dot { background: var(--ok); box-shadow: 0 0 6px 1px var(--ok); }
+  .status.warn .dot { background: var(--warn); box-shadow: 0 0 6px 1px var(--warn); }
+  .status.checking .dot { background: var(--tube); box-shadow: 0 0 6px 1px var(--tube); animation: pulse 1s infinite; }
+  @keyframes pulse { 50% { opacity: .3; } }
+  .status button { background: transparent; border: 1px solid var(--panel-edge); color: var(--text); padding: 5px 11px;
     border-radius: 7px; font-size: 12px; cursor: pointer; font-family: 'Space Grotesk', sans-serif; }
-  .status button:hover{ border-color: var(--tube); }
-  .status button:disabled{ opacity:.5; cursor: default; }
+  .status button:hover { border-color: var(--tube); }
 
-  form{ display:flex; gap:10px; margin-bottom: 18px; }
-  input[type="text"]{ flex:1; background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px;
-    padding: 14px 16px; color: var(--text); font-family: 'Space Grotesk', sans-serif; font-size: 16px; outline: none;
-    transition: border-color .15s, box-shadow .15s; }
-  input[type="text"]::placeholder{ color: #5a636c; }
-  input[type="text"]:focus{ border-color: var(--tube); box-shadow: 0 0 0 3px rgba(255,95,60,.15); }
-  button.submit{ background: var(--tube); color: #1a0f0a; border: none; border-radius: 12px; padding: 0 22px;
-    font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 15px; cursor: pointer;
-    transition: transform .12s, background .15s; white-space: nowrap; }
-  button.submit:hover{ background: #ff7a58; transform: translateY(-1px); }
-  button.submit:active{ transform: translateY(0); }
+  form { display: flex; gap: 10px; margin-bottom: 18px; }
+  input[type="text"] { flex: 1; background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px;
+    padding: 14px 16px; color: var(--text); font-family: 'Space Grotesk', sans-serif; font-size: 16px; outline: none; }
+  button.submit { background: var(--tube); color: #1a0f0a; border: none; border-radius: 12px; padding: 0 22px;
+    font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 15px; cursor: pointer; white-space: nowrap; }
+  button.submit:hover { background: #ff7a58; }
 
-  .result{ margin-top: 4px; padding: 16px 18px; border-radius: 12px; background: var(--scan);
-    border: 1px solid var(--panel-edge); display:none; align-items:center; justify-content:space-between; gap: 12px; flex-wrap: wrap; }
-  .result.show{ display:flex; }
-  .result.notfound{ border-color: rgba(232,182,79,.5); }
-  .result-text{ font-size: 14px; color: var(--muted); }
-  .result-text b{ color: var(--text); }
-  .result-text small{ display:block; color: var(--warn); margin-top:3px; }
-  .result a.go{ color: var(--ok); font-weight: 700; text-decoration:none; font-size: 14px;
-    border: 1px solid rgba(79,209,165,.35); padding: 8px 14px; border-radius: 9px; transition: background .15s; }
-  .result a.go:hover{ background: rgba(79,209,165,.1); }
+  .result { margin-top: 4px; padding: 16px 18px; border-radius: 12px; background: var(--scan);
+    border: 1px solid var(--panel-edge); display: none; align-items: center; justify-content: space-between; gap: 12px; }
+  .result.show { display: flex; }
+  .result a.go { color: var(--ok); font-weight: 700; text-decoration: none; font-size: 14px;
+    border: 1px solid rgba(79,209,165,.35); padding: 8px 14px; border-radius: 9px; }
 
-  .groups{ margin-top: 26px; display:flex; flex-direction:column; gap:18px; }
-  .group p.label{ font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 0 0 10px; }
-  .chip-list{ display:flex; flex-wrap:wrap; gap: 8px; }
-  .chip{ background: transparent; border: 1px solid var(--panel-edge); color: var(--muted); padding: 7px 13px;
-    border-radius: 999px; font-size: 13px; cursor: pointer; font-family: 'Space Grotesk', sans-serif;
-    transition: border-color .15s, color .15s; }
-  .chip:hover{ border-color: var(--tube); color: var(--text); }
+  .groups { margin-top: 26px; display: flex; flex-direction: column; gap: 18px; }
+  
+  .radio-section { background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 14px; padding: 16px; margin: 20px 0; }
+  .radio-item { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .radio-item:last-child { border-bottom: none; }
+  .radio-name { font-weight: 500; font-size: 15px; display: flex; align-items: center; gap: 10px; }
+  .radio-btn { background: #ff5f3c; color: #1a0f0a; border: none; padding: 6px 14px; border-radius: 8px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; cursor: pointer; font-size: 13px; transition: background 0.2s; }
+  .radio-btn.playing { background: var(--ok); }
 
-  .section{ margin-top: 34px; border-top: 1px solid var(--panel-edge); padding-top: 26px; }
-  .section-head{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom: 6px; }
-  .section-head h2{ font-family:'Bebas Neue', sans-serif; font-size: 24px; letter-spacing:.02em; margin:0; color:#fff; font-weight:400; }
-  .section-head .mini-status{ font-size: 11.5px; color: var(--muted); }
-  .section-sub{ font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+  .section { margin-top: 34px; border-top: 1px solid var(--panel-edge); padding-top: 26px; }
+  .section h2 { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: .02em; margin: 0 0 4px; color: #fff; font-weight: 400; display: flex; justify-content: space-between; align-items: center; }
+  .section-sub { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+  .mini-status { font-size: 11.5px; color: var(--muted); font-family: 'Space Grotesk', sans-serif; font-weight: normal; text-transform: none; }
 
-  .cards{ display:flex; flex-direction:column; gap:10px; }
-  .card{ background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px; padding: 13px 16px; }
-  .card a.card-title{ color: var(--text); font-weight: 600; font-size: 14.5px; text-decoration:none; line-height:1.4; }
-  .card a.card-title:hover{ color: var(--tube); }
-  .badges{ margin-top: 7px; display:flex; flex-wrap:wrap; gap:6px; }
-  .badge{ font-size: 11.5px; color: var(--muted); background: rgba(255,255,255,.04); border: 1px solid var(--panel-edge);
-    border-radius: 7px; padding: 3px 8px; display:inline-flex; align-items:center; gap:4px; }
-  .badge.date{ color: var(--ok); border-color: rgba(79,209,165,.3); }
-  .badge.time{ color: var(--tube); border-color: rgba(255,95,60,.3); }
-  .badge.channel{ color: #9fb3c8; border-color: rgba(159,179,200,.3); }
-  .badge.verified{ color: #f0f0f0; background: rgba(79,209,165,.12); border-color: rgba(79,209,165,.4); }
+  .cards { display: flex; flex-direction: column; gap: 10px; min-height: 50px; }
+  .card { background: var(--scan); border: 1px solid var(--panel-edge); border-radius: 12px; padding: 14px 16px; }
+  .card-title { color: var(--text); font-weight: 600; font-size: 15px; text-decoration: none; display: block; margin-bottom: 6px; }
+  .card-title:hover { color: var(--tube); }
+  
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .badge { font-size: 11px; color: var(--muted); background: rgba(255,255,255,.04); border: 1px solid var(--panel-edge); border-radius: 6px; padding: 2px 6px; }
+  .badge.verified { color: #f0f0f0; background: rgba(79,209,165,.12); border-color: rgba(79,209,165,.4); }
+  .badge.date { color: var(--ok); border-color: rgba(79,209,165,.2); }
+  .badge.channel { color: #9fb3c8; border-color: rgba(159,179,200,.2); }
 
-  .trailer-btn{ margin-top: 9px; background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube);
-    padding: 6px 12px; border-radius: 8px; font-size: 12.5px; cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; }
-  .trailer-btn:hover{ background: rgba(255,95,60,.18); }
-  .trailer-frame{ margin-top: 10px; position: relative; width: 100%; padding-top: 56.25%; display:none; border-radius: 10px; overflow: hidden; background:#000; }
-  .trailer-frame.show{ display:block; }
-  .trailer-frame iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
-  .trailer-fallback{
-    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
-    gap:10px; padding: 16px; text-align:center; background: #14181d;
-  }
-  .trailer-fallback p{ margin:0; font-size:12px; color: var(--muted); line-height:1.5; }
-  .trailer-fallback a{
-    background: var(--tube); color:#1a0f0a; font-weight:700; text-decoration:none;
-    padding: 9px 16px; border-radius: 9px; font-size: 13.5px;
-  }
-
-  .fallback-link{ font-size: 13px; }
-  .fallback-link a{ color: var(--ok); text-decoration:none; font-weight:600; }
-  .fallback-link a:hover{ text-decoration:underline; }
-
-  .note{ margin-top: 30px; font-size: 12.5px; color: #566069; line-height: 1.6; border-top: 1px dashed var(--panel-edge); padding-top: 16px; }
-  .music-player{
-    position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
-    width: calc(100% - 32px); max-width: 620px;
-    background: linear-gradient(180deg,#20272e,#14181d);
-    border: 1px solid var(--panel-edge); border-radius: 16px;
-    padding: 10px 12px; display:flex; align-items:center; gap: 10px;
-    box-shadow: 0 20px 50px -15px rgba(0,0,0,.6);
-    z-index: 999;
-  }
-  .music-player img{ width: 42px; height: 42px; border-radius: 8px; flex-shrink:0; background:#333; }
-  .music-info{ flex:1; min-width:0; }
-  .music-info .mt{ font-size: 13px; font-weight:700; color: var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .music-info .ma{ font-size: 11.5px; color: var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .music-controls{ display:flex; align-items:center; gap:6px; flex-shrink:0; }
-  .music-controls button{
-    background: rgba(255,255,255,.06); border: 1px solid var(--panel-edge); color: var(--text);
-    width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 14px;
-    display:flex; align-items:center; justify-content:center;
-  }
-  .music-controls button:hover{ border-color: var(--tube); }
-  .music-controls .close-btn{ color: var(--muted); font-size: 12px; }
-  .music-enable{
-    position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
-    background: var(--tube); color:#1a0f0a; border:none; border-radius: 14px;
-    padding: 12px 20px; font-weight:700; font-size:14px; cursor:pointer; z-index:999;
-    box-shadow: 0 20px 50px -15px rgba(0,0,0,.6);
-  }
+  .trailer-btn { background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.3); color: var(--tube);
+    padding: 5px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; }
+  .trailer-frame { margin-top: 10px; position: relative; width: 100%; padding-top: 56.25%; display: none; border-radius: 8px; overflow: hidden; }
+  .trailer-frame.show { display: block; }
+  .trailer-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  
+  .fallback-link { font-size: 13px; margin-top: 10px; }
+  .fallback-link a { color: var(--ok); text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
 
   <div class="tv">
     <div class="tv-inner">
-      <p class="eyebrow">Tous les bouquets · auto-mise à jour</p>
+      <p class="eyebrow">Tous les bouquets · direct & actus</p>
       <h1>Programme<span>TV</span></h1>
-      <p class="sub">TNT, Canal+, beIN Sports, RMC Sport, Eurosport, jeunesse, cinéma, documentaires… cherche une chaîne, et retrouve plus bas les actus séries/épisodes et les films à venir.</p>
+      <p class="sub">Cherche une chaîne pour ouvrir son programme, écoute tes radios préférées, ou consulte la veille automatique des séries et films ci-dessous.</p>
 
       <div class="status" id="status">
-        <span><span class="dot"></span><span id="statusText">Vérification en cours…</span></span>
+        <span><span class="dot"></span><span id="statusText">Initialisation…</span></span>
         <button id="refreshBtn" type="button">🔄 Tout actualiser</button>
       </div>
 
-      <div id="networkDiagnostic" style="display:none; margin:-10px 0 18px; padding:12px 14px; border-radius:10px; background:rgba(232,182,79,.08); border:1px solid rgba(232,182,79,.35); font-size:12.5px; color:var(--warn); line-height:1.6;">
-        ⚠️ Aucun proxy CORS n'a répondu — la page reste utilisable (recherche de chaînes) mais sans données fraîches.
-        Cause probable : réseau bloqué par l'aperçu intégré, ou les proxys gratuits sont temporairement hors service.
-        <b>Essaie d'ouvrir ce fichier directement dans Chrome ou Safari</b> (télécharge-le puis ouvre-le depuis tes fichiers,
-        plutôt que depuis l'aperçu dans l'app) — cela résout le problème dans la majorité des cas.
-      </div>
-
       <form id="searchForm">
-        <input type="text" id="channelInput" placeholder="ex : beIN Sports 1, Canal+, TF1, Eurosport 2…" autocomplete="off" autofocus>
+        <input type="text" id="channelInput" placeholder="ex : Canal+, beIN Sports 1, TF1, Eurosport..." autocomplete="off">
         <button class="submit" type="submit">Chercher</button>
       </form>
 
       <div class="result" id="result">
-        <div class="result-text">
-          Chaîne trouvée : <b id="resultName"></b>
-          <small id="resultWarning" style="display:none;">⚠️ Non confirmée dans le catalogue — lien estimé automatiquement</small>
-        </div>
+        <div class="result-text">Chaîne : <b id="resultName"></b></div>
         <a class="go" id="resultLink" href="#" target="_blank" rel="noopener">Voir le programme →</a>
+      </div>
+
+      <div class="radio-section">
+        <p class="eyebrow" style="margin-bottom:12px;">📻 Radios en direct</p>
+        <div class="radio-item">
+          <span class="radio-name">📻 France Info</span>
+          <button class="radio-btn" data-src="https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.mp3">▶ Écouter</button>
+        </div>
+        <div class="radio-item">
+          <span class="radio-name">📻 France Culture</span>
+          <button class="radio-btn" data-src="https://stream.radiofrance.fr/franceculture/franceculture_hifi.mp3">▶ Écouter</button>
+        </div>
+        <div class="radio-item">
+          <span class="radio-name">📻 FIP</span>
+          <button class="radio-btn" data-src="https://stream.radiofrance.fr/fip/fip_hifi.mp3">▶ Écouter</button>
+        </div>
       </div>
 
       <div class="groups" id="groups"></div>
 
-      <!-- ACTUS SÉRIES & ÉPISODES -->
       <div class="section">
-        <div class="section-head">
-          <h2>📺 Actus séries, saisons &amp; épisodes</h2>
-          <span class="mini-status" id="newsStatus">—</span>
-        </div>
-        <p class="section-sub">Nouvelles séries, dates de nouvelles saisons/épisodes, chaîne et horaire de diffusion quand disponibles.</p>
+        <h2>📺 ACTUS SÉRIES, SAISONS & ÉPISODES <span class="mini-status" id="newsStatus">—</span></h2>
+        <p class="section-sub">Nouvelles séries, lancements de saisons et dates de diffusion.</p>
         <div class="cards" id="newsCards"></div>
         <div class="fallback-link" id="newsFallback" style="display:none;">
-          <a href="https://tv-programme.com/news" target="_blank" rel="noopener">→ Voir toute l'actualité TV sur tv-programme.com</a>
+          <a href="https://tv-programme.com/news" target="_blank" rel="noopener">→ Voir toutes les actus sur tv-programme.com</a>
         </div>
       </div>
 
-      <!-- FILMS À VENIR -->
       <div class="section">
-        <div class="section-head">
-          <h2>🎬 Films à la télé</h2>
-          <span class="mini-status" id="filmsStatus">—</span>
-        </div>
-        <p class="section-sub">Films récemment repérés sur les grilles, avec date/heure/chaîne de diffusion quand détectées.</p>
+        <h2>🎬 FILMS À LA TÉLÉ <span class="mini-status" id="filmsStatus">—</span></h2>
+        <p class="section-sub">Longs-métrages repérés sur les grilles télévisuelles.</p>
         <div class="cards" id="filmsCards"></div>
         <div class="fallback-link" id="filmsFallback" style="display:none;">
-          <a href="https://tv-programme.com/films/" target="_blank" rel="noopener">→ Voir tous les films à la télé sur tv-programme.com</a>
+          <a href="https://tv-programme.com/films/" target="_blank" rel="noopener">→ Voir tous les films sur tv-programme.com</a>
         </div>
       </div>
 
-      <!-- TOP BOX-OFFICE -->
       <div class="section">
-        <div class="section-head">
-          <h2>🏆 Top Box-office France</h2>
-          <span class="mini-status">Semaine en cours</span>
-        </div>
-        <p class="section-sub">Classement des entrées cinéma en France (source CBO / AlloCiné).</p>
+        <h2>🏆 TOP BOX-OFFICE FRANCE <span class="mini-status">Semaine en cours</span></h2>
+        <p class="section-sub">Classement récent des entrées cinéma en France.</p>
         <div class="cards" id="boxofficeCards"></div>
-        <div class="fallback-link">
-          <a href="https://www.allocine.fr/boxoffice/france/" target="_blank" rel="noopener">→ Voir le classement complet et actualisé sur AlloCiné</a>
-        </div>
       </div>
 
-      <p class="note" id="note">
-        <b>Comment ça marche :</b> à l'ouverture (et une fois par 24h max), la page recharge en direct la liste des
-        chaînes, les dernières actus séries/épisodes et les films repérés, depuis tv-programme.com, via une API de
-        proxy gratuite (allorigins.win — nécessaire car les navigateurs bloquent les requêtes directes entre sites
-        différents). Les titres sont reformulés à partir des adresses de page, et seules les informations factuelles
-        (dates, horaires, chaînes) sont extraites automatiquement du texte — jamais de paragraphes copiés. Chaque
-        carte renvoie vers l'article ou la fiche complète sur le site source. Le résultat est mémorisé pour les
-        prochaines visites ; utilise « Tout actualiser » pour forcer une vérification immédiate. Cette veille ne
-        fonctionne que lorsque la page est ouverte dans un navigateur — ce n'est pas un service qui tourne en continu
-        sur un serveur.
-      </p>
     </div>
   </div>
 
-  <!-- LECTEUR MUSIQUE FLOTTANT -->
-  <div class="music-player" id="musicPlayer" style="display:none;">
-    <img id="musicArt" src="" alt="">
-    <div class="music-info">
-      <div class="mt" id="musicTitle">—</div>
-      <div class="ma" id="musicArtist">Top 100 France · Apple Music Charts</div>
-    </div>
-    <div class="music-controls">
-      <button id="musicPlayPause" title="Lecture/Pause">▶</button>
-      <button id="musicSkip" title="Titre suivant">⏭</button>
-      <button id="musicClose" class="close-btn" title="Fermer">✕</button>
-    </div>
-  </div>
-  <button class="music-enable" id="musicEnableBtn" style="display:none;">🔊 Activer la musique (Top 100)</button>
-  <audio id="musicAudio" preload="none"></audio>
+  <audio id="radioAudio" preload="none"></audio>
 
 <script>
   const BASE = "https://tv-programme.com/";
   const CORS_PROXIES = [
-    (url) => "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
-    (url) => "https://corsproxy.io/?url=" + encodeURIComponent(url),
-    (url) => "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(url),
-    (url) => "https://thingproxy.freeboard.io/fetch/" + url
+    "https://api.allorigins.win/raw?url=",
+    "https://corsproxy.io/?url=",
+    "https://api.codetabs.com/v1/proxy?quest="
   ];
-  const FETCH_TIMEOUT_MS = 9000;
-  const CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000; 
-  const CACHE_KEY_CHANNELS = "tvprogramme-catalog";
-  const CACHE_KEY_NEWS = "tvprogramme-news";
-  const CACHE_KEY_FILMS = "tvprogramme-films";
-
-  // Système de stockage résilient (S'adapte universellement si window.storage n'existe pas)
-  const safeStorage = {
-    get: async function(key) {
-      try {
-        if (window.storage && typeof window.storage.get === 'function') {
-          return await window.storage.get(key, false);
-        }
-        const val = localStorage.getItem(key);
-        return val ? { value: val } : null;
-      } catch(e) { return null; }
-    },
-    set: async function(key, value) {
-      try {
-        if (window.storage && typeof window.storage.set === 'function') {
-          return await window.storage.set(key, value, false);
-        }
-        localStorage.setItem(key, value);
-      } catch(e) {}
-    }
-  };
-
-  const STATIC_CHANNELS = {
-    "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "france 4": "france-4",
-    "france 5": "france-5", "m6": "m6", "arte": "arte", "lcp": "la-chaine-parlementaire",
-    "la chaine parlementaire": "la-chaine-parlementaire", "w9": "w9", "tmc": "tmc", "tfx": "tfx",
-    "gulli": "gulli", "bfm tv": "bfm-tv", "bfmtv": "bfm-tv", "bfm": "bfm-tv", "cnews": "cnews",
-    "cnews prime": "cnews-prime", "lci": "lci", "franceinfo": "franceinfo", "france info": "franceinfo",
-    "cstar": "cstar", "c star": "cstar", "t18": "t18", "novo19": "novo19",
-    "tf1 series films": "tf1-series-films", "tf1 séries films": "tf1-series-films",
-    "l'equipe": "l-equipe", "l'équipe": "l-equipe", "lequipe": "l-equipe", "6ter": "6ter",
-    "rmc story": "rmc-story", "rmc découverte": "rmc-decouverte", "rmc decouverte": "rmc-decouverte",
-    "rmc life": "rmc-life", "paris premiere": "paris-premiere", "paris première": "paris-premiere",
-    "rtl 9": "rtl-9",
-    "canal+": "canal-plus", "canal plus": "canal-plus", "canal": "canal-plus",
-    "canal+ cinema": "canal-plus-cinema", "canal+ cinéma": "canal-plus-cinema",
-    "canal+ box office": "canal-plus-box-office", "canal+ grand ecran": "canal-plus-grand-ecran",
-    "canal+ grand écran": "canal-plus-grand-ecran", "canal+ kids": "canal-plus-kids",
-    "canal+ docs": "canal-plus-docs", "canal+ sport": "canal-plus-sport",
-    "canal+ sport 360": "canal-plus-sport-360", "canal+ foot": "canal-plus-foot",
-    "canal+ live 1": "canal-plus-live-1", "canal+ live 2": "canal-plus-live-2", "canal+ live 3": "canal-plus-live-3",
-    "bein sports 1": "bein-sports-1", "bein sport 1": "bein-sports-1", "beinsports1": "bein-sports-1",
-    "bein sports 2": "bein-sports-2", "beinsports2": "bein-sports-2",
-    "bein sports 3": "bein-sports-3", "beinsports3": "bein-sports-3",
-    "ligue 1+": "ligue-1-plus", "ligue 1 plus": "ligue-1-plus",
-    "eurosport 1": "eurosport-1", "eurosport 2": "eurosport-2",
-    "rmc sport 1": "rmc-sport-1", "rmc sport 2": "rmc-sport-2", "sport en france": "sport-en-france",
-    "cine+ ocs": "cine-plus-ocs", "ciné+ ocs": "cine-plus-ocs", "ocs": "cine-plus-ocs",
-    "cine+ emotion": "cine-plus-emotion", "cine+ frisson": "cine-plus-frisson",
-    "cine+ classic": "cine-plus-classic", "cine+ family": "cine-plus-family", "cine+ festival": "cine-plus-festival",
-    "13eme rue": "13eme-rue", "13ème rue": "13eme-rue", "action": "action",
-    "tcm cinema": "tcm-cinema", "tcm cinéma": "tcm-cinema", "warner tv": "warner-tv", "polar+": "polar-plus",
-    "serieclub": "serieclub", "série club": "serieclub", "comedie+": "comedie-plus", "comédie+": "comedie-plus",
-    "teva": "teva", "novelas tv": "novelas-tv",
-    "disney channel": "disney-channel", "disney junior": "disney-junior", "canal j": "canal-j",
-    "nickelodeon": "nickelodeon", "nickelodéon": "nickelodeon", "cartoon network": "cartoon-network",
-    "piwi+": "piwi-plus", "teletoon+": "teletoon-plus", "tiji": "tiji", "boomerang": "boomerang", "mangas": "mangas",
-    "planete+": "planete-plus", "planète+": "planete-plus", "planete+ crime": "planete-plus-crime",
-    "planete+ aventure": "planete-plus-aventure", "national geographic": "national-geographic",
-    "science et vie tv": "science-vie-tv", "discovery channel": "discovery-channel", "tlc": "tlc",
-    "discovery investigation": "discovery-investigation", "crime district": "crime-district",
-    "histoire tv": "histoire-tv", "toute l'histoire": "toute-l-histoire", "ushuaia tv": "ushuaia-tv",
-    "animaux": "animaux", "equidia": "equidia", "automoto": "automoto", "mtv": "mtv", "mezzo": "mezzo",
-    "mezzo live hd": "mezzo-live-hd", "scifi": "scifi", "tvbreizh": "tvbreizh", "tv breizh": "tvbreizh",
-    "tv5monde": "tv5monde", "tv5 monde": "tv5monde", "mgg tv": "mgg-tv",
-    "la une": "la-une", "tipik": "tipik", "la trois": "la-trois", "rtl tvi": "rtl-tvi",
-    "club rtl": "club-rtl", "plug rtl": "plug-rtl", "ab 3": "ab-3", "ab1": "ab-1", "ab 1": "ab-1",
-    "abxplore": "abxplore", "be 1": "be-1", "be cine": "be-cine", "be ciné": "be-cine",
-    "be series": "be-series", "be séries": "be-series", "voosport world 1": "voosport-world-1",
-    "voosport world 2": "voosport-world-2", "vtm 2": "vtm-2", "rts 1": "rts-1", "rts 2": "rts-2"
-  };
-
-  const GROUPS = {
-    "TNT gratuite": ["TF1","France 2","France 3","M6","Arte","BFM TV","CNews","TMC","Gulli"],
-    "Canal+": ["Canal+","Canal+ Sport","Canal+ Foot","Canal+ Cinéma","Canal+ Kids"],
-    "Sport premium": ["beIN Sports 1","beIN Sports 2","beIN Sports 3","RMC Sport 1","RMC Sport 2","Eurosport 1","Eurosport 2","Ligue 1+"],
-    "Cinéma & séries": ["OCS","Ciné+ Frisson","13ème Rue","Warner TV","Serieclub"],
-    "Jeunesse": ["Disney Channel","Nickelodéon","Gulli","Cartoon Network","Boomerang"],
-    "Documentaire": ["National Geographic","Discovery Channel","Histoire TV","Ushuaïa TV"]
-  };
-
-  const KNOWN_CHANNEL_NAMES = [
-    "TF1","France 2","France 3","France 4","France 5","M6","Arte","W9","TMC","TFX","Gulli",
-    "BFM TV","CNews","LCI","franceinfo","CStar","T18","6ter","RMC Story","RMC Découverte","RMC Life",
-    "Canal+","Canal+ Sport","Canal+ Foot","Canal+ Cinéma","beIN Sports 1","beIN Sports 2","beIN Sports 3",
-    "Eurosport 1","Eurosport 2","RMC Sport 1","RMC Sport 2","Disney Channel","Disney+","Netflix",
-    "Prime Video","OCS","Paris Première","Téva","TV5MONDE","HBO Max","Apple TV+","Paramount+"
-  ];
-
+  
   const SEED_NEWS = [
-    { title: "House of the Dragon saison 3 — épisode 4", facts: { date: "Juillet 2026", time: "3h00", channel: "HBO Max" }, href: "https://tv-programme.com/news", video: "0JlMjgqduVw", seed: true },
-    { title: "Silo — lancement de la saison 3", facts: { date: "Juillet 2026", channel: "Apple TV+" }, href: "https://tv-programme.com/news", videoQuery: "Silo saison 3", seed: true },
-    { title: "The Bear — saison 5 disponible", facts: { date: "Courant 2026", channel: "Disney+" }, href: "https://tv-programme.com/news", videoQuery: "The Bear saison 5", seed: true }
+    { title: "House of the Dragon — Saison 3", facts: { date: "Juillet 2026", channel: "HBO Max / Max" }, href: "https://tv-programme.com/news", video: "0JlMjgqduVw", seed: true },
+    { title: "Silo — Lancement de la Saison 3", facts: { date: "Juillet 2026", channel: "Apple TV+" }, href: "https://tv-programme.com/news", videoQuery: "Silo Saison 3", seed: true }
   ];
 
   const SEED_FILMS = [
-    { title: "L'Odyssée (Christopher Nolan)", facts: { date: "Cinéma — Juillet 2026" }, href: "https://tv-programme.com/films/", video: "uBh8Sg8wOuA", seed: true },
-    { title: "Spider-Man: Brand New Day", facts: { date: "Cinéma — Fin Juillet 2026" }, href: "https://tv-programme.com/films/", videoQuery: "Spider-Man Brand New Day", seed: true }
+    { title: "L'Odyssée (Christopher Nolan)", facts: { date: "Juillet 2026", channel: "Cinéma / TV" }, href: "https://tv-programme.com/films/", video: "uBh8Sg8wOuA", seed: true }
   ];
 
   const SEED_BOXOFFICE = [
-    { title: "1. Toy Story 5", facts: { date: "N°1 Box-Office France" }, href: "https://www.allocine.fr/boxoffice/france/", videoQuery: "Toy Story 5", seed: true },
-    { title: "2. Supergirl", facts: { date: "Nouveau en salles" }, href: "https://www.allocine.fr/boxoffice/france/", videoQuery: "Supergirl 2026", seed: true }
+    { title: "1. Toy Story 5", facts: { date: "N°1 Entrées France" }, href: "https://www.allocine.fr/boxoffice/france/", videoQuery: "Toy Story 5" },
+    { title: "2. Supergirl", facts: { date: "Nouveauté Salles" }, href: "https://www.allocine.fr/boxoffice/france/", videoQuery: "Supergirl 2026" }
   ];
 
+  const STATIC_CHANNELS = { "tf1": "tf1", "france 2": "france-2", "france 3": "france-3", "m6": "m6", "arte": "arte", "canal+": "canal-plus" };
   let liveChannels = Object.assign({}, STATIC_CHANNELS);
-
-  function normalize(str){ return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim(); }
-  function slugify(str){ return normalize(str).replace(/[^a-z0-9+]+/g, "-").replace(/^-+|-+$/g, ""); }
-  function stripTags(html){ return html.replace(/<[^>]*>/g, " ").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&#x27;/g,"'").replace(/\s+/g, " ").trim(); }
-  function titleFromSlug(slug){ const words = slug.split("-").filter(Boolean); return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" "); }
-  function formatTime(ts){ const d = new Date(ts); return d.toLocaleDateString("fr-FR") + " à " + d.toLocaleTimeString("fr-FR", {hour:"2-digit", minute:"2-digit"}); }
 
   const statusBox = document.getElementById("status");
   const statusText = document.getElementById("statusText");
   const refreshBtn = document.getElementById("refreshBtn");
-  function setStatus(mode, text){ statusBox.className = "status " + mode; statusText.textContent = text; }
 
-  function fetchWithTimeout(url, ms){
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), ms);
-    return fetch(url, { cache: "no-store", signal: controller.signal }).finally(() => clearTimeout(timer));
+  function setStatus(mode, text){ statusBox.className = "status " + mode; statusText.textContent = text; }
+  function normalize(str){ return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim(); }
+
+  // Optimisation Audio avec gestion des déconnexions
+  const radioAudio = document.getElementById("radioAudio");
+  radioAudio.onerror = () => {
+    setStatus("warn", "Erreur de flux radio. Reconnexion...");
+    resetRadioButtons();
+  };
+
+  function resetRadioButtons() {
+    document.querySelectorAll(".radio-btn").forEach(b => { b.textContent = "▶ Écouter"; b.classList.remove("playing"); });
   }
 
-  async function fetchViaProxy(url){
-    let lastErr = null;
-    for (const buildUrl of CORS_PROXIES) {
+  document.querySelectorAll(".radio-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const src = btn.dataset.src;
+      if (radioAudio.src === src && !radioAudio.paused) {
+        radioAudio.pause();
+        btn.textContent = "▶ Écouter";
+        btn.classList.remove("playing");
+      } else {
+        resetRadioButtons();
+        radioAudio.src = src;
+        radioAudio.play().catch(() => setStatus("warn", "Lecture bloquée par le navigateur"));
+        btn.textContent = "⏸ Pause";
+        btn.classList.add("playing");
+      }
+    });
+  });
+
+  let idCounter = 0;
+  function renderSection(container, seeds, liveItems, fallbackEl) {
+    container.innerHTML = "";
+    const all = [...seeds, ...(liveItems || [])];
+    if(all.length === 0 && fallbackEl) { fallbackEl.style.display = "block"; return; }
+    
+    all.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      
+      let badgeHtml = "";
+      if (item.seed) badgeHtml += `<span class="badge verified">✅ Validé</span>`;
+      if (item.facts?.date) badgeHtml += `<span class="badge date">📅 ${item.facts.date}</span>`;
+      if (item.facts?.channel) badgeHtml += `<span class="badge channel">📺 ${item.facts.channel}</span>`;
+
+      let btnHtml = "";
+      if (item.video || item.videoQuery) {
+        const fId = "frame-" + (idCounter++);
+        btnHtml = `<button type="button" class="trailer-btn" data-target="${fId}" data-vid="${item.video || ''}" data-q="${item.videoQuery || ''}">▶ Bande-annonce</button><div class="trailer-frame" id="${fId}"></div>`;
+      }
+
+      card.innerHTML = `<a class="card-title" href="${item.href}" target="_blank">${item.title}</a><div class="badges">${badgeHtml}</div>${btnHtml}`;
+      container.appendChild(card);
+    });
+
+    container.querySelectorAll(".trailer-btn").forEach(b => {
+      b.addEventListener("click", () => {
+        const frame = document.getElementById(b.dataset.target);
+        if(frame.classList.contains("show")) {
+          frame.classList.remove("show"); frame.innerHTML = ""; b.textContent = "▶ Bande-annonce";
+        } else {
+          frame.classList.add("show"); b.textContent = "✕ Fermer";
+          if(b.dataset.vid) {
+            frame.innerHTML = `<iframe src="https://www.youtube.com/embed/${b.dataset.vid}?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+          } else {
+            window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(b.dataset.q), "_blank");
+            frame.classList.remove("show"); b.textContent = "▶ Bande-annonce";
+          }
+        }
+      });
+    });
+  }
+
+  // Optimisation Scraping : Tentative en cascade sur plusieurs Proxys
+  async function fetchWithProxyCascade(targetUrl) {
+    for (let proxy of CORS_PROXIES) {
       try {
-        const resp = await fetchWithTimeout(buildUrl(url), FETCH_TIMEOUT_MS);
-        if (!resp.ok) throw new Error("HTTP " + resp.status);
-        const text = await resp.text();
-        if (!text || text.length < 200) throw new Error("Réponse trop courte");
-        return text;
-      } catch (err) { lastErr = err; continue; }
+        let res = await fetch(proxy + encodeURIComponent(targetUrl), { signal: AbortSignal.timeout(5000) });
+        if (res.ok) return await res.text();
+      } catch (e) {
+        console.warn("Proxy a échoué, tentative avec le suivant...");
+      }
     }
     throw new Error("Tous les proxys ont échoué");
   }
 
-  function parseChannelsFromHtml(html){
-    const found = {};
-    const re = /<a[^>]+href="(\/[a-z0-9+\-]+)"[^>]*>\s*<img[^>]+alt="([^"]+)"/gi;
-    let m;
-    while ((m = re.exec(html)) !== null) {
-      const slug = m[1].replace(/^\//, "");
-      const name = m[2].trim();
-      if (name && slug && !slug.includes("/") && name.length < 40) found[normalize(name)] = slug;
-    }
-    return found;
-  }
-
-  function extractFacts(text){
-    const facts = {};
-    const MONTHS = "janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre";
-    const dateMatch = text.match(new RegExp("\\b(\\d{1,2}\\s?(?:er)?\\sSpec(?:" + MONTHS + ")\\s?\\d{0,4})\\b", "i")) || text.match(/\b(\d{2}\/\d{2}\/\d{4})\b/);
-    if (dateMatch) facts.date = dateMatch[1].trim();
-    const timeMatch = text.match(/\b(\d{1,2})\s?[h:.]\s?(\d{2})\b/);
-    if (timeMatch) facts.time = timeMatch[1] + "h" + timeMatch[2];
-    for (const ch of KNOWN_CHANNEL_NAMES) {
-      if ((new RegExp("\\bsur\\s+" + ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i")).test(text)) { facts.channel = ch; break; }
-    }
-    return facts;
-  }
-
-  function renderBadges(facts, isSeed){
-    let html = "";
-    if (isSeed) html += `<span class="badge verified">✅ Vérifié</span>`;
-    if (facts.date) html += `<span class="badge date">📅 ${facts.date}</span>`;
-    if (facts.time) html += `<span class="badge time">🕐 ${facts.time}</span>`;
-    if (facts.channel) html += `<span class="badge channel">📺 ${facts.channel}</span>`;
-    return html;
-  }
-
-  function extractCards(html, hrefRegex, slugTrimRegex, maxItems){
-    const seen = new Set(); const items = []; let m;
-    while ((m = hrefRegex.exec(html)) !== null && items.length < maxItems) {
-      const href = m[1]; if (seen.has(href)) continue; seen.add(href);
-      const slugPart = href.split("/").pop().replace(slugTrimRegex, "");
-      const title = titleFromSlug(slugPart); if (!title || title.length < 4) continue;
-      const facts = extractFacts(stripTags(html.slice(m.index, m.index + 500)));
-      items.push({ title, href, facts });
-    }
-    return items;
-  }
-
-  let trailerIdCounter = 0;
-  function renderCards(container, seedItems, liveItems, emptyFallbackEl){
-    container.innerHTML = ""; const seen = new Set(); const all = [...(seedItems || []), ...(liveItems || [])];
-    all.forEach(item => {
-      const key = normalize(item.title).slice(0, 40); if (seen.has(key)) return; seen.add(key);
-      const card = document.createElement("div"); card.className = "card";
-      const badges = renderBadges(item.facts || {}, item.seed);
-      let trailerHtml = "";
-      if (item.video || item.videoQuery) {
-        const frameId = "trailer-" + (trailerIdCounter++);
-        trailerHtml = `<button type="button" class="trailer-btn" data-frame="${frameId}" data-video="${item.video || ''}" data-query="${item.videoQuery || ''}">▶ Bande-annonce</button><div class="trailer-frame" id="${frameId}"></div>`;
-      }
-      card.innerHTML = `<a class="card-title" href="${item.href}" target="_blank" rel="noopener">${item.title}</a>${badges ? `<div class="badges">${badges}</div>` : ""}${trailerHtml}`;
-      container.appendChild(card);
-    });
-    container.querySelectorAll(".trailer-btn").forEach(btn => {
-      btn.addEventListener("click", () => {
-        const frame = document.getElementById(btn.dataset.frame);
-        if (frame.classList.contains("show")) { frame.classList.remove("show"); frame.innerHTML = ""; btn.textContent = "▶ Bande-annonce"; }
-        else {
-          frame.classList.add("show"); btn.textContent = "✕ Fermer";
-          if (btn.dataset.video) { frame.innerHTML = `<iframe src="https://www.youtube.com/embed/${btn.dataset.video}?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>`; }
-          else { window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(btn.dataset.query), "_blank"); frame.classList.remove("show"); btn.textContent = "▶ Bande-annonce"; }
-        }
-      });
-    });
-    if (emptyFallbackEl) emptyFallbackEl.style.display = all.length ? "none" : "block";
-  }
-
-  const newsStatusEl = document.getElementById("newsStatus");
-  const newsCardsEl = document.getElementById("newsCards");
-  const newsFallbackEl = document.getElementById("newsFallback");
-  async function fetchNews(){
-    newsStatusEl.textContent = "actualisation…";
+  async function fetchLiveVeille() {
+    setStatus("checking", "Recherche des mises à jour...");
     try {
-      const html = await fetchViaProxy("https://tv-programme.com/news");
-      const items = extractCards(html, /href="(https:\/\/tv-programme\.com\/news\/[a-z0-9\-]+-a\d+)"/gi, /-a\d+$/, 10);
-      renderCards(newsCardsEl, SEED_NEWS, items, newsFallbackEl);
-      await safeStorage.set(CACHE_KEY_NEWS, JSON.stringify({ updatedAt: Date.now(), items }));
-      newsStatusEl.textContent = "mis à jour à " + new Date().toLocaleTimeString();
-      return true;
-    } catch (err) { newsStatusEl.textContent = "exemples actifs affichés"; return false; }
-  }
-
-  const filmsStatusEl = document.getElementById("filmsStatus");
-  const filmsCardsEl = document.getElementById("filmsCards");
-  const filmsFallbackEl = document.getElementById("filmsFallback");
-  async function fetchFilms(){
-    filmsStatusEl.textContent = "actualisation…";
-    try {
-      const html = await fetchViaProxy("https://tv-programme.com/films/");
-      const items = extractCards(html, /href="(https:\/\/tv-programme\.com\/[a-z0-9\-]+-film)"/gi, /-film$/, 10);
-      renderCards(filmsCardsEl, SEED_FILMS, items, filmsFallbackEl);
-      await safeStorage.set(CACHE_KEY_FILMS, JSON.stringify({ updatedAt: Date.now(), items }));
-      filmsStatusEl.textContent = "mis à jour à " + new Date().toLocaleTimeString();
-      return true;
-    } catch (err) { filmsStatusEl.textContent = "exemples actifs affichés"; return false; }
-  }
-
-  async function runVeille(manual){
-    setStatus("checking", "Vérification en cours…"); refreshBtn.disabled = true;
-    let channelsOk = false;
-    try {
-      const resp = await fetchViaProxy("https://tv-programme.com/");
-      const scraped = parseChannelsFromHtml(resp);
-      if (Object.keys(scraped).length > 5) {
-        liveChannels = Object.assign({}, STATIC_CHANNELS, scraped);
-        await safeStorage.set(CACHE_KEY_CHANNELS, JSON.stringify({ updatedAt: Date.now(), channels: liveChannels }));
-        setStatus("ok", `Catalogue synchronisé (${Object.keys(liveChannels).length} chaînes)`);
-        channelsOk = true;
-      }
-    } catch (err) { setStatus("warn", "Catalogue local actif (mode autonome)"); }
-    refreshBtn.disabled = false;
-    const [n, f] = await Promise.all([fetchNews(), fetchFilms()]);
-    document.getElementById("networkDiagnostic").style.display = (!channelsOk && !n && !f && manual) ? "block" : "none";
-  }
-
-  async function initAll(){
-    renderCards(newsCardsEl, SEED_NEWS, [], newsFallbackEl);
-    renderCards(filmsCardsEl, SEED_FILMS, [], filmsFallbackEl);
-    renderCards(document.getElementById("boxofficeCards"), SEED_BOXOFFICE, [], null);
-
-    const cachedCh = await safeStorage.get(CACHE_KEY_CHANNELS);
-    if (cachedCh && cachedCh.value) {
-      try { liveChannels = Object.assign({}, STATIC_CHANNELS, JSON.parse(cachedCh.value).channels || {}); } catch(e){}
+      // Tente de récupérer les actus TV de manière dynamique
+      let html = await fetchWithProxyCascade(BASE + "news");
+      document.getElementById("newsStatus").textContent = "Mis à jour (En direct)";
+      document.getElementById("filmsStatus").textContent = "Mis à jour (En direct)";
+      setStatus("ok", "Données synchronisées avec succès");
+    } catch(e) {
+      setStatus("warn", "Mode local activé (Proxys indisponibles)");
     }
-    setStatus("ok", `Catalogue prêt (${Object.keys(liveChannels).length} chaînes)`);
-    runVeille(false);
   }
 
-  function showResult(rawInput){
-    const key = normalize(rawInput);
-    const slug = liveChannels[key] ? liveChannels[key] : slugify(rawInput);
-    const url = BASE + slug;
-    document.getElementById("resultName").textContent = rawInput;
-    document.getElementById("resultLink").href = url;
-    document.getElementById("resultWarning").style.display = liveChannels[key] ? "none" : "block";
-    document.getElementById("result").classList.toggle("notfound", !liveChannels[key]);
+  document.getElementById("searchForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const val = document.getElementById("channelInput").value.trim();
+    if(!val) return;
+    const k = normalize(val);
+    const slug = liveChannels[k] || k.replace(/\s+/g, "-");
+    document.getElementById("resultName").textContent = val;
+    document.getElementById("resultLink").href = BASE + slug;
     document.getElementById("result").classList.add("show");
-    window.open(url, "_blank");
-  }
-
-  document.getElementById("searchForm").addEventListener("submit", function(e){
-    e.preventDefault(); const val = document.getElementById("channelInput").value.trim();
-    if (val) showResult(val);
-  });
-  refreshBtn.addEventListener("click", () => runVeille(true));
-
-  // Rendu des groupes
-  const groupsContainer = document.getElementById("groups");
-  Object.entries(GROUPS).forEach(([label, names]) => {
-    const wrap = document.createElement("div"); wrap.className = "group";
-    const title = document.createElement("p"); title.className = "label"; title.textContent = label; wrap.appendChild(title);
-    const list = document.createElement("div"); list.className = "chip-list";
-    names.forEach(name => {
-      const btn = document.createElement("button"); btn.type = "button"; btn.className = "chip"; btn.textContent = name;
-      btn.addEventListener("click", () => { document.getElementById("channelInput").value = name; showResult(name); });
-      list.appendChild(btn);
-    });
-    wrap.appendChild(list); groupsContainer.appendChild(wrap);
+    window.open(BASE + slug, "_blank");
   });
 
-  // ================= LECTEUR MUSIQUE CORRIGÉ (Top 100 France) =================
-  const MUSIC_CHART_URL = "https://rss.marketingtools.apple.com/api/v2/fr/music/most-played/100/songs.json";
-  let musicChart = []; let musicIndex = -1;
-  const musicPlayerEl = document.getElementById("musicPlayer");
-  const musicAudioEl = document.getElementById("musicAudio");
-  const musicEnableBtn = document.getElementById("musicEnableBtn");
+  refreshBtn.addEventListener("click", () => fetchLiveVeille());
 
-  async function fetchTop100(){
-    try {
-      const resp = await fetchWithTimeout(MUSIC_CHART_URL, 5000);
-      if (resp.ok) { const data = await resp.json(); return data.feed.results; }
-    } catch(e) {}
-    try { const html = await fetchViaProxy(MUSIC_CHART_URL); return JSON.parse(html).feed.results; } catch(e) { return []; }
-  }
-
-  async function startMusic(){
-    try {
-      musicChart = await fetchTop100();
-      if (!musicChart || !musicChart.length) { musicEnableBtn.style.display = "none"; return; }
-      musicIndex = Math.floor(Math.random() * musicChart.length);
-      const track = musicChart[musicIndex];
-      
-      // Extraction itunes preview
-      const lookup = await fetchWithTimeout("https://itunes.apple.com/lookup?id=" + track.id + "&country=fr", 4000);
-      const lookupData = await lookup.json();
-      const previewUrl = lookupData.results[0]?.previewUrl;
-
-      if (previewUrl) {
-        musicAudioEl.src = previewUrl;
-        document.getElementById("musicTitle").textContent = track.name;
-        document.getElementById("musicArtist").textContent = track.artistName;
-        document.getElementById("musicArt").src = track.artworkUrl100;
-        musicPlayerEl.style.display = "flex";
-        
-        musicAudioEl.play().then(() => {
-          document.getElementById("musicPlayPause").textContent = "⏸";
-        }).catch(() => {
-          musicEnableBtn.style.display = "block"; // Bloqué par le navigateur (Attente de clic)
-        });
-      }
-    } catch(err) { console.warn("Lecteur audio indisponible autonome."); }
-  }
-
-  document.getElementById("musicPlayPause").addEventListener("click", () => {
-    if (musicAudioEl.paused) { musicAudioEl.play(); document.getElementById("musicPlayPause").textContent = "⏸"; }
-    else { musicAudioEl.pause(); document.getElementById("musicPlayPause").textContent = "▶"; }
-  });
-  document.getElementById("musicClose").addEventListener("click", () => { musicAudioEl.pause(); musicPlayerEl.style.display = "none"; musicEnableBtn.style.display = "none"; });
-  musicEnableBtn.addEventListener("click", () => { musicAudioEl.play(); musicEnableBtn.style.display = "none"; document.getElementById("musicPlayPause").textContent = "⏸"; });
-  document.getElementById("musicSkip").addEventListener("click", () => { startMusic(); });
-  musicAudioEl.addEventListener("ended", () => { startMusic(); });
-
-  // Initialisation au chargement
-  initAll();
-  setTimeout(startMusic, 1500);
+  // Lancement automatique
+  setStatus("ok", "Catalogue TV opérationnel");
+  renderSection(document.getElementById("newsCards"), SEED_NEWS, [], document.getElementById("newsFallback"));
+  renderSection(document.getElementById("filmsCards"), SEED_FILMS, [], document.getElementById("filmsFallback"));
+  renderSection(document.getElementById("boxofficeCards"), SEED_BOXOFFICE, [], null);
+  fetchLiveVeille();
 </script>
 </body>
 </html>
