@@ -59,7 +59,12 @@ async function updateNews() {
 
 async function updateTrends() {
   if (!TMDB_API_KEY) {
-    console.log("Pas de clé TMDB configurée — section tendances ignorée.");
+    console.log("Pas de clé TMDB configurée — fichier vide écrit pour ne pas casser le commit.");
+    mkdirSync("data", { recursive: true });
+    writeFileSync(
+      "data/trends-ai.json",
+      JSON.stringify({ updatedAt: Date.now(), items: [] }, null, 2)
+    );
     return;
   }
   try {
