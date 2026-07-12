@@ -1,0 +1,77 @@
+{
+  "updatedAt": 1783871293318,
+  "items": [
+    {
+      "title": "L'Odyssée",
+      "image": "https://image.tmdb.org/t/p/w300/xJ97RenWOB8DBBwZryjUQTDdH73.jpg",
+      "link": "https://www.themoviedb.org/movie/1368337",
+      "synopsis": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.…",
+      "releaseDate": "15 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Spider-Man: Brand New Day",
+      "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "synopsis": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime da…",
+      "releaseDate": "29 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "La Pat’ Patrouille : Le film mission Dino",
+      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "link": "https://www.themoviedb.org/movie/1185806",
+      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
+      "releaseDate": "5 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "The Last Viking",
+      "image": "https://image.tmdb.org/t/p/w300/fFSKEBs290DW26mrKckObHwU5Sm.jpg",
+      "link": "https://www.themoviedb.org/movie/1295400",
+      "synopsis": "Afin de récupérer son butin, un braqueur de banque doit aider son frère à surmonter ses traumatismes d'enfance.…",
+      "releaseDate": "15 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "La Légende de Baahubali – L’épopée",
+      "image": "https://image.tmdb.org/t/p/w300/fDfe8Ru6u9VCzswgDYquxkHTxmQ.jpg",
+      "link": "https://www.themoviedb.org/movie/1511417",
+      "synopsis": "Sauvé des eaux à la naissance, Shiva développe en grandissant une force prodigieuse et un courage exceptionnel. Parvenu à l’âge adulte, il décide d’escalader la…",
+      "releaseDate": "31 octobre 2025",
+      "platform": "Netflix",
+      "category": "streaming"
+    },
+    {
+      "title": "I Want Your Sex",
+      "image": "https://image.tmdb.org/t/p/w300/oeAFYZ56LDqucUkm5bZmBi2qRtl.jpg",
+      "link": "https://www.themoviedb.org/movie/1288059",
+      "synopsis": "Lorsque le jeune et innocent Elliot décroche un emploi de rêve auprès d'Erika Tracy, artiste de renom, icône et provocatrice, ses fantasmes deviennent réalité :…",
+      "releaseDate": "29 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Roudram Ranam Rudhiram (RRR)",
+      "image": "https://image.tmdb.org/t/p/w300/sxI1qKDHZRAi2LPmJUPhQ2x1u07.jpg",
+      "link": "https://www.themoviedb.org/movie/579974",
+      "synopsis": "À l'époque coloniale, en Inde, les anglais enlèvent une jeune fille d'une communauté tribale. Mais ce qu'ils ignorent, c'est que cette tribu a un protecteur : B…",
+      "releaseDate": "25 mars 2022",
+      "platform": "Netflix",
+      "category": "streaming"
+    },
+    {
+      "title": "Yön lapsi",
+      "image": "https://image.tmdb.org/t/p/w300/bLSrV2Him731C9tDCRuHq2drit5.jpg",
+      "link": "https://www.themoviedb.org/movie/964849",
+      "synopsis": "Aucun synopsis disponible.",
+      "releaseDate": "22 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    }
+  ]
+}
