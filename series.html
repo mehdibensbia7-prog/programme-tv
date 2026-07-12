@@ -9,6 +9,8 @@
 <meta property="og:description" content="Statut de diffusion, nombre d'épisodes/saisons, date du prochain épisode et plateforme.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#101418">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
@@ -144,6 +146,17 @@
 </div>
 
 <script>
+  function escapeHtml(str) {
+    if (str === null || str === undefined) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function safeUrl(url) {
+    try {
+      const u = new URL(url, location.href);
+      return (u.protocol === 'https:' || u.protocol === 'http:') ? u.href : '#';
+    } catch (e) { return '#'; }
+  }
+
   async function loadSeries() {
     const container = document.getElementById('seriesCards');
     try {
@@ -161,8 +174,8 @@
 
       const first = data.items[0];
       if (first && first.image) {
-        document.getElementById('heroBg').style.backgroundImage = `url('${first.image}')`;
-        document.getElementById('heroLabel').innerHTML = `${first.title}<span>${first.status || ''}${first.platform ? ' · ' + first.platform : ''}</span>`;
+        document.getElementById('heroBg').style.backgroundImage = `url('${safeUrl(first.image)}')`;
+        document.getElementById('heroLabel').innerHTML = `${escapeHtml(first.title)}<span>${escapeHtml(first.status || '')}${first.platform ? ' · ' + escapeHtml(first.platform) : ''}</span>`;
         document.getElementById('hero').classList.add('show');
       } else {
         document.getElementById('hero').style.display = 'none';
@@ -179,18 +192,18 @@
       const ongoing = (item.status || '').toLowerCase().includes('cours');
       return `
       <div class="card">
-        ${item.image ? `<img src="${item.image}" alt="">` : ''}
+        ${item.image ? `<img src="${safeUrl(item.image)}" alt="" loading="lazy">` : ''}
         <div class="card-body">
           <div class="card-head">
-            <a class="card-title" href="${item.link || '#'}" target="_blank" rel="noopener">${item.title}</a>
-            <span class="status-pill ${ongoing ? 'ongoing' : 'ended'}">${item.status || (ongoing ? 'En cours' : 'Terminée')}</span>
+            <a class="card-title" href="${safeUrl(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+            <span class="status-pill ${ongoing ? 'ongoing' : 'ended'}">${escapeHtml(item.status || (ongoing ? 'En cours' : 'Terminée'))}</span>
           </div>
-          <p class="desc">${item.synopsis || item.desc || ''}</p>
+          <p class="desc">${escapeHtml(item.synopsis || item.desc || '')}</p>
           <div class="badges">
-            ${item.platform ? `<span class="badge platform">📺 ${item.platform}</span>` : ''}
-            ${item.episodes ? `<span class="badge episodes">🎞 ${item.episodes}</span>` : ''}
+            ${item.platform ? `<span class="badge platform">📺 ${escapeHtml(item.platform)}</span>` : ''}
+            ${item.episodes ? `<span class="badge episodes">🎞 ${escapeHtml(item.episodes)}</span>` : ''}
           </div>
-          ${ongoing && item.nextEpisodeDate ? `<div class="next-ep">▶ Prochain épisode : ${item.nextEpisodeDate}</div>` : ''}
+          ${ongoing && item.nextEpisodeDate ? `<div class="next-ep">▶ Prochain épisode : ${escapeHtml(item.nextEpisodeDate)}</div>` : ''}
         </div>
       </div>
     `; }).join('');
