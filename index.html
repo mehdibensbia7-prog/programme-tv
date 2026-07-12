@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programme TV — Chaînes, actus & films</title>
+    <title>Programme TV — Dashboard</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
         :root { --screen: #101418; --panel: #171d24; --panel-edge: #232b34; --scan: #1c232b; --tube: #ff5f3c; --text: #e8ecef; --muted: #7c8792; --ok: #4fd1a5; }
@@ -11,10 +11,7 @@
         .tv { width:100%; max-width: 760px; background: #141a1f; border-radius: 28px; padding: 25px; }
         .section { margin-top: 35px; border-top: 1px solid var(--panel-edge); padding-top: 20px; }
         h2 { font-size: 20px; color: #fff; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
-        
-        /* Composants */
         .card { background: var(--scan); padding: 15px; border-radius: 12px; margin-bottom: 12px; border: 1px solid var(--panel-edge); }
-        .radio-item { display:flex; justify-content:space-between; align-items:center; padding: 10px 0; }
         .radio-btn { background: rgba(255,95,60,.1); border: 1px solid rgba(255,95,60,.35); color: var(--tube); padding: 8px 15px; border-radius: 8px; cursor:pointer; font-weight:700; }
         .radio-btn.playing { background: var(--ok); color:#062018; border-color:transparent; }
     </style>
@@ -24,22 +21,28 @@
 <div class="tv">
     <h1>Programme <span>TV</span></h1>
 
-    <!-- SECTION RADIO -->
+    <!-- RADIO -->
     <div class="section">
         <h2>📻 Radios</h2>
-        <div class="radio-item">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
             <span>France Info</span>
             <button class="radio-btn" data-src="https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.mp3">▶ Écouter</button>
         </div>
     </div>
 
-    <!-- SECTION TENDANCES (avec images) -->
+    <!-- TENDANCES -->
     <div class="section">
         <h2>🎬 TOP TENDANCES</h2>
         <div id="trendsContent">Chargement...</div>
     </div>
 
-    <!-- SECTION ACTUS -->
+    <!-- BANDE-ANNONCES -->
+    <div class="section">
+        <h2>📺 BANDE-ANNONCES</h2>
+        <div id="videoContent">Chargement...</div>
+    </div>
+
+    <!-- ACTUS -->
     <div class="section">
         <h2>🧠 ACTUS CINÉ</h2>
         <div id="newsContent">Chargement...</div>
@@ -49,7 +52,7 @@
 <audio id="musicAudio"></audio>
 
 <script>
-    // 1. Logique Radio
+    // Logique Radio
     document.querySelectorAll('.radio-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             const audio = document.getElementById('musicAudio');
@@ -59,13 +62,12 @@
                 btn.classList.remove('playing'); btn.innerText = "▶ Écouter";
             } else {
                 audio.src = src; audio.play();
-                document.querySelectorAll('.radio-btn').forEach(b => { b.classList.remove('playing'); b.innerText = "▶ Écouter"; });
                 btn.classList.add('playing'); btn.innerText = "■ Arrêter";
             }
         });
     });
 
-    // 2. Logique chargement JSON généré par GitHub Actions
+    // Chargement dynamique
     async function loadData(file, id, isTrend = false) {
         const container = document.getElementById(id);
         try {
@@ -81,12 +83,13 @@
                 </div>
             `).join('');
         } catch (e) {
-            container.innerHTML = "<p style='color:var(--muted)'>Données en attente de mise à jour...</p>";
+            container.innerHTML = "<p style='color:var(--muted)'>En attente de mise à jour...</p>";
         }
     }
 
     document.addEventListener('DOMContentLoaded', () => {
         loadData('trends-ai.json', 'trendsContent', true);
+        loadData('videos.json', 'videoContent', false);
         loadData('news-ai.json', 'newsContent', false);
     });
 </script>
