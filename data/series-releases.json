@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784013924278,
+  "updatedAt": 1784047479360,
   "items": [
     {
       "title": "House of the Dragon",
@@ -12,16 +12,6 @@
       "platform": "HBO Max"
     },
     {
-      "title": "Mushoku Tensei: Jobless Reincarnation",
-      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
-      "link": "https://www.themoviedb.org/tv/94664",
-      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
-      "status": "En cours",
-      "episodes": "3 saisons · 61 épisodes",
-      "nextEpisodeDate": "20 juillet 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "Silo",
       "image": "https://image.tmdb.org/t/p/w300/zGMLj5ZTybGpgYtNnDbMbN1rOcp.jpg",
       "link": "https://www.themoviedb.org/tv/125988",
@@ -30,6 +20,16 @@
       "episodes": "3 saisons · 30 épisodes",
       "nextEpisodeDate": "16 juillet 2026",
       "platform": "Apple TV"
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "status": "En cours",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "20 juillet 2026",
+      "platform": "Netflix"
     },
     {
       "title": "Chainsmoker Cat",
@@ -42,14 +42,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "Renegade Immortal",
-      "image": "https://image.tmdb.org/t/p/w300/mCt5qgkOYEvuHSiSwNByMv6LMoB.jpg",
-      "link": "https://www.themoviedb.org/tv/223911",
-      "synopsis": "Il raconte l'histoire de Wang Lin, un jeune homme ordinaire vivant à la campagne, qui, poussé par son cœur, se lance dans la quête de l'immortalité. Son objecti…",
+      "title": "Rick et Morty",
+      "image": "https://image.tmdb.org/t/p/w300/s11re4xQLZ6pRPv2sqXnK8CCvGn.jpg",
+      "link": "https://www.themoviedb.org/tv/60625",
+      "synopsis": "Rick, un scientifique sociopathe, entraîne son nigaud de petit-fils Morty dans des aventures extrêmement périlleuses aux quatre coins de l’univers.…",
       "status": "En cours",
-      "episodes": "1 saison · 200 épisodes",
+      "episodes": "9 saisons · 91 épisodes",
       "nextEpisodeDate": "19 juillet 2026",
-      "platform": "Crunchyroll"
+      "platform": "Netflix"
     },
     {
       "title": "嫁入高门",
@@ -62,14 +62,14 @@
       "platform": null
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "title": "Renegade Immortal",
+      "image": "https://image.tmdb.org/t/p/w300/mCt5qgkOYEvuHSiSwNByMv6LMoB.jpg",
+      "link": "https://www.themoviedb.org/tv/223911",
+      "synopsis": "Il raconte l'histoire de Wang Lin, un jeune homme ordinaire vivant à la campagne, qui, poussé par son cœur, se lance dans la quête de l'immortalité. Son objecti…",
       "status": "En cours",
-      "episodes": "32 saisons · 4260 épisodes",
-      "nextEpisodeDate": "14 juillet 2026",
-      "platform": null
+      "episodes": "1 saison · 200 épisodes",
+      "nextEpisodeDate": "19 juillet 2026",
+      "platform": "Crunchyroll"
     },
     {
       "title": "Esprits criminels",
