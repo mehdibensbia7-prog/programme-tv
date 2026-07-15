@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784134373352,
+  "updatedAt": 1784151152875,
   "items": [
     {
       "title": "House of the Dragon",
@@ -52,14 +52,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "嫁入高门",
-      "image": "https://image.tmdb.org/t/p/w300/8cp0T45VlImvWqnuJXxTEoDwKjG.jpg",
-      "link": "https://www.themoviedb.org/tv/316540",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Esprits criminels",
+      "image": "https://image.tmdb.org/t/p/w300/kRgsJq9dMz7bIciUEqwbmzFBwSL.jpg",
+      "link": "https://www.themoviedb.org/tv/4057",
+      "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueu…",
       "status": "En cours",
-      "episodes": "1 saison · 12 épisodes",
-      "nextEpisodeDate": "17 juillet 2026",
-      "platform": null
+      "episodes": "19 saisons · 364 épisodes",
+      "nextEpisodeDate": "16 juillet 2026",
+      "platform": "Disney Plus"
     },
     {
       "title": "Renegade Immortal",
@@ -72,14 +72,14 @@
       "platform": "Crunchyroll"
     },
     {
-      "title": "Esprits criminels",
-      "image": "https://image.tmdb.org/t/p/w300/kRgsJq9dMz7bIciUEqwbmzFBwSL.jpg",
-      "link": "https://www.themoviedb.org/tv/4057",
-      "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueu…",
+      "title": "嫁入高门",
+      "image": "https://image.tmdb.org/t/p/w300/8cp0T45VlImvWqnuJXxTEoDwKjG.jpg",
+      "link": "https://www.themoviedb.org/tv/316540",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "19 saisons · 364 épisodes",
-      "nextEpisodeDate": "16 juillet 2026",
-      "platform": "Disney Plus"
+      "episodes": "1 saison · 12 épisodes",
+      "nextEpisodeDate": "17 juillet 2026",
+      "platform": null
     }
   ]
 }

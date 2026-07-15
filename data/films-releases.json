@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784134371713,
+  "updatedAt": 1784151151336,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -47,6 +47,15 @@
       "category": "streaming"
     },
     {
+      "title": "La Pat’ Patrouille : Le film mission Dino",
+      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "link": "https://www.themoviedb.org/movie/1185806",
+      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
+      "releaseDate": "5 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "I Want Your Sex",
       "image": "https://image.tmdb.org/t/p/w300/oeAFYZ56LDqucUkm5bZmBi2qRtl.jpg",
       "link": "https://www.themoviedb.org/movie/1288059",
@@ -61,15 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1235877",
       "synopsis": "Choc des idéologies : l’un se bat pour le peuple, l’autre prospère par le contrôle. Autrefois, ils ont ébranlé le passé. Des années plus tard, la peur silencieu…",
       "releaseDate": "22 juillet 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Toi, Moi et la Toscane",
-      "image": "https://image.tmdb.org/t/p/w300/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
-      "link": "https://www.themoviedb.org/movie/1455079",
-      "synopsis": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de…",
-      "releaseDate": "12 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
