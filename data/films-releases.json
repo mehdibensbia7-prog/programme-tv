@@ -1,15 +1,6 @@
 {
-  "updatedAt": 1784064776888,
+  "updatedAt": 1784100661767,
   "items": [
-    {
-      "title": "L'Odyssée",
-      "image": "https://image.tmdb.org/t/p/w300/xJ97RenWOB8DBBwZryjUQTDdH73.jpg",
-      "link": "https://www.themoviedb.org/movie/1368337",
-      "synopsis": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.…",
-      "releaseDate": "15 juillet 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
     {
       "title": "Spider-Man: Brand New Day",
       "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
@@ -20,22 +11,22 @@
       "category": "cinema"
     },
     {
-      "title": "2001 : L'Odyssée de l'espace",
-      "image": "https://image.tmdb.org/t/p/w300/uwd79G32FPIL5B9UkRgSZvS0gbe.jpg",
-      "link": "https://www.themoviedb.org/movie/62",
-      "synopsis": "Aux temps préhistoriques, une petite tribu d’hommes‐singes installée au milieu de rochers arides lutte difficilement pour la vie. Un matin, ils trouvent devant …",
-      "releaseDate": "27 septembre 1968",
-      "platform": "Sooner",
-      "category": "streaming"
+      "title": "undertone",
+      "image": "https://image.tmdb.org/t/p/w300/e7f4AKWg1xGuHO4yOGGGbo5CHHS.jpg",
+      "link": "https://www.themoviedb.org/movie/1480387",
+      "synopsis": "Animatrice d’un podcast consacré aux phénomènes paranormaux, Evy retourne dans la maison de son enfance pour veiller sa mère mourante. Un jour, elle reçoit d’ét…",
+      "releaseDate": "12 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     },
     {
-      "title": "La Légende de Baahubali – L’épopée",
-      "image": "https://image.tmdb.org/t/p/w300/fDfe8Ru6u9VCzswgDYquxkHTxmQ.jpg",
-      "link": "https://www.themoviedb.org/movie/1511417",
-      "synopsis": "Sauvé des eaux à la naissance, Shiva développe en grandissant une force prodigieuse et un courage exceptionnel. Parvenu à l’âge adulte, il décide d’escalader la…",
-      "releaseDate": "31 octobre 2025",
-      "platform": "Netflix",
-      "category": "streaming"
+      "title": "La fin d’Oak Street",
+      "image": "https://image.tmdb.org/t/p/w300/1flRy4qysdwjhlqw2BZ1Wm1zcpM.jpg",
+      "link": "https://www.themoviedb.org/movie/1101383",
+      "synopsis": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce n…",
+      "releaseDate": "12 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     },
     {
       "title": "Roudram Ranam Rudhiram (RRR)",
@@ -56,15 +47,6 @@
       "category": "cinema"
     },
     {
-      "title": "The Last Viking",
-      "image": "https://image.tmdb.org/t/p/w300/fFSKEBs290DW26mrKckObHwU5Sm.jpg",
-      "link": "https://www.themoviedb.org/movie/1295400",
-      "synopsis": "Afin de récupérer son butin, un braqueur de banque doit aider son frère à surmonter ses traumatismes d'enfance.…",
-      "releaseDate": "15 juillet 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "I Want Your Sex",
       "image": "https://image.tmdb.org/t/p/w300/oeAFYZ56LDqucUkm5bZmBi2qRtl.jpg",
       "link": "https://www.themoviedb.org/movie/1288059",
@@ -72,6 +54,24 @@
       "releaseDate": "29 juillet 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
+    },
+    {
+      "title": "Toi, Moi et la Toscane",
+      "image": "https://image.tmdb.org/t/p/w300/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
+      "link": "https://www.themoviedb.org/movie/1455079",
+      "synopsis": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de…",
+      "releaseDate": "12 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Lawrence d'Arabie",
+      "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
+      "link": "https://www.themoviedb.org/movie/947",
+      "synopsis": "Pendant la Première Guerre mondiale, le lieutenant britannique T.E. Lawrence reçoit l'ordre de soutenir les Arabes dans leur lutte contre les Turcs alliés des A…",
+      "releaseDate": "15 mars 1963",
+      "platform": "Apple TV Store (location)",
+      "category": "streaming"
     }
   ]
 }
