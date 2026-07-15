@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784100661767,
+  "updatedAt": 1784134371713,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -29,6 +29,15 @@
       "category": "cinema"
     },
     {
+      "title": "The Flash",
+      "image": "https://image.tmdb.org/t/p/w300/azio74W2qw7bNg7ePqzkWywwK1n.jpg",
+      "link": "https://www.themoviedb.org/movie/298618",
+      "synopsis": "Les mondes entrent en collision lorsque Barry, alias \"The Flash\", utilise ses pouvoirs pour voyager dans le temps afin de changer les événements du passé. Mais …",
+      "releaseDate": "14 juin 2023",
+      "platform": "Netflix",
+      "category": "streaming"
+    },
+    {
       "title": "Roudram Ranam Rudhiram (RRR)",
       "image": "https://image.tmdb.org/t/p/w300/sxI1qKDHZRAi2LPmJUPhQ2x1u07.jpg",
       "link": "https://www.themoviedb.org/movie/579974",
@@ -36,15 +45,6 @@
       "releaseDate": "25 mars 2022",
       "platform": "Netflix",
       "category": "streaming"
-    },
-    {
-      "title": "Nightborn",
-      "image": "https://image.tmdb.org/t/p/w300/y0BxJMOZSHiZZlaPyOcQH6cVW4m.jpg",
-      "link": "https://www.themoviedb.org/movie/964849",
-      "synopsis": "Rêvant de construire une vie de famille paisible, Saga et son mari Jon s’installent dans la maison où elle a passé une grande partie de son enfance, au cœur de …",
-      "releaseDate": "22 juillet 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
     },
     {
       "title": "I Want Your Sex",
@@ -56,6 +56,15 @@
       "category": "cinema"
     },
     {
+      "title": "Jana Nayagan",
+      "image": "https://image.tmdb.org/t/p/w300/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
+      "link": "https://www.themoviedb.org/movie/1235877",
+      "synopsis": "Choc des idéologies : l’un se bat pour le peuple, l’autre prospère par le contrôle. Autrefois, ils ont ébranlé le passé. Des années plus tard, la peur silencieu…",
+      "releaseDate": "22 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Toi, Moi et la Toscane",
       "image": "https://image.tmdb.org/t/p/w300/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
       "link": "https://www.themoviedb.org/movie/1455079",
@@ -63,15 +72,6 @@
       "releaseDate": "12 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
-    },
-    {
-      "title": "Lawrence d'Arabie",
-      "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
-      "link": "https://www.themoviedb.org/movie/947",
-      "synopsis": "Pendant la Première Guerre mondiale, le lieutenant britannique T.E. Lawrence reçoit l'ordre de soutenir les Arabes dans leur lutte contre les Turcs alliés des A…",
-      "releaseDate": "15 mars 1963",
-      "platform": "Apple TV Store (location)",
-      "category": "streaming"
     }
   ]
 }
