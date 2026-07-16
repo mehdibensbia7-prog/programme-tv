@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784151152875,
+  "updatedAt": 1784187496215,
   "items": [
     {
       "title": "House of the Dragon",
@@ -32,16 +32,6 @@
       "platform": "Netflix"
     },
     {
-      "title": "Chainsmoker Cat",
-      "image": "https://image.tmdb.org/t/p/w300/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
-      "link": "https://www.themoviedb.org/tv/312949",
-      "synopsis": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-chatte doit repenser son avenir sous la pression de ses proches.…",
-      "status": "En cours",
-      "episodes": "1 saison · 12 épisodes",
-      "nextEpisodeDate": "17 juillet 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "Rick et Morty",
       "image": "https://image.tmdb.org/t/p/w300/s11re4xQLZ6pRPv2sqXnK8CCvGn.jpg",
       "link": "https://www.themoviedb.org/tv/60625",
@@ -60,6 +50,16 @@
       "episodes": "19 saisons · 364 épisodes",
       "nextEpisodeDate": "16 juillet 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "Chainsmoker Cat",
+      "image": "https://image.tmdb.org/t/p/w300/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
+      "link": "https://www.themoviedb.org/tv/312949",
+      "synopsis": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-chatte doit repenser son avenir sous la pression de ses proches.…",
+      "status": "En cours",
+      "episodes": "1 saison · 12 épisodes",
+      "nextEpisodeDate": "17 juillet 2026",
+      "platform": "Netflix"
     },
     {
       "title": "Renegade Immortal",

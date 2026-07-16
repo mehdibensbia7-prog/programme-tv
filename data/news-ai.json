@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1784151150098,
+  "updatedAt": 1784187493515,
   "items": [
+    {
+      "title": "\"Le film le plus important que j'ai réalisé\" : en 1998, Christopher Lee a pourtant reçu des menaces de mort pour avoir incarné cette figure historique",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213327.html",
+      "desc": "De tous les films tournés, Christopher Lee estimait que son rôle du père fondateur du Pakistan moderne dans le film \"Jinnah\", sorti en 1998 ",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 628 du vendredi 17 juillet 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213273.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Jennifer fait une annonce inattendue à Babeth et Léa, et rien ne va pl",
+      "isAI": false
+    },
     {
       "title": "All Her Fault sur TF1 : comment se termine cette série thriller ? Explication de la fin",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213305.html",
@@ -23,18 +35,6 @@
       "title": "Quiz Cinéma : 7 films à reconnaître grâce à leur affiche !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213343.html",
       "desc": "Matt Damon est de retour au cinéma ce mercredi dans le film évènement de Christopher Nolan \"L'Odyssée\". L'occasion de jouer avec quelques af",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1481 du jeudi 16 juillet 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212705.html",
-      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... Jude et Mattéo passent le Rubicon. Prise en étau entre vie professionnelle et personnelle,",
-      "isAI": false
-    },
-    {
-      "title": "Ryan Reynolds : sa nouvelle comédie d’action avec une star de Harry Potter s’annonce complètement dingue !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213307.html",
-      "desc": "La plateforme Apple TV vient de dévoiler la bande-annonce de \"Mayday\", sa comédie d’action avec Ryan Reynolds et Kenneth Branagh au casting.",
       "isAI": false
     }
   ]
