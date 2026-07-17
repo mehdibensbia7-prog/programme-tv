@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784273715631,
+  "updatedAt": 1784306259416,
   "items": [
     {
       "title": "L'Odyssée",
@@ -23,6 +23,13 @@
       "isAI": false
     },
     {
+      "title": "Descendants : La Malédiction du Pays des Merveilles",
+      "link": "https://www.themoviedb.org/movie/1318621",
+      "image": "https://image.tmdb.org/t/p/w300/1uKv5lJjnJuN7Lhuv5322jQJnRg.jpg",
+      "desc": "Maintenant que la Reine de cœur est devenue gentille et que Cendrillon est en sécurité, tout semble parfait pour Red et Chloe. Mais elles ig...",
+      "isAI": false
+    },
+    {
       "title": "Vaiana, la légende du bout du monde",
       "link": "https://www.themoviedb.org/movie/1108427",
       "image": "https://image.tmdb.org/t/p/w300/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
@@ -34,13 +41,6 @@
       "link": "https://www.themoviedb.org/movie/1280738",
       "image": "https://image.tmdb.org/t/p/w300/94rNmtdyclSnO3OOnVBW2Isy9r0.jpg",
       "desc": "Après l’enlèvement de sa fille par un réseau criminel et face à l’inaction de la police, Wang Wei se lance dans une traque implacable pour l...",
-      "isAI": false
-    },
-    {
-      "title": "Evil Dead Burn",
-      "link": "https://www.themoviedb.org/movie/1212763",
-      "image": "https://image.tmdb.org/t/p/w300/twkjKuOf4hVAmXxOwpyRy682VZR.jpg",
-      "desc": "Après l’enterrement de son mari, Alice se rend dans la maison isolée de sa belle-famille pour partager un dernier repas à sa mémoire. Mais l...",
       "isAI": false
     }
   ]
