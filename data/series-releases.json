@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784306260220,
+  "updatedAt": 1784322589246,
   "items": [
     {
       "title": "House of the Dragon",
@@ -32,16 +32,6 @@
       "platform": "Netflix"
     },
     {
-      "title": "Chainsmoker Cat",
-      "image": "https://image.tmdb.org/t/p/w300/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
-      "link": "https://www.themoviedb.org/tv/312949",
-      "synopsis": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-chatte doit repenser son avenir sous la pression de ses proches.…",
-      "status": "En cours",
-      "episodes": "1 saison · 12 épisodes",
-      "nextEpisodeDate": "17 juillet 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "검사실의 제안",
       "image": "https://image.tmdb.org/t/p/w300/fxEfx2Tt98l4oW2KI0GU3Q0qgnB.jpg",
       "link": "https://www.themoviedb.org/tv/322055",
@@ -50,6 +40,26 @@
       "episodes": "1 saison · 10 épisodes",
       "nextEpisodeDate": "23 juillet 2026",
       "platform": null
+    },
+    {
+      "title": "Binnelanders",
+      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
+      "link": "https://www.themoviedb.org/tv/206559",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "22 saisons · 5112 épisodes",
+      "nextEpisodeDate": "17 juillet 2026",
+      "platform": null
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "19 juillet 2026",
+      "platform": "Hayu Amazon Channel"
     },
     {
       "title": "Rick et Morty",
@@ -62,24 +72,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "Renegade Immortal",
-      "image": "https://image.tmdb.org/t/p/w300/mCt5qgkOYEvuHSiSwNByMv6LMoB.jpg",
-      "link": "https://www.themoviedb.org/tv/223911",
-      "synopsis": "Il raconte l'histoire de Wang Lin, un jeune homme ordinaire vivant à la campagne, qui, poussé par son cœur, se lance dans la quête de l'immortalité. Son objecti…",
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "1 saison · 200 épisodes",
-      "nextEpisodeDate": "19 juillet 2026",
-      "platform": "Crunchyroll"
-    },
-    {
-      "title": "Esprits criminels",
-      "image": "https://image.tmdb.org/t/p/w300/kRgsJq9dMz7bIciUEqwbmzFBwSL.jpg",
-      "link": "https://www.themoviedb.org/tv/4057",
-      "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueu…",
-      "status": "En cours",
-      "episodes": "19 saisons · 364 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
-      "platform": "Disney Plus"
+      "episodes": "32 saisons · 4260 épisodes",
+      "nextEpisodeDate": "20 juillet 2026",
+      "platform": null
     }
   ]
 }
