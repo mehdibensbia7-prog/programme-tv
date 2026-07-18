@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1784322587368,
+  "updatedAt": 1784358729646,
   "items": [
+    {
+      "title": "Friends : tombé dans l'oubli, cet acteur a mal vécu le fait que son ami Matthew Perry devienne célèbre grâce au rôle de Chandler qu'il avait préalablement refusé",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213441.html",
+      "desc": "Il a refusé le rôle de Chandler dans “Friends”… avant de voir son ami Matthew Perry devenir une star mondiale grâce à ce personnage. Une déc",
+      "isAI": false
+    },
     {
       "title": "Demain nous appartient : \"Une tempête épouvantable va s’abattre sur l’hôtel\" prévient Florence Thomassin (Adélaïde)",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213767.html",
@@ -29,12 +35,6 @@
       "title": "Ici tout commence : ce qui vous attend dans l'épisode 1483 du lundi 20 juillet 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212707.html",
       "desc": "Dans le prochain épisode d'\"Ici tout commence\"... Jasmine doute, mais un vieil ami vient faire pencher la balance... Au Double A, Alice cuve",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : Jasmine va-t-elle accepter la proposition de Louis ? On a la réponse",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213576.html",
-      "desc": "Dans Ici tout commence, Louis a fait une proposition de rêve à Jasmine. Mais il a posé une terrible condition ! La jeune femme va-t-elle néa",
       "isAI": false
     }
   ]
