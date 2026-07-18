@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784358733101,
+  "updatedAt": 1784406737682,
   "items": [
     {
       "title": "House of the Dragon",
@@ -52,16 +52,6 @@
       "platform": null
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "19 juillet 2026",
-      "platform": "Hayu Amazon Channel"
-    },
-    {
       "title": "Rick et Morty",
       "image": "https://image.tmdb.org/t/p/w300/s11re4xQLZ6pRPv2sqXnK8CCvGn.jpg",
       "link": "https://www.themoviedb.org/tv/60625",
@@ -72,14 +62,24 @@
       "platform": "Netflix"
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "title": "Esprits criminels",
+      "image": "https://image.tmdb.org/t/p/w300/kRgsJq9dMz7bIciUEqwbmzFBwSL.jpg",
+      "link": "https://www.themoviedb.org/tv/4057",
+      "synopsis": "L'équipe des profilers étudie les comportements et les esprits torturés des criminels les plus dangereux du pays, afin d'anticiper les crimes d'un éventuel tueu…",
       "status": "En cours",
-      "episodes": "32 saisons · 4260 épisodes",
-      "nextEpisodeDate": "20 juillet 2026",
-      "platform": null
+      "episodes": "19 saisons · 364 épisodes",
+      "nextEpisodeDate": "23 juillet 2026",
+      "platform": "Disney Plus"
+    },
+    {
+      "title": "Agent Kim Reactivated",
+      "image": "https://image.tmdb.org/t/p/w300/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
+      "link": "https://www.themoviedb.org/tv/296206",
+      "synopsis": "Agent Kim Reactivated suit Kim Do-hyeon, un père célibataire et employé de banque. Pour retrouver sa fille kidnappée, il doit révéler son lourd secret : c'est u…",
+      "status": "En cours",
+      "episodes": "1 saison · 10 épisodes",
+      "nextEpisodeDate": "18 juillet 2026",
+      "platform": "Netflix"
     }
   ]
 }

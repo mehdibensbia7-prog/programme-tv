@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784358731878,
+  "updatedAt": 1784406736201,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -47,6 +47,15 @@
       "category": "cinema"
     },
     {
+      "title": "Jana Nayagan",
+      "image": "https://image.tmdb.org/t/p/w300/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
+      "link": "https://www.themoviedb.org/movie/1235877",
+      "synopsis": "Un choc idéologique. L’un se bat pour le peuple, l’autre se nourrit de contrôle. Leurs chemins se sont déjà croisés. Des années plus tard, la peur silencieuse d…",
+      "releaseDate": "22 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "La Pat’ Patrouille : Le film mission Dino",
       "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
       "link": "https://www.themoviedb.org/movie/1185806",
@@ -63,15 +72,6 @@
       "releaseDate": "25 mars 2022",
       "platform": "Netflix",
       "category": "streaming"
-    },
-    {
-      "title": "Jana Nayagan",
-      "image": "https://image.tmdb.org/t/p/w300/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
-      "link": "https://www.themoviedb.org/movie/1235877",
-      "synopsis": "Choc des idéologies : l’un se bat pour le peuple, l’autre prospère par le contrôle. Autrefois, ils ont ébranlé le passé. Des années plus tard, la peur silencieu…",
-      "releaseDate": "22 juillet 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
     }
   ]
 }
