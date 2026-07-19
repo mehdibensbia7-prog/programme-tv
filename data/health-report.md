@@ -1,7 +1,7 @@
 # Rapport de santé — Programme TV
 
 **Statut global : 🟢 SAIN**
-Généré le 18 juillet 2026 à 21:36
+Généré le 19 juillet 2026 à 09:02
 
 12 OK · 0 avertissement(s) · 0 échec(s) · 0 auto-réparation(s)
 
@@ -9,7 +9,7 @@ Généré le 18 juillet 2026 à 21:36
 
 - ✅ **data/news-ai.json** — 6 élément(s), mis à jour il y a 1.1h.
 - ✅ **data/trends-ai.json** — 6 élément(s), mis à jour il y a 1.1h.
-- ✅ **data/videos.json** — 5 élément(s), mis à jour il y a 6.1h.
+- ✅ **data/videos.json** — 5 élément(s), mis à jour il y a 1.2h.
 - ✅ **data/films-releases.json** — 8 élément(s), mis à jour il y a 1.1h.
 - ✅ **data/series-releases.json** — 8 élément(s), mis à jour il y a 1.1h.
 - ✅ **Radio · France Info** — Flux joignable (HTTP 200).
