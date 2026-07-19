@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784475225468,
+  "updatedAt": 1784493163948,
   "items": [
     {
       "title": "L'Odyssée",
@@ -23,17 +23,17 @@
       "isAI": false
     },
     {
+      "title": "Scary Movie",
+      "link": "https://www.themoviedb.org/movie/1273221",
+      "image": "https://image.tmdb.org/t/p/w300/gIComZ1TfZdWmuD4L4mJ8sEv0km.jpg",
+      "desc": "Vingt-six ans après avoir échappé à un tueur masqué étrangement familier, les héros emblématiques de la saga sont de nouveau dans la ligne d...",
+      "isAI": false
+    },
+    {
       "title": "Vaiana, la légende du bout du monde",
       "link": "https://www.themoviedb.org/movie/1108427",
       "image": "https://image.tmdb.org/t/p/w300/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
       "desc": "Dans l'ancienne Polynésie, lorsqu'une terrible malédiction lancée par Maui atteint l'île d'un chef impétueux, sa fille obstinée répond à l'a...",
-      "isAI": false
-    },
-    {
-      "title": "Descendants : La Malédiction du Pays des Merveilles",
-      "link": "https://www.themoviedb.org/movie/1318621",
-      "image": "https://image.tmdb.org/t/p/w300/y29AadGlANHW1GXbeXV8c0QHa0c.jpg",
-      "desc": "Maintenant que la Reine de cœur est devenue gentille et que Cendrillon est en sécurité, tout semble parfait pour Red et Chloe. Mais elles ig...",
       "isAI": false
     },
     {
