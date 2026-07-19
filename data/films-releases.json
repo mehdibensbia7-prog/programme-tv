@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784447698223,
+  "updatedAt": 1784475226716,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -20,24 +20,6 @@
       "category": "cinema"
     },
     {
-      "title": "La fin d’Oak Street",
-      "image": "https://image.tmdb.org/t/p/w300/1flRy4qysdwjhlqw2BZ1Wm1zcpM.jpg",
-      "link": "https://www.themoviedb.org/movie/1101383",
-      "synopsis": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce n…",
-      "releaseDate": "12 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "The Flash",
-      "image": "https://image.tmdb.org/t/p/w300/azio74W2qw7bNg7ePqzkWywwK1n.jpg",
-      "link": "https://www.themoviedb.org/movie/298618",
-      "synopsis": "Les mondes entrent en collision lorsque Barry, alias \"The Flash\", utilise ses pouvoirs pour voyager dans le temps afin de changer les événements du passé. Mais …",
-      "releaseDate": "14 juin 2023",
-      "platform": "Netflix",
-      "category": "streaming"
-    },
-    {
       "title": "Ice Cream Man",
       "image": "https://image.tmdb.org/t/p/w300/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
       "link": "https://www.themoviedb.org/movie/1477712",
@@ -52,6 +34,15 @@
       "link": "https://www.themoviedb.org/movie/1235877",
       "synopsis": "Un choc idéologique. L’un se bat pour le peuple, l’autre se nourrit de contrôle. Leurs chemins se sont déjà croisés. Des années plus tard, la peur silencieuse d…",
       "releaseDate": "22 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "La fin d’Oak Street",
+      "image": "https://image.tmdb.org/t/p/w300/1flRy4qysdwjhlqw2BZ1Wm1zcpM.jpg",
+      "link": "https://www.themoviedb.org/movie/1101383",
+      "synopsis": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce n…",
+      "releaseDate": "12 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -72,6 +63,15 @@
       "releaseDate": "25 mars 2022",
       "platform": "Netflix",
       "category": "streaming"
+    },
+    {
+      "title": "I Want Your Sex",
+      "image": "https://image.tmdb.org/t/p/w300/oeAFYZ56LDqucUkm5bZmBi2qRtl.jpg",
+      "link": "https://www.themoviedb.org/movie/1288059",
+      "synopsis": "Lorsque le jeune et innocent Elliot décroche un emploi de rêve auprès d'Erika Tracy, artiste de renom, icône et provocatrice, ses fantasmes deviennent réalité :…",
+      "releaseDate": "29 juillet 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     }
   ]
 }
