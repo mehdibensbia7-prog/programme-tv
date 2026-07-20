@@ -1,18 +1,11 @@
 {
-  "updatedAt": 1784567360512,
+  "updatedAt": 1784584315095,
   "items": [
     {
       "title": "L'Odyssée",
       "link": "https://www.themoviedb.org/movie/1368337",
       "image": "https://image.tmdb.org/t/p/w300/k12dsDVtARFmr6TbC2hn0c68aw5.jpg",
       "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
-      "isAI": false
-    },
-    {
-      "title": "Avengers: Doomsday",
-      "link": "https://www.themoviedb.org/movie/1003596",
-      "image": "https://image.tmdb.org/t/p/w300/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
-      "desc": "Un prochain film de la phase 6 du Marvel Cinematic Universe et une part de la Saga du multivers....",
       "isAI": false
     },
     {
@@ -23,13 +16,6 @@
       "isAI": false
     },
     {
-      "title": "Scary Movie",
-      "link": "https://www.themoviedb.org/movie/1273221",
-      "image": "https://image.tmdb.org/t/p/w300/gIComZ1TfZdWmuD4L4mJ8sEv0km.jpg",
-      "desc": "Vingt-six ans après avoir échappé à un tueur masqué étrangement familier, les héros emblématiques de la saga sont de nouveau dans la ligne d...",
-      "isAI": false
-    },
-    {
       "title": "Obsession",
       "link": "https://www.themoviedb.org/movie/1339713",
       "image": "https://image.tmdb.org/t/p/w300/mDCR1frpUvGfIKksuM440VLb7X9.jpg",
@@ -37,10 +23,24 @@
       "isAI": false
     },
     {
-      "title": "Vaiana, la légende du bout du monde",
-      "link": "https://www.themoviedb.org/movie/1108427",
-      "image": "https://image.tmdb.org/t/p/w300/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
-      "desc": "Dans l'ancienne Polynésie, lorsqu'une terrible malédiction lancée par Maui atteint l'île d'un chef impétueux, sa fille obstinée répond à l'a...",
+      "title": "Scary Movie",
+      "link": "https://www.themoviedb.org/movie/1273221",
+      "image": "https://image.tmdb.org/t/p/w300/gIComZ1TfZdWmuD4L4mJ8sEv0km.jpg",
+      "desc": "Vingt-six ans après avoir échappé à un tueur masqué étrangement familier, les héros emblématiques de la saga sont de nouveau dans la ligne d...",
+      "isAI": false
+    },
+    {
+      "title": "Avengers: Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
+      "desc": "Un prochain film de la phase 6 du Marvel Cinematic Universe et une part de la Saga du multivers....",
+      "isAI": false
+    },
+    {
+      "title": "The Mandalorian and Grogu",
+      "link": "https://www.themoviedb.org/movie/1228710",
+      "image": "https://image.tmdb.org/t/p/w300/qkH4ntQtO5qnL17RFOvmkNHKpGt.jpg",
+      "desc": "L'Empire maléfique est tombé et les seigneurs de guerre impériaux restent dispersés dans toute la galaxie. Alors que la nouvelle République ...",
       "isAI": false
     }
   ]
