@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784493163948,
+  "updatedAt": 1784543668320,
   "items": [
     {
       "title": "L'Odyssée",
@@ -30,17 +30,17 @@
       "isAI": false
     },
     {
+      "title": "Spider-Man: Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
+      "isAI": false
+    },
+    {
       "title": "Vaiana, la légende du bout du monde",
       "link": "https://www.themoviedb.org/movie/1108427",
       "image": "https://image.tmdb.org/t/p/w300/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
       "desc": "Dans l'ancienne Polynésie, lorsqu'une terrible malédiction lancée par Maui atteint l'île d'un chef impétueux, sa fille obstinée répond à l'a...",
-      "isAI": false
-    },
-    {
-      "title": "The Furious",
-      "link": "https://www.themoviedb.org/movie/1280738",
-      "image": "https://image.tmdb.org/t/p/w300/6AOetubScykxJGRxNeNkMt1ra44.jpg",
-      "desc": "Après l’enlèvement de sa fille par un réseau criminel et face à l’inaction de la police, Wang Wei se lance dans une traque implacable pour l...",
       "isAI": false
     }
   ]

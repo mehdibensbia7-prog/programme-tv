@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784493164981,
+  "updatedAt": 1784543669245,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -20,20 +20,11 @@
       "category": "cinema"
     },
     {
-      "title": "Ice Cream Man",
-      "image": "https://image.tmdb.org/t/p/w300/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
-      "link": "https://www.themoviedb.org/movie/1477712",
-      "synopsis": "Aucun synopsis disponible.",
-      "releaseDate": "7 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Jana Nayagan",
-      "image": "https://image.tmdb.org/t/p/w300/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/psrVewrAPgwYpBQGQvK07AliUjY.jpg",
       "link": "https://www.themoviedb.org/movie/1235877",
       "synopsis": "Un choc idéologique. L’un se bat pour le peuple, l’autre se nourrit de contrôle. Leurs chemins se sont déjà croisés. Des années plus tard, la peur silencieuse d…",
-      "releaseDate": "22 juillet 2026",
+      "releaseDate": "23 juillet 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -47,29 +38,38 @@
       "category": "cinema"
     },
     {
-      "title": "La Pat’ Patrouille : Le film mission Dino",
-      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
-      "link": "https://www.themoviedb.org/movie/1185806",
-      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
-      "releaseDate": "5 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Roudram Ranam Rudhiram (RRR)",
+      "title": "Rise Roar Revolt (RRR)",
       "image": "https://image.tmdb.org/t/p/w300/sxI1qKDHZRAi2LPmJUPhQ2x1u07.jpg",
       "link": "https://www.themoviedb.org/movie/579974",
-      "synopsis": "À l'époque coloniale, en Inde, les anglais enlèvent une jeune fille d'une communauté tribale. Mais ce qu'ils ignorent, c'est que cette tribu a un protecteur : B…",
+      "synopsis": "Inde coloniale, années 1920. Deux hommes d’une détermination de fer se rencontrent par hasard et nouent une amitié fulgurante : Komaram Bheem, guerrier gond dét…",
       "releaseDate": "25 mars 2022",
       "platform": "Netflix",
       "category": "streaming"
     },
     {
-      "title": "I Want Your Sex",
-      "image": "https://image.tmdb.org/t/p/w300/oeAFYZ56LDqucUkm5bZmBi2qRtl.jpg",
-      "link": "https://www.themoviedb.org/movie/1288059",
-      "synopsis": "Lorsque le jeune et innocent Elliot décroche un emploi de rêve auprès d'Erika Tracy, artiste de renom, icône et provocatrice, ses fantasmes deviennent réalité :…",
-      "releaseDate": "29 juillet 2026",
+      "title": "Ice Cream Man",
+      "image": "https://image.tmdb.org/t/p/w300/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "link": "https://www.themoviedb.org/movie/1477712",
+      "synopsis": "Aucun synopsis disponible.",
+      "releaseDate": "7 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Lawrence d'Arabie",
+      "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
+      "link": "https://www.themoviedb.org/movie/947",
+      "synopsis": "Pendant la Première Guerre mondiale, le lieutenant britannique T.E. Lawrence reçoit l'ordre de soutenir les Arabes dans leur lutte contre les Turcs alliés des A…",
+      "releaseDate": "15 mars 1963",
+      "platform": "Apple TV Store (location)",
+      "category": "streaming"
+    },
+    {
+      "title": "La Pat’ Patrouille : Le film mission Dino",
+      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "link": "https://www.themoviedb.org/movie/1185806",
+      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
+      "releaseDate": "5 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
