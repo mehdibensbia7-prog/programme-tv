@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784584317871,
+  "updatedAt": 1784626421036,
   "items": [
     {
       "title": "House of the Dragon",
@@ -28,7 +28,7 @@
       "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
       "status": "En cours",
       "episodes": "3 saisons · 61 épisodes",
-      "nextEpisodeDate": "20 juillet 2026",
+      "nextEpisodeDate": "27 juillet 2026",
       "platform": "Netflix"
     },
     {
@@ -52,23 +52,13 @@
       "platform": "Netflix"
     },
     {
-      "title": "Agent Kim Reactivated",
-      "image": "https://image.tmdb.org/t/p/w300/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
-      "link": "https://www.themoviedb.org/tv/296206",
-      "synopsis": "Agent Kim Reactivated suit Kim Do-hyeon, un père célibataire et employé de banque. Pour retrouver sa fille kidnappée, il doit révéler son lourd secret : c'est u…",
-      "status": "En cours",
-      "episodes": "1 saison · 10 épisodes",
-      "nextEpisodeDate": "24 juillet 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "Binnelanders",
       "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
       "link": "https://www.themoviedb.org/tv/206559",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "22 saisons · 5112 épisodes",
-      "nextEpisodeDate": "20 juillet 2026",
+      "nextEpisodeDate": "21 juillet 2026",
       "platform": null
     },
     {
@@ -80,6 +70,16 @@
       "episodes": "19 saisons · 364 épisodes",
       "nextEpisodeDate": "23 juillet 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "Agent Kim Reactivated",
+      "image": "https://image.tmdb.org/t/p/w300/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
+      "link": "https://www.themoviedb.org/tv/296206",
+      "synopsis": "Agent Kim Reactivated suit Kim Do-hyeon, un père célibataire et employé de banque. Pour retrouver sa fille kidnappée, il doit révéler son lourd secret : c'est u…",
+      "status": "En cours",
+      "episodes": "1 saison · 10 épisodes",
+      "nextEpisodeDate": "24 juillet 2026",
+      "platform": "Netflix"
     }
   ]
 }

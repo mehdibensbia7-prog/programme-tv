@@ -1,11 +1,18 @@
 {
-  "updatedAt": 1784584315095,
+  "updatedAt": 1784626419155,
   "items": [
     {
       "title": "L'Odyssée",
       "link": "https://www.themoviedb.org/movie/1368337",
       "image": "https://image.tmdb.org/t/p/w300/k12dsDVtARFmr6TbC2hn0c68aw5.jpg",
       "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
+      "isAI": false
+    },
+    {
+      "title": "Disclosure Day",
+      "link": "https://www.themoviedb.org/movie/1275779",
+      "image": "https://image.tmdb.org/t/p/w300/8GRMeKaDFnuzXBzqGiDMzCFDnwQ.jpg",
+      "desc": "Si vous découvriez que nous ne sommes pas seuls, si quelqu'un vous le montrait, vous le prouvait, cela vous effraierait-il ?...",
       "isAI": false
     },
     {
@@ -30,17 +37,10 @@
       "isAI": false
     },
     {
-      "title": "Avengers: Doomsday",
-      "link": "https://www.themoviedb.org/movie/1003596",
-      "image": "https://image.tmdb.org/t/p/w300/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
-      "desc": "Un prochain film de la phase 6 du Marvel Cinematic Universe et une part de la Saga du multivers....",
-      "isAI": false
-    },
-    {
-      "title": "The Mandalorian and Grogu",
-      "link": "https://www.themoviedb.org/movie/1228710",
-      "image": "https://image.tmdb.org/t/p/w300/qkH4ntQtO5qnL17RFOvmkNHKpGt.jpg",
-      "desc": "L'Empire maléfique est tombé et les seigneurs de guerre impériaux restent dispersés dans toute la galaxie. Alors que la nouvelle République ...",
+      "title": "Spider-Man: Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
       "isAI": false
     }
   ]
