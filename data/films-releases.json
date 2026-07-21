@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784626420010,
+  "updatedAt": 1784653233585,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -56,15 +56,6 @@
       "category": "streaming"
     },
     {
-      "title": "La Pat’ Patrouille : Le film mission Dino",
-      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
-      "link": "https://www.themoviedb.org/movie/1185806",
-      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
-      "releaseDate": "5 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Lawrence d'Arabie",
       "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
       "link": "https://www.themoviedb.org/movie/947",
@@ -72,6 +63,15 @@
       "releaseDate": "15 mars 1963",
       "platform": "Apple TV Store (location)",
       "category": "streaming"
+    },
+    {
+      "title": "La Pat’ Patrouille : Le film mission Dino",
+      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "link": "https://www.themoviedb.org/movie/1185806",
+      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
+      "releaseDate": "5 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     }
   ]
 }
