@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784712838639,
+  "updatedAt": 1784739605469,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -38,6 +38,15 @@
       "category": "cinema"
     },
     {
+      "title": "La Pat’ Patrouille : Le film mission Dino",
+      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "link": "https://www.themoviedb.org/movie/1185806",
+      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
+      "releaseDate": "5 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Rise Roar Revolt (RRR)",
       "image": "https://image.tmdb.org/t/p/w300/sxI1qKDHZRAi2LPmJUPhQ2x1u07.jpg",
       "link": "https://www.themoviedb.org/movie/579974",
@@ -56,20 +65,11 @@
       "category": "streaming"
     },
     {
-      "title": "Mutiny",
-      "image": "https://image.tmdb.org/t/p/w300/rfRLWbxLZPq2eboKPsBvh1NgNwM.jpg",
-      "link": "https://www.themoviedb.org/movie/1288445",
-      "synopsis": "Après que son patron industriel milliardaire ait été assassiné sous ses yeux, Cole Reed est désigné pour endosser le crime, ce qui le met en fuite alors qu'il s…",
-      "releaseDate": "19 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Toi, Moi et la Toscane",
-      "image": "https://image.tmdb.org/t/p/w300/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
-      "link": "https://www.themoviedb.org/movie/1455079",
-      "synopsis": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de…",
-      "releaseDate": "12 août 2026",
+      "title": "I Want Your Sex",
+      "image": "https://image.tmdb.org/t/p/w300/oeAFYZ56LDqucUkm5bZmBi2qRtl.jpg",
+      "link": "https://www.themoviedb.org/movie/1288059",
+      "synopsis": "Lorsque le jeune et innocent Elliot décroche un emploi de rêve auprès d'Erika Tracy, artiste de renom, icône et provocatrice, ses fantasmes deviennent réalité :…",
+      "releaseDate": "29 juillet 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
