@@ -1,10 +1,10 @@
 {
-  "updatedAt": 1784653232364,
+  "updatedAt": 1784712837544,
   "items": [
     {
       "title": "L'Odyssée",
       "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/k12dsDVtARFmr6TbC2hn0c68aw5.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/5WzPybmv7J9lwfRfhHpuk0pySNc.jpg",
       "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
       "isAI": false
     },
@@ -37,10 +37,10 @@
       "isAI": false
     },
     {
-      "title": "The Mandalorian and Grogu",
-      "link": "https://www.themoviedb.org/movie/1228710",
-      "image": "https://image.tmdb.org/t/p/w300/eUOVyCSZrUH6aPfhsfd7j0bxGOl.jpg",
-      "desc": "L'Empire maléfique est tombé et les seigneurs de guerre impériaux restent dispersés dans toute la galaxie. Alors que la nouvelle République ...",
+      "title": "Spider-Man: Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
       "isAI": false
     }
   ]
