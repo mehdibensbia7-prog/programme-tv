@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-23T10:05:39.834Z",
-  "globalStatus": "🟢 SAIN",
+  "generatedAt": "2026-07-23T17:58:17.576Z",
+  "globalStatus": "🟠 SURVEILLANCE",
   "summary": {
-    "ok": 12,
-    "warn": 0,
+    "ok": 8,
+    "warn": 4,
     "fail": 0,
     "repaired": 0
   },
   "checks": [
     {
       "check": "data/news-ai.json",
-      "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 0.8h.",
+      "status": "warn",
+      "detail": "Donnée périmée : dernière mise à jour il y a 8.7h (seuil : 8h).",
       "repaired": false
     },
     {
       "check": "data/trends-ai.json",
-      "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 0.8h.",
+      "status": "warn",
+      "detail": "Donnée périmée : dernière mise à jour il y a 8.7h (seuil : 8h).",
       "repaired": false
     },
     {
@@ -28,14 +28,14 @@
     },
     {
       "check": "data/films-releases.json",
-      "status": "ok",
-      "detail": "8 élément(s), mis à jour il y a 0.8h.",
+      "status": "warn",
+      "detail": "Donnée périmée : dernière mise à jour il y a 8.7h (seuil : 8h).",
       "repaired": false
     },
     {
       "check": "data/series-releases.json",
-      "status": "ok",
-      "detail": "8 élément(s), mis à jour il y a 0.8h.",
+      "status": "warn",
+      "detail": "Donnée périmée : dernière mise à jour il y a 8.7h (seuil : 8h).",
       "repaired": false
     },
     {
