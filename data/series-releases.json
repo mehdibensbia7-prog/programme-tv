@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784798122531,
+  "updatedAt": 1784842791176,
   "items": [
     {
       "title": "House of the Dragon",
@@ -12,6 +12,36 @@
       "platform": "HBO Max"
     },
     {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "23 juillet 2026",
+      "platform": "Hayu"
+    },
+    {
+      "title": "Binnelanders",
+      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
+      "link": "https://www.themoviedb.org/tv/206559",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "22 saisons · 5178 épisodes",
+      "nextEpisodeDate": "23 juillet 2026",
+      "platform": null
+    },
+    {
+      "title": "Jeopardy!",
+      "image": "https://image.tmdb.org/t/p/w300/hfz0IgebqGENG6ZnuqKQKMFk2vy.jpg",
+      "link": "https://www.themoviedb.org/tv/2912",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "42 saisons · 9393 épisodes",
+      "nextEpisodeDate": "23 juillet 2026",
+      "platform": null
+    },
+    {
       "title": "Le Daily Show",
       "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
       "link": "https://www.themoviedb.org/tv/2224",
@@ -22,14 +52,14 @@
       "platform": null
     },
     {
-      "title": "Rick et Morty",
-      "image": "https://image.tmdb.org/t/p/w300/s11re4xQLZ6pRPv2sqXnK8CCvGn.jpg",
-      "link": "https://www.themoviedb.org/tv/60625",
-      "synopsis": "Rick, un scientifique sociopathe, entraîne son nigaud de petit-fils Morty dans des aventures extrêmement périlleuses aux quatre coins de l’univers.…",
+      "title": "Good Mythical Morning",
+      "image": "https://image.tmdb.org/t/p/w300/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "link": "https://www.themoviedb.org/tv/65701",
+      "synopsis": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffus…",
       "status": "En cours",
-      "episodes": "9 saisons · 91 épisodes",
-      "nextEpisodeDate": "26 juillet 2026",
-      "platform": "Netflix"
+      "episodes": "30 saisons · 3439 épisodes",
+      "nextEpisodeDate": "24 juillet 2026",
+      "platform": null
     },
     {
       "title": "Silo",
@@ -42,44 +72,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Binnelanders",
-      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
-      "link": "https://www.themoviedb.org/tv/206559",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Rick et Morty",
+      "image": "https://image.tmdb.org/t/p/w300/s11re4xQLZ6pRPv2sqXnK8CCvGn.jpg",
+      "link": "https://www.themoviedb.org/tv/60625",
+      "synopsis": "Rick, un scientifique sociopathe, entraîne son nigaud de petit-fils Morty dans des aventures extrêmement périlleuses aux quatre coins de l’univers.…",
       "status": "En cours",
-      "episodes": "22 saisons · 5112 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
-      "platform": null
-    },
-    {
-      "title": "Mushoku Tensei: Jobless Reincarnation",
-      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
-      "link": "https://www.themoviedb.org/tv/94664",
-      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
-      "status": "En cours",
-      "episodes": "3 saisons · 61 épisodes",
-      "nextEpisodeDate": "27 juillet 2026",
+      "episodes": "9 saisons · 91 épisodes",
+      "nextEpisodeDate": "26 juillet 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
-      "status": "En cours",
-      "episodes": "13 saisons · 1739 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
-      "platform": null
-    },
-    {
-      "title": "검사실의 제안",
-      "image": "https://image.tmdb.org/t/p/w300/fxEfx2Tt98l4oW2KI0GU3Q0qgnB.jpg",
-      "link": "https://www.themoviedb.org/tv/322055",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "1 saison · 10 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
-      "platform": null
     }
   ]
 }
