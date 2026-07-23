@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784756626088,
+  "updatedAt": 1784798122531,
   "items": [
     {
       "title": "House of the Dragon",
@@ -10,6 +10,16 @@
       "episodes": "3 saisons · 26 épisodes",
       "nextEpisodeDate": "26 juillet 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "status": "En cours",
+      "episodes": "32 saisons · 4260 épisodes",
+      "nextEpisodeDate": "23 juillet 2026",
+      "platform": null
     },
     {
       "title": "Rick et Morty",
@@ -38,7 +48,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "22 saisons · 5112 épisodes",
-      "nextEpisodeDate": "22 juillet 2026",
+      "nextEpisodeDate": "23 juillet 2026",
       "platform": null
     },
     {
@@ -52,23 +62,13 @@
       "platform": "Netflix"
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
-      "status": "En cours",
-      "episodes": "32 saisons · 4260 épisodes",
-      "nextEpisodeDate": "22 juillet 2026",
-      "platform": null
-    },
-    {
       "title": "Le Tonight Show",
       "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
       "link": "https://www.themoviedb.org/tv/59941",
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
       "episodes": "13 saisons · 1739 épisodes",
-      "nextEpisodeDate": "22 juillet 2026",
+      "nextEpisodeDate": "23 juillet 2026",
       "platform": null
     },
     {
