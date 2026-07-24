@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784842791176,
+  "updatedAt": 1784884329037,
   "items": [
     {
       "title": "House of the Dragon",
@@ -18,7 +18,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
+      "nextEpisodeDate": "26 juillet 2026",
       "platform": "Hayu"
     },
     {
@@ -28,7 +28,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "22 saisons · 5178 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
+      "nextEpisodeDate": "24 juillet 2026",
       "platform": null
     },
     {
@@ -38,7 +38,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "42 saisons · 9393 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
+      "nextEpisodeDate": "24 juillet 2026",
       "platform": null
     },
     {
@@ -48,8 +48,18 @@
       "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
       "episodes": "32 saisons · 4260 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
+      "nextEpisodeDate": "27 juillet 2026",
       "platform": null
+    },
+    {
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/zGMLj5ZTybGpgYtNnDbMbN1rOcp.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
+      "status": "En cours",
+      "episodes": "3 saisons · 30 épisodes",
+      "nextEpisodeDate": "30 juillet 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Good Mythical Morning",
@@ -60,16 +70,6 @@
       "episodes": "30 saisons · 3439 épisodes",
       "nextEpisodeDate": "24 juillet 2026",
       "platform": null
-    },
-    {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/zGMLj5ZTybGpgYtNnDbMbN1rOcp.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "3 saisons · 30 épisodes",
-      "nextEpisodeDate": "23 juillet 2026",
-      "platform": "Apple TV"
     },
     {
       "title": "Rick et Morty",
