@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1784929523698,
+  "updatedAt": 1784964894923,
   "items": [
+    {
+      "title": "\"Une expérience désagréable\" : il y a 38 ans, Bill Murray a mal vécu le tournage de ce film de Noël... Et cela a eu des répercussions sur la suite de sa carrière",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214989.html",
+      "desc": "Bill Murray garde un très mauvais souvenir de ce tournage de Noël, au point d’avoir refusé un autre film culte quelques années plus tard. Un",
+      "isAI": false
+    },
     {
       "title": "Demain nous appartient : Aaron sur le départ, Stany Coppet quitte-t-il vraiment la série ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214861.html",
@@ -29,12 +35,6 @@
       "title": "Cette réplique géniale du cinéma est entrée dans le langage courant pour toute une génération, et on la prononce encore 63 ans après",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214595.html",
       "desc": "En 1963 sortait \"Les Tontons flingueurs\", comédie culte du cinéma français, avec ses dialogues signés Michel Audiard, ses acteurs formidable",
-      "isAI": false
-    },
-    {
-      "title": "\"Encore plus loin dans le futur\" : ça fait 10 ans que l'on attend le retour de cette saga de science-fiction culte au cinéma... Et on a de bonnes nouvelles concernant le prochain film !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214849.html",
-      "desc": "Il y a 60 ans, cette série a révolutionné la science-fiction, et elle s'apprête à faire son grand retour au cinéma avec un prochain film.",
       "isAI": false
     }
   ]
