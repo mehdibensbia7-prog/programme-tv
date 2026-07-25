@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1784964895784,
+  "updatedAt": 1784994495499,
   "items": [
     {
       "title": "Spider-Man: Brand New Day",
@@ -56,15 +56,6 @@
       "category": "streaming"
     },
     {
-      "title": "Lawrence d'Arabie",
-      "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
-      "link": "https://www.themoviedb.org/movie/947",
-      "synopsis": "Pendant la Première Guerre mondiale, le lieutenant britannique T.E. Lawrence reçoit l'ordre de soutenir les Arabes dans leur lutte contre les Turcs alliés des A…",
-      "releaseDate": "15 mars 1963",
-      "platform": "Apple TV Store (location)",
-      "category": "streaming"
-    },
-    {
       "title": "Mutiny",
       "image": "https://image.tmdb.org/t/p/w300/rfRLWbxLZPq2eboKPsBvh1NgNwM.jpg",
       "link": "https://www.themoviedb.org/movie/1288445",
@@ -72,6 +63,15 @@
       "releaseDate": "19 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
+    },
+    {
+      "title": "Lawrence d'Arabie",
+      "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
+      "link": "https://www.themoviedb.org/movie/947",
+      "synopsis": "Pendant la Première Guerre mondiale, le lieutenant britannique T.E. Lawrence reçoit l'ordre de soutenir les Arabes dans leur lutte contre les Turcs alliés des A…",
+      "releaseDate": "15 mars 1963",
+      "platform": "Apple TV Store (location)",
+      "category": "streaming"
     }
   ]
 }
