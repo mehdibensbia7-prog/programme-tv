@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785156045534,
+  "updatedAt": 1785189026714,
   "items": [
     {
       "title": "House of the Dragon",
@@ -10,6 +10,26 @@
       "episodes": "3 saisons · 26 épisodes",
       "nextEpisodeDate": "2 août 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "27 juillet 2026",
+      "platform": "Hayu"
+    },
+    {
+      "title": "Binnelanders",
+      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
+      "link": "https://www.themoviedb.org/tv/206559",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "22 saisons · 5178 épisodes",
+      "nextEpisodeDate": "27 juillet 2026",
+      "platform": null
     },
     {
       "title": "Silo",
@@ -32,14 +52,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
+      "episodes": "32 saisons · 4260 épisodes",
       "nextEpisodeDate": "27 juillet 2026",
-      "platform": "Hayu"
+      "platform": null
     },
     {
       "title": "Agent Kim Reactivated",
@@ -52,33 +72,13 @@
       "platform": "Netflix"
     },
     {
-      "title": "Binnelanders",
-      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
-      "link": "https://www.themoviedb.org/tv/206559",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Good Mythical Morning",
+      "image": "https://image.tmdb.org/t/p/w300/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "link": "https://www.themoviedb.org/tv/65701",
+      "synopsis": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffus…",
       "status": "En cours",
-      "episodes": "22 saisons · 5178 épisodes",
+      "episodes": "30 saisons · 3439 épisodes",
       "nextEpisodeDate": "27 juillet 2026",
-      "platform": null
-    },
-    {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
-      "status": "En cours",
-      "episodes": "32 saisons · 4260 épisodes",
-      "nextEpisodeDate": "27 juillet 2026",
-      "platform": null
-    },
-    {
-      "title": "Late Night with Seth Meyers",
-      "image": "https://image.tmdb.org/t/p/w300/u8VruEGv7mtyJihVn2CSA1u90pk.jpg",
-      "link": "https://www.themoviedb.org/tv/61818",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "13 saisons · 1825 épisodes",
-      "nextEpisodeDate": "28 juillet 2026",
       "platform": null
     }
   ]
