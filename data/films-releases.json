@@ -1,8 +1,8 @@
 {
-  "updatedAt": 1785100463963,
+  "updatedAt": 1785156044921,
   "items": [
     {
-      "title": "Spider-Man: Brand New Day",
+      "title": "Spider-Man : Brand New Day",
       "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
       "link": "https://www.themoviedb.org/movie/969681",
       "synopsis": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime da…",
@@ -38,15 +38,6 @@
       "category": "cinema"
     },
     {
-      "title": "Ice Cream Man",
-      "image": "https://image.tmdb.org/t/p/w300/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
-      "link": "https://www.themoviedb.org/movie/1477712",
-      "synopsis": "Un marchand de glaces commence à servir aux enfants des douceurs aux conséquences terrifiantes...…",
-      "releaseDate": "7 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Rise Roar Revolt (RRR)",
       "image": "https://image.tmdb.org/t/p/w300/sxI1qKDHZRAi2LPmJUPhQ2x1u07.jpg",
       "link": "https://www.themoviedb.org/movie/579974",
@@ -54,6 +45,15 @@
       "releaseDate": "25 mars 2022",
       "platform": "Netflix",
       "category": "streaming"
+    },
+    {
+      "title": "Ice Cream Man",
+      "image": "https://image.tmdb.org/t/p/w300/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "link": "https://www.themoviedb.org/movie/1477712",
+      "synopsis": "Un marchand de glaces commence à servir aux enfants des douceurs aux conséquences terrifiantes...…",
+      "releaseDate": "7 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     },
     {
       "title": "Lawrence d'Arabie",

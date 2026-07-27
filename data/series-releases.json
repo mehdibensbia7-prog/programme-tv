@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785100465272,
+  "updatedAt": 1785156045534,
   "items": [
     {
       "title": "House of the Dragon",
@@ -8,7 +8,7 @@
       "synopsis": "Près de 200 ans avant les évènements de Game of Thrones, le continent de Westeros est en proie à de nombreux dangers. Une guerre civile se prépare dans différen…",
       "status": "En cours",
       "episodes": "3 saisons · 26 épisodes",
-      "nextEpisodeDate": "26 juillet 2026",
+      "nextEpisodeDate": "2 août 2026",
       "platform": "HBO Max"
     },
     {
@@ -22,13 +22,13 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Rick et Morty",
-      "image": "https://image.tmdb.org/t/p/w300/s11re4xQLZ6pRPv2sqXnK8CCvGn.jpg",
-      "link": "https://www.themoviedb.org/tv/60625",
-      "synopsis": "Rick, un scientifique sociopathe, entraîne son nigaud de petit-fils Morty dans des aventures extrêmement périlleuses aux quatre coins de l’univers.…",
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
       "status": "En cours",
-      "episodes": "9 saisons · 91 épisodes",
-      "nextEpisodeDate": "26 juillet 2026",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "27 juillet 2026",
       "platform": "Netflix"
     },
     {
@@ -38,18 +38,8 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "26 juillet 2026",
-      "platform": "Hayu"
-    },
-    {
-      "title": "Mushoku Tensei: Jobless Reincarnation",
-      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
-      "link": "https://www.themoviedb.org/tv/94664",
-      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
-      "status": "En cours",
-      "episodes": "3 saisons · 61 épisodes",
       "nextEpisodeDate": "27 juillet 2026",
-      "platform": "Netflix"
+      "platform": "Hayu"
     },
     {
       "title": "Agent Kim Reactivated",
@@ -79,6 +69,16 @@
       "status": "En cours",
       "episodes": "32 saisons · 4260 épisodes",
       "nextEpisodeDate": "27 juillet 2026",
+      "platform": null
+    },
+    {
+      "title": "Late Night with Seth Meyers",
+      "image": "https://image.tmdb.org/t/p/w300/u8VruEGv7mtyJihVn2CSA1u90pk.jpg",
+      "link": "https://www.themoviedb.org/tv/61818",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "13 saisons · 1825 épisodes",
+      "nextEpisodeDate": "28 juillet 2026",
       "platform": null
     }
   ]
