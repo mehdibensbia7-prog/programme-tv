@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785233473457,
+  "updatedAt": 1785258772503,
   "items": [
     {
       "title": "House of the Dragon",
@@ -22,16 +22,6 @@
       "platform": "Hayu"
     },
     {
-      "title": "Binnelanders",
-      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
-      "link": "https://www.themoviedb.org/tv/206559",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "22 saisons · 5178 épisodes",
-      "nextEpisodeDate": "28 juillet 2026",
-      "platform": null
-    },
-    {
       "title": "Silo",
       "image": "https://image.tmdb.org/t/p/w300/zGMLj5ZTybGpgYtNnDbMbN1rOcp.jpg",
       "link": "https://www.themoviedb.org/tv/125988",
@@ -52,34 +42,44 @@
       "platform": "Netflix"
     },
     {
-      "title": "Good Mythical Morning",
-      "image": "https://image.tmdb.org/t/p/w300/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-      "link": "https://www.themoviedb.org/tv/65701",
-      "synopsis": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffus…",
-      "status": "En cours",
-      "episodes": "30 saisons · 3439 épisodes",
-      "nextEpisodeDate": "29 juillet 2026",
-      "platform": null
-    },
-    {
-      "title": "Na Wspólnej",
-      "image": "https://image.tmdb.org/t/p/w300/uksRhdaOn64bO5d33d7rcTbrhJI.jpg",
-      "link": "https://www.themoviedb.org/tv/14750",
+      "title": "Late Night with Seth Meyers",
+      "image": "https://image.tmdb.org/t/p/w300/u8VruEGv7mtyJihVn2CSA1u90pk.jpg",
+      "link": "https://www.themoviedb.org/tv/61818",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "25 saisons · 3859 épisodes",
+      "episodes": "13 saisons · 1825 épisodes",
       "nextEpisodeDate": "28 juillet 2026",
       "platform": null
     },
     {
-      "title": "Bares für Rares",
-      "image": "https://image.tmdb.org/t/p/w300/j9SzcU00nl64FdgLs4otaHBfRkj.jpg",
-      "link": "https://www.themoviedb.org/tv/79917",
-      "synopsis": "Cette émission allemande est l’équivalent de \"Affaire conclue\" en France. Des objets sont présentés et commentés par un expert, qui vérifie aussi leur authentic…",
+      "title": "Binnelanders",
+      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
+      "link": "https://www.themoviedb.org/tv/206559",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "17 saisons · 2480 épisodes",
+      "episodes": "22 saisons · 5178 épisodes",
       "nextEpisodeDate": "28 juillet 2026",
       "platform": null
+    },
+    {
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "status": "En cours",
+      "episodes": "32 saisons · 4260 épisodes",
+      "nextEpisodeDate": "28 juillet 2026",
+      "platform": null
+    },
+    {
+      "title": "Agent Kim Reactivated",
+      "image": "https://image.tmdb.org/t/p/w300/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
+      "link": "https://www.themoviedb.org/tv/296206",
+      "synopsis": "Quand sa fille disparaît, un père en apparence sans histoire retrouve ses qualités d'agent secret pour la retrouver — et s'attire des ennuis.…",
+      "status": "Terminée",
+      "episodes": "1 saison · 10 épisodes",
+      "nextEpisodeDate": null,
+      "platform": "Netflix"
     }
   ]
 }
