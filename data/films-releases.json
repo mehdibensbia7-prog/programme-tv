@@ -1,15 +1,6 @@
 {
-  "updatedAt": 1785258770891,
+  "updatedAt": 1785320098090,
   "items": [
-    {
-      "title": "Spider-Man : Brand New Day",
-      "image": "https://image.tmdb.org/t/p/w300/yikio8CfJxIA7faZxgvB9FGXy6u.jpg",
-      "link": "https://www.themoviedb.org/movie/969681",
-      "synopsis": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime da…",
-      "releaseDate": "29 juillet 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
     {
       "title": "La fin d’Oak Street",
       "image": "https://image.tmdb.org/t/p/w300/1flRy4qysdwjhlqw2BZ1Wm1zcpM.jpg",
@@ -38,24 +29,6 @@
       "category": "cinema"
     },
     {
-      "title": "Lawrence d'Arabie",
-      "image": "https://image.tmdb.org/t/p/w300/jEXGkKEIuyc6012BFpFJpaGOW5a.jpg",
-      "link": "https://www.themoviedb.org/movie/947",
-      "synopsis": "Pendant la Première Guerre mondiale, le lieutenant britannique T.E. Lawrence reçoit l'ordre de soutenir les Arabes dans leur lutte contre les Turcs alliés des A…",
-      "releaseDate": "15 mars 1963",
-      "platform": "Apple TV Store (location)",
-      "category": "streaming"
-    },
-    {
-      "title": "Rise Roar Revolt (RRR)",
-      "image": "https://image.tmdb.org/t/p/w300/sxI1qKDHZRAi2LPmJUPhQ2x1u07.jpg",
-      "link": "https://www.themoviedb.org/movie/579974",
-      "synopsis": "Inde coloniale, années 1920. Deux hommes d’une détermination de fer se rencontrent par hasard et nouent une amitié fulgurante : Komaram Bheem, guerrier gond dét…",
-      "releaseDate": "25 mars 2022",
-      "platform": "Netflix",
-      "category": "streaming"
-    },
-    {
       "title": "Mutiny",
       "image": "https://image.tmdb.org/t/p/w300/rfRLWbxLZPq2eboKPsBvh1NgNwM.jpg",
       "link": "https://www.themoviedb.org/movie/1288445",
@@ -70,6 +43,33 @@
       "link": "https://www.themoviedb.org/movie/1291595",
       "synopsis": "Un trio de harceleurs s'infiltre dans une banlieue tranquille et force une nouvelle famille à entrer dans le plan astral, où ils découvrent une vérité terrifian…",
       "releaseDate": "19 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "The Dog Stars",
+      "image": "https://image.tmdb.org/t/p/w300/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "link": "https://www.themoviedb.org/movie/1384216",
+      "synopsis": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et …",
+      "releaseDate": "26 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Toi, Moi et la Toscane",
+      "image": "https://image.tmdb.org/t/p/w300/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
+      "link": "https://www.themoviedb.org/movie/1455079",
+      "synopsis": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de…",
+      "releaseDate": "12 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "DC",
+      "image": "https://image.tmdb.org/t/p/w300/7IqDtlkUNDnnR3wsXScEGSDV4RM.jpg",
+      "link": "https://www.themoviedb.org/movie/1479832",
+      "synopsis": "Aucun synopsis disponible.",
+      "releaseDate": "7 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
