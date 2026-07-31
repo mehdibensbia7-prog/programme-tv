@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785492189957,
+  "updatedAt": 1785517921633,
   "items": [
     {
       "title": "House of the Dragon",
@@ -18,6 +18,14 @@
       "desc": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un g..."
     },
     {
+      "title": "Secret Story",
+      "season": "En cours",
+      "date": "2007-06-23",
+      "link": "https://www.themoviedb.org/tv/46271",
+      "image": "https://image.tmdb.org/t/p/w500/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
+      "desc": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans ..."
+    },
+    {
       "title": "Watch What Happens Live with Andy Cohen",
       "season": "En cours",
       "date": "2009-07-16",
@@ -32,14 +40,6 @@
       "link": "https://www.themoviedb.org/tv/94664",
       "image": "https://image.tmdb.org/t/p/w500/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
       "desc": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, rec..."
-    },
-    {
-      "title": "Agent Kim Reactivated",
-      "season": "En cours",
-      "date": "2026-06-26",
-      "link": "https://www.themoviedb.org/tv/296206",
-      "image": "https://image.tmdb.org/t/p/w500/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
-      "desc": "Quand sa fille disparaît, un père en apparence sans histoire retrouve ses qualit..."
     }
   ]
 }
