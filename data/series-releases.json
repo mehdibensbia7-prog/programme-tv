@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785448178226,
+  "updatedAt": 1785492309635,
   "items": [
     {
       "title": "House of the Dragon",
@@ -18,7 +18,7 @@
       "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
       "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "30 juillet 2026",
+      "nextEpisodeDate": "6 août 2026",
       "platform": "Apple TV"
     },
     {
@@ -28,7 +28,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "30 juillet 2026",
+      "nextEpisodeDate": "2 août 2026",
       "platform": "Hayu"
     },
     {
@@ -40,16 +40,6 @@
       "episodes": "3 saisons · 61 épisodes",
       "nextEpisodeDate": "3 août 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
-      "status": "En cours",
-      "episodes": "13 saisons · 1997 épisodes",
-      "nextEpisodeDate": "30 juillet 2026",
-      "platform": null
     },
     {
       "title": "Agent Kim Reactivated",
@@ -68,7 +58,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "13 saisons · 1827 épisodes",
-      "nextEpisodeDate": "30 juillet 2026",
+      "nextEpisodeDate": "31 juillet 2026",
       "platform": null
     },
     {
@@ -80,6 +70,16 @@
       "episodes": "9 saisons · 454 épisodes",
       "nextEpisodeDate": "1 août 2026",
       "platform": "Netflix"
+    },
+    {
+      "title": "Secret Story",
+      "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
+      "link": "https://www.themoviedb.org/tv/46271",
+      "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
+      "status": "En cours",
+      "episodes": "14 saisons · 1307 épisodes",
+      "nextEpisodeDate": "31 juillet 2026",
+      "platform": null
     }
   ]
 }
