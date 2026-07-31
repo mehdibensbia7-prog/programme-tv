@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785517952176,
+  "updatedAt": 1785534462862,
   "items": [
     {
       "title": "La fin d’Oak Street",
@@ -20,11 +20,29 @@
       "category": "cinema"
     },
     {
+      "title": "DC",
+      "image": "https://image.tmdb.org/t/p/w300/7IqDtlkUNDnnR3wsXScEGSDV4RM.jpg",
+      "link": "https://www.themoviedb.org/movie/1479832",
+      "synopsis": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épr…",
+      "releaseDate": "7 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "La Pat’ Patrouille : Le film mission Dino",
       "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
       "link": "https://www.themoviedb.org/movie/1185806",
       "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
       "releaseDate": "5 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Juste pour une Nuit",
+      "image": "https://image.tmdb.org/t/p/w300/ynL7Ng0bLYJ3RZuxAqkE95QBVOL.jpg",
+      "link": "https://www.themoviedb.org/movie/1433367",
+      "synopsis": "Un homme et une femme se démènent pour trouver quelqu'un avec qui coucher la seule nuit de l'année où les relations sexuelles avant le mariage sont légales dans…",
+      "releaseDate": "12 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -38,29 +56,11 @@
       "category": "cinema"
     },
     {
-      "title": "Juste pour une Nuit",
-      "image": "https://image.tmdb.org/t/p/w300/ynL7Ng0bLYJ3RZuxAqkE95QBVOL.jpg",
-      "link": "https://www.themoviedb.org/movie/1433367",
-      "synopsis": "Un homme et une femme se démènent pour trouver quelqu'un avec qui coucher la seule nuit de l'année où les relations sexuelles avant le mariage sont légales dans…",
-      "releaseDate": "26 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Insidious : L'Invasion du Lointain",
       "image": "https://image.tmdb.org/t/p/w300/bW8uJOLrtdBnQcQbG9BUQjDgUaT.jpg",
       "link": "https://www.themoviedb.org/movie/1291595",
       "synopsis": "Un trio de harceleurs s'infiltre dans une banlieue tranquille et force une nouvelle famille à entrer dans le plan astral, où ils découvrent une vérité terrifian…",
       "releaseDate": "19 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "DC",
-      "image": "https://image.tmdb.org/t/p/w300/7IqDtlkUNDnnR3wsXScEGSDV4RM.jpg",
-      "link": "https://www.themoviedb.org/movie/1479832",
-      "synopsis": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épr…",
-      "releaseDate": "7 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
