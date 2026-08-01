@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1785598970883,
+  "updatedAt": 1785616658793,
   "items": [
+    {
+      "title": "\"Je n’ai jamais rien vu de tel\" : l'un des plus grands acteurs de tous les temps pense beaucoup de bien de Breaking Bad",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216121.html",
+      "desc": "Après avoir dévoré les 5 saisons de “Breaking Bad”, Anthony Hopkins était tellement impressionné qu’il a pris la plume pour féliciter person",
+      "isAI": false
+    },
+    {
+      "title": "\"Absolument pas attrayant\" : noté 4 sur 5, ce film inattendu de Clint Eastwood est son plus gros échec au box-office",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216120.html",
+      "desc": "Bien avant de devenir l’un des réalisateurs les plus respectés d’Hollywood, Clint Eastwood s’est aventuré sur un terrain où personne ne l’at",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man 4 : qu'annonce la scène post-générique de Brand New Day ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215419.html",
+      "desc": "Restez bien jusqu'à la fin du générique de \"Spider-Man Brand New Day\", pour une scène supplémentaire qui contient des détails cruciaux pour ",
+      "isAI": false
+    },
     {
       "title": "Plus de 300 films en 47 ans de carrière : c'est l'acteur qu'on a le plus vu dans le cinéma français !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216118.html",
@@ -17,24 +35,6 @@
       "title": "Même si l’allemand est sa langue maternelle, Arnold Schwarzenegger n’a pas eu le droit de doubler son propre personnage dans la saga Terminator",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216114.html",
       "desc": "C’est un détail que peu de fans connaissent. Pour l’un de ses rôles les plus emblématiques, Arnold Schwarzenegger a été remplacé dans son pr",
-      "isAI": false
-    },
-    {
-      "title": "Un Si Grand Soleil en avance : Ludo prêt à tomber dans un piège ?… Ce qui vous attend la semaine du 3 au 7 août 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215319.html",
-      "desc": "La semaine prochaine dans \"Un Si Grand Soleil\"… L'arrivée d'une mystérieuse inconnue fera craindre le pire à Flore, mais beaucoup à Ludo ! T",
-      "isAI": false
-    },
-    {
-      "title": "Quand le vice-président de la MGM faisait appel à la Mafia pour récupérer un film classé X tourné par une star du studio",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214912.html",
-      "desc": "Resté salarié de la MGM jusqu’à sa mort en 1963, Eddie Mannix est une figure majeure de l’histoire d’Hollywood. Un homme particulièrement su",
-      "isAI": false
-    },
-    {
-      "title": "Jamel Debbouze, Josiane Balasko, Gad Elmaleh, Arnaud Ducret... Ils sont au casting comédies à voir au cinéma en août !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212694.html",
-      "desc": "Adaptations de BD célèbre, stars de l'humour français, réalisateurs de comédies à succès... découvrez les trois comédies françaises les plus",
       "isAI": false
     }
   ]

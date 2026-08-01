@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785598972159,
+  "updatedAt": 1785616659488,
   "items": [
     {
       "title": "La fin d’Oak Street",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
+      "title": "Coyote vs. Acme",
+      "image": "https://image.tmdb.org/t/p/w300/fifRZwzmKsvzSmZTvohDv7a8Qdv.jpg",
+      "link": "https://www.themoviedb.org/movie/1204680",
+      "synopsis": "Un avocat malchanceux, Kevin Avery, est engagé par Vil Coyote. Ce personnage des Looney Tunes veut ainsi attaquer en justice l'entreprise ACME, qui selon lui fa…",
+      "releaseDate": "26 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Insidious : L'Invasion du Lointain",
       "image": "https://image.tmdb.org/t/p/w300/bW8uJOLrtdBnQcQbG9BUQjDgUaT.jpg",
       "link": "https://www.themoviedb.org/movie/1291595",
       "synopsis": "Un trio de harceleurs s'infiltre dans une banlieue tranquille et force une nouvelle famille à entrer dans le plan astral, où ils découvrent une vérité terrifian…",
       "releaseDate": "19 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "The Dog Stars",
-      "image": "https://image.tmdb.org/t/p/w300/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
-      "link": "https://www.themoviedb.org/movie/1384216",
-      "synopsis": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et …",
-      "releaseDate": "26 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
