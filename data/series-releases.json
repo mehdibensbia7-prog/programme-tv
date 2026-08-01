@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785534463462,
+  "updatedAt": 1785598973544,
   "items": [
     {
       "title": "House of the Dragon",
@@ -13,23 +13,13 @@
     },
     {
       "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/qrmpMoTnQf6f1ftWpzsYPoOG2U0.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
       "link": "https://www.themoviedb.org/tv/125988",
       "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
       "episodes": "4 saisons · 30 épisodes",
       "nextEpisodeDate": "6 août 2026",
       "platform": "Apple TV"
-    },
-    {
-      "title": "Secret Story",
-      "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
-      "link": "https://www.themoviedb.org/tv/46271",
-      "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
-      "status": "En cours",
-      "episodes": "14 saisons · 1307 épisodes",
-      "nextEpisodeDate": "31 juillet 2026",
-      "platform": null
     },
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -42,6 +32,16 @@
       "platform": "Hayu"
     },
     {
+      "title": "Jornal Nacional",
+      "image": "https://image.tmdb.org/t/p/w300/59iVuixNWRgtkT1aN8BR9RrJOBR.jpg",
+      "link": "https://www.themoviedb.org/tv/16807",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "58 saisons · 10979 épisodes",
+      "nextEpisodeDate": "1 août 2026",
+      "platform": null
+    },
+    {
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
       "link": "https://www.themoviedb.org/tv/94664",
@@ -52,34 +52,34 @@
       "platform": "Netflix"
     },
     {
-      "title": "BBC Proms",
-      "image": "https://image.tmdb.org/t/p/w300/605DvsE6xjYaJ3fYDRhnj0fmb2D.jpg",
-      "link": "https://www.themoviedb.org/tv/23393",
+      "title": "Salatut elämät",
+      "image": "https://image.tmdb.org/t/p/w300/ugYAGyxwajuplDUUYT8Bzbj8eNR.jpg",
+      "link": "https://www.themoviedb.org/tv/14610",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "80 saisons · 1169 épisodes",
-      "nextEpisodeDate": "31 juillet 2026",
+      "episodes": "29 saisons · 4967 épisodes",
+      "nextEpisodeDate": "7 août 2026",
       "platform": null
     },
     {
-      "title": "Late Night with Seth Meyers",
-      "image": "https://image.tmdb.org/t/p/w300/u8VruEGv7mtyJihVn2CSA1u90pk.jpg",
-      "link": "https://www.themoviedb.org/tv/61818",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Secret Story",
+      "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
+      "link": "https://www.themoviedb.org/tv/46271",
+      "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
       "status": "En cours",
-      "episodes": "13 saisons · 1827 épisodes",
-      "nextEpisodeDate": "31 juillet 2026",
+      "episodes": "14 saisons · 1307 épisodes",
+      "nextEpisodeDate": "2 août 2026",
       "platform": null
     },
     {
-      "title": "Agent Kim Reactivated",
-      "image": "https://image.tmdb.org/t/p/w300/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
-      "link": "https://www.themoviedb.org/tv/296206",
-      "synopsis": "Quand sa fille disparaît, un père en apparence sans histoire retrouve ses qualités d'agent secret pour la retrouver — et s'attire des ennuis.…",
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "1 saison · 10 épisodes",
-      "nextEpisodeDate": null,
-      "platform": "Netflix"
+      "episodes": "35 saisons · 8527 épisodes",
+      "nextEpisodeDate": "3 août 2026",
+      "platform": null
     }
   ]
 }

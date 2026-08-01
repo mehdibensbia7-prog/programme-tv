@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785534462862,
+  "updatedAt": 1785598972159,
   "items": [
     {
       "title": "La fin d’Oak Street",
@@ -12,19 +12,10 @@
     },
     {
       "title": "undertone",
-      "image": "https://image.tmdb.org/t/p/w300/e7f4AKWg1xGuHO4yOGGGbo5CHHS.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/yEuZLk7pJF2H17YawE2ILOg9HB3.jpg",
       "link": "https://www.themoviedb.org/movie/1480387",
       "synopsis": "Animatrice d’un podcast consacré aux phénomènes paranormaux, Evy retourne dans la maison de son enfance pour veiller sa mère mourante. Un jour, elle reçoit d’ét…",
       "releaseDate": "12 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "DC",
-      "image": "https://image.tmdb.org/t/p/w300/7IqDtlkUNDnnR3wsXScEGSDV4RM.jpg",
-      "link": "https://www.themoviedb.org/movie/1479832",
-      "synopsis": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épr…",
-      "releaseDate": "7 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -34,6 +25,15 @@
       "link": "https://www.themoviedb.org/movie/1185806",
       "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
       "releaseDate": "5 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "DC",
+      "image": "https://image.tmdb.org/t/p/w300/7IqDtlkUNDnnR3wsXScEGSDV4RM.jpg",
+      "link": "https://www.themoviedb.org/movie/1479832",
+      "synopsis": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épr…",
+      "releaseDate": "7 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
