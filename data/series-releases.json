@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785657334497,
+  "updatedAt": 1785705164369,
   "items": [
     {
       "title": "House of the Dragon",
@@ -10,6 +10,16 @@
       "episodes": "3 saisons · 26 épisodes",
       "nextEpisodeDate": "2 août 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "35 saisons · 8527 épisodes",
+      "nextEpisodeDate": "3 août 2026",
+      "platform": null
     },
     {
       "title": "Silo",
@@ -33,11 +43,11 @@
     },
     {
       "title": "Jornal Nacional",
-      "image": "https://image.tmdb.org/t/p/w300/59iVuixNWRgtkT1aN8BR9RrJOBR.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/ikGRSbjOJhQ74YqYTxYqhURGdNC.jpg",
       "link": "https://www.themoviedb.org/tv/16807",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "58 saisons · 10979 épisodes",
+      "episodes": "58 saisons · 11371 épisodes",
       "nextEpisodeDate": "3 août 2026",
       "platform": null
     },
@@ -52,16 +62,6 @@
       "platform": "Netflix"
     },
     {
-      "title": "Salatut elämät",
-      "image": "https://image.tmdb.org/t/p/w300/ugYAGyxwajuplDUUYT8Bzbj8eNR.jpg",
-      "link": "https://www.themoviedb.org/tv/14610",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "29 saisons · 4967 épisodes",
-      "nextEpisodeDate": "7 août 2026",
-      "platform": null
-    },
-    {
       "title": "Secret Story",
       "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
       "link": "https://www.themoviedb.org/tv/46271",
@@ -72,14 +72,14 @@
       "platform": null
     },
     {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Teen Titans Go!",
+      "image": "https://image.tmdb.org/t/p/w300/kPKAigYUlWRpnfo4Ptiwlz4FWXU.jpg",
+      "link": "https://www.themoviedb.org/tv/45140",
+      "synopsis": "Découvrez les toutes nouvelles aventures de Robin, Cyborg, Starfire, Raven et Changelin dans Teen Titans Go! Que font ces super héros quand ils ne combattent pa…",
       "status": "En cours",
-      "episodes": "35 saisons · 8527 épisodes",
-      "nextEpisodeDate": "3 août 2026",
-      "platform": null
+      "episodes": "9 saisons · 454 épisodes",
+      "nextEpisodeDate": "8 août 2026",
+      "platform": "Netflix"
     }
   ]
 }
