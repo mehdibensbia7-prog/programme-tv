@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785705164369,
+  "updatedAt": 1785760839092,
   "items": [
     {
       "title": "House of the Dragon",
@@ -8,7 +8,7 @@
       "synopsis": "Près de 200 ans avant les évènements de Game of Thrones, le continent de Westeros est en proie à de nombreux dangers. Une guerre civile se prépare dans différen…",
       "status": "En cours",
       "episodes": "3 saisons · 26 épisodes",
-      "nextEpisodeDate": "2 août 2026",
+      "nextEpisodeDate": "9 août 2026",
       "platform": "HBO Max"
     },
     {
@@ -38,18 +38,28 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "2 août 2026",
+      "nextEpisodeDate": "3 août 2026",
       "platform": "Hayu"
     },
     {
       "title": "Jornal Nacional",
-      "image": "https://image.tmdb.org/t/p/w300/ikGRSbjOJhQ74YqYTxYqhURGdNC.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/59iVuixNWRgtkT1aN8BR9RrJOBR.jpg",
       "link": "https://www.themoviedb.org/tv/16807",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "58 saisons · 11371 épisodes",
       "nextEpisodeDate": "3 août 2026",
       "platform": null
+    },
+    {
+      "title": "Lioness",
+      "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
+      "link": "https://www.themoviedb.org/tv/113962",
+      "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
+      "status": "En cours",
+      "episodes": "3 saisons · 24 épisodes",
+      "nextEpisodeDate": "9 août 2026",
+      "platform": "Paramount Plus"
     },
     {
       "title": "Mushoku Tensei: Jobless Reincarnation",
@@ -62,24 +72,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "Secret Story",
-      "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
-      "link": "https://www.themoviedb.org/tv/46271",
-      "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
+      "title": "Bleach",
+      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "link": "https://www.themoviedb.org/tv/30984",
+      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
       "status": "En cours",
-      "episodes": "14 saisons · 1307 épisodes",
-      "nextEpisodeDate": "2 août 2026",
-      "platform": null
-    },
-    {
-      "title": "Teen Titans Go!",
-      "image": "https://image.tmdb.org/t/p/w300/kPKAigYUlWRpnfo4Ptiwlz4FWXU.jpg",
-      "link": "https://www.themoviedb.org/tv/45140",
-      "synopsis": "Découvrez les toutes nouvelles aventures de Robin, Cyborg, Starfire, Raven et Changelin dans Teen Titans Go! Que font ces super héros quand ils ne combattent pa…",
-      "status": "En cours",
-      "episodes": "9 saisons · 454 épisodes",
+      "episodes": "2 saisons · 416 épisodes",
       "nextEpisodeDate": "8 août 2026",
-      "platform": "Netflix"
+      "platform": "Disney Plus"
     }
   ]
 }
