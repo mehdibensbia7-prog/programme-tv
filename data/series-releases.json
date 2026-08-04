@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785838561210,
+  "updatedAt": 1785867280325,
   "items": [
     {
       "title": "House of the Dragon",
@@ -12,26 +12,6 @@
       "platform": "HBO Max"
     },
     {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "6 août 2026",
-      "platform": "Apple TV"
-    },
-    {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "35 saisons · 8527 épisodes",
-      "nextEpisodeDate": "4 août 2026",
-      "platform": null
-    },
-    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -42,14 +22,14 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Jornal Nacional",
-      "image": "https://image.tmdb.org/t/p/w300/59iVuixNWRgtkT1aN8BR9RrJOBR.jpg",
-      "link": "https://www.themoviedb.org/tv/16807",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
-      "episodes": "58 saisons · 11371 épisodes",
-      "nextEpisodeDate": "4 août 2026",
-      "platform": null
+      "episodes": "4 saisons · 30 épisodes",
+      "nextEpisodeDate": "6 août 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -62,16 +42,6 @@
       "platform": "Hayu"
     },
     {
-      "title": "Renegade Immortal",
-      "image": "https://image.tmdb.org/t/p/w300/2jEJSCLFjniFT7z4YvyY9Ywo1lc.jpg",
-      "link": "https://www.themoviedb.org/tv/223911",
-      "synopsis": "Il raconte l'histoire de Wang Lin, un jeune homme ordinaire vivant à la campagne, qui, poussé par son cœur, se lance dans la quête de l'immortalité. Son objecti…",
-      "status": "En cours",
-      "episodes": "1 saison · 200 épisodes",
-      "nextEpisodeDate": "9 août 2026",
-      "platform": "Crunchyroll"
-    },
-    {
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
       "link": "https://www.themoviedb.org/tv/94664",
@@ -80,6 +50,36 @@
       "episodes": "3 saisons · 61 épisodes",
       "nextEpisodeDate": "10 août 2026",
       "platform": "Netflix"
+    },
+    {
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "35 saisons · 8527 épisodes",
+      "nextEpisodeDate": "4 août 2026",
+      "platform": null
+    },
+    {
+      "title": "Bleach",
+      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "link": "https://www.themoviedb.org/tv/30984",
+      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 416 épisodes",
+      "nextEpisodeDate": "8 août 2026",
+      "platform": "Disney Plus"
+    },
+    {
+      "title": "Jornal Nacional",
+      "image": "https://image.tmdb.org/t/p/w300/59iVuixNWRgtkT1aN8BR9RrJOBR.jpg",
+      "link": "https://www.themoviedb.org/tv/16807",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "58 saisons · 11371 épisodes",
+      "nextEpisodeDate": "4 août 2026",
+      "platform": null
     }
   ]
 }
