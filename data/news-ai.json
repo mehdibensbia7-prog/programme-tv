@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1785949983337,
+  "updatedAt": 1785968292947,
   "items": [
+    {
+      "title": "\"Il était encore meilleur la deuxième fois\" : Richard Gere pense beaucoup de bien de cet acteur sans qui il n'aurait jamais tourné cet excellent thriller judiciaire des années 90",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214238.html",
+      "desc": "Ce film a révélé l'un des meilleurs acteurs de sa génération et pourtant, il a bien failli ne jamais voir le jour, comme l'a récemment expli",
+      "isAI": false
+    },
+    {
+      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2264 du jeudi 6 août 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215986.html",
+      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... Lizzie craint que Waren ne lui cache quelque chose. En proie aux doutes, Chloé viole",
+      "isAI": false
+    },
+    {
+      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1496 du jeudi 6 août 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215980.html",
+      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... Après la finale, il est temps pour l'Institut de resserrer les liens. Face à Loup, Bianca ",
+      "isAI": false
+    },
+    {
+      "title": "\"Un homme de conviction qui connaissait les risques\" : il y a 81 ans, Jean Gabin était l'une des rares célébrités françaises à avoir pris ce bel engagement",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216506.html",
+      "desc": "Jean Gabin parlait très peu de son engagement pendant la Seconde Guerre mondiale. Son fils Mathias Moncorgé l’a fait pour lui, racontant com",
+      "isAI": false
+    },
     {
       "title": "Spider-Man Brand New Day signe le 9ème meilleur démarrage de tous les temps en France !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216602.html",
@@ -11,30 +35,6 @@
       "title": "Heated Rivalry : \"Aidez-nous\", la production adresse un message aux fans avant le début du tournage de la saison 2 !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216651.html",
       "desc": "Alors que le tournage de la saison 2 de \"Heated Rivalry\" est sur le point de débuter à Toronto, l’équipe de production de la série tient à a",
-      "isAI": false
-    },
-    {
-      "title": "Ce soir sur Netflix : Gerard Butler sauve le monde dans ce film de science-fiction intense, entre Armageddon et 2012",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213942.html",
-      "desc": "Si vous êtes amateurs de films apocalyptiques, voici comment Gerard Butler sauve le monde dans cette œuvre de science-fiction qui n'est pas ",
-      "isAI": false
-    },
-    {
-      "title": "Un Si Grand Soleil en avance : résumé de l’épisode du jeudi 6 août 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216263.html",
-      "desc": "Dans le prochain épisode de \"Un Si Grand Soleil\"... Tandis que une mystérieuse voyageuse italienne s’invite à la ferme, Céleste débarque à M",
-      "isAI": false
-    },
-    {
-      "title": "C'est l'une des meilleures cascades du cinéma : depuis 34 ans, elle donne le vertige à des millions de fans",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000212669.html",
-      "desc": "On le sait tous, Jackie Chan est un véritable casse-cou, et il n'hésite jamais à se mettre en danger pour nous divertir ! Il le démontrait a",
-      "isAI": false
-    },
-    {
-      "title": "Noté 4,1 sur par les spectateurs, ce film culte va ressortir au cinéma en France pour ses 30 ans !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216613.html",
-      "desc": "\"Trainspotting\" de Danny Boyle fête les 30 ans de sa sortie ! Le film avec Ewan McGregor a marqué toute une génération de spectateurs. Sur A",
       "isAI": false
     }
   ]
