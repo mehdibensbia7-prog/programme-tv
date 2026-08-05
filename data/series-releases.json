@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785867280325,
+  "updatedAt": 1785924714254,
   "items": [
     {
       "title": "House of the Dragon",
@@ -38,8 +38,18 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "4 août 2026",
+      "nextEpisodeDate": "5 août 2026",
       "platform": "Hayu"
+    },
+    {
+      "title": "Reacher",
+      "image": "https://image.tmdb.org/t/p/w300/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "link": "https://www.themoviedb.org/tv/108978",
+      "synopsis": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreu…",
+      "status": "En cours",
+      "episodes": "4 saisons · 32 épisodes",
+      "nextEpisodeDate": "12 août 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "Mushoku Tensei: Jobless Reincarnation",
@@ -58,7 +68,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "35 saisons · 8527 épisodes",
-      "nextEpisodeDate": "4 août 2026",
+      "nextEpisodeDate": "5 août 2026",
       "platform": null
     },
     {
@@ -70,16 +80,6 @@
       "episodes": "2 saisons · 416 épisodes",
       "nextEpisodeDate": "8 août 2026",
       "platform": "Disney Plus"
-    },
-    {
-      "title": "Jornal Nacional",
-      "image": "https://image.tmdb.org/t/p/w300/59iVuixNWRgtkT1aN8BR9RrJOBR.jpg",
-      "link": "https://www.themoviedb.org/tv/16807",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "58 saisons · 11371 épisodes",
-      "nextEpisodeDate": "4 août 2026",
-      "platform": null
     }
   ]
 }

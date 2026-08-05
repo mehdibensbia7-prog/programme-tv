@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785867279979,
+  "updatedAt": 1785924713731,
   "items": [
     {
       "title": "La fin d’Oak Street",
@@ -20,15 +20,6 @@
       "category": "cinema"
     },
     {
-      "title": "La Pat’ Patrouille : Le film mission Dino",
-      "image": "https://image.tmdb.org/t/p/w300/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
-      "link": "https://www.themoviedb.org/movie/1185806",
-      "synopsis": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y renco…",
-      "releaseDate": "5 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Juste pour une Nuit",
       "image": "https://image.tmdb.org/t/p/w300/ynL7Ng0bLYJ3RZuxAqkE95QBVOL.jpg",
       "link": "https://www.themoviedb.org/movie/1433367",
@@ -38,11 +29,11 @@
       "category": "cinema"
     },
     {
-      "title": "DC",
-      "image": "https://image.tmdb.org/t/p/w300/7IqDtlkUNDnnR3wsXScEGSDV4RM.jpg",
-      "link": "https://www.themoviedb.org/movie/1479832",
-      "synopsis": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épr…",
-      "releaseDate": "7 août 2026",
+      "title": "Lettres d’amour de ma grand-mère",
+      "image": "https://image.tmdb.org/t/p/w300/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
+      "link": "https://www.themoviedb.org/movie/1671548",
+      "synopsis": "Pendant des décennies, Ye Sogriu a survécu grâce aux lettres et aux mandats que son mari lui envoie depuis la Thaïlande. Lorsque son petit-fils Hiou-ui part sur…",
+      "releaseDate": "2 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -56,6 +47,15 @@
       "category": "cinema"
     },
     {
+      "title": "The Dog Stars",
+      "image": "https://image.tmdb.org/t/p/w300/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "link": "https://www.themoviedb.org/movie/1384216",
+      "synopsis": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et …",
+      "releaseDate": "26 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Insidious : L'Invasion du Lointain",
       "image": "https://image.tmdb.org/t/p/w300/bW8uJOLrtdBnQcQbG9BUQjDgUaT.jpg",
       "link": "https://www.themoviedb.org/movie/1291595",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "The Dog Stars",
-      "image": "https://image.tmdb.org/t/p/w300/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
-      "link": "https://www.themoviedb.org/movie/1384216",
-      "synopsis": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et …",
-      "releaseDate": "26 août 2026",
+      "title": "Toi, Moi et la Toscane",
+      "image": "https://image.tmdb.org/t/p/w300/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
+      "link": "https://www.themoviedb.org/movie/1455079",
+      "synopsis": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de…",
+      "releaseDate": "12 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
