@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1785924714254,
+  "updatedAt": 1785949986117,
   "items": [
     {
       "title": "House of the Dragon",
@@ -52,6 +52,16 @@
       "platform": "Amazon Prime Video"
     },
     {
+      "title": "Bleach",
+      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "link": "https://www.themoviedb.org/tv/30984",
+      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 416 épisodes",
+      "nextEpisodeDate": "8 août 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
       "link": "https://www.themoviedb.org/tv/94664",
@@ -70,16 +80,6 @@
       "episodes": "35 saisons · 8527 épisodes",
       "nextEpisodeDate": "5 août 2026",
       "platform": null
-    },
-    {
-      "title": "Bleach",
-      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "link": "https://www.themoviedb.org/tv/30984",
-      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
-      "status": "En cours",
-      "episodes": "2 saisons · 416 épisodes",
-      "nextEpisodeDate": "8 août 2026",
-      "platform": "Disney Plus"
     }
   ]
 }
