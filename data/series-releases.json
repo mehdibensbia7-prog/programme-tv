@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786115509133,
+  "updatedAt": 1786133109267,
   "items": [
     {
       "title": "House of the Dragon",
@@ -32,16 +32,6 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Reacher",
-      "image": "https://image.tmdb.org/t/p/w300/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "link": "https://www.themoviedb.org/tv/108978",
-      "synopsis": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreu…",
-      "status": "En cours",
-      "episodes": "4 saisons · 32 épisodes",
-      "nextEpisodeDate": "12 août 2026",
-      "platform": "Amazon Prime Video"
-    },
-    {
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
       "link": "https://www.themoviedb.org/tv/94664",
@@ -50,6 +40,16 @@
       "episodes": "3 saisons · 61 épisodes",
       "nextEpisodeDate": "10 août 2026",
       "platform": "Netflix"
+    },
+    {
+      "title": "Reacher",
+      "image": "https://image.tmdb.org/t/p/w300/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "link": "https://www.themoviedb.org/tv/108978",
+      "synopsis": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreu…",
+      "status": "En cours",
+      "episodes": "4 saisons · 32 épisodes",
+      "nextEpisodeDate": "12 août 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -72,14 +72,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Bleach",
-      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "link": "https://www.themoviedb.org/tv/30984",
-      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "2 saisons · 416 épisodes",
-      "nextEpisodeDate": "8 août 2026",
-      "platform": "Disney Plus"
+      "episodes": "35 saisons · 8527 épisodes",
+      "nextEpisodeDate": "7 août 2026",
+      "platform": null
     }
   ]
 }
