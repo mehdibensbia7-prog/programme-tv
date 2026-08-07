@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786095421903,
+  "updatedAt": 1786115509133,
   "items": [
     {
       "title": "House of the Dragon",
@@ -42,16 +42,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "9 août 2026",
-      "platform": "Hayu"
-    },
-    {
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
       "link": "https://www.themoviedb.org/tv/94664",
@@ -60,6 +50,16 @@
       "episodes": "3 saisons · 61 épisodes",
       "nextEpisodeDate": "10 août 2026",
       "platform": "Netflix"
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "9 août 2026",
+      "platform": "Hayu"
     },
     {
       "title": "Ted Lasso",
