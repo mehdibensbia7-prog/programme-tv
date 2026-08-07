@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786011315353,
+  "updatedAt": 1786082020463,
   "items": [
     {
       "title": "House of the Dragon",
@@ -28,18 +28,8 @@
       "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
       "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "6 août 2026",
+      "nextEpisodeDate": "13 août 2026",
       "platform": "Apple TV"
-    },
-    {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "6 août 2026",
-      "platform": "Hayu"
     },
     {
       "title": "Reacher",
@@ -52,14 +42,14 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Bleach",
-      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "link": "https://www.themoviedb.org/tv/30984",
-      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "2 saisons · 416 épisodes",
-      "nextEpisodeDate": "8 août 2026",
-      "platform": "Disney Plus"
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "9 août 2026",
+      "platform": "Hayu"
     },
     {
       "title": "Mushoku Tensei: Jobless Reincarnation",
@@ -72,14 +62,24 @@
       "platform": "Netflix"
     },
     {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
       "status": "En cours",
-      "episodes": "35 saisons · 8527 épisodes",
-      "nextEpisodeDate": "6 août 2026",
-      "platform": null
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "11 août 2026",
+      "platform": "Apple TV"
+    },
+    {
+      "title": "Bleach",
+      "image": "https://image.tmdb.org/t/p/w300/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "link": "https://www.themoviedb.org/tv/30984",
+      "synopsis": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 416 épisodes",
+      "nextEpisodeDate": "8 août 2026",
+      "platform": "Disney Plus"
     }
   ]
 }
