@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786176435259,
+  "updatedAt": 1786197987602,
   "items": [
     {
       "title": "House of the Dragon",
@@ -32,14 +32,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Mushoku Tensei: Jobless Reincarnation",
-      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
-      "link": "https://www.themoviedb.org/tv/94664",
-      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "3 saisons · 61 épisodes",
-      "nextEpisodeDate": "10 août 2026",
-      "platform": "Netflix"
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "9 août 2026",
+      "platform": "Hayu"
     },
     {
       "title": "Reacher",
@@ -52,14 +52,24 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "title": "Le Tonight Show",
+      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
+      "link": "https://www.themoviedb.org/tv/59941",
+      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "9 août 2026",
-      "platform": "Hayu"
+      "episodes": "13 saisons · 1997 épisodes",
+      "nextEpisodeDate": "10 août 2026",
+      "platform": null
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "status": "En cours",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "10 août 2026",
+      "platform": "Netflix"
     },
     {
       "title": "Ted Lasso",
@@ -70,16 +80,6 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "11 août 2026",
       "platform": "Apple TV"
-    },
-    {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "35 saisons · 8527 épisodes",
-      "nextEpisodeDate": "10 août 2026",
-      "platform": null
     }
   ]
 }
