@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1786162693517,
+  "updatedAt": 1786176433704,
   "items": [
+    {
+      "title": "James Bond : c'est la question que tout le monde se pose ! Et on a la réponse…",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000207582.html",
+      "desc": "James Bond est-il vraiment bien payé pour sauver le monde ? Dans les romans de Ian Fleming, le salaire de 007 est révélé avec précision… et ",
+      "isAI": false
+    },
+    {
+      "title": "Déconseillée aux moins de 16 ans : la série The Shards est-elle vraiment fidèle au livre ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217091.html",
+      "desc": "On lu le roman de Bret Easton Ellis, et on ne va pas vous mentir...",
+      "isAI": false
+    },
+    {
+      "title": "\"S'ils vous paient suffisamment...\" : Morgan Freeman peut \"fermer les yeux\" sur un mauvais scénario s'il estime avoir un bon salaire",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216980.html",
+      "desc": "Morgan Freeman vient de révéler qu'il pouvait tout à fait accepter de jouer dans un film au scénario médiocre s'il jugeait son salaire corre",
+      "isAI": false
+    },
+    {
+      "title": "Échec retentissant dans les années 80, ce film produit par Spielberg lui a tellement déplu qu'il a fait retirer son nom du générique",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217101.html",
+      "desc": "Steven Spielberg a produit ce teen movie des années 80, mais le résultat final lui a tellement déplu qu’il a préféré retirer son nom du géné",
+      "isAI": false
+    },
     {
       "title": "Ce soir sur Netflix : ni Top Gun, ni Mission Impossible ! Tom Cruise est irrésistible dans ce thriller tiré d’une histoire vraie",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213945.html",
@@ -11,30 +35,6 @@
       "title": "Demain nous appartient : qui fait du chantage à Soizic et Samuel pour récupérer l'argent ? On a la réponse",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217039.html",
       "desc": "Dans Demain nous appartient, Soizic et Samuel sont dans une situation compliquée. Lors de la nuit où ils ont été drogués, ils auraient volé ",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2266 du lundi 10 août 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215988.html",
-      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... A la Paillote, Samuel s'en prend physiquement à Marceau. Chloé donne rendez-vous à S",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1498 du lundi 10 août 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215982.html",
-      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... Pour ne pas souffrir, Bianca est prête à envoyer Loup dans le décor. Teyssier rappelle à l",
-      "isAI": false
-    },
-    {
-      "title": "Qu’est devenu Grégory Gatignol, qui jouait le méchant Mondain dans Les Choristes ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000187541.html",
-      "desc": "Plus de 20 ans après avoir incarné le terrible Mondain dans le film de Christophe Barratier, que devient le jeune comédien Grégory Gatignol ",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : l'heure du départ a sonné, Benjamin Baroche adresse un message à Zoï Séverin !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217107.html",
-      "desc": "Zoï Séverin quitte \"Ici tout commence\" et son rôle de Jasmine... Emu, son camarade de jeu Benjamin Baroche (Teyssier) réagit au départ de la",
       "isAI": false
     }
   ]
