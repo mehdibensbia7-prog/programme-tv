@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1786218236260,
+  "updatedAt": 1786250818003,
   "items": [
+    {
+      "title": "\"C'était si traumatisant pour moi\" : ce chef-d'œuvre a valu un Oscar à Denzel Washington, mais le réalisateur garde un très mauvais souvenir d'un des acteurs du film",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217126.html",
+      "desc": "Derrière les trois Oscars de “Glory” se cache un tournage particulièrement éprouvant. Des décennies plus tard, Edward Zwick raconte ses rela",
+      "isAI": false
+    },
     {
       "title": "Quiz Cinéma : 9 scènes, 9 films à retrouver !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217023.html",
@@ -29,12 +35,6 @@
       "title": "\"Les studios ont décidé de se séparer de moi\" : c’est l’un des plus grands films de guerre de tous les temps… Mais Francis Ford Coppola en a été viré !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217118.html",
       "desc": "Viré de “Patton” parce que son scénario était jugé trop étrange, Francis Ford Coppola a pourtant eu le dernier mot : ses idées ont été conse",
-      "isAI": false
-    },
-    {
-      "title": "Sorti il y a 28 ans, ce film de science-fiction a failli mettre fin à la carrière de Kevin Costner... Découvrez son pire échec au box-office !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217114.html",
-      "desc": "Kevin Costner a connu plusieurs revers au cours de sa carrière, mais aucun aussi sévère que celui-ci. Ni “Waterworld” ni “Horizon” : à la fi",
       "isAI": false
     }
   ]
