@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1786284457654,
+  "updatedAt": 1786305035548,
   "items": [
+    {
+      "title": "\"Je n’ai pas honte de le dire\" : selon Spielberg, Jurassic Park est la suite cachée d'un blockbuster considéré comme l’un des meilleurs de tous les temps",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217207.html",
+      "desc": "Et si “Jurassic Park” était en réalité la suite cachée des “Dents de la mer” ? Steven Spielberg lui-même a fait cette étonnante révélation, ",
+      "isAI": false
+    },
+    {
+      "title": "Il y a 39 ans, ce film d'action piquait tout à John Wayne, et c'est assumé !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000209936.html",
+      "desc": "Sorti en 1987, ce film d'action porté par Mel Gibson s'inspirait des westerns de John Wayne, et c'est le réalisateur qui l'avouait !",
+      "isAI": false
+    },
+    {
+      "title": "\"J'avais l'impression qu'on allait me démasquer\" : il y a 14 ans, Gary Oldman a eu beaucoup de mal à jouer dans ce formidable thriller d'espionnage noté 4 sur 5",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217206.html",
+      "desc": "Même les plus grands acteurs peuvent douter. Gary Oldman révèle pourquoi le tournage de “La Taupe” l’a épuisé et lui a donné le sentiment d’",
+      "isAI": false
+    },
+    {
+      "title": "\"Un film dur, éprouvant même. Et beau, délicat aussi\" : noté 3,7 sur 5, c'est le film à voir absolument cette semaine !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216622.html",
+      "desc": "Actuellement en salles, \"Girl\" de Shu Qi affiche une moyenne presse de 3,7 sur 5 (sur AlloCiné, pour 25 supports).",
+      "isAI": false
+    },
     {
       "title": "Elle avait joué dans Eyes Wide Shut et Deep Impact... avant de renoncer au cinéma : qu'est devenue l'actrice Leelee Sobieksi ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216880.html",
@@ -11,30 +35,6 @@
       "title": "\"Ça l'a clairement énervé\" : il y a 34 ans, Sharon Stone a eu une vive altercation avec cette star hollywoodienne avant de tourner l'un des meilleurs thrillers des années 90",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217204.html",
       "desc": "Avant de former l’un des couples les plus sulfureux du cinéma dans “Basic Instinct”, Sharon Stone et Michael Douglas s’étaient déjà rencontr",
-      "isAI": false
-    },
-    {
-      "title": "\"Je ne pouvais pas le voir en peinture\" : il y a 49 ans, la cohabitation de cet acteur de La Petite maison dans la prairie avec l'une des stars de la série était parfois difficile",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217202.html",
-      "desc": "Frères dans la vie, Patrick et Matthew Labyorteaux ont partagé l’aventure de “La Petite maison dans la prairie”. Mais leur entente n’était p",
-      "isAI": false
-    },
-    {
-      "title": "Exclu. Demain nous appartient : \"J'adorerais\", Kevin Levy (Bruno) dévoile les comédiens avec qui il rêve de partager plus de scènes",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216829.html",
-      "desc": "Dans Demain nous appartient, Kevin Levy incarne le personnage de Bruno. Mais alors, avec qui le comédien aimerait-il tourner davantage ? Il ",
-      "isAI": false
-    },
-    {
-      "title": "\"Tu n'auras plus de souci avec eux\" : Clint Eastwood a imposé sa loi sur ce thriller voué à un beau succès dans les années 90",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217201.html",
-      "desc": "En 1993, Clint Eastwood s’est opposé au studio pour empêcher que la fin de “Dans la ligne de mire” soit modifiée. Un choix payant : le thril",
-      "isAI": false
-    },
-    {
-      "title": "Exclu. Plus belle la vie : Ophélie va-t-elle aller en prison ? Morgane Frioux nous répond",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217070.html",
-      "desc": "Ophélie va-t-elle devoir répondre de ses actes dans Plus belle la vie, encore plus belle ? Morgane Frioux nous répond !",
       "isAI": false
     }
   ]
