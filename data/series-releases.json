@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786262991206,
+  "updatedAt": 1786284458389,
   "items": [
     {
       "title": "House of the Dragon",
@@ -62,16 +62,6 @@
       "platform": null
     },
     {
-      "title": "Mushoku Tensei: Jobless Reincarnation",
-      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
-      "link": "https://www.themoviedb.org/tv/94664",
-      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
-      "status": "En cours",
-      "episodes": "3 saisons · 61 épisodes",
-      "nextEpisodeDate": "10 août 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "Ted Lasso",
       "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
       "link": "https://www.themoviedb.org/tv/97546",
@@ -80,6 +70,16 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "11 août 2026",
       "platform": "Apple TV"
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "status": "En cours",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "10 août 2026",
+      "platform": "Netflix"
     }
   ]
 }
