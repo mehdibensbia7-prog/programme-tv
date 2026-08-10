@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786358488739,
+  "updatedAt": 1786375966256,
   "items": [
     {
       "title": "Lioness",
@@ -32,14 +32,14 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "title": "Secret Story",
+      "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
+      "link": "https://www.themoviedb.org/tv/46271",
+      "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
       "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
+      "episodes": "14 saisons · 1307 épisodes",
       "nextEpisodeDate": "10 août 2026",
-      "platform": "Hayu"
+      "platform": null
     },
     {
       "title": "Le Tonight Show",
@@ -50,6 +50,16 @@
       "episodes": "13 saisons · 1997 épisodes",
       "nextEpisodeDate": "10 août 2026",
       "platform": null
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "10 août 2026",
+      "platform": "Hayu"
     },
     {
       "title": "Mushoku Tensei: Jobless Reincarnation",
@@ -70,16 +80,6 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "11 août 2026",
       "platform": "Apple TV"
-    },
-    {
-      "title": "脱口秀和Ta的朋友们",
-      "image": "https://image.tmdb.org/t/p/w300/j0HNHpQzWZPVUjjmBULIvG6oCWq.jpg",
-      "link": "https://www.themoviedb.org/tv/261471",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "3 saisons · 68 épisodes",
-      "nextEpisodeDate": "14 août 2026",
-      "platform": null
     }
   ]
 }
