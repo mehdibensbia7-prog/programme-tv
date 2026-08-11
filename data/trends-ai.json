@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786454332749,
+  "updatedAt": 1786475420582,
   "items": [
     {
       "title": "Spider-Man : Brand New Day",
@@ -37,10 +37,10 @@
       "isAI": false
     },
     {
-      "title": "Des Minions et des monstres",
-      "link": "https://www.themoviedb.org/movie/1315772",
-      "image": "https://image.tmdb.org/t/p/w300/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
-      "desc": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables star...",
+      "title": "Supergirl",
+      "link": "https://www.themoviedb.org/movie/1081003",
+      "image": "https://image.tmdb.org/t/p/w300/ptyTrUvaQYkRTj42t6IMeGc0rZy.jpg",
+      "desc": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensembl...",
       "isAI": false
     }
   ]
