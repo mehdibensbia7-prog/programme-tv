@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1786414097541,
+  "updatedAt": 1786432624707,
   "items": [
+    {
+      "title": "Ici tout commence : l'arrivée d'une nouvelle famille sur le point de semer le trouble à l'Institut ? Les acteurs en disent plus",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217375.html",
+      "desc": "Dans Ici tout commence, une nouvelle famille va bientôt pointer le bout de son nez et elle nous réserve énormément de surprises  ! Jérémy Ba",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 646 du mercredi 12 août 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217252.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Patrick prend une décision à haut risque. Pendant ce temps, Ariane déc",
+      "isAI": false
+    },
     {
       "title": "Prisoner sur Canal+ : y aura-t-il une saison 2 pour la série d'action avec Tahar Rahim ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000214282.html",
@@ -23,18 +35,6 @@
       "title": "Ici tout commence : ce qui vous attend dans l'épisode 1499 du mardi 11 août 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215983.html",
       "desc": "Dans le prochain épisode d'\"Ici tout commence\"... A la Masterclass de Leroy, Loup et Bianca font des étincelles... Au Double A, Teyssier cou",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : Bianca ou Joséphine ? Loup va devoir faire un choix !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217307.html",
-      "desc": "Dans Ici tout commence, Loup joue à un jeu dangereux avec Bianca. Va-t-il quitter Joséphine pour elle ?",
-      "isAI": false
-    },
-    {
-      "title": "\"Ça n'a rien de compliqué, il faut avancer étape par étape...\" : les conseils de Tom Cruise à la nouvelle génération de réalisateurs et d'acteurs",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217086.html",
-      "desc": "Pour Tom Cruise, percer dans le monde du cinéma repose sur des conseils simples et concrets, comme il l'explique aux jeunes talents de demai",
       "isAI": false
     }
   ]
