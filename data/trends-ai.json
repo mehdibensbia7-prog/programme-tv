@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786520459461,
+  "updatedAt": 1786540961296,
   "items": [
     {
       "title": "Spider-Man : Brand New Day",
@@ -11,7 +11,7 @@
     {
       "title": "L'Odyssée",
       "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/6dfr9o52w9AVYJSlSA1IBUlLCyU.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
       "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
       "isAI": false
     },
@@ -23,24 +23,24 @@
       "isAI": false
     },
     {
+      "title": "‎Des Minions et des Monstres",
+      "link": "https://www.themoviedb.org/movie/1315772",
+      "image": "https://image.tmdb.org/t/p/w300/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
+      "desc": "Voici l'histoire mouvementée, déjantée et complètement véridique des Minions à Hollywood : devenus vedettes de cinéma, ils perdent tout, lib...",
+      "isAI": false
+    },
+    {
+      "title": "Obsession",
+      "link": "https://www.themoviedb.org/movie/1339713",
+      "image": "https://image.tmdb.org/t/p/w300/mDCR1frpUvGfIKksuM440VLb7X9.jpg",
+      "desc": "Et si vous pouviez réaliser votre rêve le plus fou ? Un jeune introverti met la main sur un objet magique capable d’exaucer n’importe quel s...",
+      "isAI": false
+    },
+    {
       "title": "La fin d’Oak Street",
       "link": "https://www.themoviedb.org/movie/1101383",
       "image": "https://image.tmdb.org/t/p/w300/1flRy4qysdwjhlqw2BZ1Wm1zcpM.jpg",
       "desc": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, d...",
-      "isAI": false
-    },
-    {
-      "title": "Evil Dead Burn",
-      "link": "https://www.themoviedb.org/movie/1212763",
-      "image": "https://image.tmdb.org/t/p/w300/2gusfeWILgIfRWQTA9nbXAEyQ0S.jpg",
-      "desc": "Après l’enterrement de son mari, Alice se rend dans la maison isolée de sa belle-famille pour partager un dernier repas à sa mémoire. Mais l...",
-      "isAI": false
-    },
-    {
-      "title": "Supergirl",
-      "link": "https://www.themoviedb.org/movie/1081003",
-      "image": "https://image.tmdb.org/t/p/w300/ptyTrUvaQYkRTj42t6IMeGc0rZy.jpg",
-      "desc": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensembl...",
       "isAI": false
     }
   ]

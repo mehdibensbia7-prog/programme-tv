@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786520461743,
+  "updatedAt": 1786540963723,
   "items": [
     {
       "title": "Lioness",
@@ -32,16 +32,6 @@
       "platform": null
     },
     {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "13 août 2026",
-      "platform": "Apple TV"
-    },
-    {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
       "link": "https://www.themoviedb.org/tv/22980",
@@ -52,14 +42,14 @@
       "platform": "Hayu"
     },
     {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
-      "episodes": "14 saisons · 2401 épisodes",
-      "nextEpisodeDate": "12 août 2026",
-      "platform": null
+      "episodes": "4 saisons · 30 épisodes",
+      "nextEpisodeDate": "13 août 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Reacher",
@@ -72,14 +62,24 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "title": "Le Tonight Show",
+      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
+      "link": "https://www.themoviedb.org/tv/59941",
+      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "18 août 2026",
-      "platform": "Apple TV"
+      "episodes": "14 saisons · 2401 épisodes",
+      "nextEpisodeDate": "12 août 2026",
+      "platform": null
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "status": "En cours",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "17 août 2026",
+      "platform": "Netflix"
     }
   ]
 }
