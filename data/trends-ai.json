@@ -1,13 +1,6 @@
 {
-  "updatedAt": 1786627485209,
+  "updatedAt": 1786648215949,
   "items": [
-    {
-      "title": "L'Odyssée",
-      "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
-      "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
-      "isAI": false
-    },
     {
       "title": "Spider-Man : Brand New Day",
       "link": "https://www.themoviedb.org/movie/969681",
@@ -23,17 +16,10 @@
       "isAI": false
     },
     {
-      "title": "Evil Dead Burn",
-      "link": "https://www.themoviedb.org/movie/1212763",
-      "image": "https://image.tmdb.org/t/p/w300/2gusfeWILgIfRWQTA9nbXAEyQ0S.jpg",
-      "desc": "Après l’enterrement de son mari, Alice se rend dans la maison isolée de sa belle-famille pour partager un dernier repas à sa mémoire. Mais l...",
-      "isAI": false
-    },
-    {
-      "title": "Supergirl",
-      "link": "https://www.themoviedb.org/movie/1081003",
-      "image": "https://image.tmdb.org/t/p/w300/ptyTrUvaQYkRTj42t6IMeGc0rZy.jpg",
-      "desc": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensembl...",
+      "title": "L'Odyssée",
+      "link": "https://www.themoviedb.org/movie/1368337",
+      "image": "https://image.tmdb.org/t/p/w300/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
+      "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
       "isAI": false
     },
     {
@@ -41,6 +27,20 @@
       "link": "https://www.themoviedb.org/movie/1315772",
       "image": "https://image.tmdb.org/t/p/w300/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "desc": "Voici l'histoire mouvementée, déjantée et complètement véridique des Minions à Hollywood : devenus vedettes de cinéma, ils perdent tout, lib...",
+      "isAI": false
+    },
+    {
+      "title": "La Fin d'Oak Street",
+      "link": "https://www.themoviedb.org/movie/1101383",
+      "image": "https://image.tmdb.org/t/p/w300/1flRy4qysdwjhlqw2BZ1Wm1zcpM.jpg",
+      "desc": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, d...",
+      "isAI": false
+    },
+    {
+      "title": "L'Invitation",
+      "link": "https://www.themoviedb.org/movie/950028",
+      "image": "https://image.tmdb.org/t/p/w300/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
+      "desc": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure...",
       "isAI": false
     }
   ]
