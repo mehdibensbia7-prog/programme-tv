@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786588046451,
+  "updatedAt": 1786606973589,
   "items": [
     {
       "title": "Pressure",
@@ -47,6 +47,15 @@
       "category": "cinema"
     },
     {
+      "title": "ಟಾಕ್ಸಿಕ್",
+      "image": "https://image.tmdb.org/t/p/w300/fJBAfLiNfovSAb6KjkIndpF3Sm7.jpg",
+      "link": "https://www.themoviedb.org/movie/1213243",
+      "synopsis": "Aucun synopsis disponible.",
+      "releaseDate": "26 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Les Ensorceleuses 2",
       "image": "https://image.tmdb.org/t/p/w300/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg",
       "link": "https://www.themoviedb.org/movie/1302904",
@@ -61,15 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1432474",
       "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
       "releaseDate": "4 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "The Holy Boy",
-      "image": "https://image.tmdb.org/t/p/w300/3DPNUeV91RaYjqNdczt4zNk5Ks1.jpg",
-      "link": "https://www.themoviedb.org/movie/1092936",
-      "synopsis": "Remis, petit bourg niché dans la montagne, est réputé pour être le village le plus heureux d’Italie. L’endroit semble donc idéal pour Sergio, professeur d’EPS m…",
-      "releaseDate": "2 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
