@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786713548394,
+  "updatedAt": 1786734097287,
   "items": [
     {
       "title": "Reacher",
@@ -32,16 +32,6 @@
       "platform": null
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "16 août 2026",
-      "platform": "Hayu"
-    },
-    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -50,6 +40,16 @@
       "episodes": "13 saisons · 487 épisodes",
       "nextEpisodeDate": "14 août 2026",
       "platform": null
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3179 épisodes",
+      "nextEpisodeDate": "16 août 2026",
+      "platform": "Hayu"
     },
     {
       "title": "Silo",
@@ -62,16 +62,6 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Ulice",
-      "image": "https://image.tmdb.org/t/p/w300/uYdLaP3REd06JpuUPpfEXKaYDvG.jpg",
-      "link": "https://www.themoviedb.org/tv/36361",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "22 saisons · 4462 épisodes",
-      "nextEpisodeDate": "17 août 2026",
-      "platform": null
-    },
-    {
       "title": "Ted Lasso",
       "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
       "link": "https://www.themoviedb.org/tv/97546",
@@ -80,6 +70,16 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "18 août 2026",
       "platform": "Apple TV"
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/sviEqFIPJW5gFtuYy8XyE0Uscid.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "status": "En cours",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "17 août 2026",
+      "platform": "Netflix"
     }
   ]
 }
