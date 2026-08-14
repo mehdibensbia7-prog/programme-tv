@@ -1,21 +1,21 @@
 {
-  "updatedAt": 1786648217243,
+  "updatedAt": 1786674335021,
   "items": [
-    {
-      "title": "Pressure",
-      "image": "https://image.tmdb.org/t/p/w300/3Dp1V6QHzrlSYlTlGZwHx7uPrR7.jpg",
-      "link": "https://www.themoviedb.org/movie/1318413",
-      "synopsis": "Dans les 72 heures précédant le jour J, alors que le destin du monde libre est en jeu, le général Dwight D. Eisenhower et le capitaine James Stagg sont confront…",
-      "releaseDate": "9 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
     {
       "title": "Lettres d’amour de ma grand-mère",
       "image": "https://image.tmdb.org/t/p/w300/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
       "link": "https://www.themoviedb.org/movie/1671548",
       "synopsis": "Pendant des décennies, Ye Sogriu a survécu grâce aux lettres et aux mandats que son mari lui envoie depuis la Thaïlande. Lorsque son petit-fils Hiou-ui part sur…",
       "releaseDate": "2 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Pressure",
+      "image": "https://image.tmdb.org/t/p/w300/3Dp1V6QHzrlSYlTlGZwHx7uPrR7.jpg",
+      "link": "https://www.themoviedb.org/movie/1318413",
+      "synopsis": "Dans les 72 heures précédant le jour J, alors que le destin du monde libre est en jeu, le général Dwight D. Eisenhower et le capitaine James Stagg sont confront…",
+      "releaseDate": "9 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Nimrods : A Green Day Comedy",
-      "image": "https://image.tmdb.org/t/p/w300/tDTfqu5XJbtUwstRRnWaUcoHxM2.jpg",
-      "link": "https://www.themoviedb.org/movie/1432474",
-      "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
-      "releaseDate": "4 septembre 2026",
+      "title": "The Holy Boy",
+      "image": "https://image.tmdb.org/t/p/w300/3DPNUeV91RaYjqNdczt4zNk5Ks1.jpg",
+      "link": "https://www.themoviedb.org/movie/1092936",
+      "synopsis": "Remis, petit bourg niché dans la montagne, est réputé pour être le village le plus heureux d’Italie. L’endroit semble donc idéal pour Sergio, professeur d’EPS m…",
+      "releaseDate": "2 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

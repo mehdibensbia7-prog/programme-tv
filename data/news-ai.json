@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1786648215848,
+  "updatedAt": 1786674334199,
   "items": [
+    {
+      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2270 du vendredi 14 août 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217053.html",
+      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... Samuel et Soizic acceptent enfin de l'aide. Raphaëlle reçoit un message d'insulte de",
+      "isAI": false
+    },
     {
       "title": "Tombé du ciel au box-office France : quel démarrage pour cette comédie présentée à l'Alpe d'Huez ? Les chiffres sont là !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217912.html",
@@ -29,12 +35,6 @@
       "title": "John Wayne a humilié ce réalisateur \"sans talent\" avec qui il a tourné l'un de ses westerns",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000209722.html",
       "desc": "John Wayne a détesté le tournage du western \"Une Bible et un fusil\" car le réalisateur manquait trop d'expérience.",
-      "isAI": false
-    },
-    {
-      "title": "Exclu. Ici tout commence : pourquoi Loup a-t-il quitté Joséphine sans explication ? Robin Ventura et Lucie Flory se confient",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217885.html",
-      "desc": "Dans Ici tout commence, Loup a finalement décidé de quitter Joséphine sans la moindre explication. Robin Ventura et Lucie Flory reviennent s",
       "isAI": false
     }
   ]
