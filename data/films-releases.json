@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786734096224,
+  "updatedAt": 1786757818230,
   "items": [
     {
       "title": "Pressure",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "The Holy Boy",
-      "image": "https://image.tmdb.org/t/p/w300/3DPNUeV91RaYjqNdczt4zNk5Ks1.jpg",
-      "link": "https://www.themoviedb.org/movie/1092936",
-      "synopsis": "Remis, petit bourg niché dans la montagne, est réputé pour être le village le plus heureux d’Italie. L’endroit semble donc idéal pour Sergio, professeur d’EPS m…",
-      "releaseDate": "2 septembre 2026",
+      "title": "Nimrods : A Green Day Comedy",
+      "image": "https://image.tmdb.org/t/p/w300/aebmSpFu1lUV78PtOpqMUn4d82B.jpg",
+      "link": "https://www.themoviedb.org/movie/1432474",
+      "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
+      "releaseDate": "4 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
