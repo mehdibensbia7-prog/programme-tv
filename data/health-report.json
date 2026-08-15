@@ -1,35 +1,29 @@
 {
-  "generatedAt": "2026-08-15T13:33:50.629Z",
-  "globalStatus": "🟠 SURVEILLANCE",
+  "generatedAt": "2026-08-15T19:24:39.621Z",
+  "globalStatus": "🟢 SAIN",
   "summary": {
     "ok": 12,
-    "warn": 1,
+    "warn": 0,
     "fail": 0,
-    "repaired": 1
+    "repaired": 0
   },
   "checks": [
     {
       "check": "data/news-ai.json",
-      "status": "warn",
-      "detail": "Seulement 0 élément(s), en dessous du minimum attendu (1).",
-      "repaired": false
-    },
-    {
-      "check": "scripts/update-content.mjs",
       "status": "ok",
-      "detail": "Auto-réparation : script relancé avec succès.",
-      "repaired": true
+      "detail": "6 élément(s), mis à jour il y a 0.8h.",
+      "repaired": false
     },
     {
       "check": "data/trends-ai.json",
       "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 0h.",
+      "detail": "6 élément(s), mis à jour il y a 0.8h.",
       "repaired": false
     },
     {
       "check": "data/videos.json",
       "status": "ok",
-      "detail": "5 élément(s), mis à jour il y a 1.3h.",
+      "detail": "5 élément(s), mis à jour il y a 1.2h.",
       "repaired": false
     },
     {
