@@ -1,14 +1,15 @@
 # Rapport de santé — Programme TV
 
-**Statut global : 🟢 SAIN**
-Généré le 15 août 2026 à 07:34
+**Statut global : 🟠 SURVEILLANCE**
+Généré le 15 août 2026 à 13:33
 
-12 OK · 0 avertissement(s) · 0 échec(s) · 0 auto-réparation(s)
+12 OK · 1 avertissement(s) · 0 échec(s) · 1 auto-réparation(s)
 
 ## Détail
 
-- ✅ **data/news-ai.json** — 6 élément(s), mis à jour il y a 0.8h.
-- ✅ **data/trends-ai.json** — 6 élément(s), mis à jour il y a 0.8h.
+- ⚠️ **data/news-ai.json** — Seulement 0 élément(s), en dessous du minimum attendu (1).
+- ✅ **scripts/update-content.mjs** — Auto-réparation : script relancé avec succès. *(auto-réparé)*
+- ✅ **data/trends-ai.json** — 6 élément(s), mis à jour il y a 0h.
 - ✅ **data/videos.json** — 5 élément(s), mis à jour il y a 1.3h.
 - ✅ **data/films-releases.json** — 8 élément(s), mis à jour il y a 0.8h.
 - ✅ **data/series-releases.json** — 8 élément(s), mis à jour il y a 0.8h.
