@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1786757817603,
+  "updatedAt": 1786776504233,
   "items": [
+    {
+      "title": "\"L’un des derniers westerns avec de vraies scènes\" : il y a 28 ans, Spielberg annonçait que ce grand film à succès des années 90 allait marquer la fin d'une époque dans l'Histoire du cinéma",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218268.html",
+      "desc": "Steven Spielberg l’avait prédit dès 1998 : “Le Masque de Zorro” serait l’un des derniers grands films d’aventure tournés “à l’ancienne”. Une",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man Brand New Day : pourquoi le film n'a-t-il pas été tourné à New York ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216242.html",
+      "desc": "Pourquoi \"Spider-Man : Brand New Day\" n'a pas été tourné dans les rues de New York ? Tom Holland explique ce choix surprenant",
+      "isAI": false
+    },
     {
       "title": "\"Tu ne seras plus un personnage régulier\" : cet acteur raconte comment il a été viré de Desperate Housewives après une seule saison",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213458.html",
@@ -23,18 +35,6 @@
       "title": "\"Rigoureux et passionnant\" : noté 4,1 sur 5, c'est le meilleur film de guerre de l'année 2025 et il a été privé d'une sortie au cinéma !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000213937.html",
       "desc": "Quel film de guerre de l'année 2025 a été le mieux noté par les spectateurs AlloCiné ? Si vous avez Netflix, ne passez pas à côté !",
-      "isAI": false
-    },
-    {
-      "title": "\"C'était assez proche de Pirates des Caraïbes\" : il y a 30 ans, Arnold Schwarzenegger devait se la jouer Jack Sparrow",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000209546.html",
-      "desc": "Qui aurait pu imaginer qu'Arnold Schwarzenegger devait jouer les capitaines pirates juste après avoir tourné \"True Lies\" et \"Junior\" ?",
-      "isAI": false
-    },
-    {
-      "title": "Plus belle la vie : le couple Babeth/Patrick va-t-il se séparer ? On a la réponse",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218194.html",
-      "desc": "Depuis plusieurs jours dans \"Plus belle la vie, encore plus belle\", Patrick et Babeth traversent une nouvelle crise. Est-ce bientôt la fin d",
       "isAI": false
     }
   ]
