@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1786884628832,
+  "updatedAt": 1786905387254,
   "items": [
+    {
+      "title": "Ce film avec Jean Gabin est allé jusqu'aux Oscars, et ça n'a pas été de tout repos !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215749.html",
+      "desc": "Un film avec Jean Gabin en tête d'affiche a pu se hisser jusqu'à la prestigieuse cérémonie des Oscars. C'était en 1939, et le film s'appelai",
+      "isAI": false
+    },
+    {
+      "title": "Noté 4,2 sur 5, c'est l'un des plus grands films de science-fiction de tous les temps ! 44 ans après, il reste un monument indépassable",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218316.html",
+      "desc": "Plus de 4 décennies après sa sortie, “Blade Runner” reste un monument de la science-fiction. L’univers imaginé par Ridley Scott continue de ",
+      "isAI": false
+    },
+    {
+      "title": "\"Un très grand film à ne rater sous aucun prétexte\" : noté 4,4 sur 5, c'est le film à voir absolument cette semaine !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217547.html",
+      "desc": "Actuellement en salles, \"Soudain\" de Ryūsuke Hamaguchi affiche une moyenne presse de 4,4 sur 5 (sur AlloCiné, pour 32 supports).",
+      "isAI": false
+    },
+    {
+      "title": "Elle a incarné l'inoubliable Éowyn dans Le Seigneur des Anneaux... Qu'est devenue l'actrice Miranda Otto ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218139.html",
+      "desc": "Elle est devenue mondialement célèbre avec son personnage d'Éowyn dans la saga culte du \"Seigneur des Anneaux\". On vous dit ce qu'est devenu",
+      "isAI": false
+    },
     {
       "title": "Noté 4,5 sur 5, c’est le meilleur western de tous les temps ! Mais son tournage a été endeuillé il y a 58 ans",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218313.html",
@@ -11,30 +35,6 @@
       "title": "Présent dans 3 films d'une saga d'action culte ! Stallone a refusé que cet acteur mort il y a 23 ans soit remplacé pour ce rôle ô combien emblématique",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218312.html",
       "desc": "Indissociable de “Rambo”, le colonel Trautman disparaît de la saga après la mort de Richard Crenna. Malgré l’idée de lui trouver un nouvel i",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : \"Il a été un partenaire que je souhaite à tout le monde\"... Zoï Sévérin (Jasmine) révèle qui a été sa plus belle rencontre sur le tournage",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217590.html",
-      "desc": "Triste nouvelle pour les fans d'Ici tout commence, Zoï Sévérin a décidé de quitter la série après cinq ans de bons et loyaux services. Mais ",
-      "isAI": false
-    },
-    {
-      "title": "Entre Le Cercle des poètes disparus et Titanic... C'est l'un des films les moins connus de ce très grand réalisateur et il fête ses 30 ans",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217990.html",
-      "desc": "Ridley Scott est un cinéaste prolifique qui a connu de nombreux succès au box-office (\"Gladiator\"), mais aussi des revers. \"Lame de fond\", s",
-      "isAI": false
-    },
-    {
-      "title": "John Wayne : il y a 54 ans, il nous livrait l'un de ses meilleurs westerns... mais aussi le plus réaliste de sa carrière !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218311.html",
-      "desc": "John Wayne a tourné des dizaines de westerns, mais celui-ci serait le plus réaliste de tous. Un historien spécialiste de l’Ouest américain e",
-      "isAI": false
-    },
-    {
-      "title": "\"J'étais déprimé, je voulais abandonner\" : il y a 42 ans, Jackie Chan aurait tout donné pour être la star de cette saga d'action culte",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218310.html",
-      "desc": "Il y a 42 ans, Jackie Chan découvrait “Karate Kid” et rêvait déjà d’intégrer la saga. Un souhait finalement exaucé des décennies plus tard, ",
       "isAI": false
     }
   ]
