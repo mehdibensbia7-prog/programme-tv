@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1786905387254,
+  "updatedAt": 1786930922925,
   "items": [
+    {
+      "title": "On ne s'attendait pas du tout à la mort de ce personnage ! C'est l'une des scènes les plus surprenantes de ce thriller des années 2000, noté 4,1 sur 5",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218317.html",
+      "desc": "Dans “Caché”, Michael Haneke fait ressurgir le passé trouble de Daniel Auteuil avant de frapper avec une scène d’une brutalité inattendue. U",
+      "isAI": false
+    },
     {
       "title": "Ce film avec Jean Gabin est allé jusqu'aux Oscars, et ça n'a pas été de tout repos !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000215749.html",
@@ -29,12 +35,6 @@
       "title": "Noté 4,5 sur 5, c’est le meilleur western de tous les temps ! Mais son tournage a été endeuillé il y a 58 ans",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218313.html",
       "desc": "Al Mulock n’apparaît que quelques minutes dans “Il était une fois dans l’Ouest”, mais son destin a tragiquement marqué le tournage du chef-d",
-      "isAI": false
-    },
-    {
-      "title": "Présent dans 3 films d'une saga d'action culte ! Stallone a refusé que cet acteur mort il y a 23 ans soit remplacé pour ce rôle ô combien emblématique",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218312.html",
-      "desc": "Indissociable de “Rambo”, le colonel Trautman disparaît de la saga après la mort de Richard Crenna. Malgré l’idée de lui trouver un nouvel i",
       "isAI": false
     }
   ]
