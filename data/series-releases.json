@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1786930924177,
+  "updatedAt": 1786950364336,
   "items": [
     {
       "title": "Reacher",
@@ -48,18 +48,8 @@
       "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
       "status": "En cours",
       "episodes": "14 saisons · 1307 épisodes",
-      "nextEpisodeDate": "16 août 2026",
+      "nextEpisodeDate": "17 août 2026",
       "platform": null
-    },
-    {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "24 saisons · 3179 épisodes",
-      "nextEpisodeDate": "8 septembre 2026",
-      "platform": "Hayu"
     },
     {
       "title": "Le Tonight Show",
@@ -80,6 +70,16 @@
       "episodes": "22 saisons · 5178 épisodes",
       "nextEpisodeDate": "17 août 2026",
       "platform": null
+    },
+    {
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "status": "En cours",
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "18 août 2026",
+      "platform": "Apple TV"
     }
   ]
 }

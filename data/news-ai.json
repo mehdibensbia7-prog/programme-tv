@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1786930922925,
+  "updatedAt": 1786950361898,
   "items": [
+    {
+      "title": "HBO + Science-Fiction : on a vu les premiers épisodes de la série Lanterns, et on ne va pas vous mentir...",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217793.html",
+      "desc": "On a vu les premiers épisodes de la nouvelle série \"Lanterns\" sur HBO Max, et voici ce qu’on en a pensé.",
+      "isAI": false
+    },
+    {
+      "title": "Ce soir à la télé : pas aussi célèbre que La Vérité sur Bébé Donge ou La Traversée de Paris, ce drame un peu oublié avec Jean Gabin mérite le détour",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216699.html",
+      "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : Jean Gabin très convaincant dans la peau d'un non-voyant.",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 650 du mardi 18 août 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218172.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Babeth découvre la double-identité de Patrick ! Pendant ce temps, Bapt",
+      "isAI": false
+    },
     {
       "title": "On ne s'attendait pas du tout à la mort de ce personnage ! C'est l'une des scènes les plus surprenantes de ce thriller des années 2000, noté 4,1 sur 5",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218317.html",
@@ -17,24 +35,6 @@
       "title": "Noté 4,2 sur 5, c'est l'un des plus grands films de science-fiction de tous les temps ! 44 ans après, il reste un monument indépassable",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218316.html",
       "desc": "Plus de 4 décennies après sa sortie, “Blade Runner” reste un monument de la science-fiction. L’univers imaginé par Ridley Scott continue de ",
-      "isAI": false
-    },
-    {
-      "title": "\"Un très grand film à ne rater sous aucun prétexte\" : noté 4,4 sur 5, c'est le film à voir absolument cette semaine !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217547.html",
-      "desc": "Actuellement en salles, \"Soudain\" de Ryūsuke Hamaguchi affiche une moyenne presse de 4,4 sur 5 (sur AlloCiné, pour 32 supports).",
-      "isAI": false
-    },
-    {
-      "title": "Elle a incarné l'inoubliable Éowyn dans Le Seigneur des Anneaux... Qu'est devenue l'actrice Miranda Otto ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218139.html",
-      "desc": "Elle est devenue mondialement célèbre avec son personnage d'Éowyn dans la saga culte du \"Seigneur des Anneaux\". On vous dit ce qu'est devenu",
-      "isAI": false
-    },
-    {
-      "title": "Noté 4,5 sur 5, c’est le meilleur western de tous les temps ! Mais son tournage a été endeuillé il y a 58 ans",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218313.html",
-      "desc": "Al Mulock n’apparaît que quelques minutes dans “Il était une fois dans l’Ouest”, mais son destin a tragiquement marqué le tournage du chef-d",
       "isAI": false
     }
   ]
