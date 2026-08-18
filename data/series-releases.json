@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787017032963,
+  "updatedAt": 1787036015168,
   "items": [
     {
       "title": "Reacher",
@@ -22,13 +22,23 @@
       "platform": "Paramount Plus"
     },
     {
+      "title": "Lanterns",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "link": "https://www.themoviedb.org/tv/95350",
+      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
+      "status": "En cours",
+      "episodes": "1 saison · 8 épisodes",
+      "nextEpisodeDate": "23 août 2026",
+      "platform": null
+    },
+    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "13 saisons · 487 épisodes",
-      "nextEpisodeDate": "17 août 2026",
+      "nextEpisodeDate": "18 août 2026",
       "platform": null
     },
     {
@@ -38,7 +48,7 @@
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
       "episodes": "14 saisons · 2401 épisodes",
-      "nextEpisodeDate": "17 août 2026",
+      "nextEpisodeDate": "18 août 2026",
       "platform": null
     },
     {
@@ -58,7 +68,7 @@
       "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
       "status": "En cours",
       "episodes": "14 saisons · 1307 épisodes",
-      "nextEpisodeDate": "17 août 2026",
+      "nextEpisodeDate": "18 août 2026",
       "platform": null
     },
     {
@@ -70,16 +80,6 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "18 août 2026",
       "platform": "Apple TV"
-    },
-    {
-      "title": "All Elite Wrestling: Dynamite",
-      "image": "https://image.tmdb.org/t/p/w300/gPNWVCp0zrHRmwfovUpUQO44sts.jpg",
-      "link": "https://www.themoviedb.org/tv/91555",
-      "synopsis": "All Elite Wrestling (AEW) est une fédération de catch américaine basée à Jacksonville en Floride. La compagnie a été fondée par l’entrepreneur et dirigeant de f…",
-      "status": "En cours",
-      "episodes": "8 saisons · 365 épisodes",
-      "nextEpisodeDate": "19 août 2026",
-      "platform": "SFR Play"
     }
   ]
 }
