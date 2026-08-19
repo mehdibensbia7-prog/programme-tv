@@ -1,21 +1,12 @@
 {
-  "updatedAt": 1787103546262,
+  "updatedAt": 1787122414944,
   "items": [
     {
-      "title": "Mutiny",
-      "image": "https://image.tmdb.org/t/p/w300/rfRLWbxLZPq2eboKPsBvh1NgNwM.jpg",
-      "link": "https://www.themoviedb.org/movie/1288445",
-      "synopsis": "Après que son patron industriel milliardaire ait été assassiné sous ses yeux, Cole Reed est désigné pour endosser le crime, ce qui le met en fuite alors qu'il s…",
-      "releaseDate": "19 août 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Insidious : L'Invasion du Lointain",
-      "image": "https://image.tmdb.org/t/p/w300/bW8uJOLrtdBnQcQbG9BUQjDgUaT.jpg",
-      "link": "https://www.themoviedb.org/movie/1291595",
-      "synopsis": "Gemma, une jeune mère élève sa fille dans la maison de son enfance. Elle découvre qu'elle peut voyager dans le Lointain, ce royaume purgatoire des âmes perdues …",
-      "releaseDate": "19 août 2026",
+      "title": "L'Invitation",
+      "image": "https://image.tmdb.org/t/p/w300/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
+      "link": "https://www.themoviedb.org/movie/950028",
+      "synopsis": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce …",
+      "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -47,11 +38,11 @@
       "category": "cinema"
     },
     {
-      "title": "Oklahoma Honey",
-      "image": "https://image.tmdb.org/t/p/w300/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
-      "link": "https://www.themoviedb.org/movie/1124142",
-      "synopsis": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passi…",
-      "releaseDate": "19 août 2026",
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
+      "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -70,6 +61,15 @@
       "link": "https://www.themoviedb.org/movie/1432474",
       "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
       "releaseDate": "4 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Les Ensorceleuses 2",
+      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
+      "link": "https://www.themoviedb.org/movie/1302904",
+      "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
+      "releaseDate": "9 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
