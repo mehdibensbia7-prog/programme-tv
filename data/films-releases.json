@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787230792491,
+  "updatedAt": 1787251742921,
   "items": [
     {
       "title": "L'Invitation",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "Nimrods : A Green Day Comedy",
-      "image": "https://image.tmdb.org/t/p/w300/aebmSpFu1lUV78PtOpqMUn4d82B.jpg",
-      "link": "https://www.themoviedb.org/movie/1432474",
-      "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
-      "releaseDate": "4 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Les Ensorceleuses 2",
       "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
       "link": "https://www.themoviedb.org/movie/1302904",
       "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
       "releaseDate": "9 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Nimrods : A Green Day Comedy",
+      "image": "https://image.tmdb.org/t/p/w300/aebmSpFu1lUV78PtOpqMUn4d82B.jpg",
+      "link": "https://www.themoviedb.org/movie/1432474",
+      "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
+      "releaseDate": "4 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

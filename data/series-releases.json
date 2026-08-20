@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787230793195,
+  "updatedAt": 1787251743679,
   "items": [
     {
       "title": "Reacher",
@@ -42,16 +42,6 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Gran hermano",
-      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "link": "https://www.themoviedb.org/tv/37528",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "13 saisons · 487 épisodes",
-      "nextEpisodeDate": "21 août 2026",
-      "platform": null
-    },
-    {
       "title": "Les Simpson",
       "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
       "link": "https://www.themoviedb.org/tv/456",
@@ -60,6 +50,16 @@
       "episodes": "38 saisons · 802 épisodes",
       "nextEpisodeDate": "27 septembre 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "13 saisons · 487 épisodes",
+      "nextEpisodeDate": "21 août 2026",
+      "platform": null
     },
     {
       "title": "Secret Story",
@@ -72,14 +72,14 @@
       "platform": null
     },
     {
-      "title": "All Elite Wrestling: Dynamite",
-      "image": "https://image.tmdb.org/t/p/w300/gPNWVCp0zrHRmwfovUpUQO44sts.jpg",
-      "link": "https://www.themoviedb.org/tv/91555",
-      "synopsis": "All Elite Wrestling (AEW) est une fédération de catch américaine basée à Jacksonville en Floride. La compagnie a été fondée par l’entrepreneur et dirigeant de f…",
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
       "status": "En cours",
-      "episodes": "8 saisons · 365 épisodes",
-      "nextEpisodeDate": "26 août 2026",
-      "platform": "SFR Play"
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "25 août 2026",
+      "platform": "Apple TV"
     }
   ]
 }
