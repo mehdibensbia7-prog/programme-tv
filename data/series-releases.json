@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787295373363,
+  "updatedAt": 1787317119004,
   "items": [
     {
       "title": "Reacher",
@@ -52,16 +52,6 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
-      "status": "En cours",
-      "episodes": "13 saisons · 2406 épisodes",
-      "nextEpisodeDate": "20 août 2026",
-      "platform": null
-    },
-    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -72,14 +62,24 @@
       "platform": null
     },
     {
-      "title": "Secret Story",
-      "image": "https://image.tmdb.org/t/p/w300/jDFFyXE04vv9pvHzJESgbJnNRc2.jpg",
-      "link": "https://www.themoviedb.org/tv/46271",
-      "synopsis": "Les candidats sont coupés du monde extérieur pendant dix à quinze semaines dans une maison appelée « maison des secrets ». Ils doivent garder un secret tout en …",
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
       "status": "En cours",
-      "episodes": "14 saisons · 1307 épisodes",
-      "nextEpisodeDate": null,
-      "platform": null
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "25 août 2026",
+      "platform": "Apple TV"
+    },
+    {
+      "title": "Futurama",
+      "image": "https://image.tmdb.org/t/p/w300/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg",
+      "link": "https://www.themoviedb.org/tv/615",
+      "synopsis": "Accidentellement cryogénisé le 31 décembre 1999 alors qu'il livrait une pizza, Fry se réveille 1.000 ans plus tard à New York. À l'aube de l'an 3000, le monde a…",
+      "status": "En cours",
+      "episodes": "11 saisons · 164 épisodes",
+      "nextEpisodeDate": "24 août 2026",
+      "platform": "Disney Plus"
     }
   ]
 }
