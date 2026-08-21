@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:47:50.179Z",
+  "generatedAt": "2026-08-21T13:49:57.405Z",
   "globalStatus": "🟢 SAIN",
   "summary": {
     "ok": 12,
@@ -23,7 +23,7 @@
     {
       "check": "data/videos.json",
       "status": "ok",
-      "detail": "5 élément(s), mis à jour il y a 1.4h.",
+      "detail": "5 élément(s), mis à jour il y a 1.5h.",
       "repaired": false
     },
     {
