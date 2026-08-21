@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787317117442,
+  "updatedAt": 1787337894394,
   "items": [
     {
       "title": "L'Invitation",
@@ -29,20 +29,20 @@
       "category": "cinema"
     },
     {
-      "title": "Lettres d’amour de ma grand-mère",
-      "image": "https://image.tmdb.org/t/p/w300/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
-      "link": "https://www.themoviedb.org/movie/1671548",
-      "synopsis": "Pendant des décennies, Ye Sogriu a survécu grâce aux lettres et aux mandats que son mari lui envoie depuis la Thaïlande. Lorsque son petit-fils Hiou-ui part sur…",
-      "releaseDate": "2 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Resident Evil",
       "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
       "link": "https://www.themoviedb.org/movie/1423191",
       "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
       "releaseDate": "16 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Lettres d’amour de ma grand-mère",
+      "image": "https://image.tmdb.org/t/p/w300/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
+      "link": "https://www.themoviedb.org/movie/1671548",
+      "synopsis": "Pendant des décennies, Ye Sogriu a survécu grâce aux lettres et aux mandats que son mari lui envoie depuis la Thaïlande. Lorsque son petit-fils Hiou-ui part sur…",
+      "releaseDate": "2 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
