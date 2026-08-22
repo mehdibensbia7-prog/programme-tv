@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1787362574765,
+  "updatedAt": 1787381376470,
   "items": [
+    {
+      "title": "X-Files : sorti il y a 30 ans, cet épisode dérangeant est le préféré du créateur de la série, et il a marqué un tournant majeur",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000219276.html",
+      "desc": "Si vous êtes fans de X-Files, vous avez sûrement été choqués par cet épisode de la saison 4, un des plus terrifiants et dérangeants de la sé",
+      "isAI": false
+    },
+    {
+      "title": "“Deux blaireaux de base” : il y a 42 ans, quand Gérard Lanvin tournait à New York un film culte qui a fait 6,1 millions d'entrées",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000219366.html",
+      "desc": "Gérard Lanvin se souvient avec humour du tournage de “Marche à l’ombre” en plein New York, où la foule, intriguée par l’impressionnant dispo",
+      "isAI": false
+    },
     {
       "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2276 du lundi 24 août 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218978.html",
@@ -23,18 +35,6 @@
       "title": "\"Viens avec nous\" : dans les années 70, cet acteur aurait pu rejoindre le Splendid mais il a refusé la proposition de Christian Clavier, Gérard Jugnot et les autres",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000217198.html",
       "desc": "Avant “Les Bronzés” et “Le Père Noël est une ordure”, Olivier Lejeune aurait pu rejoindre le Splendid. Invité par Gérard Jugnot à suivre la ",
-      "isAI": false
-    },
-    {
-      "title": "300 films au compteur : cet acteur est incontestablement le plus prolifique du cinéma français",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000216118.html",
-      "desc": "Son visage vous est sûrement familier, même si son nom l’est beaucoup moins. De Louis de Funès à Godard en passant par Gabin, ce roi des sec",
-      "isAI": false
-    },
-    {
-      "title": "Personne n'a vu ce film de science-fiction : 7 ans avant Barbie, il devait pourtant être le premier succès cinéma de Mattel",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000218274.html",
-      "desc": "Sept ans avant le triomphe de “Barbie”, Mattel rêvait déjà de conquérir Hollywood avec “Max Steel”. Mais ce film de science-fiction censé la",
       "isAI": false
     }
   ]
