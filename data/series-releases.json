@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787402995758,
+  "updatedAt": 1787423894487,
   "items": [
     {
       "title": "Reacher",
@@ -32,16 +32,6 @@
       "platform": "HBO Max"
     },
     {
-      "title": "Les Simpson",
-      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "link": "https://www.themoviedb.org/tv/456",
-      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
-      "status": "En cours",
-      "episodes": "38 saisons · 802 épisodes",
-      "nextEpisodeDate": "27 septembre 2026",
-      "platform": "Disney Plus"
-    },
-    {
       "title": "Silo",
       "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
       "link": "https://www.themoviedb.org/tv/125988",
@@ -62,6 +52,16 @@
       "platform": null
     },
     {
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "status": "En cours",
+      "episodes": "38 saisons · 802 épisodes",
+      "nextEpisodeDate": "27 septembre 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "Ted Lasso",
       "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
       "link": "https://www.themoviedb.org/tv/97546",
@@ -72,14 +72,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Jornal Nacional",
-      "image": "https://image.tmdb.org/t/p/w300/g0x9tcHp8SV8UH4yq40g5zu6phu.jpg",
-      "link": "https://www.themoviedb.org/tv/16807",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
       "status": "En cours",
-      "episodes": "58 saisons · 11371 épisodes",
-      "nextEpisodeDate": "22 août 2026",
-      "platform": null
+      "episodes": "37 saisons · 1750 épisodes",
+      "nextEpisodeDate": "23 août 2026",
+      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
