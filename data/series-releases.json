@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787489484964,
+  "updatedAt": 1787510227342,
   "items": [
     {
       "title": "Reacher",
@@ -10,6 +10,16 @@
       "episodes": "4 saisons · 32 épisodes",
       "nextEpisodeDate": "26 août 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
+      "status": "En cours",
+      "episodes": "4 saisons · 30 épisodes",
+      "nextEpisodeDate": "27 août 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Lioness",
@@ -30,16 +40,6 @@
       "episodes": "1 saison · 8 épisodes",
       "nextEpisodeDate": "23 août 2026",
       "platform": "HBO Max"
-    },
-    {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "27 août 2026",
-      "platform": "Apple TV"
     },
     {
       "title": "Gran hermano",
@@ -72,14 +72,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "title": "All Elite Wrestling: Dynamite",
+      "image": "https://image.tmdb.org/t/p/w300/gPNWVCp0zrHRmwfovUpUQO44sts.jpg",
+      "link": "https://www.themoviedb.org/tv/91555",
+      "synopsis": "All Elite Wrestling (AEW) est une fédération de catch américaine basée à Jacksonville en Floride. La compagnie a été fondée par l’entrepreneur et dirigeant de f…",
       "status": "En cours",
-      "episodes": "37 saisons · 1750 épisodes",
-      "nextEpisodeDate": "23 août 2026",
-      "platform": "Crunchyroll Amazon Channel"
+      "episodes": "8 saisons · 365 épisodes",
+      "nextEpisodeDate": "26 août 2026",
+      "platform": "SFR Play"
     }
   ]
 }
