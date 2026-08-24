@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787555368987,
+  "updatedAt": 1787576473128,
   "items": [
     {
       "title": "Reacher",
@@ -12,16 +12,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "27 août 2026",
-      "platform": "Apple TV"
-    },
-    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -32,23 +22,33 @@
       "platform": "Paramount Plus"
     },
     {
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
+      "status": "En cours",
+      "episodes": "4 saisons · 30 épisodes",
+      "nextEpisodeDate": "27 août 2026",
+      "platform": "Apple TV"
+    },
+    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
       "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
       "status": "En cours",
       "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "23 août 2026",
+      "nextEpisodeDate": "30 août 2026",
       "platform": "HBO Max"
     },
     {
-      "title": "Gran hermano",
-      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "link": "https://www.themoviedb.org/tv/37528",
+      "title": "Paradise Hotel",
+      "image": "https://image.tmdb.org/t/p/w300/aeU8fC5JaG2BkWqgMX7yPfX7dfW.jpg",
+      "link": "https://www.themoviedb.org/tv/67707",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "24 août 2026",
+      "episodes": "21 saisons · 752 épisodes",
+      "nextEpisodeDate": "31 août 2026",
       "platform": null
     },
     {
@@ -62,24 +62,24 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "25 août 2026",
-      "platform": "Apple TV"
+      "episodes": "13 saisons · 883 épisodes",
+      "nextEpisodeDate": "24 août 2026",
+      "platform": null
     },
     {
-      "title": "All Elite Wrestling: Dynamite",
-      "image": "https://image.tmdb.org/t/p/w300/gPNWVCp0zrHRmwfovUpUQO44sts.jpg",
-      "link": "https://www.themoviedb.org/tv/91555",
-      "synopsis": "All Elite Wrestling (AEW) est une fédération de catch américaine basée à Jacksonville en Floride. La compagnie a été fondée par l’entrepreneur et dirigeant de f…",
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
       "status": "En cours",
-      "episodes": "8 saisons · 365 épisodes",
-      "nextEpisodeDate": "26 août 2026",
-      "platform": "SFR Play"
+      "episodes": "37 saisons · 1750 épisodes",
+      "nextEpisodeDate": "30 août 2026",
+      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
