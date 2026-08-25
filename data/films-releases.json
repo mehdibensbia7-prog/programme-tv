@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787641031786,
+  "updatedAt": 1787662667214,
   "items": [
     {
       "title": "L'Invitation",
@@ -38,20 +38,20 @@
       "category": "cinema"
     },
     {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
-      "releaseDate": "16 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Toxic",
       "image": "https://image.tmdb.org/t/p/w300/bhpSB2g6yCKyxRgvgZ27KUgBHg6.jpg",
       "link": "https://www.themoviedb.org/movie/1213243",
       "synopsis": "Alors que la domination portugaise s'effondre à Goa, Raya gravit les échelons du monde criminel à travers trahisons et bains de sang pour prendre le contrôle de…",
       "releaseDate": "26 août 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
+      "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
