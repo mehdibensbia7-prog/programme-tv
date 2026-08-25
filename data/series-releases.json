@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787662668495,
+  "updatedAt": 1787683651347,
   "items": [
     {
       "title": "Reacher",
@@ -12,16 +12,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Lioness",
-      "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
-      "link": "https://www.themoviedb.org/tv/113962",
-      "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
-      "status": "En cours",
-      "episodes": "3 saisons · 24 épisodes",
-      "nextEpisodeDate": "30 août 2026",
-      "platform": "Paramount Plus"
-    },
-    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
@@ -30,6 +20,16 @@
       "episodes": "1 saison · 8 épisodes",
       "nextEpisodeDate": "30 août 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Lioness",
+      "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
+      "link": "https://www.themoviedb.org/tv/113962",
+      "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
+      "status": "En cours",
+      "episodes": "3 saisons · 24 épisodes",
+      "nextEpisodeDate": "30 août 2026",
+      "platform": "Paramount Plus"
     },
     {
       "title": "Silo",
@@ -52,16 +52,6 @@
       "platform": null
     },
     {
-      "title": "Gran hermano",
-      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "link": "https://www.themoviedb.org/tv/37528",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "25 août 2026",
-      "platform": null
-    },
-    {
       "title": "Les Simpson",
       "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
       "link": "https://www.themoviedb.org/tv/456",
@@ -72,14 +62,24 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "37 saisons · 1750 épisodes",
-      "nextEpisodeDate": "30 août 2026",
-      "platform": "Crunchyroll Amazon Channel"
+      "episodes": "13 saisons · 883 épisodes",
+      "nextEpisodeDate": "25 août 2026",
+      "platform": null
+    },
+    {
+      "title": "Knowing Brothers",
+      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
+      "link": "https://www.themoviedb.org/tv/70672",
+      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
+      "status": "En cours",
+      "episodes": "1 saison · 542 épisodes",
+      "nextEpisodeDate": "29 août 2026",
+      "platform": null
     }
   ]
 }
