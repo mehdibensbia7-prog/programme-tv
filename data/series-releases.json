@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787727490231,
+  "updatedAt": 1787749421033,
   "items": [
     {
       "title": "Reacher",
@@ -52,16 +52,6 @@
       "platform": null
     },
     {
-      "title": "Les Simpson",
-      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "link": "https://www.themoviedb.org/tv/456",
-      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
-      "status": "En cours",
-      "episodes": "38 saisons · 802 épisodes",
-      "nextEpisodeDate": "27 septembre 2026",
-      "platform": "Disney Plus"
-    },
-    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -80,6 +70,16 @@
       "episodes": "1 saison · 542 épisodes",
       "nextEpisodeDate": "29 août 2026",
       "platform": null
+    },
+    {
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "status": "En cours",
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "1 septembre 2026",
+      "platform": "Apple TV"
     }
   ]
 }
