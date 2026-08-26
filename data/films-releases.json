@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787749419407,
+  "updatedAt": 1787773956674,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Les Ensorceleuses 2",
-      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
-      "link": "https://www.themoviedb.org/movie/1302904",
-      "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
-      "releaseDate": "9 septembre 2026",
+      "title": "Heart of the Beast",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "synopsis": "Un ancien membre des forces spéciales de la marine de guerre des États-Unis, les SEAL, se perd avec son berger allemand de combat au milieu de l'Alaska. Marqué …",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787749421033,
+  "updatedAt": 1787773957494,
   "items": [
     {
       "title": "Reacher",
@@ -42,16 +42,6 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Paradise Hotel",
-      "image": "https://image.tmdb.org/t/p/w300/zE4hi4gDP0T8HDC4noHasNsBKtb.jpg",
-      "link": "https://www.themoviedb.org/tv/67707",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "21 saisons · 752 épisodes",
-      "nextEpisodeDate": "31 août 2026",
-      "platform": null
-    },
-    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -62,13 +52,13 @@
       "platform": null
     },
     {
-      "title": "Knowing Brothers",
-      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
-      "link": "https://www.themoviedb.org/tv/70672",
-      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
+      "title": "Paradise Hotel",
+      "image": "https://image.tmdb.org/t/p/w300/zE4hi4gDP0T8HDC4noHasNsBKtb.jpg",
+      "link": "https://www.themoviedb.org/tv/67707",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "1 saison · 542 épisodes",
-      "nextEpisodeDate": "29 août 2026",
+      "episodes": "21 saisons · 752 épisodes",
+      "nextEpisodeDate": "31 août 2026",
       "platform": null
     },
     {
@@ -80,6 +70,16 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "1 septembre 2026",
       "platform": "Apple TV"
+    },
+    {
+      "title": "Futurama",
+      "image": "https://image.tmdb.org/t/p/w300/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg",
+      "link": "https://www.themoviedb.org/tv/615",
+      "synopsis": "Accidentellement cryogénisé le 31 décembre 1999 alors qu'il livrait une pizza, Fry se réveille 1.000 ans plus tard à New York. À l'aube de l'an 3000, le monde a…",
+      "status": "En cours",
+      "episodes": "11 saisons · 164 épisodes",
+      "nextEpisodeDate": "31 août 2026",
+      "platform": "Disney Plus"
     }
   ]
 }
