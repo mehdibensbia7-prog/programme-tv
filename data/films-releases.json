@@ -1,6 +1,15 @@
 {
-  "updatedAt": 1787708624529,
+  "updatedAt": 1787727489840,
   "items": [
+    {
+      "title": "Avengers : Endgame",
+      "image": "https://image.tmdb.org/t/p/w300/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg",
+      "link": "https://www.themoviedb.org/movie/299534",
+      "synopsis": "Après leur défaite face au Titan Thanos qui dans le film précédent s'est approprié toutes les pierres du Gant de l'infini, les Avengers et les Gardiens de la Ga…",
+      "releaseDate": "24 avril 2019",
+      "platform": "Disney Plus",
+      "category": "streaming"
+    },
     {
       "title": "L'Invitation",
       "image": "https://image.tmdb.org/t/p/w300/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
@@ -11,11 +20,29 @@
       "category": "cinema"
     },
     {
-      "title": "The Dog Stars",
-      "image": "https://image.tmdb.org/t/p/w300/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
-      "link": "https://www.themoviedb.org/movie/1384216",
-      "synopsis": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et …",
-      "releaseDate": "26 août 2026",
+      "title": "Her Private Hell",
+      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
+      "link": "https://www.themoviedb.org/movie/1469342",
+      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
+      "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
+      "link": "https://www.themoviedb.org/movie/1240889",
+      "synopsis": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «de…",
+      "releaseDate": "17 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
+      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
+      "link": "https://www.themoviedb.org/movie/1545621",
+      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -25,15 +52,6 @@
       "link": "https://www.themoviedb.org/movie/1318413",
       "synopsis": "Dans les 72 heures précédant le jour J, alors que le destin du monde libre est en jeu, le général Dwight D. Eisenhower et le capitaine James Stagg sont confront…",
       "releaseDate": "9 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Toxic",
-      "image": "https://image.tmdb.org/t/p/w300/uPDutjavZO22SbIngBezk173vSb.jpg",
-      "link": "https://www.themoviedb.org/movie/1213243",
-      "synopsis": "Alors que la domination portugaise s'effondre à Goa, Raya gravit les échelons du monde criminel à travers trahisons et bains de sang pour prendre le contrôle de…",
-      "releaseDate": "26 août 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -52,24 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1671548",
       "synopsis": "Pendant des décennies, Ye Sogriu a survécu grâce aux lettres et aux mandats que son mari lui envoie depuis la Thaïlande. Lorsque son petit-fils Hiou-ui part sur…",
       "releaseDate": "2 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
-      "releaseDate": "16 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Nimrods : A Green Day Comedy",
-      "image": "https://image.tmdb.org/t/p/w300/aebmSpFu1lUV78PtOpqMUn4d82B.jpg",
-      "link": "https://www.themoviedb.org/movie/1432474",
-      "synopsis": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est…",
-      "releaseDate": "4 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
