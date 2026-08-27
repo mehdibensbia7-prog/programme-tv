@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787820170254,
+  "updatedAt": 1787868396630,
   "items": [
     {
       "title": "Reacher",
@@ -32,16 +32,6 @@
       "platform": "HBO Max"
     },
     {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "27 août 2026",
-      "platform": "Apple TV"
-    },
-    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -50,6 +40,16 @@
       "episodes": "13 saisons · 883 épisodes",
       "nextEpisodeDate": "27 août 2026",
       "platform": null
+    },
+    {
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
+      "status": "En cours",
+      "episodes": "4 saisons · 30 épisodes",
+      "nextEpisodeDate": "27 août 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Paradise Hotel",
@@ -72,14 +72,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Futurama",
-      "image": "https://image.tmdb.org/t/p/w300/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg",
-      "link": "https://www.themoviedb.org/tv/615",
-      "synopsis": "Accidentellement cryogénisé le 31 décembre 1999 alors qu'il livrait une pizza, Fry se réveille 1.000 ans plus tard à New York. À l'aube de l'an 3000, le monde a…",
+      "title": "Jornal Nacional",
+      "image": "https://image.tmdb.org/t/p/w300/g0x9tcHp8SV8UH4yq40g5zu6phu.jpg",
+      "link": "https://www.themoviedb.org/tv/16807",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "11 saisons · 164 épisodes",
-      "nextEpisodeDate": "31 août 2026",
-      "platform": "Disney Plus"
+      "episodes": "58 saisons · 11371 épisodes",
+      "nextEpisodeDate": "27 août 2026",
+      "platform": null
     }
   ]
 }
