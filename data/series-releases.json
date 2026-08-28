@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787868396630,
+  "updatedAt": 1787914519230,
   "items": [
     {
       "title": "Reacher",
@@ -22,6 +22,16 @@
       "platform": "Paramount Plus"
     },
     {
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "13 saisons · 883 épisodes",
+      "nextEpisodeDate": "28 août 2026",
+      "platform": null
+    },
+    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
@@ -32,23 +42,13 @@
       "platform": "HBO Max"
     },
     {
-      "title": "Gran hermano",
-      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "link": "https://www.themoviedb.org/tv/37528",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "27 août 2026",
-      "platform": null
-    },
-    {
       "title": "Silo",
       "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
       "link": "https://www.themoviedb.org/tv/125988",
       "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
       "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "27 août 2026",
+      "nextEpisodeDate": "3 septembre 2026",
       "platform": "Apple TV"
     },
     {
@@ -78,7 +78,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "58 saisons · 11371 épisodes",
-      "nextEpisodeDate": "27 août 2026",
+      "nextEpisodeDate": "28 août 2026",
       "platform": null
     }
   ]
