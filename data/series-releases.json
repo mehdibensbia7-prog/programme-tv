@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787914519230,
+  "updatedAt": 1787954706507,
   "items": [
     {
       "title": "Reacher",
@@ -52,16 +52,6 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Paradise Hotel",
-      "image": "https://image.tmdb.org/t/p/w300/zE4hi4gDP0T8HDC4noHasNsBKtb.jpg",
-      "link": "https://www.themoviedb.org/tv/67707",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "21 saisons · 752 épisodes",
-      "nextEpisodeDate": "31 août 2026",
-      "platform": null
-    },
-    {
       "title": "Ted Lasso",
       "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
       "link": "https://www.themoviedb.org/tv/97546",
@@ -79,6 +69,16 @@
       "status": "En cours",
       "episodes": "58 saisons · 11371 épisodes",
       "nextEpisodeDate": "28 août 2026",
+      "platform": null
+    },
+    {
+      "title": "Paradise Hotel",
+      "image": "https://image.tmdb.org/t/p/w300/zE4hi4gDP0T8HDC4noHasNsBKtb.jpg",
+      "link": "https://www.themoviedb.org/tv/67707",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "21 saisons · 752 épisodes",
+      "nextEpisodeDate": "31 août 2026",
       "platform": null
     }
   ]
