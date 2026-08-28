@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-27T22:53:04.319Z",
-  "globalStatus": "🟢 SAIN",
+  "generatedAt": "2026-08-28T12:36:20.296Z",
+  "globalStatus": "🟠 SURVEILLANCE",
   "summary": {
-    "ok": 12,
-    "warn": 0,
+    "ok": 11,
+    "warn": 1,
     "fail": 0,
     "repaired": 0
   },
@@ -11,31 +11,31 @@
     {
       "check": "data/news-ai.json",
       "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 0.8h.",
+      "detail": "6 élément(s), mis à jour il y a 1.7h.",
       "repaired": false
     },
     {
       "check": "data/trends-ai.json",
       "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 0.8h.",
+      "detail": "6 élément(s), mis à jour il y a 1.7h.",
       "repaired": false
     },
     {
       "check": "data/videos.json",
-      "status": "ok",
-      "detail": "5 élément(s), mis à jour il y a 5.9h.",
+      "status": "warn",
+      "detail": "Donnée périmée : dernière mise à jour il y a 10.8h (seuil : 8h).",
       "repaired": false
     },
     {
       "check": "data/films-releases.json",
       "status": "ok",
-      "detail": "8 élément(s), mis à jour il y a 0.8h.",
+      "detail": "8 élément(s), mis à jour il y a 1.7h.",
       "repaired": false
     },
     {
       "check": "data/series-releases.json",
       "status": "ok",
-      "detail": "8 élément(s), mis à jour il y a 0.8h.",
+      "detail": "8 élément(s), mis à jour il y a 1.7h.",
       "repaired": false
     },
     {
