@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787954706507,
+  "updatedAt": 1787985713077,
   "items": [
     {
       "title": "Reacher",
@@ -20,16 +20,6 @@
       "episodes": "3 saisons · 24 épisodes",
       "nextEpisodeDate": "30 août 2026",
       "platform": "Paramount Plus"
-    },
-    {
-      "title": "Gran hermano",
-      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "link": "https://www.themoviedb.org/tv/37528",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "28 août 2026",
-      "platform": null
     },
     {
       "title": "Lanterns",
@@ -68,7 +58,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "58 saisons · 11371 épisodes",
-      "nextEpisodeDate": "28 août 2026",
+      "nextEpisodeDate": "29 août 2026",
       "platform": null
     },
     {
@@ -80,6 +70,16 @@
       "episodes": "21 saisons · 752 épisodes",
       "nextEpisodeDate": "31 août 2026",
       "platform": null
+    },
+    {
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "status": "En cours",
+      "episodes": "37 saisons · 1750 épisodes",
+      "nextEpisodeDate": "30 août 2026",
+      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
