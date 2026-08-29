@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787966106774,
+  "updatedAt": 1788004408261,
   "items": [
     {
       "title": "Reacher",
@@ -18,14 +18,6 @@
       "desc": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée p..."
     },
     {
-      "title": "Gran hermano",
-      "season": "En cours",
-      "date": "2001-03-10",
-      "link": "https://www.themoviedb.org/tv/37528",
-      "image": "https://image.tmdb.org/t/p/w500/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "desc": "Pas de résumé."
-    },
-    {
       "title": "Lanterns",
       "season": "En cours",
       "date": "2026-08-16",
@@ -40,6 +32,14 @@
       "link": "https://www.themoviedb.org/tv/125988",
       "image": "https://image.tmdb.org/t/p/w500/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
       "desc": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un g..."
+    },
+    {
+      "title": "Ted Lasso",
+      "season": "En cours",
+      "date": "2020-08-14",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "image": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "desc": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une..."
     }
   ]
 }
