@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788090110780,
+  "updatedAt": 1788107347138,
   "items": [
     {
       "title": "Reacher",
@@ -12,6 +12,16 @@
       "platform": "Amazon Prime Video"
     },
     {
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
+      "status": "En cours",
+      "episodes": "4 saisons · 36 épisodes",
+      "nextEpisodeDate": "3 septembre 2026",
+      "platform": "Apple TV"
+    },
+    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -20,16 +30,6 @@
       "episodes": "3 saisons · 24 épisodes",
       "nextEpisodeDate": "30 août 2026",
       "platform": "Paramount Plus"
-    },
-    {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "3 septembre 2026",
-      "platform": "Apple TV"
     },
     {
       "title": "Lanterns",
@@ -62,12 +62,12 @@
       "platform": null
     },
     {
-      "title": "Paradise Hotel",
-      "image": "https://image.tmdb.org/t/p/w300/zE4hi4gDP0T8HDC4noHasNsBKtb.jpg",
-      "link": "https://www.themoviedb.org/tv/67707",
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "21 saisons · 753 épisodes",
+      "episodes": "35 saisons · 8596 épisodes",
       "nextEpisodeDate": "31 août 2026",
       "platform": null
     },
