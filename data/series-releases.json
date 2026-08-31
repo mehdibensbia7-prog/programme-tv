@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788123093115,
+  "updatedAt": 1788152323613,
   "items": [
     {
       "title": "Reacher",
@@ -12,28 +12,28 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 36 épisodes",
-      "nextEpisodeDate": "3 septembre 2026",
-      "platform": "Apple TV"
-    },
-    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
       "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
       "status": "En cours",
       "episodes": "3 saisons · 24 épisodes",
-      "nextEpisodeDate": "30 août 2026",
+      "nextEpisodeDate": "6 septembre 2026",
       "platform": "Paramount Plus"
     },
     {
+      "title": "Silo",
+      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
+      "link": "https://www.themoviedb.org/tv/125988",
+      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
+      "status": "En cours",
+      "episodes": "4 saisons · 30 épisodes",
+      "nextEpisodeDate": "3 septembre 2026",
+      "platform": "Apple TV"
+    },
+    {
       "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
       "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
       "status": "En cours",
@@ -50,6 +50,16 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "1 septembre 2026",
       "platform": "Apple TV"
+    },
+    {
+      "title": "รักสุดใจนายแฟนบอย",
+      "image": "https://image.tmdb.org/t/p/w300/m0bMTgWSDNwaZiz9TKTNqkCCDUX.jpg",
+      "link": "https://www.themoviedb.org/tv/284825",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "1 saison · 12 épisodes",
+      "nextEpisodeDate": "5 septembre 2026",
+      "platform": null
     },
     {
       "title": "Jornal Nacional",
@@ -70,16 +80,6 @@
       "episodes": "35 saisons · 8596 épisodes",
       "nextEpisodeDate": "31 août 2026",
       "platform": null
-    },
-    {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
-      "status": "En cours",
-      "episodes": "37 saisons · 1750 épisodes",
-      "nextEpisodeDate": "30 août 2026",
-      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
