@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788182312408,
+  "updatedAt": 1788216149244,
   "items": [
     {
       "title": "Reacher",
@@ -62,22 +62,22 @@
       "platform": null
     },
     {
+      "title": "The Rachel Maddow Show",
+      "image": "https://image.tmdb.org/t/p/w300/7Jzrp2piY29h8UgA2hEXsxCskt1.jpg",
+      "link": "https://www.themoviedb.org/tv/7967",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "19 saisons · 2604 épisodes",
+      "nextEpisodeDate": "31 août 2026",
+      "platform": null
+    },
+    {
       "title": "Jornal Nacional",
       "image": "https://image.tmdb.org/t/p/w300/g0x9tcHp8SV8UH4yq40g5zu6phu.jpg",
       "link": "https://www.themoviedb.org/tv/16807",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "58 saisons · 11371 épisodes",
-      "nextEpisodeDate": "31 août 2026",
-      "platform": null
-    },
-    {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "35 saisons · 8596 épisodes",
       "nextEpisodeDate": "31 août 2026",
       "platform": null
     }
