@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788237454763,
+  "updatedAt": 1788262048691,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -38,6 +38,15 @@
       "category": "cinema"
     },
     {
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
+      "releaseDate": "16 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Pressure",
       "image": "https://image.tmdb.org/t/p/w300/3Dp1V6QHzrlSYlTlGZwHx7uPrR7.jpg",
       "link": "https://www.themoviedb.org/movie/1318413",
@@ -56,20 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
-      "releaseDate": "16 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Heart of the Beast",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "synopsis": "Un ancien membre des forces spéciales de la marine de guerre des États-Unis, les SEAL, se perd avec son berger allemand de combat au milieu de l'Alaska. Marqué …",
-      "releaseDate": "23 septembre 2026",
+      "title": "Les Ensorceleuses 2",
+      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
+      "link": "https://www.themoviedb.org/movie/1302904",
+      "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
+      "releaseDate": "9 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

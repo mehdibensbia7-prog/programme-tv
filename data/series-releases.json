@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788237455490,
+  "updatedAt": 1788262049446,
   "items": [
     {
       "title": "Reacher",
@@ -42,6 +42,26 @@
       "platform": "HBO Max"
     },
     {
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "13 saisons · 883 épisodes",
+      "nextEpisodeDate": "1 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "23 saisons · 3197 épisodes",
+      "nextEpisodeDate": "8 septembre 2026",
+      "platform": "Hayu Amazon Channel"
+    },
+    {
       "title": "Ted Lasso",
       "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
       "link": "https://www.themoviedb.org/tv/97546",
@@ -55,31 +75,11 @@
       "title": "早春晴朗",
       "image": "https://image.tmdb.org/t/p/w300/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
       "link": "https://www.themoviedb.org/tv/299952",
-      "synopsis": "Aucun résumé disponible.",
+      "synopsis": "Shang Zhitao, une jeune diplômée ordinaire, décroche contre toute attente un poste dans une prestigieuse agence de publicité à Pékin. Dès son premier jour, son …",
       "status": "En cours",
       "episodes": "1 saison · 24 épisodes",
       "nextEpisodeDate": "1 septembre 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "รักสุดใจนายแฟนบอย",
-      "image": "https://image.tmdb.org/t/p/w300/m0bMTgWSDNwaZiz9TKTNqkCCDUX.jpg",
-      "link": "https://www.themoviedb.org/tv/284825",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "1 saison · 12 épisodes",
-      "nextEpisodeDate": "5 septembre 2026",
-      "platform": null
-    },
-    {
-      "title": "The Rachel Maddow Show",
-      "image": "https://image.tmdb.org/t/p/w300/7Jzrp2piY29h8UgA2hEXsxCskt1.jpg",
-      "link": "https://www.themoviedb.org/tv/7967",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "19 saisons · 2604 épisodes",
-      "nextEpisodeDate": "31 août 2026",
-      "platform": null
     }
   ]
 }
