@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788216149244,
+  "updatedAt": 1788237455490,
   "items": [
     {
       "title": "Reacher",
@@ -52,6 +52,16 @@
       "platform": "Apple TV"
     },
     {
+      "title": "早春晴朗",
+      "image": "https://image.tmdb.org/t/p/w300/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
+      "link": "https://www.themoviedb.org/tv/299952",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "1 saison · 24 épisodes",
+      "nextEpisodeDate": "1 septembre 2026",
+      "platform": "Netflix"
+    },
+    {
       "title": "รักสุดใจนายแฟนบอย",
       "image": "https://image.tmdb.org/t/p/w300/m0bMTgWSDNwaZiz9TKTNqkCCDUX.jpg",
       "link": "https://www.themoviedb.org/tv/284825",
@@ -68,16 +78,6 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "19 saisons · 2604 épisodes",
-      "nextEpisodeDate": "31 août 2026",
-      "platform": null
-    },
-    {
-      "title": "Jornal Nacional",
-      "image": "https://image.tmdb.org/t/p/w300/g0x9tcHp8SV8UH4yq40g5zu6phu.jpg",
-      "link": "https://www.themoviedb.org/tv/16807",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "58 saisons · 11371 épisodes",
       "nextEpisodeDate": "31 août 2026",
       "platform": null
     }
