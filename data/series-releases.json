@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788321597299,
+  "updatedAt": 1788346912062,
   "items": [
     {
       "title": "Reacher",
@@ -22,16 +22,6 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "link": "https://www.themoviedb.org/tv/95350",
-      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
-      "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "6 septembre 2026",
-      "platform": "HBO Max"
-    },
-    {
       "title": "Silo",
       "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
       "link": "https://www.themoviedb.org/tv/125988",
@@ -42,13 +32,23 @@
       "platform": "Apple TV"
     },
     {
+      "title": "Lanterns",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "link": "https://www.themoviedb.org/tv/95350",
+      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
+      "status": "En cours",
+      "episodes": "1 saison · 8 épisodes",
+      "nextEpisodeDate": "6 septembre 2026",
+      "platform": "HBO Max"
+    },
+    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "1 septembre 2026",
+      "nextEpisodeDate": "2 septembre 2026",
       "platform": null
     },
     {
@@ -68,7 +68,7 @@
       "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
       "status": "En cours",
       "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "1 septembre 2026",
+      "nextEpisodeDate": "8 septembre 2026",
       "platform": "Apple TV"
     },
     {
