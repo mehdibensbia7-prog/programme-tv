@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788346910988,
+  "updatedAt": 1788366164596,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -15,6 +15,15 @@
       "image": "https://image.tmdb.org/t/p/w300/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
       "link": "https://www.themoviedb.org/movie/950028",
       "synopsis": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce …",
+      "releaseDate": "16 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
       "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
@@ -43,15 +52,6 @@
       "link": "https://www.themoviedb.org/movie/1318413",
       "synopsis": "Dans les 72 heures précédant le jour J, alors que le destin du monde libre est en jeu, le général Dwight D. Eisenhower et le capitaine James Stagg sont confront…",
       "releaseDate": "9 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
-      "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
