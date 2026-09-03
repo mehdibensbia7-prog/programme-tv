@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788407939936,
+  "updatedAt": 1788433168637,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -47,19 +47,19 @@
       "category": "cinema"
     },
     {
-      "title": "Her Private Hell",
-      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
-      "link": "https://www.themoviedb.org/movie/1469342",
-      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
+      "title": "Heart of the Beast",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "synopsis": "Un ancien membre des forces spéciales de la marine de guerre des États-Unis, les SEAL, se perd avec son berger allemand de combat au milieu de l'Alaska. Marqué …",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
     {
-      "title": "Heart of the Beast",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "synopsis": "Un ancien membre des forces spéciales de la marine de guerre des États-Unis, les SEAL, se perd avec son berger allemand de combat au milieu de l'Alaska. Marqué …",
+      "title": "Her Private Hell",
+      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
+      "link": "https://www.themoviedb.org/movie/1469342",
+      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"

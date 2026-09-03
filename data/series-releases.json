@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788407940598,
+  "updatedAt": 1788433169130,
   "items": [
     {
       "title": "Reacher",
@@ -8,7 +8,7 @@
       "synopsis": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreu…",
       "status": "En cours",
       "episodes": "4 saisons · 32 épisodes",
-      "nextEpisodeDate": "2 septembre 2026",
+      "nextEpisodeDate": "9 septembre 2026",
       "platform": "Amazon Prime Video"
     },
     {
@@ -32,14 +32,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "link": "https://www.themoviedb.org/tv/95350",
-      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
       "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "6 septembre 2026",
-      "platform": "HBO Max"
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "8 septembre 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Gran hermano",
@@ -52,6 +52,16 @@
       "platform": null
     },
     {
+      "title": "Lanterns",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "link": "https://www.themoviedb.org/tv/95350",
+      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
+      "status": "En cours",
+      "episodes": "1 saison · 8 épisodes",
+      "nextEpisodeDate": "6 septembre 2026",
+      "platform": "HBO Max"
+    },
+    {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
       "link": "https://www.themoviedb.org/tv/22980",
@@ -62,23 +72,13 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
-      "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "8 septembre 2026",
-      "platform": "Apple TV"
-    },
-    {
       "title": "早春晴朗",
       "image": "https://image.tmdb.org/t/p/w300/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
       "link": "https://www.themoviedb.org/tv/299952",
       "synopsis": "Shang Zhitao, une jeune diplômée ordinaire, décroche contre toute attente un poste dans une prestigieuse agence de publicité à Pékin. Dès son premier jour, son …",
       "status": "En cours",
       "episodes": "1 saison · 24 épisodes",
-      "nextEpisodeDate": "2 septembre 2026",
+      "nextEpisodeDate": "3 septembre 2026",
       "platform": "Netflix"
     }
   ]
