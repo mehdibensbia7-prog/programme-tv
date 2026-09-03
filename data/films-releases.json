@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788451991365,
+  "updatedAt": 1788468656119,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
-      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "link": "https://www.themoviedb.org/movie/1545621",
-      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
-      "releaseDate": "23 septembre 2026",
+      "title": "Les Ensorceleuses 2",
+      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
+      "link": "https://www.themoviedb.org/movie/1302904",
+      "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
+      "releaseDate": "9 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
