@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788468656441,
+  "updatedAt": 1788494438447,
   "items": [
     {
       "title": "Reacher",
@@ -28,7 +28,7 @@
       "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
       "status": "En cours",
       "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": "3 septembre 2026",
+      "nextEpisodeDate": null,
       "platform": "Apple TV"
     },
     {
@@ -48,7 +48,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "3 septembre 2026",
+      "nextEpisodeDate": "4 septembre 2026",
       "platform": null
     },
     {
@@ -78,7 +78,7 @@
       "synopsis": "Shang Zhitao, une jeune diplômée ordinaire, décroche contre toute attente un poste dans une prestigieuse agence de publicité à Pékin. Dès son premier jour, son …",
       "status": "En cours",
       "episodes": "1 saison · 24 épisodes",
-      "nextEpisodeDate": "3 septembre 2026",
+      "nextEpisodeDate": "4 septembre 2026",
       "platform": "Netflix"
     }
   ]
