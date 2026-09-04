@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788494438447,
+  "updatedAt": 1788519625018,
   "items": [
     {
       "title": "Reacher",
@@ -20,16 +20,6 @@
       "episodes": "3 saisons · 24 épisodes",
       "nextEpisodeDate": "6 septembre 2026",
       "platform": "Paramount Plus"
-    },
-    {
-      "title": "Silo",
-      "image": "https://image.tmdb.org/t/p/w300/dxktdopZCOlff10ocoEdn2TXBzl.jpg",
-      "link": "https://www.themoviedb.org/tv/125988",
-      "synopsis": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shé…",
-      "status": "En cours",
-      "episodes": "4 saisons · 30 épisodes",
-      "nextEpisodeDate": null,
-      "platform": "Apple TV"
     },
     {
       "title": "Ted Lasso",
@@ -72,7 +62,17 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "早春晴朗",
+      "title": "나 혼자 산다",
+      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
+      "link": "https://www.themoviedb.org/tv/65282",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "1 saison · 661 épisodes",
+      "nextEpisodeDate": "4 septembre 2026",
+      "platform": "Kocowa"
+    },
+    {
+      "title": "The Early Spring",
       "image": "https://image.tmdb.org/t/p/w300/nLWFbYv1r99Yy7dWvjoxMRegoe0.jpg",
       "link": "https://www.themoviedb.org/tv/299952",
       "synopsis": "Shang Zhitao, une jeune diplômée ordinaire, décroche contre toute attente un poste dans une prestigieuse agence de publicité à Pékin. Dès son premier jour, son …",
