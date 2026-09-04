@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788519622538,
+  "updatedAt": 1788538088996,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -29,20 +29,20 @@
       "category": "cinema"
     },
     {
+      "title": "Her Private Hell",
+      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
+      "link": "https://www.themoviedb.org/movie/1469342",
+      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
+      "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Teenage Sex and Death at Camp Miasma",
       "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
       "link": "https://www.themoviedb.org/movie/1240889",
       "synopsis": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «de…",
       "releaseDate": "17 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Les Ensorceleuses 2",
-      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
-      "link": "https://www.themoviedb.org/movie/1302904",
-      "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
-      "releaseDate": "9 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -56,19 +56,19 @@
       "category": "cinema"
     },
     {
-      "title": "Heart of the Beast",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "synopsis": "Un ancien membre des forces spéciales de la marine de guerre des États-Unis, les SEAL, se perd avec son berger allemand de combat au milieu de l'Alaska. Marqué …",
-      "releaseDate": "23 septembre 2026",
+      "title": "Les Ensorceleuses 2",
+      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
+      "link": "https://www.themoviedb.org/movie/1302904",
+      "synopsis": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se …",
+      "releaseDate": "9 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
     {
-      "title": "Her Private Hell",
-      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
-      "link": "https://www.themoviedb.org/movie/1469342",
-      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
+      "title": "Heart of the Beast",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
