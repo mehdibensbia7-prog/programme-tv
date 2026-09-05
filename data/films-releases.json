@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788620220220,
+  "updatedAt": 1788639085540,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -25,15 +25,6 @@
       "link": "https://www.themoviedb.org/movie/1423191",
       "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
       "releaseDate": "16 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Her Private Hell",
-      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
-      "link": "https://www.themoviedb.org/movie/1469342",
-      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
-      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -70,6 +61,15 @@
       "link": "https://www.themoviedb.org/movie/1240889",
       "synopsis": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «de…",
       "releaseDate": "17 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Her Private Hell",
+      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
+      "link": "https://www.themoviedb.org/movie/1469342",
+      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
