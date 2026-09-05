@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788580657599,
+  "updatedAt": 1788603753286,
   "items": [
     {
       "title": "Reacher",
@@ -20,6 +20,16 @@
       "episodes": "23 saisons · 3197 épisodes",
       "nextEpisodeDate": "8 septembre 2026",
       "platform": "Hayu Amazon Channel"
+    },
+    {
+      "title": "나 혼자 산다",
+      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
+      "link": "https://www.themoviedb.org/tv/65282",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "1 saison · 661 épisodes",
+      "nextEpisodeDate": "11 septembre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "Lioness",
@@ -52,6 +62,16 @@
       "platform": "HBO Max"
     },
     {
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "status": "En cours",
+      "episodes": "37 saisons · 1760 épisodes",
+      "nextEpisodeDate": "6 septembre 2026",
+      "platform": "Crunchyroll Amazon Channel"
+    },
+    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -60,26 +80,6 @@
       "episodes": "13 saisons · 883 épisodes",
       "nextEpisodeDate": "6 septembre 2026",
       "platform": null
-    },
-    {
-      "title": "Coronation Street",
-      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "link": "https://www.themoviedb.org/tv/291",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "67 saisons · 4735 épisodes",
-      "nextEpisodeDate": "4 septembre 2026",
-      "platform": null
-    },
-    {
-      "title": "나 혼자 산다",
-      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
-      "link": "https://www.themoviedb.org/tv/65282",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "1 saison · 661 épisodes",
-      "nextEpisodeDate": "4 septembre 2026",
-      "platform": "Kocowa"
     }
   ]
 }
