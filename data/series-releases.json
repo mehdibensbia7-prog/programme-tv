@@ -1,6 +1,16 @@
 {
-  "updatedAt": 1788603753286,
+  "updatedAt": 1788620221634,
   "items": [
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "23 saisons · 3197 épisodes",
+      "nextEpisodeDate": "8 septembre 2026",
+      "platform": "Hayu Amazon Channel"
+    },
     {
       "title": "Reacher",
       "image": "https://image.tmdb.org/t/p/w300/qrJOCIAcvPmyZ63KajWTalQtqPT.jpg",
@@ -12,14 +22,14 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "title": "Coronation Street",
+      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "link": "https://www.themoviedb.org/tv/291",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "23 saisons · 3197 épisodes",
-      "nextEpisodeDate": "8 septembre 2026",
-      "platform": "Hayu Amazon Channel"
+      "episodes": "67 saisons · 4735 épisodes",
+      "nextEpisodeDate": "7 septembre 2026",
+      "platform": null
     },
     {
       "title": "나 혼자 산다",
@@ -70,16 +80,6 @@
       "episodes": "37 saisons · 1760 épisodes",
       "nextEpisodeDate": "6 septembre 2026",
       "platform": "Crunchyroll Amazon Channel"
-    },
-    {
-      "title": "Gran hermano",
-      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
-      "link": "https://www.themoviedb.org/tv/37528",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "6 septembre 2026",
-      "platform": null
     }
   ]
 }
