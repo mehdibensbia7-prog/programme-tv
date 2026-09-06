@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788707861833,
+  "updatedAt": 1788725751310,
   "items": [
     {
       "title": "Reacher",
@@ -22,26 +22,6 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Coronation Street",
-      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "link": "https://www.themoviedb.org/tv/291",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "67 saisons · 4735 épisodes",
-      "nextEpisodeDate": "7 septembre 2026",
-      "platform": null
-    },
-    {
-      "title": "나 혼자 산다",
-      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
-      "link": "https://www.themoviedb.org/tv/65282",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "1 saison · 661 épisodes",
-      "nextEpisodeDate": "11 septembre 2026",
-      "platform": "Kocowa"
-    },
-    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -62,14 +42,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "American Dad!",
-      "image": "https://image.tmdb.org/t/p/w300/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
-      "link": "https://www.themoviedb.org/tv/1433",
-      "synopsis": "Agent de la CIA, Stan Smith est aussi l'époux comblé de la douce Francine et le fier papa de Hayley et Steve. Le tableau est idyllique. Le problème c'est que St…",
+      "title": "Coronation Street",
+      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "link": "https://www.themoviedb.org/tv/291",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "22 saisons · 401 épisodes",
-      "nextEpisodeDate": "13 septembre 2026",
-      "platform": "Disney Plus"
+      "episodes": "67 saisons · 4735 épisodes",
+      "nextEpisodeDate": "7 septembre 2026",
+      "platform": null
     },
     {
       "title": "Lanterns",
@@ -80,6 +60,26 @@
       "episodes": "1 saison · 8 épisodes",
       "nextEpisodeDate": "6 septembre 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "13 saisons · 883 épisodes",
+      "nextEpisodeDate": "6 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "American Dad!",
+      "image": "https://image.tmdb.org/t/p/w300/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
+      "link": "https://www.themoviedb.org/tv/1433",
+      "synopsis": "Agent de la CIA, Stan Smith est aussi l'époux comblé de la douce Francine et le fier papa de Hayley et Steve. Le tableau est idyllique. Le problème c'est que St…",
+      "status": "En cours",
+      "episodes": "22 saisons · 401 épisodes",
+      "nextEpisodeDate": "13 septembre 2026",
+      "platform": "Disney Plus"
     }
   ]
 }
