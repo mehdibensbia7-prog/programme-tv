@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1788667455288,
+  "updatedAt": 1788691272218,
   "items": [
-    {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "23 saisons · 3197 épisodes",
-      "nextEpisodeDate": "8 septembre 2026",
-      "platform": "Hayu Amazon Channel"
-    },
     {
       "title": "Reacher",
       "image": "https://image.tmdb.org/t/p/w300/qrJOCIAcvPmyZ63KajWTalQtqPT.jpg",
@@ -20,6 +10,16 @@
       "episodes": "4 saisons · 32 épisodes",
       "nextEpisodeDate": "9 septembre 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "23 saisons · 3197 épisodes",
+      "nextEpisodeDate": "8 septembre 2026",
+      "platform": "Hayu Amazon Channel"
     },
     {
       "title": "Coronation Street",
@@ -62,6 +62,16 @@
       "platform": "Apple TV"
     },
     {
+      "title": "American Dad!",
+      "image": "https://image.tmdb.org/t/p/w300/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
+      "link": "https://www.themoviedb.org/tv/1433",
+      "synopsis": "Agent de la CIA, Stan Smith est aussi l'époux comblé de la douce Francine et le fier papa de Hayley et Steve. Le tableau est idyllique. Le problème c'est que St…",
+      "status": "En cours",
+      "episodes": "22 saisons · 401 épisodes",
+      "nextEpisodeDate": "13 septembre 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
@@ -70,16 +80,6 @@
       "episodes": "1 saison · 8 épisodes",
       "nextEpisodeDate": "6 septembre 2026",
       "platform": "HBO Max"
-    },
-    {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
-      "status": "En cours",
-      "episodes": "37 saisons · 1760 épisodes",
-      "nextEpisodeDate": "6 septembre 2026",
-      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
