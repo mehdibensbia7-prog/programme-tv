@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1788725748261,
+  "updatedAt": 1788753795075,
   "items": [
+    {
+      "title": "Boîte noire sur France 2 : Pierre Niney s’est inspiré de ce rôle culte de DiCaprio pour jouer son personnage obsessionnel",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221093.html",
+      "desc": "Porté par Pierre Niney, le solide thriller Boîte noire est diffusé ce soir sur France 2. Nous avions rencontré l'acteur lors de la sortie ci",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man No Way Home sur TF1 : faites un arrêt sur image à 2 heures et 33 secondes, et observez bien le ciel",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221068.html",
+      "desc": "Diffusé ce soir sur TF1, Spider-Man No Way Home regorge de références et de petits détails cachés. Mais l’un d’eux, particulièrement céleste",
+      "isAI": false
+    },
+    {
+      "title": "\"Au fait, nous avons de l'électricité en Italie !\" : il y a 13 ans, Sharon Stone aurait eu des caprices de diva sur le tournage de ce film jamais sorti en France",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221503.html",
+      "desc": "Invitée à tourner en Italie dans un film à petit budget, Sharon Stone aurait multiplié les exigences et les caprices. Entre négociations int",
+      "isAI": false
+    },
+    {
+      "title": "Quiz Cinéma : si tu es fan de Spider-Man, tu dois faire 10/10 !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221307.html",
+      "desc": "Alors que le dernier volet des Spider-Man version Tom Holland cartonne au cinéma depuis sa sortie fin juillet, TF1 rediffuse ce soir l'opus ",
+      "isAI": false
+    },
     {
       "title": "C'est l'une des scènes les plus mythiques de Breaking Bad ! 14 ans après, elle reste encore gravée dans toutes les mémoires",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221496.html",
@@ -11,30 +35,6 @@
       "title": "\"C’était la première fois que le panneau Hollywood a été touché\" : Tom Cruise entre (un peu plus) dans l'Histoire du cinéma",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221441.html",
       "desc": "Pour la cérémonie de clôture des Jeux de Paris, Tom Cruise a obtenu une autorisation sans précédent autour du mythique panneau Hollywood. Re",
-      "isAI": false
-    },
-    {
-      "title": "Depuis 36 ans, quand on tombe sur ce film d'action fantastique culte à la télé, impossible de zapper !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221446.html",
-      "desc": "Des pizzas, des ninjas et quatre héros inoubliables : en 1990, “Les Tortues Ninja” faisait rêver toute une génération. Trente-six ans plus t",
-      "isAI": false
-    },
-    {
-      "title": "\"Ce garçon fait du bon travail, et vous chez Disney vous vivez dans votre tour d'ivoire !\" Quand Sean Connery volait au secours de Michael Bay sur le tournage de ce film d'action culte des années 90",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221447.html",
-      "desc": "Sur le tournage de “Rock”, Michael Bay redoutait d’affronter les dirigeants de Disney. C’était sans compter sur Sean Connery, qui a pris la ",
-      "isAI": false
-    },
-    {
-      "title": "\"Il n'arrivait même pas à faire semblant\" : Michael Landon (Charles Ingalls) avait un défaut qui se voit vraiment dans La Petite Maison dans la prairie !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221452.html",
-      "desc": "Charles Ingalls maîtrisait parfaitement le violon dans “La Petite Maison dans la prairie”. Michael Landon, beaucoup moins ! Un détail partic",
-      "isAI": false
-    },
-    {
-      "title": "\"Un navet absolu\" : il y a 27 ans, Russell Crowe pensait dès le départ que ce futur chef-d'oeuvre était voué à l'échec",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221502.html",
-      "desc": "Avant de décrocher l’Oscar pour “Gladiator”, Russell Crowe était persuadé que le film courait au désastre. Scénario jugé “nul”, réécritures ",
       "isAI": false
     }
   ]
