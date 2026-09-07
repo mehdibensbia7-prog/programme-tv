@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788782955370,
+  "updatedAt": 1788816180498,
   "items": [
     {
       "title": "Reacher",
@@ -52,6 +52,16 @@
       "platform": null
     },
     {
+      "title": "나 혼자 산다",
+      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
+      "link": "https://www.themoviedb.org/tv/65282",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "1 saison · 661 épisodes",
+      "nextEpisodeDate": "11 septembre 2026",
+      "platform": "Kocowa"
+    },
+    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
@@ -70,16 +80,6 @@
       "episodes": "13 saisons · 883 épisodes",
       "nextEpisodeDate": "7 septembre 2026",
       "platform": null
-    },
-    {
-      "title": "American Dad!",
-      "image": "https://image.tmdb.org/t/p/w300/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
-      "link": "https://www.themoviedb.org/tv/1433",
-      "synopsis": "Agent de la CIA, Stan Smith est aussi l'époux comblé de la douce Francine et le fier papa de Hayley et Steve. Le tableau est idyllique. Le problème c'est que St…",
-      "status": "En cours",
-      "episodes": "22 saisons · 401 épisodes",
-      "nextEpisodeDate": "13 septembre 2026",
-      "platform": "Disney Plus"
     }
   ]
 }
