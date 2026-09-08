@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788884769689,
+  "updatedAt": 1788901152404,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -47,15 +47,6 @@
       "category": "cinema"
     },
     {
-      "title": "Her Private Hell",
-      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
-      "link": "https://www.themoviedb.org/movie/1469342",
-      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
-      "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Heart of the Beast",
       "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
       "link": "https://www.themoviedb.org/movie/1263337",
@@ -65,11 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "link": "https://www.themoviedb.org/movie/1240889",
-      "synopsis": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «de…",
-      "releaseDate": "17 septembre 2026",
+      "title": "Her Private Hell",
+      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
+      "link": "https://www.themoviedb.org/movie/1469342",
+      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
+      "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
+      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
+      "link": "https://www.themoviedb.org/movie/1545621",
+      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
