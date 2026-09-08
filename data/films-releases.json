@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788840315790,
+  "updatedAt": 1788865207796,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -11,19 +11,19 @@
       "category": "streaming"
     },
     {
-      "title": "L'Invitation",
-      "image": "https://image.tmdb.org/t/p/w300/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
-      "link": "https://www.themoviedb.org/movie/950028",
-      "synopsis": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce …",
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
       "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
     {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
+      "title": "L'Invitation",
+      "image": "https://image.tmdb.org/t/p/w300/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
+      "link": "https://www.themoviedb.org/movie/950028",
+      "synopsis": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce …",
       "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
-      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "link": "https://www.themoviedb.org/movie/1545621",
-      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
-      "releaseDate": "23 septembre 2026",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
+      "link": "https://www.themoviedb.org/movie/1240889",
+      "synopsis": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «de…",
+      "releaseDate": "17 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
