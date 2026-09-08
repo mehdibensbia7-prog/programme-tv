@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788816180498,
+  "updatedAt": 1788840317420,
   "items": [
     {
       "title": "Reacher",
@@ -32,34 +32,14 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
-      "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "8 septembre 2026",
-      "platform": "Apple TV"
-    },
-    {
       "title": "Coronation Street",
       "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
       "link": "https://www.themoviedb.org/tv/291",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "67 saisons · 4735 épisodes",
-      "nextEpisodeDate": "7 septembre 2026",
+      "nextEpisodeDate": "9 septembre 2026",
       "platform": null
-    },
-    {
-      "title": "나 혼자 산다",
-      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
-      "link": "https://www.themoviedb.org/tv/65282",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "1 saison · 661 épisodes",
-      "nextEpisodeDate": "11 septembre 2026",
-      "platform": "Kocowa"
     },
     {
       "title": "Lanterns",
@@ -72,13 +52,33 @@
       "platform": "HBO Max"
     },
     {
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "status": "En cours",
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "8 septembre 2026",
+      "platform": "Apple TV"
+    },
+    {
+      "title": "나 혼자 산다",
+      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
+      "link": "https://www.themoviedb.org/tv/65282",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "1 saison · 665 épisodes",
+      "nextEpisodeDate": "11 septembre 2026",
+      "platform": "Kocowa"
+    },
+    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "13 saisons · 883 épisodes",
-      "nextEpisodeDate": "7 septembre 2026",
+      "nextEpisodeDate": "8 septembre 2026",
       "platform": null
     }
   ]
