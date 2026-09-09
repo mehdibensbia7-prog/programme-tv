@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788970915431,
+  "updatedAt": 1788986857718,
   "items": [
     {
       "title": "Reacher",
@@ -22,6 +22,16 @@
       "platform": "Hayu Amazon Channel"
     },
     {
+      "title": "Demain nous appartient",
+      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
+      "link": "https://www.themoviedb.org/tv/72879",
+      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "status": "En cours",
+      "episodes": "3 saisons · 2282 épisodes",
+      "nextEpisodeDate": "9 septembre 2026",
+      "platform": "Canal VOD (location)"
+    },
+    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -32,24 +42,24 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Knowing Brothers",
-      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
-      "link": "https://www.themoviedb.org/tv/70672",
-      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "1 saison · 542 épisodes",
-      "nextEpisodeDate": "12 septembre 2026",
+      "episodes": "13 saisons · 883 épisodes",
+      "nextEpisodeDate": "9 septembre 2026",
       "platform": null
     },
     {
-      "title": "나 혼자 산다",
-      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
-      "link": "https://www.themoviedb.org/tv/65282",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Lanterns",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "link": "https://www.themoviedb.org/tv/95350",
+      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
       "status": "En cours",
-      "episodes": "1 saison · 665 épisodes",
-      "nextEpisodeDate": "11 septembre 2026",
-      "platform": "Kocowa"
+      "episodes": "1 saison · 8 épisodes",
+      "nextEpisodeDate": "13 septembre 2026",
+      "platform": "HBO Max"
     },
     {
       "title": "Coronation Street",
@@ -62,24 +72,14 @@
       "platform": null
     },
     {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
       "status": "En cours",
-      "episodes": "37 saisons · 1760 épisodes",
-      "nextEpisodeDate": "13 septembre 2026",
-      "platform": "Crunchyroll Amazon Channel"
-    },
-    {
-      "title": "Demain nous appartient",
-      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
-      "link": "https://www.themoviedb.org/tv/72879",
-      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
-      "status": "En cours",
-      "episodes": "3 saisons · 2282 épisodes",
-      "nextEpisodeDate": "9 septembre 2026",
-      "platform": "Canal VOD (location)"
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "15 septembre 2026",
+      "platform": "Apple TV"
     }
   ]
 }

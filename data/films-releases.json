@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788970914899,
+  "updatedAt": 1788986856473,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -11,20 +11,20 @@
       "category": "streaming"
     },
     {
-      "title": "Leviticus",
-      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
-      "link": "https://www.themoviedb.org/movie/1564614",
-      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
-      "releaseDate": "7 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Resident Evil",
       "image": "https://image.tmdb.org/t/p/w300/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
       "link": "https://www.themoviedb.org/movie/1423191",
       "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
       "releaseDate": "16 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Leviticus",
+      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
+      "link": "https://www.themoviedb.org/movie/1564614",
+      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
+      "releaseDate": "7 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -47,6 +47,15 @@
       "category": "cinema"
     },
     {
+      "title": "Doraemon et le château sous-marin",
+      "image": "https://image.tmdb.org/t/p/w300/ncJWnLIT2Lb1Hb4WETX3l5TfuO8.jpg",
+      "link": "https://www.themoviedb.org/movie/1542261",
+      "synopsis": "Doraemon est un robot-chat bleu qui vient du futur. Il vit avec Nobita, un petit garçon maladroit, et ses parents. Grâce à ses gadgets secrets, Doraemon aide so…",
+      "releaseDate": "7 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Her Private Hell",
       "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
       "link": "https://www.themoviedb.org/movie/1469342",
@@ -61,15 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1545621",
       "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
       "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "link": "https://www.themoviedb.org/movie/1240889",
-      "synopsis": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «de…",
-      "releaseDate": "17 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
