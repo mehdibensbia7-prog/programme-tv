@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1788951914455,
+  "updatedAt": 1788970914899,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -11,20 +11,20 @@
       "category": "streaming"
     },
     {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
-      "releaseDate": "16 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Leviticus",
       "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
       "link": "https://www.themoviedb.org/movie/1564614",
       "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
       "releaseDate": "7 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
+      "releaseDate": "16 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
