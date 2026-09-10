@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789038076310,
+  "updatedAt": 1789056715296,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -24,7 +24,7 @@
       "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
       "link": "https://www.themoviedb.org/movie/1564614",
       "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
-      "releaseDate": "7 octobre 2026",
+      "releaseDate": "18 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -34,6 +34,15 @@
       "link": "https://www.themoviedb.org/movie/950028",
       "synopsis": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce …",
       "releaseDate": "16 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Digger",
+      "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
+      "link": "https://www.themoviedb.org/movie/1248832",
+      "synopsis": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché n…",
+      "releaseDate": "30 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -60,15 +69,6 @@
       "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
       "link": "https://www.themoviedb.org/movie/1469342",
       "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
-      "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
-      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "link": "https://www.themoviedb.org/movie/1545621",
-      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"

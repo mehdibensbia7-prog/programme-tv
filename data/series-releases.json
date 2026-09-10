@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789038077956,
+  "updatedAt": 1789056716442,
   "items": [
     {
       "title": "Reacher",
@@ -22,16 +22,6 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Demain nous appartient",
-      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
-      "link": "https://www.themoviedb.org/tv/72879",
-      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
-      "status": "En cours",
-      "episodes": "3 saisons · 2282 épisodes",
-      "nextEpisodeDate": "10 septembre 2026",
-      "platform": "Canal VOD (location)"
-    },
-    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -42,6 +32,16 @@
       "platform": "Paramount Plus"
     },
     {
+      "title": "Demain nous appartient",
+      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
+      "link": "https://www.themoviedb.org/tv/72879",
+      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "status": "En cours",
+      "episodes": "3 saisons · 2282 épisodes",
+      "nextEpisodeDate": "10 septembre 2026",
+      "platform": "Canal VOD (location)"
+    },
+    {
       "title": "Gran hermano",
       "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
       "link": "https://www.themoviedb.org/tv/37528",
@@ -50,6 +50,16 @@
       "episodes": "13 saisons · 883 épisodes",
       "nextEpisodeDate": "10 septembre 2026",
       "platform": null
+    },
+    {
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "status": "En cours",
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "15 septembre 2026",
+      "platform": "Apple TV"
     },
     {
       "title": "Lanterns",
@@ -70,16 +80,6 @@
       "episodes": "67 saisons · 4735 épisodes",
       "nextEpisodeDate": "10 septembre 2026",
       "platform": null
-    },
-    {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
-      "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "15 septembre 2026",
-      "platform": "Apple TV"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789038074910,
+  "updatedAt": 1789056714440,
   "items": [
     {
       "title": "Vaiana, la légende du bout du monde",
@@ -30,17 +30,17 @@
       "isAI": false
     },
     {
+      "title": "Les Ensorceleuses 2",
+      "link": "https://www.themoviedb.org/movie/1302904",
+      "image": "https://image.tmdb.org/t/p/w300/1fnNv1AOzbUG4gvL4AbenUfIlJp.jpg",
+      "desc": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombr...",
+      "isAI": false
+    },
+    {
       "title": "Mayday",
       "link": "https://www.themoviedb.org/movie/1137844",
       "image": "https://image.tmdb.org/t/p/w300/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
       "desc": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est...",
-      "isAI": false
-    },
-    {
-      "title": "Coyote vs. Acme",
-      "link": "https://www.themoviedb.org/movie/1204680",
-      "image": "https://image.tmdb.org/t/p/w300/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "desc": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, é...",
       "isAI": false
     }
   ]
