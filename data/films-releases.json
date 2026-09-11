@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789099696492,
+  "updatedAt": 1789124383196,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -38,20 +38,20 @@
       "category": "cinema"
     },
     {
-      "title": "Digger",
-      "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
-      "link": "https://www.themoviedb.org/movie/1248832",
-      "synopsis": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché n…",
-      "releaseDate": "30 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Heart of the Beast",
       "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
       "link": "https://www.themoviedb.org/movie/1263337",
       "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
       "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Digger",
+      "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
+      "link": "https://www.themoviedb.org/movie/1248832",
+      "synopsis": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché n…",
+      "releaseDate": "30 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
