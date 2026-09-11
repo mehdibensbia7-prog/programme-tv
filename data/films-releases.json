@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789072951838,
+  "updatedAt": 1789099696492,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
+      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
+      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
+      "link": "https://www.themoviedb.org/movie/1545621",
+      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
+      "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Doraemon et le château sous-marin",
       "image": "https://image.tmdb.org/t/p/w300/ncJWnLIT2Lb1Hb4WETX3l5TfuO8.jpg",
       "link": "https://www.themoviedb.org/movie/1542261",
       "synopsis": "Doraemon est un robot-chat bleu qui vient du futur. Il vit avec Nobita, un petit garçon maladroit, et ses parents. Grâce à ses gadgets secrets, Doraemon aide so…",
       "releaseDate": "7 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Her Private Hell",
-      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
-      "link": "https://www.themoviedb.org/movie/1469342",
-      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
-      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
