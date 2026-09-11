@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789143329975,
+  "updatedAt": 1789159675018,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -38,15 +38,6 @@
       "category": "cinema"
     },
     {
-      "title": "Heart of the Beast",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
-      "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Digger",
       "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
       "link": "https://www.themoviedb.org/movie/1248832",
@@ -56,10 +47,10 @@
       "category": "cinema"
     },
     {
-      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
-      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "link": "https://www.themoviedb.org/movie/1545621",
-      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
+      "title": "Heart of the Beast",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
@@ -70,6 +61,15 @@
       "link": "https://www.themoviedb.org/movie/1542261",
       "synopsis": "Doraemon est un robot-chat bleu qui vient du futur. Il vit avec Nobita, un petit garçon maladroit, et ses parents. Grâce à ses gadgets secrets, Doraemon aide so…",
       "releaseDate": "7 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Primetime",
+      "image": "https://image.tmdb.org/t/p/w300/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
+      "link": "https://www.themoviedb.org/movie/1375441",
+      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.…",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

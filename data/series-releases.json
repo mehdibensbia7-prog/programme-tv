@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789143330260,
+  "updatedAt": 1789159676531,
   "items": [
     {
       "title": "Reacher",
@@ -12,16 +12,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "23 saisons · 3197 épisodes",
-      "nextEpisodeDate": "13 septembre 2026",
-      "platform": "Hayu Amazon Channel"
-    },
-    {
       "title": "Lioness",
       "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
       "link": "https://www.themoviedb.org/tv/113962",
@@ -32,14 +22,14 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Demain nous appartient",
-      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
-      "link": "https://www.themoviedb.org/tv/72879",
-      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "3 saisons · 2282 épisodes",
-      "nextEpisodeDate": "11 septembre 2026",
-      "platform": "Canal VOD (location)"
+      "episodes": "23 saisons · 3197 épisodes",
+      "nextEpisodeDate": "13 septembre 2026",
+      "platform": "Hayu Amazon Channel"
     },
     {
       "title": "Ted Lasso",
@@ -50,6 +40,16 @@
       "episodes": "4 saisons · 44 épisodes",
       "nextEpisodeDate": "15 septembre 2026",
       "platform": "Apple TV"
+    },
+    {
+      "title": "Demain nous appartient",
+      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
+      "link": "https://www.themoviedb.org/tv/72879",
+      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "status": "En cours",
+      "episodes": "3 saisons · 2282 épisodes",
+      "nextEpisodeDate": "11 septembre 2026",
+      "platform": "Canal VOD (location)"
     },
     {
       "title": "Lanterns",
@@ -72,12 +72,12 @@
       "platform": null
     },
     {
-      "title": "Coronation Street",
-      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "link": "https://www.themoviedb.org/tv/291",
+      "title": "Gran hermano",
+      "image": "https://image.tmdb.org/t/p/w300/snIRCY6Qhei08YUNQjjZI2gc4CK.jpg",
+      "link": "https://www.themoviedb.org/tv/37528",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "67 saisons · 4735 épisodes",
+      "episodes": "13 saisons · 883 épisodes",
       "nextEpisodeDate": "11 septembre 2026",
       "platform": null
     }
