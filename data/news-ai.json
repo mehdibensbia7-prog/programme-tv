@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1789208951601,
+  "updatedAt": 1789226513102,
   "items": [
+    {
+      "title": "Numéro 3 sur Netflix : vous venez de terminer cette mini-série addictive ? On vous explique la fin de Mal d'amour !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221726.html",
+      "desc": "Cette mini-série a moins d’une semaine et elle figure déjà dans le top 3 de Netflix ! Impossible d’être passé à côté : il s’agit de \"Mal d’a",
+      "isAI": false
+    },
     {
       "title": "Après The Pitt et Grey's Anatomy, Alexandra Metz change de registre ! Son nouveau rôle va vous étonner",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221987.html",
@@ -29,12 +35,6 @@
       "title": "\"Trop sinistre\" : comment la formidable fin originale de ce film culte des années 2000 a été sabordée à sa sortie",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222386.html",
       "desc": "Les projections tests de films sont toujours un moment de tension pour l'équipe d'un film, réalisateur en tête. Car le destin d'une oeuvre d",
-      "isAI": false
-    },
-    {
-      "title": "Plus belle la vie en avance : Louis, Djawad et Zoé sur le point d’être démasqués ?... Ce qui vous attend au Mistral du 14 au 18 septembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221535.html",
-      "desc": "Cette semaine, dans Plus belle la vie, encore plus belle... Stanislas se rapprochera dangereusement de la vérité sur Louis, Djawad et Zoé. D",
       "isAI": false
     }
   ]
