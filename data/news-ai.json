@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1789226513102,
+  "updatedAt": 1789244684655,
   "items": [
+    {
+      "title": "\"Un chiffre d'affaires colossal\" : Arnold Schwarzenegger a gagné une fortune grâce à ce film des années 80 alors que personne ne croyait à son succès",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222476.html",
+      "desc": "Arnold Schwarzenegger n’a touché aucun salaire pour cette comédie culte des années 80. En échange, il a négocié une part des profits… et déc",
+      "isAI": false
+    },
+    {
+      "title": "Il y a 37 ans, cet acteur faisait ses débuts à l'écran, aujourd'hui, c'est une star planétaire. L'avez-vous reconnu ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222132.html",
+      "desc": "Bien avant de devenir une star mondiale grâce à Titanic, Leonardo DiCaprio faisait ses premières armes devant les caméras de télévision. Ret",
+      "isAI": false
+    },
+    {
+      "title": "Andrew Scott : 28 ans avant Pressure, il jouait dans cet immense film sur le Débarquement... mais vous aurez du mal à le trouver dedans !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221720.html",
+      "desc": "Actuellement à l'affiche de \"Pressure\", Andrew Scott avait déjà participé à un film sur le Débarquement, en jouant dans \"Il faut sauver le s",
+      "isAI": false
+    },
+    {
+      "title": "Ce soir sur Netflix : Jamie Dornan et Guillaume Canet dans un solide film de guerre méconnu et inspiré d'une histoire vraie",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221790.html",
+      "desc": "Sorti sur Netflix en 2016, \"The Siege of Jadotville\" revient sur l'authentique fait d'arme en 1961 qui opposa 155 soldats irlandais assiégés",
+      "isAI": false
+    },
     {
       "title": "Numéro 3 sur Netflix : vous venez de terminer cette mini-série addictive ? On vous explique la fin de Mal d'amour !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221726.html",
@@ -11,30 +35,6 @@
       "title": "Après The Pitt et Grey's Anatomy, Alexandra Metz change de registre ! Son nouveau rôle va vous étonner",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221987.html",
       "desc": "Les fans d’Alexandra Metz vont bientôt la découvrir dans un registre très différent ! Après les séries médicales \"The Pitt\" et \"Grey’s Anato",
-      "isAI": false
-    },
-    {
-      "title": "Spider-Man, La Bataille De Gaulle, L'Odyssée... Voici les 10 films qui ont fait le plus d'entrées en France durant l'été 2026 !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222163.html",
-      "desc": "Alors que sonne tout juste la rentrée des classes et la fin des vacances, voici les dix films qui ont réuni le plus de spectateurs dans les ",
-      "isAI": false
-    },
-    {
-      "title": "Un Si Grand Soleil en avance : Boris tombe dans le piège de Saskia... Ce qui vous attend la semaine du 14 au 18 septembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221538.html",
-      "desc": "La semaine prochaine, dans \"Un Si Grand Soleil\"… Alors que le couple Florent-Cécile volera en éclats, Boris tombera dans le piège de Saskia.",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient en avance : Alex perd le contrôle !... Ce qui vous attend la semaine du 14 au 18 septembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221536.html",
-      "desc": "La semaine prochaine, dans \"Demain nous appartient\"... Dévasté par la disparition inquiétante de Chloé, Alex perdra de plus en plus le contr",
-      "isAI": false
-    },
-    {
-      "title": "\"Trop sinistre\" : comment la formidable fin originale de ce film culte des années 2000 a été sabordée à sa sortie",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222386.html",
-      "desc": "Les projections tests de films sont toujours un moment de tension pour l'équipe d'un film, réalisateur en tête. Car le destin d'une oeuvre d",
       "isAI": false
     }
   ]
