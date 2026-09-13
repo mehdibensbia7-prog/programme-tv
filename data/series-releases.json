@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789315189184,
+  "updatedAt": 1789331742182,
   "items": [
     {
       "title": "Reacher",
@@ -12,26 +12,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Lioness",
-      "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
-      "link": "https://www.themoviedb.org/tv/113962",
-      "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
-      "status": "En cours",
-      "episodes": "3 saisons · 24 épisodes",
-      "nextEpisodeDate": "13 septembre 2026",
-      "platform": "Paramount Plus"
-    },
-    {
-      "title": "Coronation Street",
-      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "link": "https://www.themoviedb.org/tv/291",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "67 saisons · 4735 épisodes",
-      "nextEpisodeDate": "14 septembre 2026",
-      "platform": null
-    },
-    {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
       "link": "https://www.themoviedb.org/tv/22980",
@@ -42,14 +22,14 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "title": "Lioness",
+      "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
+      "link": "https://www.themoviedb.org/tv/113962",
+      "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
       "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "15 septembre 2026",
-      "platform": "Apple TV"
+      "episodes": "3 saisons · 24 épisodes",
+      "nextEpisodeDate": "13 septembre 2026",
+      "platform": "Paramount Plus"
     },
     {
       "title": "Demain nous appartient",
@@ -62,6 +42,36 @@
       "platform": "Canal VOD (location)"
     },
     {
+      "title": "Coronation Street",
+      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "link": "https://www.themoviedb.org/tv/291",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "67 saisons · 4735 épisodes",
+      "nextEpisodeDate": "14 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Ted Lasso",
+      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "link": "https://www.themoviedb.org/tv/97546",
+      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "status": "En cours",
+      "episodes": "4 saisons · 44 épisodes",
+      "nextEpisodeDate": "15 septembre 2026",
+      "platform": "Apple TV"
+    },
+    {
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "35 saisons · 8596 épisodes",
+      "nextEpisodeDate": "14 septembre 2026",
+      "platform": null
+    },
+    {
       "title": "Kamen Rider",
       "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
       "link": "https://www.themoviedb.org/tv/2661",
@@ -70,16 +80,6 @@
       "episodes": "37 saisons · 1760 épisodes",
       "nextEpisodeDate": "13 septembre 2026",
       "platform": "Crunchyroll Amazon Channel"
-    },
-    {
-      "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "link": "https://www.themoviedb.org/tv/95350",
-      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
-      "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "13 septembre 2026",
-      "platform": "HBO Max"
     }
   ]
 }
