@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789299066363,
+  "updatedAt": 1789315189184,
   "items": [
     {
       "title": "Reacher",
@@ -20,6 +20,16 @@
       "episodes": "3 saisons · 24 épisodes",
       "nextEpisodeDate": "13 septembre 2026",
       "platform": "Paramount Plus"
+    },
+    {
+      "title": "Coronation Street",
+      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "link": "https://www.themoviedb.org/tv/291",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "67 saisons · 4735 épisodes",
+      "nextEpisodeDate": "14 septembre 2026",
+      "platform": null
     },
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -52,6 +62,16 @@
       "platform": "Canal VOD (location)"
     },
     {
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "status": "En cours",
+      "episodes": "37 saisons · 1760 épisodes",
+      "nextEpisodeDate": "13 septembre 2026",
+      "platform": "Crunchyroll Amazon Channel"
+    },
+    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
@@ -60,26 +80,6 @@
       "episodes": "1 saison · 8 épisodes",
       "nextEpisodeDate": "13 septembre 2026",
       "platform": "HBO Max"
-    },
-    {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "35 saisons · 8596 épisodes",
-      "nextEpisodeDate": "14 septembre 2026",
-      "platform": null
-    },
-    {
-      "title": "X Factor",
-      "image": "https://image.tmdb.org/t/p/w300/tGIDuv3ySOGk8agG34fKMZI7BTB.jpg",
-      "link": "https://www.themoviedb.org/tv/16322",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "20 saisons · 264 épisodes",
-      "nextEpisodeDate": "17 septembre 2026",
-      "platform": null
     }
   ]
 }
