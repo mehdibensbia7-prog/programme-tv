@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1789331739219,
+  "updatedAt": 1789359990843,
   "items": [
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 671 du mardi 15 septembre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222285.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Une nouvelle mission fait craindre le pire à Louis, Djawad et Zoé. Pen",
+      "isAI": false
+    },
     {
       "title": "74 ans, 98 films, 1 César : quand reverra-t-on l'un des plus grands acteurs comiques français au cinéma ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222160.html",
@@ -29,12 +35,6 @@
       "title": "Second tour sur France 2 : quelle actrice césarisée Cécile de France a-t-elle remplacée dans cette comédie acerbe d’Albert Dupontel ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222119.html",
       "desc": "Diffusé ce soir sur France 2, Second tour est une comédie caustique et corrosive portée par Cécile de France. Mais la comédienne belge a fai",
-      "isAI": false
-    },
-    {
-      "title": "Le Parrain sur Arte : c'est l'une des scènes les plus célèbres... et elle a inspiré la mafia dans un glaçant fait divers",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000221640.html",
-      "desc": "Dans l'éventail de scènes mémorables du Parrain figure celle où le producteur de films Jack Woltz découvre un beau matin dans son lit la têt",
       "isAI": false
     }
   ]
