@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789388710219,
+  "updatedAt": 1789422136149,
   "items": [
     {
       "title": "Reacher",
@@ -42,12 +42,32 @@
       "platform": "Canal VOD (location)"
     },
     {
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "status": "En cours",
+      "episodes": "37 saisons · 1760 épisodes",
+      "nextEpisodeDate": "20 septembre 2026",
+      "platform": "Crunchyroll Amazon Channel"
+    },
+    {
       "title": "Coronation Street",
       "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
       "link": "https://www.themoviedb.org/tv/291",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "67 saisons · 4903 épisodes",
+      "nextEpisodeDate": "14 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Le Tonight Show",
+      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
+      "link": "https://www.themoviedb.org/tv/59941",
+      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
+      "status": "En cours",
+      "episodes": "14 saisons · 2420 épisodes",
       "nextEpisodeDate": "14 septembre 2026",
       "platform": null
     },
@@ -59,26 +79,6 @@
       "status": "En cours",
       "episodes": "1 saison · 546 épisodes",
       "nextEpisodeDate": "19 septembre 2026",
-      "platform": null
-    },
-    {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
-      "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "15 septembre 2026",
-      "platform": "Apple TV"
-    },
-    {
-      "title": "Gute Zeiten, schlechte Zeiten",
-      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "link": "https://www.themoviedb.org/tv/13945",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "35 saisons · 8596 épisodes",
-      "nextEpisodeDate": "14 septembre 2026",
       "platform": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789388708640,
+  "updatedAt": 1789422134522,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Doraemon et le château sous-marin",
-      "image": "https://image.tmdb.org/t/p/w300/ncJWnLIT2Lb1Hb4WETX3l5TfuO8.jpg",
-      "link": "https://www.themoviedb.org/movie/1542261",
-      "synopsis": "Doraemon est un robot-chat bleu qui vient du futur. Il vit avec Nobita, un petit garçon maladroit, et ses parents. Grâce à ses gadgets secrets, Doraemon aide so…",
-      "releaseDate": "7 octobre 2026",
+      "title": "Primetime",
+      "image": "https://image.tmdb.org/t/p/w300/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
+      "link": "https://www.themoviedb.org/movie/1375441",
+      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.…",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
