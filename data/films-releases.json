@@ -1,15 +1,6 @@
 {
-  "updatedAt": 1789490578277,
+  "updatedAt": 1789506421267,
   "items": [
-    {
-      "title": "Resident Evil",
-      "image": "https://image.tmdb.org/t/p/w300/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
-      "releaseDate": "16 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
     {
       "title": "Avengers : Endgame",
       "image": "https://image.tmdb.org/t/p/w300/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg",
@@ -18,6 +9,15 @@
       "releaseDate": "24 avril 2019",
       "platform": "Disney Plus",
       "category": "streaming"
+    },
+    {
+      "title": "Resident Evil",
+      "image": "https://image.tmdb.org/t/p/w300/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "synopsis": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.…",
+      "releaseDate": "16 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     },
     {
       "title": "Leviticus",
