@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789471796544,
+  "updatedAt": 1789490579482,
   "items": [
     {
       "title": "Reacher",
@@ -32,14 +32,14 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Demain nous appartient",
-      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
-      "link": "https://www.themoviedb.org/tv/72879",
-      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "title": "Knowing Brothers",
+      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
+      "link": "https://www.themoviedb.org/tv/70672",
+      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
       "status": "En cours",
-      "episodes": "3 saisons · 2295 épisodes",
-      "nextEpisodeDate": "15 septembre 2026",
-      "platform": "Canal VOD (location)"
+      "episodes": "1 saison · 546 épisodes",
+      "nextEpisodeDate": "19 septembre 2026",
+      "platform": null
     },
     {
       "title": "Kamen Rider",
@@ -52,24 +52,14 @@
       "platform": "Crunchyroll Amazon Channel"
     },
     {
-      "title": "Coronation Street",
-      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "link": "https://www.themoviedb.org/tv/291",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Demain nous appartient",
+      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
+      "link": "https://www.themoviedb.org/tv/72879",
+      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
       "status": "En cours",
-      "episodes": "67 saisons · 4903 épisodes",
+      "episodes": "3 saisons · 2295 épisodes",
       "nextEpisodeDate": "15 septembre 2026",
-      "platform": null
-    },
-    {
-      "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "link": "https://www.themoviedb.org/tv/95350",
-      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
-      "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "20 septembre 2026",
-      "platform": "HBO Max"
+      "platform": "TF1+"
     },
     {
       "title": "Le Tonight Show",
@@ -78,6 +68,16 @@
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
       "episodes": "14 saisons · 2420 épisodes",
+      "nextEpisodeDate": "15 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Coronation Street",
+      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "link": "https://www.themoviedb.org/tv/291",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "67 saisons · 4903 épisodes",
       "nextEpisodeDate": "15 septembre 2026",
       "platform": null
     }
