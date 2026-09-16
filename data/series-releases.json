@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789576564449,
+  "updatedAt": 1789592895593,
   "items": [
     {
       "title": "Reacher",
@@ -32,16 +32,6 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Knowing Brothers",
-      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
-      "link": "https://www.themoviedb.org/tv/70672",
-      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
-      "status": "En cours",
-      "episodes": "1 saison · 546 épisodes",
-      "nextEpisodeDate": "19 septembre 2026",
-      "platform": null
-    },
-    {
       "title": "Kamen Rider",
       "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
       "link": "https://www.themoviedb.org/tv/2661",
@@ -52,14 +42,14 @@
       "platform": "Crunchyroll Amazon Channel"
     },
     {
-      "title": "Demain nous appartient",
-      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
-      "link": "https://www.themoviedb.org/tv/72879",
-      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "title": "Knowing Brothers",
+      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
+      "link": "https://www.themoviedb.org/tv/70672",
+      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
       "status": "En cours",
-      "episodes": "3 saisons · 2295 épisodes",
-      "nextEpisodeDate": "16 septembre 2026",
-      "platform": "TF1+"
+      "episodes": "1 saison · 546 épisodes",
+      "nextEpisodeDate": "19 septembre 2026",
+      "platform": null
     },
     {
       "title": "Le Tonight Show",
@@ -72,14 +62,24 @@
       "platform": null
     },
     {
-      "title": "Coronation Street",
-      "image": "https://image.tmdb.org/t/p/w300/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "link": "https://www.themoviedb.org/tv/291",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Demain nous appartient",
+      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
+      "link": "https://www.themoviedb.org/tv/72879",
+      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
       "status": "En cours",
-      "episodes": "67 saisons · 4903 épisodes",
-      "nextEpisodeDate": "17 septembre 2026",
-      "platform": null
+      "episodes": "3 saisons · 2295 épisodes",
+      "nextEpisodeDate": "16 septembre 2026",
+      "platform": "TF1+"
+    },
+    {
+      "title": "Lanterns",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "link": "https://www.themoviedb.org/tv/95350",
+      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
+      "status": "En cours",
+      "episodes": "1 saison · 8 épisodes",
+      "nextEpisodeDate": "20 septembre 2026",
+      "platform": "HBO Max"
     }
   ]
 }

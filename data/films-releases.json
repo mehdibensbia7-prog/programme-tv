@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789576563261,
+  "updatedAt": 1789592894424,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -20,6 +20,15 @@
       "category": "cinema"
     },
     {
+      "title": "Heart of the Beast",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
+      "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Digger",
       "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
       "link": "https://www.themoviedb.org/movie/1248832",
@@ -29,10 +38,19 @@
       "category": "cinema"
     },
     {
-      "title": "Heart of the Beast",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
+      "title": "Malfaisante",
+      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+      "link": "https://www.themoviedb.org/movie/1400837",
+      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
+      "releaseDate": "14 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
+      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
+      "link": "https://www.themoviedb.org/movie/1545621",
+      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
@@ -47,29 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
-      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "link": "https://www.themoviedb.org/movie/1545621",
-      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
-      "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Verity",
       "image": "https://image.tmdb.org/t/p/w300/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
       "link": "https://www.themoviedb.org/movie/1283515",
       "synopsis": "Lowen Ashleigh est une écrivaine solitaire. Peinant à vivre de son métier, elle accepte de devenir le prête-plume de l'autrice à succès, Verity Crawford, et s'i…",
       "releaseDate": "30 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Her Private Hell",
-      "image": "https://image.tmdb.org/t/p/w300/p9kCdvV9rePQR7QImAiRXJcFeq4.jpg",
-      "link": "https://www.themoviedb.org/movie/1469342",
-      "synopsis": "Alors qu’une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son …",
-      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
