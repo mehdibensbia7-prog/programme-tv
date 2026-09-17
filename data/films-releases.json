@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789644267305,
+  "updatedAt": 1789663338234,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -16,6 +16,15 @@
       "link": "https://www.themoviedb.org/movie/1564614",
       "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
       "releaseDate": "18 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Malfaisante",
+      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+      "link": "https://www.themoviedb.org/movie/1400837",
+      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
+      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -38,11 +47,11 @@
       "category": "cinema"
     },
     {
-      "title": "Malfaisante",
-      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-      "link": "https://www.themoviedb.org/movie/1400837",
-      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
-      "releaseDate": "14 octobre 2026",
+      "title": "Primetime",
+      "image": "https://image.tmdb.org/t/p/w300/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
+      "link": "https://www.themoviedb.org/movie/1375441",
+      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.…",
+      "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -51,15 +60,6 @@
       "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
       "link": "https://www.themoviedb.org/movie/1545621",
       "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
-      "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Primetime",
-      "image": "https://image.tmdb.org/t/p/w300/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "link": "https://www.themoviedb.org/movie/1375441",
-      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.…",
       "releaseDate": "23 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
