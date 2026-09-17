@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1789619315531,
+  "updatedAt": 1789644268430,
   "items": [
-    {
-      "title": "Reacher",
-      "image": "https://image.tmdb.org/t/p/w300/qrJOCIAcvPmyZ63KajWTalQtqPT.jpg",
-      "link": "https://www.themoviedb.org/tv/108978",
-      "synopsis": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreu…",
-      "status": "En cours",
-      "episodes": "4 saisons · 32 épisodes",
-      "nextEpisodeDate": "16 septembre 2026",
-      "platform": "Amazon Prime Video"
-    },
     {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
@@ -18,7 +8,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3197 épisodes",
-      "nextEpisodeDate": "16 septembre 2026",
+      "nextEpisodeDate": "17 septembre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -58,7 +48,7 @@
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
       "episodes": "14 saisons · 2420 épisodes",
-      "nextEpisodeDate": "16 septembre 2026",
+      "nextEpisodeDate": "17 septembre 2026",
       "platform": null
     },
     {
@@ -72,14 +62,24 @@
       "platform": "TF1+"
     },
     {
-      "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "link": "https://www.themoviedb.org/tv/95350",
-      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "20 septembre 2026",
-      "platform": "HBO Max"
+      "episodes": "31 saisons · 4272 épisodes",
+      "nextEpisodeDate": "17 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "image": "https://image.tmdb.org/t/p/w300/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "link": "https://www.themoviedb.org/tv/13945",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "35 saisons · 8596 épisodes",
+      "nextEpisodeDate": "17 septembre 2026",
+      "platform": null
     }
   ]
 }
