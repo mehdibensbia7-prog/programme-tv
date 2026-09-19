@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1789764224430,
+  "updatedAt": 1789790977204,
   "items": [
+    {
+      "title": "Capitaine Marleau : avez-vous reconnu le fils de ces deux grandes stars du cinéma français dans l'épisode de ce vendredi soir sur France 2  ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223449.html",
+      "desc": "L'épisode inédit de \"Capitaine Marleau\" diffusé ce vendredi soir sur France 2 accueille un invité de choix qui n'est autre que le fils de de",
+      "isAI": false
+    },
+    {
+      "title": "Il y a 33 ans, ce petit garçon apparaissait pour la première fois au cinéma, aujourd'hui il est célèbre dans le monde entier. L'avez-vous reconnu ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223037.html",
+      "desc": "Retour en 1993 dans le magnifique \"Et au milieu coule une rivière\" de Robert Redford pour découvrir les débuts de Joseph Gordon-Levitt sur g",
+      "isAI": false
+    },
+    {
+      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2296 du lundi 21 septembre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222390.html",
+      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... Georges fait face à un dilemme terrible. Chloé impose un deal qui ne convient pas à ",
+      "isAI": false
+    },
     {
       "title": "Ce soir sur Netflix : Denzel Washington crève l'écran dans l'un des thrillers les plus intenses des années 2000",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223361.html",
@@ -17,24 +35,6 @@
       "title": "Quiz Cinéma : 9 images, 9 films à reconnaître !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223221.html",
       "desc": "Un anniversaire qui ne nous rajeunit pas. \"Top Gun\" fêtait hier les 40 ans de sa sortie en France. À cette occasion, nous vous proposons de ",
-      "isAI": false
-    },
-    {
-      "title": "Exclu. Demain nous appartient : \"après sa déception avec Violette\", Ellie bientôt en couple ? Carla Roturier répond",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223461.html",
-      "desc": "Rencontrée lors de l'édition 2026 du Festival de la Fiction de La Rochelle, Carla Roturier, l’interprète d’Ellie dans Demain nous appartient",
-      "isAI": false
-    },
-    {
-      "title": "Il y a 20 ans sortait en salles l'un des meilleurs feel-good movies de tous les temps",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223371.html",
-      "desc": "Focus sur l'irrésistible comédie \"Little Miss Sunshine\", sortie en salles il y a vingt ans. Un feel-good movie parfait à voir et à revoir.",
-      "isAI": false
-    },
-    {
-      "title": "Un Si Grand Soleil en avance : résumé de l’épisode du lundi 21 septembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223406.html",
-      "desc": "Dans le prochain épisode de \"Un Si Grand Soleil\"... Florent prend une décision par rapport à sa relation avec Cécile tandis que Boris annonc",
       "isAI": false
     }
   ]
