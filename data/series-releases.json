@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789878516585,
+  "updatedAt": 1789902238665,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -52,6 +52,16 @@
       "platform": "Crunchyroll Amazon Channel"
     },
     {
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "status": "En cours",
+      "episodes": "38 saisons · 803 épisodes",
+      "nextEpisodeDate": "27 septembre 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "Le Daily Show",
       "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
       "link": "https://www.themoviedb.org/tv/2224",
@@ -62,24 +72,14 @@
       "platform": null
     },
     {
-      "title": "Ted Lasso",
-      "image": "https://image.tmdb.org/t/p/w300/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "link": "https://www.themoviedb.org/tv/97546",
-      "synopsis": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives…",
+      "title": "WWE Raw",
+      "image": "https://image.tmdb.org/t/p/w300/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "link": "https://www.themoviedb.org/tv/4656",
+      "synopsis": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à t…",
       "status": "En cours",
-      "episodes": "4 saisons · 44 épisodes",
-      "nextEpisodeDate": "22 septembre 2026",
-      "platform": "Apple TV"
-    },
-    {
-      "title": "나 혼자 산다",
-      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
-      "link": "https://www.themoviedb.org/tv/65282",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "1 saison · 665 épisodes",
-      "nextEpisodeDate": "25 septembre 2026",
-      "platform": "Kocowa"
+      "episodes": "34 saisons · 1743 épisodes",
+      "nextEpisodeDate": "21 septembre 2026",
+      "platform": "Netflix"
     }
   ]
 }
