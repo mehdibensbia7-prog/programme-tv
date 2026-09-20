@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789849422249,
+  "updatedAt": 1789878516585,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -38,7 +38,7 @@
       "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
       "status": "En cours",
       "episodes": "1 saison · 546 épisodes",
-      "nextEpisodeDate": "19 septembre 2026",
+      "nextEpisodeDate": "26 septembre 2026",
       "platform": null
     },
     {
@@ -72,14 +72,14 @@
       "platform": "Apple TV"
     },
     {
-      "title": "Demain nous appartient",
-      "image": "https://image.tmdb.org/t/p/w300/7BjipkA48xXLauTg45QKiOb144a.jpg",
-      "link": "https://www.themoviedb.org/tv/72879",
-      "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
+      "title": "나 혼자 산다",
+      "image": "https://image.tmdb.org/t/p/w300/bq3Emv3pJLUyHvwGqiAXRwJvAmL.jpg",
+      "link": "https://www.themoviedb.org/tv/65282",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "3 saisons · 2295 épisodes",
-      "nextEpisodeDate": "21 septembre 2026",
-      "platform": "TF1+"
+      "episodes": "1 saison · 665 épisodes",
+      "nextEpisodeDate": "25 septembre 2026",
+      "platform": "Kocowa"
     }
   ]
 }

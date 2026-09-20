@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1789849421430,
+  "updatedAt": 1789878513658,
   "items": [
+    {
+      "title": "Culte depuis 21 ans, cet épisode de série est encore considéré comme l'un des meilleurs de l'Histoire de la télévision",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223538.html",
+      "desc": "En 2005, “Dr House” bouleversait sa formule le temps d’un épisode et dévoilait l’origine de la douleur de son héros. Entre énigme médicale, ",
+      "isAI": false
+    },
+    {
+      "title": "Tracker : bonne nouvelle pour les fans de The Walking Dead, un personnage phare de la série rejoint la saison 4",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223051.html",
+      "desc": "Surprise, un visage bien connu des fans de la série \"The Walking Dead\" devient l'un des personnages principaux de la saison 4 de \"Tracker\".",
+      "isAI": false
+    },
+    {
+      "title": "Ce sont les 3 créatures les plus emblématiques de la science-fiction et seuls 2 acteurs ont eu le privilège de les affronter",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223536.html",
+      "desc": "Un xénomorphe, un Terminator et un Predator : trois cauchemars qui ont marqué la science-fiction. Pourtant, seuls deux acteurs les ont tous ",
+      "isAI": false
+    },
     {
       "title": "\"Je n’ai plus d’énergie\" : Harrison Ford et Russell Crowe lui doivent beaucoup ! Et pourtant cette légende du cinéma n'a rien tourné depuis 16 ans",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223534.html",
@@ -17,24 +35,6 @@
       "title": "\"On a failli perdre un super gars\" : comment cette scène intense de Resident Evil a failli tourner au drame ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223228.html",
       "desc": "Sorti dans nos salles le 16 septembre, \"Resident Evil\" contient plusieurs scènes intenses. Dont une, dévoilée dans les bandes-annonces, qui ",
-      "isAI": false
-    },
-    {
-      "title": "Ce soir sur Netflix : l'un des meilleurs thrillers des années 90, servi par le maître absolu de l'action et un Sean Connery impérial",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223202.html",
-      "desc": "Un sous-marin soviétique furtif, un commandant insaisissable, et une traque silencieuse où la moindre erreur pourrait déclencher la IIIe Gue",
-      "isAI": false
-    },
-    {
-      "title": "27 ans après Matrix, Carrie-Anne Moss dans un thriller fantastique avec la révélation de Heated Rivalry... et la série arrive le 23 octobre prochain !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000222845.html",
-      "desc": "La série \"Yaga\" sera diffusée à partir du 23 octobre sur HBO Max en France !",
-      "isAI": false
-    },
-    {
-      "title": "Exclu. Plus belle la vie : \"C'est une grande période d'incertitude pour Patrick\" ... Jérôme Bertin se confie sur le départ de Boher",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223543.html",
-      "desc": "Dans Plus belle la vie, encore plus belle, Boher vient de quitter le commissariat. Interrogé à l'occasion du Festival de la Fiction de La Ro",
       "isAI": false
     }
   ]
