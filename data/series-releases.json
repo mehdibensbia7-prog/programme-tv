@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789993907787,
+  "updatedAt": 1790027563321,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -22,16 +22,6 @@
       "platform": null
     },
     {
-      "title": "Les Simpson",
-      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "link": "https://www.themoviedb.org/tv/456",
-      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
-      "status": "En cours",
-      "episodes": "38 saisons · 803 épisodes",
-      "nextEpisodeDate": "27 septembre 2026",
-      "platform": "Disney Plus"
-    },
-    {
       "title": "Late Night with Seth Meyers",
       "image": "https://image.tmdb.org/t/p/w300/u8VruEGv7mtyJihVn2CSA1u90pk.jpg",
       "link": "https://www.themoviedb.org/tv/61818",
@@ -42,6 +32,16 @@
       "platform": null
     },
     {
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "status": "En cours",
+      "episodes": "38 saisons · 803 épisodes",
+      "nextEpisodeDate": "27 septembre 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "라디오스타",
       "image": "https://image.tmdb.org/t/p/w300/ofo50w2DTFcPkOm3iguWGU3Y8cw.jpg",
       "link": "https://www.themoviedb.org/tv/65270",
@@ -50,16 +50,6 @@
       "episodes": "2 saisons · 970 épisodes",
       "nextEpisodeDate": "23 septembre 2026",
       "platform": "Kocowa"
-    },
-    {
-      "title": "Ici tout commence",
-      "image": "https://image.tmdb.org/t/p/w300/v7nXPo2zdaIOfeIaERiOuTEt89N.jpg",
-      "link": "https://www.themoviedb.org/tv/112470",
-      "synopsis": "Cette nouvelle série se déroule dans la prestigieuse école de cuisine du chef étoilé, Auguste Armand. Tandis que les élèves suivent l'apprentissage de la gastro…",
-      "status": "En cours",
-      "episodes": "3 saisons · 1532 épisodes",
-      "nextEpisodeDate": "21 septembre 2026",
-      "platform": "Molotov TV"
     },
     {
       "title": "Knowing Brothers",
@@ -80,6 +70,16 @@
       "episodes": "37 saisons · 1760 épisodes",
       "nextEpisodeDate": "27 septembre 2026",
       "platform": "Crunchyroll Amazon Channel"
+    },
+    {
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "status": "En cours",
+      "episodes": "31 saisons · 4272 épisodes",
+      "nextEpisodeDate": "21 septembre 2026",
+      "platform": null
     }
   ]
 }
