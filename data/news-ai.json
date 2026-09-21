@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1789936617929,
+  "updatedAt": 1789964811838,
   "items": [
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 676 du mardi 22 septembre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223312.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Un visage familier de Louis est de retour au Mistral. Pendant ce temps",
+      "isAI": false
+    },
     {
       "title": "\"LE chef-d'œuvre d'Alejandro Amenábar\" : noté 4 sur 5, c’est le meilleur film de Penélope Cruz et il a eu droit à un remake avec Tom Cruise !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223351.html",
@@ -29,12 +35,6 @@
       "title": "7,3 millions d'entrées : plus fort que James Bond et Dune, c'est le plus gros succès cinéma au box-office France de l'année 2021 !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000220890.html",
       "desc": "Quel film de l'année 2021 a connu le plus gros succès au box-office national ? Avis aux fans de films de super-héros, il s'agit d'un Marvel ",
-      "isAI": false
-    },
-    {
-      "title": "Anthony Hopkins + Benedict Cumberbatch + Rosamund Pike : voici les premières images du nouveau thriller de Guy Ritchie",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223346.html",
-      "desc": "Les premières images de \"Wife &amp; Dog\", le nouveau thriller de Guy Ritchie viennent d'être dévoilées. Anthony Hopkins y fait face à Rosamu",
       "isAI": false
     }
   ]
