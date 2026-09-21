@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789964814080,
+  "updatedAt": 1789993907787,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -22,16 +22,6 @@
       "platform": null
     },
     {
-      "title": "Lioness",
-      "image": "https://image.tmdb.org/t/p/w300/lpGufwMx1BpXAwKLLEa2aqFNVdR.jpg",
-      "link": "https://www.themoviedb.org/tv/113962",
-      "synopsis": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terr…",
-      "status": "En cours",
-      "episodes": "3 saisons · 24 épisodes",
-      "nextEpisodeDate": "20 septembre 2026",
-      "platform": "Paramount Plus"
-    },
-    {
       "title": "Les Simpson",
       "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
       "link": "https://www.themoviedb.org/tv/456",
@@ -50,6 +40,16 @@
       "episodes": "14 saisons · 1828 épisodes",
       "nextEpisodeDate": "22 septembre 2026",
       "platform": null
+    },
+    {
+      "title": "라디오스타",
+      "image": "https://image.tmdb.org/t/p/w300/ofo50w2DTFcPkOm3iguWGU3Y8cw.jpg",
+      "link": "https://www.themoviedb.org/tv/65270",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "2 saisons · 970 épisodes",
+      "nextEpisodeDate": "23 septembre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "Ici tout commence",
