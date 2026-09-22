@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790075998260,
+  "updatedAt": 1790095334066,
   "items": [
     {
       "title": "Resident Evil",
@@ -16,6 +16,20 @@
       "isAI": false
     },
     {
+      "title": "Spider-Man : Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/sB7wauO5DAoSZlY5Z5cCz3URtn0.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
+      "isAI": false
+    },
+    {
+      "title": "Idiots",
+      "link": "https://www.themoviedb.org/movie/445466",
+      "image": "https://image.tmdb.org/t/p/w300/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
+      "desc": "Deux pauvres types pas doués se voient confier la garde d'un jeune millionaire ado, pour l'emmener en cure de désintoxication....",
+      "isAI": false
+    },
+    {
       "title": "One Last Shot",
       "link": "https://www.themoviedb.org/movie/1607127",
       "image": "https://image.tmdb.org/t/p/w300/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
@@ -27,20 +41,6 @@
       "link": "https://www.themoviedb.org/movie/1240889",
       "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
       "desc": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspect...",
-      "isAI": false
-    },
-    {
-      "title": "Spider-Man : Brand New Day",
-      "link": "https://www.themoviedb.org/movie/969681",
-      "image": "https://image.tmdb.org/t/p/w300/sB7wauO5DAoSZlY5Z5cCz3URtn0.jpg",
-      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
-      "isAI": false
-    },
-    {
-      "title": "L'Odyssée",
-      "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
-      "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
       "isAI": false
     }
   ]

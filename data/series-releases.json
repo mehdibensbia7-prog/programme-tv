@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790076000619,
+  "updatedAt": 1790095336869,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -22,6 +22,16 @@
       "platform": null
     },
     {
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "status": "En cours",
+      "episodes": "38 saisons · 803 épisodes",
+      "nextEpisodeDate": "27 septembre 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "Late Night with Seth Meyers",
       "image": "https://image.tmdb.org/t/p/w300/u8VruEGv7mtyJihVn2CSA1u90pk.jpg",
       "link": "https://www.themoviedb.org/tv/61818",
@@ -32,14 +42,14 @@
       "platform": null
     },
     {
-      "title": "Les Simpson",
-      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "link": "https://www.themoviedb.org/tv/456",
-      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "38 saisons · 803 épisodes",
-      "nextEpisodeDate": "27 septembre 2026",
-      "platform": "Disney Plus"
+      "episodes": "31 saisons · 4272 épisodes",
+      "nextEpisodeDate": "22 septembre 2026",
+      "platform": null
     },
     {
       "title": "라디오스타",
@@ -52,16 +62,6 @@
       "platform": "Kocowa"
     },
     {
-      "title": "Knowing Brothers",
-      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
-      "link": "https://www.themoviedb.org/tv/70672",
-      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
-      "status": "En cours",
-      "episodes": "1 saison · 546 épisodes",
-      "nextEpisodeDate": "26 septembre 2026",
-      "platform": null
-    },
-    {
       "title": "Kamen Rider",
       "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
       "link": "https://www.themoviedb.org/tv/2661",
@@ -72,14 +72,14 @@
       "platform": "Crunchyroll Amazon Channel"
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "title": "Lanterns",
+      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "link": "https://www.themoviedb.org/tv/95350",
+      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
       "status": "En cours",
-      "episodes": "31 saisons · 4272 épisodes",
-      "nextEpisodeDate": "22 septembre 2026",
-      "platform": null
+      "episodes": "1 saison · 8 épisodes",
+      "nextEpisodeDate": "27 septembre 2026",
+      "platform": "HBO Max"
     }
   ]
 }
