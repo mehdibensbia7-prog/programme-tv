@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790095335639,
+  "updatedAt": 1790111248658,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -29,20 +29,20 @@
       "category": "cinema"
     },
     {
-      "title": "Malfaisante",
-      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-      "link": "https://www.themoviedb.org/movie/1400837",
-      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
-      "releaseDate": "14 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Digger",
       "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
       "link": "https://www.themoviedb.org/movie/1248832",
       "synopsis": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché n…",
       "releaseDate": "30 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Malfaisante",
+      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+      "link": "https://www.themoviedb.org/movie/1400837",
+      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
+      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Détective Conan : L'Ange Déchu de l'Asphalte",
-      "image": "https://image.tmdb.org/t/p/w300/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "link": "https://www.themoviedb.org/movie/1545621",
-      "synopsis": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que v…",
-      "releaseDate": "23 septembre 2026",
+      "title": "Street Fighter",
+      "image": "https://image.tmdb.org/t/p/w300/utKzCSCz2HtXwcDGfWLj2IHhSob.jpg",
+      "link": "https://www.themoviedb.org/movie/1153576",
+      "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
+      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
