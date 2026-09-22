@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790027562501,
+  "updatedAt": 1790050947068,
   "items": [
     {
       "title": "Avengers : Endgame",
@@ -11,20 +11,20 @@
       "category": "streaming"
     },
     {
-      "title": "Leviticus",
-      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
-      "link": "https://www.themoviedb.org/movie/1564614",
-      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
-      "releaseDate": "18 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Heart of the Beast",
       "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
       "link": "https://www.themoviedb.org/movie/1263337",
       "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
       "releaseDate": "23 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Leviticus",
+      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
+      "link": "https://www.themoviedb.org/movie/1564614",
+      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
+      "releaseDate": "18 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
