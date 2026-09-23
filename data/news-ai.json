@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1790111247775,
+  "updatedAt": 1790137161517,
   "items": [
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 678 du jeudi 24 septembre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223826.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Alors qu'Ariane continue de sombrer, Louis, Djawad et Zoé reçoivent un",
+      "isAI": false
+    },
     {
       "title": "9-1-1 ce soir sur M6 : \"Ça va probablement énerver certaines personnes\"... Le showrunner brise les espoirs des fans",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223978.html",
@@ -29,12 +35,6 @@
       "title": "Dix pour cent : l'avant/après des acteurs 11 ans après la série ! À quel point ont changé les agents d'ASK ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223891.html",
       "desc": "Cette année, la rentrée est marquée par la sortie du long-métrage \"Dix pour cent\". L'occasion pour les fans de la série de retrouver leurs p",
-      "isAI": false
-    },
-    {
-      "title": "C'est l'une des plus grandes musiques du cinéma : depuis 14 ans, elle incarne l'héroïsme avec puissance",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223929.html",
-      "desc": "Composé par la maestro Alan Silvestri, auteur de la BO de Retour vers le Futur, ce thème musical représente l'héroïsme avec une puissance à ",
       "isAI": false
     }
   ]

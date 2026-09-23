@@ -1,21 +1,12 @@
 {
-  "updatedAt": 1790111248658,
+  "updatedAt": 1790137163479,
   "items": [
     {
-      "title": "Avengers : Endgame",
-      "image": "https://image.tmdb.org/t/p/w300/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg",
-      "link": "https://www.themoviedb.org/movie/299534",
-      "synopsis": "Après leur défaite face au Titan Thanos qui dans le film précédent s'est approprié toutes les pierres du Gant de l'infini, les Avengers et les Gardiens de la Ga…",
-      "releaseDate": "24 avril 2019",
-      "platform": "Disney Plus",
-      "category": "streaming"
-    },
-    {
-      "title": "Heart of the Beast",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "synopsis": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujo…",
-      "releaseDate": "23 septembre 2026",
+      "title": "L'Île des Souvenirs",
+      "image": "https://image.tmdb.org/t/p/w300/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
+      "link": "https://www.themoviedb.org/movie/1465063",
+      "synopsis": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien …",
+      "releaseDate": "21 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -47,15 +38,6 @@
       "category": "cinema"
     },
     {
-      "title": "Primetime",
-      "image": "https://image.tmdb.org/t/p/w300/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "link": "https://www.themoviedb.org/movie/1375441",
-      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.…",
-      "releaseDate": "23 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Verity",
       "image": "https://image.tmdb.org/t/p/w300/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
       "link": "https://www.themoviedb.org/movie/1283515",
@@ -65,8 +47,26 @@
       "category": "cinema"
     },
     {
+      "title": "The Good Boy",
+      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
+      "link": "https://www.themoviedb.org/movie/1381027",
+      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
+      "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Shaun le Mouton : La Bêêête d'Halloween",
+      "image": "https://image.tmdb.org/t/p/w300/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+      "link": "https://www.themoviedb.org/movie/1477104",
+      "synopsis": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du…",
+      "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Street Fighter",
-      "image": "https://image.tmdb.org/t/p/w300/utKzCSCz2HtXwcDGfWLj2IHhSob.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
       "link": "https://www.themoviedb.org/movie/1153576",
       "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
       "releaseDate": "14 octobre 2026",

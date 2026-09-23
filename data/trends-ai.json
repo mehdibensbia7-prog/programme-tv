@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790111247837,
+  "updatedAt": 1790137161730,
   "items": [
     {
       "title": "Resident Evil",
@@ -30,10 +30,10 @@
       "isAI": false
     },
     {
-      "title": "Heart of the Beast",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "desc": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chie...",
+      "title": "L'Odyssée",
+      "link": "https://www.themoviedb.org/movie/1368337",
+      "image": "https://image.tmdb.org/t/p/w300/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
+      "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
       "isAI": false
     },
     {
