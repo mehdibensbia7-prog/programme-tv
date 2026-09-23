@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790162074428,
+  "updatedAt": 1790181404949,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -52,26 +52,6 @@
       "platform": null
     },
     {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
-      "status": "En cours",
-      "episodes": "37 saisons · 1760 épisodes",
-      "nextEpisodeDate": "27 septembre 2026",
-      "platform": "Crunchyroll Amazon Channel"
-    },
-    {
-      "title": "Knowing Brothers",
-      "image": "https://image.tmdb.org/t/p/w300/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
-      "link": "https://www.themoviedb.org/tv/70672",
-      "synopsis": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'i…",
-      "status": "En cours",
-      "episodes": "1 saison · 546 épisodes",
-      "nextEpisodeDate": "26 septembre 2026",
-      "platform": null
-    },
-    {
       "title": "Lanterns",
       "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "link": "https://www.themoviedb.org/tv/95350",
@@ -80,6 +60,26 @@
       "episodes": "1 saison · 8 épisodes",
       "nextEpisodeDate": "27 septembre 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "image": "https://image.tmdb.org/t/p/w300/tn2mxPYSSUPHgfcAe5SCga1DO0i.jpg",
+      "link": "https://www.themoviedb.org/tv/94664",
+      "synopsis": "« Ici, je vais me transcender ! » Un anonyme de 34 ans, célibataire endurci, reclus et au chômage se fait écraser par un camion peu après avoir été chassé de la…",
+      "status": "En cours",
+      "episodes": "3 saisons · 61 épisodes",
+      "nextEpisodeDate": "28 septembre 2026",
+      "platform": "Netflix"
+    },
+    {
+      "title": "WWE Raw",
+      "image": "https://image.tmdb.org/t/p/w300/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "link": "https://www.themoviedb.org/tv/4656",
+      "synopsis": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à t…",
+      "status": "En cours",
+      "episodes": "34 saisons · 1747 épisodes",
+      "nextEpisodeDate": "28 septembre 2026",
+      "platform": "Netflix"
     }
   ]
 }

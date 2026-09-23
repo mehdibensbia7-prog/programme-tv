@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790162073051,
+  "updatedAt": 1790181403837,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "Shaun le Mouton : La Bêêête d'Halloween",
-      "image": "https://image.tmdb.org/t/p/w300/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
-      "link": "https://www.themoviedb.org/movie/1477104",
-      "synopsis": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du…",
-      "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Street Fighter",
       "image": "https://image.tmdb.org/t/p/w300/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
       "link": "https://www.themoviedb.org/movie/1153576",
       "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
       "releaseDate": "14 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Shaun le Mouton : La Bêêête d'Halloween",
+      "image": "https://image.tmdb.org/t/p/w300/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+      "link": "https://www.themoviedb.org/movie/1477104",
+      "synopsis": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du…",
+      "releaseDate": "21 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
