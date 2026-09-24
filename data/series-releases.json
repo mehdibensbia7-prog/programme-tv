@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790198493363,
+  "updatedAt": 1790223338594,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -18,6 +18,16 @@
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
       "episodes": "14 saisons · 2417 épisodes",
+      "nextEpisodeDate": "24 septembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Late Night with Seth Meyers",
+      "image": "https://image.tmdb.org/t/p/w300/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+      "link": "https://www.themoviedb.org/tv/61818",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "14 saisons · 1831 épisodes",
       "nextEpisodeDate": "23 septembre 2026",
       "platform": null
     },
@@ -32,23 +42,13 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Late Night with Seth Meyers",
-      "image": "https://image.tmdb.org/t/p/w300/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
-      "link": "https://www.themoviedb.org/tv/61818",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "14 saisons · 1831 épisodes",
-      "nextEpisodeDate": "23 septembre 2026",
-      "platform": null
-    },
-    {
       "title": "Le Daily Show",
       "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
       "link": "https://www.themoviedb.org/tv/2224",
       "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
       "episodes": "31 saisons · 4272 épisodes",
-      "nextEpisodeDate": "23 septembre 2026",
+      "nextEpisodeDate": "24 septembre 2026",
       "platform": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790198490616,
+  "updatedAt": 1790223337026,
   "items": [
     {
       "title": "Resident Evil",
@@ -16,17 +16,10 @@
       "isAI": false
     },
     {
-      "title": "Spider-Man : Brand New Day",
-      "link": "https://www.themoviedb.org/movie/969681",
-      "image": "https://image.tmdb.org/t/p/w300/sB7wauO5DAoSZlY5Z5cCz3URtn0.jpg",
-      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
-      "isAI": false
-    },
-    {
-      "title": "L'Odyssée",
-      "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
-      "desc": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreu...",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "link": "https://www.themoviedb.org/movie/1240889",
+      "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
+      "desc": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspect...",
       "isAI": false
     },
     {
@@ -37,10 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Heart of the Beast",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "desc": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chie...",
+      "title": "Toy Story 5",
+      "link": "https://www.themoviedb.org/movie/1084244",
+      "image": "https://image.tmdb.org/t/p/w300/b2bt3UomRX41rHHZmIsSNmXzidU.jpg",
+      "desc": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'a...",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man : Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/sB7wauO5DAoSZlY5Z5cCz3URtn0.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
       "isAI": false
     }
   ]
