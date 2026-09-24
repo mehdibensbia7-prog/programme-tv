@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790249355175,
+  "updatedAt": 1790268946738,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -47,20 +47,20 @@
       "category": "cinema"
     },
     {
-      "title": "The Good Boy",
-      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
-      "link": "https://www.themoviedb.org/movie/1381027",
-      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
-      "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Street Fighter",
       "image": "https://image.tmdb.org/t/p/w300/utKzCSCz2HtXwcDGfWLj2IHhSob.jpg",
       "link": "https://www.themoviedb.org/movie/1153576",
       "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
       "releaseDate": "14 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "The Good Boy",
+      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
+      "link": "https://www.themoviedb.org/movie/1381027",
+      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
+      "releaseDate": "21 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
