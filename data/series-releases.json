@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790223338594,
+  "updatedAt": 1790249356404,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -8,7 +8,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3197 épisodes",
-      "nextEpisodeDate": "23 septembre 2026",
+      "nextEpisodeDate": "24 septembre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -28,7 +28,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "14 saisons · 1831 épisodes",
-      "nextEpisodeDate": "23 septembre 2026",
+      "nextEpisodeDate": "24 septembre 2026",
       "platform": null
     },
     {
@@ -52,16 +52,6 @@
       "platform": null
     },
     {
-      "title": "Lanterns",
-      "image": "https://image.tmdb.org/t/p/w300/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "link": "https://www.themoviedb.org/tv/95350",
-      "synopsis": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent s…",
-      "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "27 septembre 2026",
-      "platform": "HBO Max"
-    },
-    {
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "image": "https://image.tmdb.org/t/p/w300/tn2mxPYSSUPHgfcAe5SCga1DO0i.jpg",
       "link": "https://www.themoviedb.org/tv/94664",
@@ -70,6 +60,16 @@
       "episodes": "3 saisons · 61 épisodes",
       "nextEpisodeDate": "28 septembre 2026",
       "platform": "Netflix"
+    },
+    {
+      "title": "MobLand",
+      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
+      "link": "https://www.themoviedb.org/tv/247718",
+      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 20 épisodes",
+      "nextEpisodeDate": "25 septembre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "WWE Raw",

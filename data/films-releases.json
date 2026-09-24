@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790223337778,
+  "updatedAt": 1790249355175,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -11,20 +11,20 @@
       "category": "cinema"
     },
     {
-      "title": "Leviticus",
-      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
-      "link": "https://www.themoviedb.org/movie/1564614",
-      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
-      "releaseDate": "18 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Digger",
       "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
       "link": "https://www.themoviedb.org/movie/1248832",
       "synopsis": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché n…",
       "releaseDate": "30 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Leviticus",
+      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
+      "link": "https://www.themoviedb.org/movie/1564614",
+      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
+      "releaseDate": "18 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -57,7 +57,7 @@
     },
     {
       "title": "Street Fighter",
-      "image": "https://image.tmdb.org/t/p/w300/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/utKzCSCz2HtXwcDGfWLj2IHhSob.jpg",
       "link": "https://www.themoviedb.org/movie/1153576",
       "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
       "releaseDate": "14 octobre 2026",

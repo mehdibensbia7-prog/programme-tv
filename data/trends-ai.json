@@ -1,25 +1,11 @@
 {
-  "updatedAt": 1790223337026,
+  "updatedAt": 1790249354541,
   "items": [
     {
       "title": "Resident Evil",
       "link": "https://www.themoviedb.org/movie/1423191",
       "image": "https://image.tmdb.org/t/p/w300/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
       "desc": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa surv...",
-      "isAI": false
-    },
-    {
-      "title": "La Fin d'Oak Street",
-      "link": "https://www.themoviedb.org/movie/1101383",
-      "image": "https://image.tmdb.org/t/p/w300/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
-      "desc": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, d...",
-      "isAI": false
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "link": "https://www.themoviedb.org/movie/1240889",
-      "image": "https://image.tmdb.org/t/p/w300/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "desc": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspect...",
       "isAI": false
     },
     {
@@ -30,10 +16,17 @@
       "isAI": false
     },
     {
-      "title": "Toy Story 5",
-      "link": "https://www.themoviedb.org/movie/1084244",
-      "image": "https://image.tmdb.org/t/p/w300/b2bt3UomRX41rHHZmIsSNmXzidU.jpg",
-      "desc": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'a...",
+      "title": "La Fin d'Oak Street",
+      "link": "https://www.themoviedb.org/movie/1101383",
+      "image": "https://image.tmdb.org/t/p/w300/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
+      "desc": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, d...",
+      "isAI": false
+    },
+    {
+      "title": "Heart of the Beast",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "desc": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chie...",
       "isAI": false
     },
     {
@@ -41,6 +34,13 @@
       "link": "https://www.themoviedb.org/movie/969681",
       "image": "https://image.tmdb.org/t/p/w300/sB7wauO5DAoSZlY5Z5cCz3URtn0.jpg",
       "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
+      "isAI": false
+    },
+    {
+      "title": "One Last Shot",
+      "link": "https://www.themoviedb.org/movie/1607127",
+      "image": "https://image.tmdb.org/t/p/w300/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
+      "desc": "Jake Harris, un Navy SEAL chevronné, reprend du service lorsque le monde est menacé par Elliot Carter, l'un de ses anciens compagnons d'arme...",
       "isAI": false
     }
   ]
