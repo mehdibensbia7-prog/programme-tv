@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790509682188,
+  "updatedAt": 1790527589514,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -72,14 +72,14 @@
       "platform": null
     },
     {
-      "title": "WWE Raw",
-      "image": "https://image.tmdb.org/t/p/w300/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
-      "link": "https://www.themoviedb.org/tv/4656",
-      "synopsis": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à t…",
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
       "status": "En cours",
-      "episodes": "34 saisons · 1747 épisodes",
-      "nextEpisodeDate": "28 septembre 2026",
-      "platform": "Netflix"
+      "episodes": "37 saisons · 1760 épisodes",
+      "nextEpisodeDate": "27 septembre 2026",
+      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
