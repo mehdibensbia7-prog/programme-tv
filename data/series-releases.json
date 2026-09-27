@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790456075880,
+  "updatedAt": 1790484640416,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -52,6 +52,16 @@
       "platform": null
     },
     {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 824 épisodes",
+      "nextEpisodeDate": "4 octobre 2026",
+      "platform": "Kocowa"
+    },
+    {
       "title": "Goede Tijden, Slechte Tijden",
       "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
       "link": "https://www.themoviedb.org/tv/11890",
@@ -70,16 +80,6 @@
       "episodes": "34 saisons · 1747 épisodes",
       "nextEpisodeDate": "28 septembre 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "MobLand",
-      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
-      "link": "https://www.themoviedb.org/tv/247718",
-      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
-      "status": "En cours",
-      "episodes": "2 saisons · 20 épisodes",
-      "nextEpisodeDate": "2 octobre 2026",
-      "platform": "Amazon Prime Video"
     }
   ]
 }
