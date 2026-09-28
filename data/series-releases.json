@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790571165215,
+  "updatedAt": 1790602241383,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -47,9 +47,19 @@
       "link": "https://www.themoviedb.org/tv/2224",
       "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "31 saisons · 4272 épisodes",
+      "episodes": "31 saisons · 4280 épisodes",
       "nextEpisodeDate": "28 septembre 2026",
       "platform": null
+    },
+    {
+      "title": "Les Griffin",
+      "image": "https://image.tmdb.org/t/p/w300/7nHl3OHUSTHgslQxJUzNSy9vxqo.jpg",
+      "link": "https://www.themoviedb.org/tv/1434",
+      "synopsis": "La famille Griffin habite à Quahog, charmante petite bourgade américaine. Peter, le père, a érigé la fainéantise en philosophie de vie. Lois, la mère, est à la …",
+      "status": "En cours",
+      "episodes": "24 saisons · 456 épisodes",
+      "nextEpisodeDate": null,
+      "platform": "Disney Plus"
     },
     {
       "title": "Running Man",
@@ -70,16 +80,6 @@
       "episodes": "37 saisons · 7325 épisodes",
       "nextEpisodeDate": "28 septembre 2026",
       "platform": null
-    },
-    {
-      "title": "Kamen Rider",
-      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
-      "link": "https://www.themoviedb.org/tv/2661",
-      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
-      "status": "En cours",
-      "episodes": "37 saisons · 1760 épisodes",
-      "nextEpisodeDate": "4 octobre 2026",
-      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }
