@@ -1,6 +1,13 @@
 {
-  "updatedAt": 1790664099546,
+  "updatedAt": 1790685155819,
   "items": [
+    {
+      "title": "The Uprising",
+      "link": "https://www.themoviedb.org/movie/977942",
+      "image": "https://image.tmdb.org/t/p/w300/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
+      "desc": "Pendant la Révolte des paysans anglais de 1381, un fermier devient le chef contre les forces de la Couronne de Richard II....",
+      "isAI": false
+    },
     {
       "title": "Resident Evil",
       "link": "https://www.themoviedb.org/movie/1423191",
@@ -16,13 +23,6 @@
       "isAI": false
     },
     {
-      "title": "Spider-Man : Brand New Day",
-      "link": "https://www.themoviedb.org/movie/969681",
-      "image": "https://image.tmdb.org/t/p/w300/jjCCZcCtggGjKik2gXjyux1VEdZ.jpg",
-      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
-      "isAI": false
-    },
-    {
       "title": "UNABOMBER",
       "link": "https://www.themoviedb.org/movie/1492640",
       "image": "https://image.tmdb.org/t/p/w300/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
@@ -30,17 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Heart of the Beast",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "desc": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chie...",
+      "title": "Digger",
+      "link": "https://www.themoviedb.org/movie/1248832",
+      "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
+      "desc": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre...",
       "isAI": false
     },
     {
-      "title": "Primetime",
-      "link": "https://www.themoviedb.org/movie/1375441",
-      "image": "https://image.tmdb.org/t/p/w300/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "desc": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles...",
+      "title": "Coyote vs. Acme",
+      "link": "https://www.themoviedb.org/movie/1204680",
+      "image": "https://image.tmdb.org/t/p/w300/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
+      "desc": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, é...",
       "isAI": false
     }
   ]
