@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790685158315,
+  "updatedAt": 1790719568394,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -32,26 +32,6 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 824 épisodes",
-      "nextEpisodeDate": "4 octobre 2026",
-      "platform": "Kocowa"
-    },
-    {
-      "title": "Doraemon",
-      "image": "https://image.tmdb.org/t/p/w300/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
-      "link": "https://www.themoviedb.org/tv/65733",
-      "synopsis": "Les aventures du chat bleu.…",
-      "status": "En cours",
-      "episodes": "1 saison · 1464 épisodes",
-      "nextEpisodeDate": "3 octobre 2026",
-      "platform": null
-    },
-    {
       "title": "Late Night with Seth Meyers",
       "image": "https://image.tmdb.org/t/p/w300/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
       "link": "https://www.themoviedb.org/tv/61818",
@@ -60,6 +40,16 @@
       "episodes": "14 saisons · 1834 épisodes",
       "nextEpisodeDate": "29 septembre 2026",
       "platform": null
+    },
+    {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 824 épisodes",
+      "nextEpisodeDate": "4 octobre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "NCIS : Enquêtes Spéciales",
@@ -72,14 +62,24 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "title": "Doraemon",
+      "image": "https://image.tmdb.org/t/p/w300/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+      "link": "https://www.themoviedb.org/tv/65733",
+      "synopsis": "Les aventures du chat bleu.…",
       "status": "En cours",
-      "episodes": "31 saisons · 4280 épisodes",
-      "nextEpisodeDate": "29 septembre 2026",
+      "episodes": "1 saison · 1464 épisodes",
+      "nextEpisodeDate": "3 octobre 2026",
       "platform": null
+    },
+    {
+      "title": "Les Griffin",
+      "image": "https://image.tmdb.org/t/p/w300/7nHl3OHUSTHgslQxJUzNSy9vxqo.jpg",
+      "link": "https://www.themoviedb.org/tv/1434",
+      "synopsis": "La famille Griffin habite à Quahog, charmante petite bourgade américaine. Peter, le père, a érigé la fainéantise en philosophie de vie. Lois, la mère, est à la …",
+      "status": "En cours",
+      "episodes": "24 saisons · 456 épisodes",
+      "nextEpisodeDate": null,
+      "platform": "Disney Plus"
     }
   ]
 }
