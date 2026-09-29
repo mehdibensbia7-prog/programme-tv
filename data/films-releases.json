@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790636811849,
+  "updatedAt": 1790659084554,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -20,20 +20,20 @@
       "category": "cinema"
     },
     {
+      "title": "Verity",
+      "image": "https://image.tmdb.org/t/p/w300/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
+      "link": "https://www.themoviedb.org/movie/1283515",
+      "synopsis": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à…",
+      "releaseDate": "30 septembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Leviticus",
       "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
       "link": "https://www.themoviedb.org/movie/1564614",
       "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
       "releaseDate": "18 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Verity",
-      "image": "https://image.tmdb.org/t/p/w300/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "link": "https://www.themoviedb.org/movie/1283515",
-      "synopsis": "Lowen Ashleigh est une écrivaine solitaire. Peinant à vivre de son métier, elle accepte de devenir le prête-plume de l'autrice à succès, Verity Crawford, et s'i…",
-      "releaseDate": "30 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
