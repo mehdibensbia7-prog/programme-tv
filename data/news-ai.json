@@ -1,4 +1,41 @@
 {
-  "updatedAt": 1790659082860,
-  "items": []
+  "updatedAt": 1790664099464,
+  "items": [
+    {
+      "title": "\"Une obsession pour le culte du corps\" : Sylvester Stallone fait des révélations glaçantes sur ses transformations physiques pour Rocky et Rambo",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224849.html",
+      "desc": "Sylvester Stallone, 80 ans, a dû faire des sacrifices difficiles pour se sculpter un corps parfait afin de devenir une icône du cinéma. Aujo",
+      "isAI": false
+    },
+    {
+      "title": "Ce soir à la télé : oubliez Armageddon et Twister et laissez-vous surprendre par cet efficace film catastrophe méconnu des années 90 avec Tommy Lee Jones !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223636.html",
+      "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : une sympathique série B emmenée par Tommy Lee Jones et la regr",
+      "isAI": false
+    },
+    {
+      "title": "\"Je ne savais pas exactement qui je voulais voir jouer\" : Tarantino a recalé une fameuse star de Pulp Fiction",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224845.html",
+      "desc": "Dans un podcast en 2022, Quentin Tarantino évoquait le casting de son film \"Pulp Fiction\", expliquant qu'un executive du studio tenait absol",
+      "isAI": false
+    },
+    {
+      "title": "C'est le dernier grand rôle de Jean-Pierre Bacri : vite, cette comédie culte quitte définitivement Netflix dans moins de 3 semaines !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224564.html",
+      "desc": "Quels sont les films et séries qui quittent Netflix en octobre 2026 ? AlloCiné vous a fait la liste complète, date par date.",
+      "isAI": false
+    },
+    {
+      "title": "\"Un chef-d'œuvre de subtilité\" : noté 4,2 sur 5, c'est le meilleur film d’Alban Ivanov et il a réalisé 2,1 millions d'entrées !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224561.html",
+      "desc": "Alban Ivanov est actuellement à l'affiche du film \"Justin le Juste\". L'occasion de découvrir le film préféré des spectateurs dans la filmogr",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 682 du mercredi 30 septembre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224806.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... C'est le grand jour pour Louis et Djawad ! Vont-ils récupérer la toile",
+      "isAI": false
+    }
+  ]
 }
