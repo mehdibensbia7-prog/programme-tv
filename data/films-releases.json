@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790744740075,
+  "updatedAt": 1790770820529,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -11,20 +11,11 @@
       "category": "cinema"
     },
     {
-      "title": "Digger",
-      "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
-      "link": "https://www.themoviedb.org/movie/1248832",
-      "synopsis": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché n…",
-      "releaseDate": "28 septembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Verity",
-      "image": "https://image.tmdb.org/t/p/w300/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "link": "https://www.themoviedb.org/movie/1283515",
-      "synopsis": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à…",
-      "releaseDate": "30 septembre 2026",
+      "title": "Hope",
+      "image": "https://image.tmdb.org/t/p/w300/tGdFDoA9qyt0t6Qr9MFnOl8Z2Jz.jpg",
+      "link": "https://www.themoviedb.org/movie/1058424",
+      "synopsis": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissan…",
+      "releaseDate": "28 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -70,6 +61,15 @@
       "link": "https://www.themoviedb.org/movie/1381027",
       "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
       "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "The Social Reckoning",
+      "image": "https://image.tmdb.org/t/p/w300/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
+      "link": "https://www.themoviedb.org/movie/1281331",
+      "synopsis": "Frances Haugen, une jeune ingénieure de Facebook, sollicite l'aide de Jeff Horwitz, un journaliste du Wall Street Journal, pour entreprendre un voyage dangereux…",
+      "releaseDate": "7 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
