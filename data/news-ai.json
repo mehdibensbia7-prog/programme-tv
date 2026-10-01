@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1790805938430,
+  "updatedAt": 1790832020865,
   "items": [
+    {
+      "title": "Disponible aujourd'hui sur Netflix : on a vu À l'est d'Éden, la mini-série avec Florence Pugh, et on ne va pas vous mentir",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225322.html",
+      "desc": "Que vaut la mini-série \"À l’est d’Éden\", l’adaptation Netflix du chef-d’œuvre de John Steinbeck avec Florence Pugh dans le rôle principal ?",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 684 du vendredi 2 octobre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225189.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Zoé surprend Louis avec une demande inattendue ! Chloé assiste à une s",
+      "isAI": false
+    },
     {
       "title": "Exclu. Soeurs : \"C'était un peu perturbant\", Lola Dewaere dévoile les coulisses de son double rôle",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224359.html",
@@ -23,18 +35,6 @@
       "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2304 du jeudi 1er octobre 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224542.html",
       "desc": "Dans le prochain épisode de \"Demain nous appartient\"... La police détient maintenant des éléments concrets pour intervenir. Erica missionne ",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1536 du jeudi 1er octobre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224534.html",
-      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... La session décompression de Coline se transforme en cauchemar. Joséphine et Fleur organise",
-      "isAI": false
-    },
-    {
-      "title": "Le Seigneur des Anneaux : pour Peter Jackson, cette scène est la meilleure de toute la trilogie",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224767.html",
-      "desc": "Des batailles de légende, un Balrog terrifiant, la charge du Rohan... Pourtant, la scène préférée de Peter Jackson dans “Le Seigneur des Ann",
       "isAI": false
     }
   ]
