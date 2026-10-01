@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790832022039,
+  "updatedAt": 1790859194121,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -12,14 +12,24 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
+      "title": "New York Unité Spéciale",
+      "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "link": "https://www.themoviedb.org/tv/2734",
+      "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
       "status": "En cours",
-      "episodes": "14 saisons · 2421 épisodes",
-      "nextEpisodeDate": null,
-      "platform": null
+      "episodes": "28 saisons · 598 épisodes",
+      "nextEpisodeDate": "8 octobre 2026",
+      "platform": "Netflix"
+    },
+    {
+      "title": "New York Police Judiciaire",
+      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
+      "link": "https://www.themoviedb.org/tv/549",
+      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
+      "status": "En cours",
+      "episodes": "26 saisons · 548 épisodes",
+      "nextEpisodeDate": "8 octobre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "Les Simpson",
@@ -40,16 +50,6 @@
       "episodes": "1 saison · 824 épisodes",
       "nextEpisodeDate": "4 octobre 2026",
       "platform": "Kocowa"
-    },
-    {
-      "title": "Late Night with Seth Meyers",
-      "image": "https://image.tmdb.org/t/p/w300/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
-      "link": "https://www.themoviedb.org/tv/61818",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "14 saisons · 1834 épisodes",
-      "nextEpisodeDate": null,
-      "platform": null
     },
     {
       "title": "Le Daily Show",

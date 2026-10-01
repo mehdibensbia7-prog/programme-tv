@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1790832020865,
+  "updatedAt": 1790859193182,
   "items": [
+    {
+      "title": "37 épisodes et 14h ! C'est le temps qu'il faut pour voir cette série culte sur Netflix, chaudement recommandée par Adèle Exarchopoulos",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225231.html",
+      "desc": "Adèle Exarchopoulos, à l'affiche de Garance au cinéma, a confié toute son admiration pour un anime culte adulé par des millions de fans, et ",
+      "isAI": false
+    },
+    {
+      "title": "Ce soir sur Amazon : c'est l'un des meilleurs thrillers d'espionnage des années 80 !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224901.html",
+      "desc": "Trois cadavres sans visage dans la neige de Moscou, un flic soviétique, le KGB dans son dos et Lee Marvin en magnat américain trouble : Gork",
+      "isAI": false
+    },
+    {
+      "title": "Ce soir à la télé : 3,6 millions d'entrées... Il y a 8 ans, la saga d'action la plus culte du cinéma français était relancée",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223908.html",
+      "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : le cinquième volet d'une saga qui va à toute allure !",
+      "isAI": false
+    },
+    {
+      "title": "\"J'ai tout perdu\" : Nicolas Winding Refn raconte l'échec cuisant de son premier film américain, un thriller qui a bien failli détruire sa carrière",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225279.html",
+      "desc": "En trente ans, Nicolas Winding Refn est devenu un cinéaste aussi admiré que clivant. En 2003, il tournait son premier film en langue anglais",
+      "isAI": false
+    },
     {
       "title": "Disponible aujourd'hui sur Netflix : on a vu À l'est d'Éden, la mini-série avec Florence Pugh, et on ne va pas vous mentir",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225322.html",
@@ -11,30 +35,6 @@
       "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 684 du vendredi 2 octobre 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225189.html",
       "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Zoé surprend Louis avec une demande inattendue ! Chloé assiste à une s",
-      "isAI": false
-    },
-    {
-      "title": "Exclu. Soeurs : \"C'était un peu perturbant\", Lola Dewaere dévoile les coulisses de son double rôle",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224359.html",
-      "desc": "INTERVIEW. La série Soeurs débarque dès ce soir sur France 2 ! L'occasion d'interroger Lola Dewaere sur ce double rôle aussi challengeant qu",
-      "isAI": false
-    },
-    {
-      "title": "Retour vers le Futur 3 sur TF1 Séries Films : seuls les vrais fans de western auront reconnu ces 3 hommes dans le saloon",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225285.html",
-      "desc": "À moins d’être incollable sur les classiques du western, vous êtes probablement passé à côté de ce petit caméo : trois figures emblématiques",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : Aaron perd complètement pied, son secret bientôt découvert ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225206.html",
-      "desc": "Dans Demain nous appartient, Aaron vient d'avouer à Soraya qu'il voyait Simon tandis que la police se rapproche dangereusement de la vérité.",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2304 du jeudi 1er octobre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224542.html",
-      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... La police détient maintenant des éléments concrets pour intervenir. Erica missionne ",
       "isAI": false
     }
   ]
