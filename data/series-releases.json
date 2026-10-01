@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790859194121,
+  "updatedAt": 1790893969331,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -12,6 +12,16 @@
       "platform": "Hayu Amazon Channel"
     },
     {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 824 épisodes",
+      "nextEpisodeDate": "4 octobre 2026",
+      "platform": "Kocowa"
+    },
+    {
       "title": "New York Unité Spéciale",
       "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
       "link": "https://www.themoviedb.org/tv/2734",
@@ -20,16 +30,6 @@
       "episodes": "28 saisons · 598 épisodes",
       "nextEpisodeDate": "8 octobre 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "New York Police Judiciaire",
-      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "link": "https://www.themoviedb.org/tv/549",
-      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
-      "status": "En cours",
-      "episodes": "26 saisons · 548 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
-      "platform": "Amazon Prime Video"
     },
     {
       "title": "Les Simpson",
@@ -42,14 +42,14 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "title": "New York Police Judiciaire",
+      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
+      "link": "https://www.themoviedb.org/tv/549",
+      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
       "status": "En cours",
-      "episodes": "1 saison · 824 épisodes",
-      "nextEpisodeDate": "4 octobre 2026",
-      "platform": "Kocowa"
+      "episodes": "26 saisons · 548 épisodes",
+      "nextEpisodeDate": "8 octobre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "Le Daily Show",
