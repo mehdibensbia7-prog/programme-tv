@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1790893967171,
+  "updatedAt": 1790917707103,
   "items": [
+    {
+      "title": "Disponible aujourd'hui sur Prime Video : la toute première série de Paul Mirabel se regarde en seulement 3h !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225504.html",
+      "desc": "Parmi les humoristes les plus incontournables du moment, Paul Mirabel dévoile sur Prime Video sa toute première série en tant qu’acteur prin",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 685 du lundi 5 octobre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225386.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Emma doit faire face à un terrible dilemme, tandis qu'Ophélie fait son",
+      "isAI": false
+    },
     {
       "title": "2,3 millions d'entrées : c'est le plus gros succès cinéma au box-office France de 2020 et c'est aussi le film de science-fiction qui a fait revenir les gens en salles !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224179.html",
@@ -23,18 +35,6 @@
       "title": "Notre salut avec Swann Arlaud est-il un bon film ? Voici les premiers avis spectateurs !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225352.html",
       "desc": "Lauréat du Prix du scénario au dernier Festival de Cannes, \"Notre salut\" est actuellement en salles. Découvrez les premiers retours des spec",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1537 du vendredi 2 octobre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225077.html",
-      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... Pour aider Coline, Gaspard remonte le fil des événements. Pour le bien-être du Double A, M",
-      "isAI": false
-    },
-    {
-      "title": "Quiz Cinéma : 8 affiches, 8 films à reconnaître !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225259.html",
-      "desc": "Et de 10 pour notre série de quiz sur la typographie des titres de films ! Ce qui nous amène donc tout droit aujourd'hui à la lettre \"J\" ave",
       "isAI": false
     }
   ]
