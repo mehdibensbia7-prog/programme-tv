@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791043380361,
+  "updatedAt": 1791060805392,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "The Social Reckoning",
-      "image": "https://image.tmdb.org/t/p/w300/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
-      "link": "https://www.themoviedb.org/movie/1281331",
-      "synopsis": "Frances Haugen, une jeune ingénieure de Facebook, sollicite l'aide de Jeff Horwitz, un journaliste du Wall Street Journal, pour entreprendre un voyage dangereux…",
-      "releaseDate": "7 octobre 2026",
+      "title": "Englouti",
+      "image": "https://image.tmdb.org/t/p/w300/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
+      "link": "https://www.themoviedb.org/movie/1255833",
+      "synopsis": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'ox…",
+      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
