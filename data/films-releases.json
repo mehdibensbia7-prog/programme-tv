@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791003057315,
+  "updatedAt": 1791026797890,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -20,15 +20,6 @@
       "category": "cinema"
     },
     {
-      "title": "Malfaisante",
-      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-      "link": "https://www.themoviedb.org/movie/1400837",
-      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
-      "releaseDate": "14 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Clayface",
       "image": "https://image.tmdb.org/t/p/w300/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
       "link": "https://www.themoviedb.org/movie/1400940",
@@ -38,11 +29,11 @@
       "category": "cinema"
     },
     {
-      "title": "Leviticus",
-      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
-      "link": "https://www.themoviedb.org/movie/1564614",
-      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
-      "releaseDate": "18 septembre 2026",
+      "title": "Malfaisante",
+      "image": "https://image.tmdb.org/t/p/w300/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+      "link": "https://www.themoviedb.org/movie/1400837",
+      "synopsis": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».…",
+      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -52,6 +43,15 @@
       "link": "https://www.themoviedb.org/movie/1153576",
       "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
       "releaseDate": "13 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Leviticus",
+      "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
+      "link": "https://www.themoviedb.org/movie/1564614",
+      "synopsis": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.…",
+      "releaseDate": "18 septembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
