@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1790978533435,
+  "updatedAt": 1791003056396,
   "items": [
+    {
+      "title": "Avant de cartonner sur Netflix, l'une des meilleurs séries de science-fiction a été diffusée à la télé pendant 2 saisons",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225419.html",
+      "desc": "Avant de devenir un phénomène sur Netflix, cette série d'anthologie était loin d'être une évidence. La raison ? Sa diffusion à la télévision",
+      "isAI": false
+    },
     {
       "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2306 du lundi 5 octobre 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224544.html",
@@ -29,12 +35,6 @@
       "title": "Ce soir à la télé : bien loin des Bronzés, vous n'avez jamais vu un Michel Blanc aussi inquiétant avec ce rôle qui l'a emmené jusqu'aux César",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000223970.html",
       "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : une brillante adaptation de Georges Simenon par Patrice Lecont",
-      "isAI": false
-    },
-    {
-      "title": "\"À l'époque, j'étais au sommet\" : il y a 26 ans, Jim Carrey devait jouer dans cette saga culte qui a rapporté 1,16 milliard de dollars",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225403.html",
-      "desc": "Saviez-vous que Jim Carrey aurait pu tenir la vedette de la comédie culte \"Mon beau-père et moi\" ? L'acteur a en effet développé le projet e",
       "isAI": false
     }
   ]
