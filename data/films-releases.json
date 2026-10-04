@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791115665275,
+  "updatedAt": 1791148135393,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -7,6 +7,15 @@
       "link": "https://www.themoviedb.org/movie/1465063",
       "synopsis": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien …",
       "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Doraemon et le château sous-marin",
+      "image": "https://image.tmdb.org/t/p/w300/ncJWnLIT2Lb1Hb4WETX3l5TfuO8.jpg",
+      "link": "https://www.themoviedb.org/movie/1542261",
+      "synopsis": "Doraemon est un robot-chat bleu qui vient du futur. Il vit avec Nobita, un petit garçon maladroit, et ses parents. Grâce à ses gadgets secrets, Doraemon aide so…",
+      "releaseDate": "7 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -38,15 +47,6 @@
       "category": "cinema"
     },
     {
-      "title": "Street Fighter",
-      "image": "https://image.tmdb.org/t/p/w300/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "link": "https://www.themoviedb.org/movie/1153576",
-      "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
-      "releaseDate": "13 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Leviticus",
       "image": "https://image.tmdb.org/t/p/w300/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
       "link": "https://www.themoviedb.org/movie/1564614",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
+      "title": "Street Fighter",
+      "image": "https://image.tmdb.org/t/p/w300/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "link": "https://www.themoviedb.org/movie/1153576",
+      "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
+      "releaseDate": "13 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "The Good Boy",
       "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
       "link": "https://www.themoviedb.org/movie/1381027",
       "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
       "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Englouti",
-      "image": "https://image.tmdb.org/t/p/w300/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
-      "link": "https://www.themoviedb.org/movie/1255833",
-      "synopsis": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'ox…",
-      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
