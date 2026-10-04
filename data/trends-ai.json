@@ -1,25 +1,11 @@
 {
-  "updatedAt": 1791091415578,
+  "updatedAt": 1791115664393,
   "items": [
     {
       "title": "Digger",
       "link": "https://www.themoviedb.org/movie/1248832",
       "image": "https://image.tmdb.org/t/p/w300/9BzF32t0U7mOnpzmQ0dyFKv4uZT.jpg",
       "desc": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre...",
-      "isAI": false
-    },
-    {
-      "title": "The Uprising",
-      "link": "https://www.themoviedb.org/movie/977942",
-      "image": "https://image.tmdb.org/t/p/w300/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
-      "desc": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la t...",
-      "isAI": false
-    },
-    {
-      "title": "Runner",
-      "link": "https://www.themoviedb.org/movie/1377237",
-      "image": "https://image.tmdb.org/t/p/w300/6DQkNOhW7p9PwxWTDuZy8tnXozK.jpg",
-      "desc": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partena...",
       "isAI": false
     },
     {
@@ -30,10 +16,17 @@
       "isAI": false
     },
     {
-      "title": "Verity",
-      "link": "https://www.themoviedb.org/movie/1283515",
-      "image": "https://image.tmdb.org/t/p/w300/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "desc": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen A...",
+      "title": "Runner",
+      "link": "https://www.themoviedb.org/movie/1377237",
+      "image": "https://image.tmdb.org/t/p/w300/6DQkNOhW7p9PwxWTDuZy8tnXozK.jpg",
+      "desc": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partena...",
+      "isAI": false
+    },
+    {
+      "title": "The Uprising",
+      "link": "https://www.themoviedb.org/movie/977942",
+      "image": "https://image.tmdb.org/t/p/w300/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
+      "desc": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la t...",
       "isAI": false
     },
     {
@@ -41,6 +34,13 @@
       "link": "https://www.themoviedb.org/movie/1492640",
       "image": "https://image.tmdb.org/t/p/w300/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
       "desc": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques d...",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man : Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/jjCCZcCtggGjKik2gXjyux1VEdZ.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
       "isAI": false
     }
   ]
