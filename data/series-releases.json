@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791209643194,
+  "updatedAt": 1791244565803,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -22,6 +22,16 @@
       "platform": null
     },
     {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 825 épisodes",
+      "nextEpisodeDate": "11 octobre 2026",
+      "platform": "Kocowa"
+    },
+    {
       "title": "New York Unité Spéciale",
       "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
       "link": "https://www.themoviedb.org/tv/2734",
@@ -30,16 +40,6 @@
       "episodes": "28 saisons · 598 épisodes",
       "nextEpisodeDate": "8 octobre 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 824 épisodes",
-      "nextEpisodeDate": "11 octobre 2026",
-      "platform": "Kocowa"
     },
     {
       "title": "New York Police Judiciaire",
@@ -62,16 +62,6 @@
       "platform": null
     },
     {
-      "title": "Les Griffin",
-      "image": "https://image.tmdb.org/t/p/w300/7nHl3OHUSTHgslQxJUzNSy9vxqo.jpg",
-      "link": "https://www.themoviedb.org/tv/1434",
-      "synopsis": "La famille Griffin habite à Quahog, charmante petite bourgade américaine. Peter, le père, a érigé la fainéantise en philosophie de vie. Lois, la mère, est à la …",
-      "status": "En cours",
-      "episodes": "24 saisons · 456 épisodes",
-      "nextEpisodeDate": null,
-      "platform": "Disney Plus"
-    },
-    {
       "title": "MobLand",
       "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "link": "https://www.themoviedb.org/tv/247718",
@@ -80,6 +70,16 @@
       "episodes": "2 saisons · 20 épisodes",
       "nextEpisodeDate": "9 octobre 2026",
       "platform": "Paramount Plus"
+    },
+    {
+      "title": "NCIS : Enquêtes Spéciales",
+      "image": "https://image.tmdb.org/t/p/w300/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "link": "https://www.themoviedb.org/tv/4614",
+      "synopsis": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête su…",
+      "status": "En cours",
+      "episodes": "24 saisons · 511 épisodes",
+      "nextEpisodeDate": "6 octobre 2026",
+      "platform": "Amazon Prime Video"
     }
   ]
 }
