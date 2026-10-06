@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791266756875,
+  "updatedAt": 1791310293171,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -17,19 +17,9 @@
       "link": "https://www.themoviedb.org/tv/59941",
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
-      "episodes": "14 saisons · 2421 épisodes",
-      "nextEpisodeDate": "5 octobre 2026",
+      "episodes": "14 saisons · 2424 épisodes",
+      "nextEpisodeDate": "6 octobre 2026",
       "platform": null
-    },
-    {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 825 épisodes",
-      "nextEpisodeDate": "11 octobre 2026",
-      "platform": "Kocowa"
     },
     {
       "title": "New York Unité Spéciale",
@@ -42,14 +32,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "New York Police Judiciaire",
-      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "link": "https://www.themoviedb.org/tv/549",
-      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
       "status": "En cours",
-      "episodes": "26 saisons · 548 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
-      "platform": "Amazon Prime Video"
+      "episodes": "1 saison · 825 épisodes",
+      "nextEpisodeDate": "11 octobre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "Late Night with Seth Meyers",
@@ -58,8 +48,18 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "14 saisons · 1835 épisodes",
-      "nextEpisodeDate": null,
+      "nextEpisodeDate": "6 octobre 2026",
       "platform": null
+    },
+    {
+      "title": "New York Police Judiciaire",
+      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
+      "link": "https://www.themoviedb.org/tv/549",
+      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
+      "status": "En cours",
+      "episodes": "26 saisons · 548 épisodes",
+      "nextEpisodeDate": "8 octobre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "Le Daily Show",
@@ -72,14 +72,14 @@
       "platform": null
     },
     {
-      "title": "MobLand",
-      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
-      "link": "https://www.themoviedb.org/tv/247718",
-      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
+      "title": "Goede Tijden, Slechte Tijden",
+      "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
+      "link": "https://www.themoviedb.org/tv/11890",
+      "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "2 saisons · 20 épisodes",
-      "nextEpisodeDate": "9 octobre 2026",
-      "platform": "Paramount Plus"
+      "episodes": "37 saisons · 7325 épisodes",
+      "nextEpisodeDate": "6 octobre 2026",
+      "platform": null
     }
   ]
 }

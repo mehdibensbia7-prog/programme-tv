@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791266755521,
+  "updatedAt": 1791310292466,
   "items": [
     {
       "title": "L'Île des Souvenirs",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "The Good Boy",
-      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
-      "link": "https://www.themoviedb.org/movie/1381027",
-      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
-      "releaseDate": "21 octobre 2026",
+      "title": "The Social Reckoning",
+      "image": "https://image.tmdb.org/t/p/w300/6B5gNoTM9PCC7jXTFd7tJGFfeFa.jpg",
+      "link": "https://www.themoviedb.org/movie/1281331",
+      "synopsis": "Frances Haugen, une jeune ingénieure de Facebook, sollicite l'aide de Jeff Horwitz, un journaliste du Wall Street Journal, pour entreprendre un voyage dangereux…",
+      "releaseDate": "7 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
