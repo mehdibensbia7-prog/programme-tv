@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791244565803,
+  "updatedAt": 1791266756875,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -8,7 +8,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3214 épisodes",
-      "nextEpisodeDate": "5 octobre 2026",
+      "nextEpisodeDate": "6 octobre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -52,13 +52,23 @@
       "platform": "Amazon Prime Video"
     },
     {
+      "title": "Late Night with Seth Meyers",
+      "image": "https://image.tmdb.org/t/p/w300/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+      "link": "https://www.themoviedb.org/tv/61818",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "14 saisons · 1835 épisodes",
+      "nextEpisodeDate": null,
+      "platform": null
+    },
+    {
       "title": "Le Daily Show",
       "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
       "link": "https://www.themoviedb.org/tv/2224",
       "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
       "episodes": "31 saisons · 4280 épisodes",
-      "nextEpisodeDate": "5 octobre 2026",
+      "nextEpisodeDate": "6 octobre 2026",
       "platform": null
     },
     {
@@ -70,16 +80,6 @@
       "episodes": "2 saisons · 20 épisodes",
       "nextEpisodeDate": "9 octobre 2026",
       "platform": "Paramount Plus"
-    },
-    {
-      "title": "NCIS : Enquêtes Spéciales",
-      "image": "https://image.tmdb.org/t/p/w300/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
-      "link": "https://www.themoviedb.org/tv/4614",
-      "synopsis": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête su…",
-      "status": "En cours",
-      "episodes": "24 saisons · 511 épisodes",
-      "nextEpisodeDate": "6 octobre 2026",
-      "platform": "Amazon Prime Video"
     }
   ]
 }

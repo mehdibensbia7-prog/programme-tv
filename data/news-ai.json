@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1791244562784,
+  "updatedAt": 1791266754321,
   "items": [
+    {
+      "title": "La Stagiaire : la série avec Michèle Bernier aura-t-elle une saison 12 sur France 3 ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225314.html",
+      "desc": "La saison 11 de la série de France 3 \"La Stagiaire\" se termine ce soir. Mais la fiction avec Michèle Bernier aura-t-elle une suite ? Une dou",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 687 du mercredi 7 octobre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225871.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Emma s’apprête à prendre une décision importante. Aya supporte de moin",
+      "isAI": false
+    },
     {
       "title": "Les Aventurières sur France 2 : y aura-t-il une saison 2 pour la série avec Charlie Bruneau et Fanny Cottençon ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225970.html",
@@ -23,18 +35,6 @@
       "title": "Ici tout commence : ce qui vous attend dans l'épisode 1539 du mardi 6 octobre 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224537.html",
       "desc": "Dans le prochain épisode d'\"Ici tout commence\"... A L'institut, Coline tente d'enfouir son traumatisme. Pour assurer sa place, Fleur cherche",
-      "isAI": false
-    },
-    {
-      "title": "\"C’est comme une épine dans mon âme\" : 36 ans après, Sylvester Stallone souhaite améliorer ce film très critiqué lors de sa sortie au cinéma",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225917.html",
-      "desc": "Noté seulement 2,5 sur 5 par les spectateurs d’AlloCiné, c'est le moins apprécié des films de la saga Rocky. Et ce n’est pas Sylvester Stall",
-      "isAI": false
-    },
-    {
-      "title": "Tout le monde a oublié ce film des années 2000 avec Chad Michael Murray... Et pourtant il a ses fans ! Un acteur d'Harry Potter aurait même pu en être le héros",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000219813.html",
-      "desc": "Si vous aimez \"Les Frères Scott\" et les comédies romantiques, vous avez sans doute déjà vu ce film des années 2000 avec Chad Michael Murray ",
       "isAI": false
     }
   ]
