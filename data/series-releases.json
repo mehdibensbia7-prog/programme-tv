@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791378238525,
+  "updatedAt": 1791413833266,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -7,7 +7,7 @@
       "link": "https://www.themoviedb.org/tv/22980",
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "26 saisons · 3219 épisodes",
+      "episodes": "26 saisons · 3257 épisodes",
       "nextEpisodeDate": "7 octobre 2026",
       "platform": "Hayu Amazon Channel"
     },
@@ -52,16 +52,6 @@
       "platform": null
     },
     {
-      "title": "New York Police Judiciaire",
-      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "link": "https://www.themoviedb.org/tv/549",
-      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
-      "status": "En cours",
-      "episodes": "26 saisons · 548 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
-      "platform": "Amazon Prime Video"
-    },
-    {
       "title": "Goede Tijden, Slechte Tijden",
       "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
       "link": "https://www.themoviedb.org/tv/11890",
@@ -80,6 +70,16 @@
       "episodes": "31 saisons · 4284 épisodes",
       "nextEpisodeDate": "7 octobre 2026",
       "platform": null
+    },
+    {
+      "title": "MobLand",
+      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
+      "link": "https://www.themoviedb.org/tv/247718",
+      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 20 épisodes",
+      "nextEpisodeDate": "9 octobre 2026",
+      "platform": "Paramount Plus"
     }
   ]
 }
