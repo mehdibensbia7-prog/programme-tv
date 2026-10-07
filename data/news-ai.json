@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1791310291280,
+  "updatedAt": 1791350785267,
   "items": [
+    {
+      "title": "\"Je ne ne suis pas un acteur professionnel !\" : 7 ans après avoir travaillé avec Stanley Kubrick, cette légende du cinéma évoquait une expérience \"aussi fascinante qu'exaspérante\"",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225950.html",
+      "desc": "En 2005, six ans après le décès de Kubrick, le réalisateur Sydney Pollack, qui avait justement fait l'acteur dans l'ultime film du cinéaste,",
+      "isAI": false
+    },
+    {
+      "title": "\"Disons le clairement c'est un chef-d'oeuvre !\" : noté 4,2 sur 5, c'est le meilleur film fantastique de l'année 2020... Et il a remporté 2 Oscars !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224897.html",
+      "desc": "Quel film fantastique sorti en 2020 a été le mieux noté par les spectateurs AlloCiné ? Petite indice : sa bande-originale a été récompensée ",
+      "isAI": false
+    },
+    {
+      "title": "Demain nous appartient : rebondissement, Marguerite et Ellie ne sont pas les seules à avoir aidé Bruno à tricher au casino !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226120.html",
+      "desc": "Qui a bien pu aider Bruno à tricher au casino dans Demain nous appartient ? Ellie et Marguerite sont-elles vraiment ses complices ? Réponse.",
+      "isAI": false
+    },
     {
       "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2308 du mercredi 7 octobre 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225657.html",
@@ -17,24 +35,6 @@
       "title": "Ce soir à la télé : 790 millions de dollars dans le monde… C'est l'un des meilleurs films Fast &amp; Furious et Paul Walker y apparaît pour la dernière fois",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224902.html",
       "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : le sixième volet d'une saga d'action 100% culte !",
-      "isAI": false
-    },
-    {
-      "title": "\"Je me suis fait battre par Fellini !\" : il y a 50 ans, Steven Spielberg était snobé aux Oscars, et il a eu du mal à s'en remettre",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225952.html",
-      "desc": "En 1976, un tout jeune Steven Spielberg âgé de 30 ans se filme en train de suivre les nominations aux Oscars. Il espère une razzia pour Les ",
-      "isAI": false
-    },
-    {
-      "title": "Un si grand soleil : \"L'attirance est réciproque\", nouvelle histoire d'amour en vue pour Alex ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226122.html",
-      "desc": "Alex serait-il sur le point de trouver l’amour dans Un si grand soleil ? Une chose est certaine, c’est que l’arrivée de Laurence promet de c",
-      "isAI": false
-    },
-    {
-      "title": "Quiz Cinéma : 9 images, 9 films français à reconnaître !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226113.html",
-      "desc": "Ce mercredi, vous pourrez retrouver Kad Merad au cinéma dans un face à face avec Benoit Poelvoorde dans le film \"Fausse note\". L'occasion d'",
       "isAI": false
     }
   ]
