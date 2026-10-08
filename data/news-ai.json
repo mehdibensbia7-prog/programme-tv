@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1791413831537,
+  "updatedAt": 1791437691086,
   "items": [
+    {
+      "title": "On a vu Animals avec Ben Affleck sur Netflix ,13 ans après son Oscar pour Argo... et on ne va pas vous mentir",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226274.html",
+      "desc": "On a vu le film \"Animals\" disponible aujourd’hui sur Netflix, et voici ce qu’on en a pensé.",
+      "isAI": false
+    },
+    {
+      "title": "Exclu. Soeurs : y aura-t-il une saison 2 ? Lola Dewaere nous en dit plus",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224914.html",
+      "desc": "Soeurs vient de se conclure sur France 2. Mais alors, une suite est-elle prévue pour la mini-série ? Lola Dewaere nous en dit plus !",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 689 du vendredi 9 octobre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226242.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Emma fait une découverte choc ! Au Mistral, Barbara et Aya se retrouve",
+      "isAI": false
+    },
+    {
+      "title": "Exclu. Soeurs : \"Elle avait tout compris dès le départ\", Lola Dewaere décrypte la fin mystérieuse de la série",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224633.html",
+      "desc": "INTERVIEW. Après deux semaines de diffusion, la série Soeurs vient de s'achever sur France 2. Interrogée par nos soins, Lola Dewaere s'est c",
+      "isAI": false
+    },
     {
       "title": "Gremlins : cachée à 8 minutes 30 du film, cette référence était sous nos yeux depuis 42 ans et personne ne l'a jamais remarquée",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226148.html",
@@ -11,30 +35,6 @@
       "title": "Zero Dark Thirty sur Arte : comment la CIA a secrètement appuyé le film de Kathryn Bigelow",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225708.html",
       "desc": "Impressionnant et rigoureux, \"Zero Dark Thirty\", sorti il y a treize ans, raconte la traque d'Oussama Ben Laden. Un film qui a aussi suscité",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : pourquoi Ellie, Marguerite, Raphaëlle et Bruno ont-ils triché au casino ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226305.html",
-      "desc": "Bruno, Marguerite, Raphaëlle et Ellie se sont alliés pour tricher au casino dans Demain nous appartient. Mais pourquoi ont-ils fait ça ?",
-      "isAI": false
-    },
-    {
-      "title": "Son nom n'est pas crédité au générique d'un des plus grands films historiques de Ridley Scott... Quelle star incarne le roi masqué dans Kingdom of Heaven ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226070.html",
-      "desc": "Film culte du début des années 2000, \"Kingdom of Heaven\" peut compter sur un casting 5 étoiles Parmi les nombreuses stars au casting, l’une ",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2309 du jeudi 8 octobre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225658.html",
-      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... Des révélations sur Maé changent la donne. Gloria s'attaque à la cuisine de Mona. Sy",
-      "isAI": false
-    },
-    {
-      "title": "Ce soir à la télé : un super-héros français très rigolo qui a fait mourir de rire près de 2 millions de spectateurs",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225200.html",
-      "desc": "Chaque jour, AlloCiné vous recommande un film à (re)voir à la télé. Ce soir : Philippe Lacheau et toute sa bande dans une comédie super-héro",
       "isAI": false
     }
   ]
