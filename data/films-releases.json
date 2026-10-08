@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791465070726,
+  "updatedAt": 1791501022808,
   "items": [
     {
       "title": "Malfaisante",
@@ -29,20 +29,20 @@
       "category": "cinema"
     },
     {
-      "title": "Ghost in the Cell",
-      "image": "https://image.tmdb.org/t/p/w300/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
-      "link": "https://www.themoviedb.org/movie/1393326",
-      "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
-      "releaseDate": "31 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Street Fighter",
       "image": "https://image.tmdb.org/t/p/w300/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
       "link": "https://www.themoviedb.org/movie/1153576",
       "synopsis": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochai…",
       "releaseDate": "13 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Ghost in the Cell",
+      "image": "https://image.tmdb.org/t/p/w300/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+      "link": "https://www.themoviedb.org/movie/1393326",
+      "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
+      "releaseDate": "31 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Englouti",
-      "image": "https://image.tmdb.org/t/p/w300/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
-      "link": "https://www.themoviedb.org/movie/1255833",
-      "synopsis": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'ox…",
-      "releaseDate": "14 octobre 2026",
+      "title": "Godzilla Minus Zero",
+      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "link": "https://www.themoviedb.org/movie/1381071",
+      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
