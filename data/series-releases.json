@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1791524349762,
+  "updatedAt": 1791550654147,
   "items": [
-    {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
-      "status": "En cours",
-      "episodes": "14 saisons · 2425 épisodes",
-      "nextEpisodeDate": null,
-      "platform": null
-    },
     {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
@@ -30,16 +20,6 @@
       "episodes": "28 saisons · 598 épisodes",
       "nextEpisodeDate": "15 octobre 2026",
       "platform": "Netflix"
-    },
-    {
-      "title": "Late Night with Seth Meyers",
-      "image": "https://image.tmdb.org/t/p/w300/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
-      "link": "https://www.themoviedb.org/tv/61818",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "14 saisons · 1835 épisodes",
-      "nextEpisodeDate": null,
-      "platform": null
     },
     {
       "title": "Running Man",
@@ -62,16 +42,6 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
-      "status": "En cours",
-      "episodes": "31 saisons · 4284 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
-      "platform": null
-    },
-    {
       "title": "New York Police Judiciaire",
       "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
       "link": "https://www.themoviedb.org/tv/549",
@@ -80,6 +50,36 @@
       "episodes": "26 saisons · 548 épisodes",
       "nextEpisodeDate": "15 octobre 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "NCIS : Enquêtes Spéciales",
+      "image": "https://image.tmdb.org/t/p/w300/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "link": "https://www.themoviedb.org/tv/4614",
+      "synopsis": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête su…",
+      "status": "En cours",
+      "episodes": "24 saisons · 511 épisodes",
+      "nextEpisodeDate": "13 octobre 2026",
+      "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "Goede Tijden, Slechte Tijden",
+      "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
+      "link": "https://www.themoviedb.org/tv/11890",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "37 saisons · 7325 épisodes",
+      "nextEpisodeDate": "12 octobre 2026",
+      "platform": null
+    },
+    {
+      "title": "MobLand",
+      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
+      "link": "https://www.themoviedb.org/tv/247718",
+      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 20 épisodes",
+      "nextEpisodeDate": "9 octobre 2026",
+      "platform": "Paramount Plus"
     }
   ]
 }
