@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791550654147,
+  "updatedAt": 1791584977192,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -32,16 +32,6 @@
       "platform": "Kocowa"
     },
     {
-      "title": "Grey's Anatomy",
-      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "link": "https://www.themoviedb.org/tv/1416",
-      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
-      "status": "En cours",
-      "episodes": "23 saisons · 466 épisodes",
-      "nextEpisodeDate": "15 octobre 2026",
-      "platform": "Disney Plus"
-    },
-    {
       "title": "New York Police Judiciaire",
       "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
       "link": "https://www.themoviedb.org/tv/549",
@@ -50,6 +40,16 @@
       "episodes": "26 saisons · 548 épisodes",
       "nextEpisodeDate": "15 octobre 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "Grey's Anatomy",
+      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "link": "https://www.themoviedb.org/tv/1416",
+      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
+      "status": "En cours",
+      "episodes": "23 saisons · 466 épisodes",
+      "nextEpisodeDate": "15 octobre 2026",
+      "platform": "Disney Plus"
     },
     {
       "title": "NCIS : Enquêtes Spéciales",
@@ -62,13 +62,13 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "Goede Tijden, Slechte Tijden",
-      "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
-      "link": "https://www.themoviedb.org/tv/11890",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Doraemon",
+      "image": "https://image.tmdb.org/t/p/w300/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+      "link": "https://www.themoviedb.org/tv/65733",
+      "synopsis": "Les aventures du chat bleu.…",
       "status": "En cours",
-      "episodes": "37 saisons · 7325 épisodes",
-      "nextEpisodeDate": "12 octobre 2026",
+      "episodes": "1 saison · 1464 épisodes",
+      "nextEpisodeDate": "10 octobre 2026",
       "platform": null
     },
     {

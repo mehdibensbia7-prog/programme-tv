@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791550653123,
+  "updatedAt": 1791584976061,
   "items": [
     {
       "title": "Malfaisante",
@@ -38,15 +38,6 @@
       "category": "cinema"
     },
     {
-      "title": "Ghost in the Cell",
-      "image": "https://image.tmdb.org/t/p/w300/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
-      "link": "https://www.themoviedb.org/movie/1393326",
-      "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
-      "releaseDate": "31 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Clayface",
       "image": "https://image.tmdb.org/t/p/w300/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
       "link": "https://www.themoviedb.org/movie/1400940",
@@ -56,20 +47,29 @@
       "category": "cinema"
     },
     {
+      "title": "Ghost in the Cell",
+      "image": "https://image.tmdb.org/t/p/w300/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+      "link": "https://www.themoviedb.org/movie/1393326",
+      "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
+      "releaseDate": "31 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "link": "https://www.themoviedb.org/movie/1381071",
+      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
+      "releaseDate": "4 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "The Good Boy",
       "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
       "link": "https://www.themoviedb.org/movie/1381027",
       "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
       "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Englouti",
-      "image": "https://image.tmdb.org/t/p/w300/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
-      "link": "https://www.themoviedb.org/movie/1255833",
-      "synopsis": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'ox…",
-      "releaseDate": "14 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
