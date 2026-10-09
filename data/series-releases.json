@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791501024544,
+  "updatedAt": 1791524349762,
   "items": [
     {
       "title": "Le Tonight Show",
@@ -7,8 +7,8 @@
       "link": "https://www.themoviedb.org/tv/59941",
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
-      "episodes": "14 saisons · 2424 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
+      "episodes": "14 saisons · 2425 épisodes",
+      "nextEpisodeDate": null,
       "platform": null
     },
     {
@@ -17,8 +17,8 @@
       "link": "https://www.themoviedb.org/tv/22980",
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "26 saisons · 3257 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
+      "episodes": "23 saisons · 3257 épisodes",
+      "nextEpisodeDate": "11 octobre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -28,7 +28,7 @@
       "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
       "status": "En cours",
       "episodes": "28 saisons · 598 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
+      "nextEpisodeDate": "15 octobre 2026",
       "platform": "Netflix"
     },
     {
@@ -38,7 +38,7 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "14 saisons · 1835 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
+      "nextEpisodeDate": null,
       "platform": null
     },
     {
@@ -78,7 +78,7 @@
       "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
       "status": "En cours",
       "episodes": "26 saisons · 548 épisodes",
-      "nextEpisodeDate": "8 octobre 2026",
+      "nextEpisodeDate": "15 octobre 2026",
       "platform": "Amazon Prime Video"
     }
   ]

@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1791501020857,
+  "updatedAt": 1791524347798,
   "items": [
+    {
+      "title": "Le nouveau Fast &amp; Furious ? Ce blockbuster d'action inédit avec John Cena vient d'arriver sur Apple TV... et il est inspiré d'un célèbre jouet Mattel !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226147.html",
+      "desc": "John Cena est la tête d’affiche d’une nouvelle saga d’action à la \"Fast &amp; Furious\", inspirée d’une célèbre licence de jouets.",
+      "isAI": false
+    },
+    {
+      "title": "Simon Coleman : bonne nouvelle, la saison 4 inédite avec Jean-Michel Tinivelli commence dès ce soir sur France 2 !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225325.html",
+      "desc": "La chaîne de France Télévisions propose aux téléspectateurs de regarder les nouvelles aventures du flic \"Simon Coleman\", avec toujours Jean-",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 690 du lundi 12 octobre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226447.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Au lendemain du suicide de David, Emma et Chloé pensent avoir découver",
+      "isAI": false
+    },
     {
       "title": "Intraçables sur TF1 : Sofia Essaïdi dévoile les secrets de son impressionnante cicatrice",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226588.html",
@@ -17,24 +35,6 @@
       "title": "Exclu. Un si grand soleil : \"Elle va laisser une chance à Stéphane\", Nadia Fossier annonce une bonne nouvelle !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000224194.html",
       "desc": "Après avoir tout perdu, Alix a pris un nouveau départ dans Un si grand soleil. Entre nouvelles aventures, histoire de cœur et envie de liber",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : Raphaëlle piège Aurore au casino grâce à un incroyable coup de maître !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226492.html",
-      "desc": "Marguerite, Ellie, Bruno et Raphaëlle se sont alliés pour aider Maé dans Demain nous appartient. Maintenant que Bruno est dans le viseur de ",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2310 du vendredi 9 octobre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225659.html",
-      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... Dans l'intérêt de l'enquête, Aurore doit faire équipe avec un nouveau collègue. Pour",
-      "isAI": false
-    },
-    {
-      "title": "\"C'est un film sous-estimé\" : 33 ans après son échec retentissant, Arnold Schwarzenegger défend ce classique du cinéma d'action",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226497.html",
-      "desc": "Devenu culte au fil des années, ce film d'action explosif a été un échec cinglant à sa sortie en 1993. Pourtant, Arnold Schwarzenegger adore",
       "isAI": false
     }
   ]
