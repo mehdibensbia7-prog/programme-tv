@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791634511711,
+  "updatedAt": 1791667601779,
   "items": [
     {
       "title": "Malfaisante",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "Godzilla Minus Zero",
-      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
-      "link": "https://www.themoviedb.org/movie/1381071",
-      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
-      "releaseDate": "4 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "The Good Boy",
       "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
       "link": "https://www.themoviedb.org/movie/1381027",
       "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
       "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "link": "https://www.themoviedb.org/movie/1381071",
+      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
