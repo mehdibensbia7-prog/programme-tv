@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791695728344,
+  "updatedAt": 1791721827758,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -42,6 +42,16 @@
       "platform": "Amazon Prime Video"
     },
     {
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "status": "En cours",
+      "episodes": "38 saisons · 806 épisodes",
+      "nextEpisodeDate": "18 octobre 2026",
+      "platform": "Disney Plus"
+    },
+    {
       "title": "NCIS : Enquêtes Spéciales",
       "image": "https://image.tmdb.org/t/p/w300/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
       "link": "https://www.themoviedb.org/tv/4614",
@@ -50,16 +60,6 @@
       "episodes": "24 saisons · 511 épisodes",
       "nextEpisodeDate": "13 octobre 2026",
       "platform": "Amazon Prime Video"
-    },
-    {
-      "title": "Doraemon",
-      "image": "https://image.tmdb.org/t/p/w300/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
-      "link": "https://www.themoviedb.org/tv/65733",
-      "synopsis": "Les aventures du chat bleu.…",
-      "status": "En cours",
-      "episodes": "1 saison · 1464 épisodes",
-      "nextEpisodeDate": "10 octobre 2026",
-      "platform": null
     },
     {
       "title": "MobLand",
