@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1791667600722,
+  "updatedAt": 1791695727013,
   "items": [
+    {
+      "title": "\"Rien n'était de ma faute, et je me suis fait engueuler\" : il y a près de 50 ans, Jean Gabin livrait sa toute dernière interview",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226511.html",
+      "desc": "En 1976, Jean Gabin livrait sa dernière interview télévisée. Avec sa verve intacte, l’acteur racontait une rencontre houleuse avec la presse",
+      "isAI": false
+    },
     {
       "title": "How I Met Your Mother : Barney (Neil Patrick Harris) a prononcé sa célèbre réplique exactement 40 fois en 9 saisons",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226867.html",
@@ -29,12 +35,6 @@
       "title": "440 films et 8 Oscars mais personne ne la connaît ! Qui est cette légende du cinéma qui a inspiré un personnage culte de Pixar ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226378.html",
       "desc": "Huit Oscars, des centaines de films et les plus grandes stars à habiller : cette costumière a laissé une empreinte unique sur Hollywood. Son",
-      "isAI": false
-    },
-    {
-      "title": "\"Ça a été dur\" : il y a 50 ans, Gérard Lanvin a joué dans cette comédie culte avec Christian Clavier mais l'expérience n'a pas été facile",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226539.html",
-      "desc": "Avant “Les Bronzés”, Gérard Lanvin a remplacé Thierry Lhermitte sur scène avec le Splendid. Mais sans répétition, l’exercice a viré à l’épre",
       "isAI": false
     }
   ]
