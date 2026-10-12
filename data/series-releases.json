@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791782881114,
+  "updatedAt": 1791817364974,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -8,7 +8,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3257 épisodes",
-      "nextEpisodeDate": "11 octobre 2026",
+      "nextEpisodeDate": "12 octobre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -22,16 +22,6 @@
       "platform": "Netflix"
     },
     {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 825 épisodes",
-      "nextEpisodeDate": "18 octobre 2026",
-      "platform": "Kocowa"
-    },
-    {
       "title": "New York Police Judiciaire",
       "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
       "link": "https://www.themoviedb.org/tv/549",
@@ -40,6 +30,16 @@
       "episodes": "26 saisons · 548 épisodes",
       "nextEpisodeDate": "15 octobre 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 826 épisodes",
+      "nextEpisodeDate": "18 octobre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "Les Simpson",
@@ -72,14 +72,14 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "Grey's Anatomy",
-      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "link": "https://www.themoviedb.org/tv/1416",
-      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "23 saisons · 466 épisodes",
-      "nextEpisodeDate": "15 octobre 2026",
-      "platform": "Disney Plus"
+      "episodes": "31 saisons · 4288 épisodes",
+      "nextEpisodeDate": "19 octobre 2026",
+      "platform": null
     }
   ]
 }
