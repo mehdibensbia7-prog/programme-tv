@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1791754987917,
+  "updatedAt": 1791782879792,
   "items": [
+    {
+      "title": "Grand jour ce lundi 12 octobre sur TF1 !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226772.html",
+      "desc": "La période de Noël est sur le point de commencer sur TF1. La chaîne va en effet donner le coup d'envoi ce lundi 12 octobre de la tant attend",
+      "isAI": false
+    },
+    {
+      "title": "Cat's Eyes : voici pourquoi ces deux personnages emblématiques ont changé d'interprètes",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225951.html",
+      "desc": "Bouleversements dans la saison 2 de Cat's Eyes ! Deux comédiens ont quitté la série et il s'agit des interprètes de Gwen et de Heinz, on vou",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 691 du mardi 13 octobre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226659.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Emma et Chloé ont une nouvelle suspecte dans leur viseur. Pendant ce t",
+      "isAI": false
+    },
+    {
+      "title": "Shutter Island sur Arte : que comprendre de la fin énigmatique du thriller avec Leonardo DiCaprio ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226563.html",
+      "desc": "Diffusé ce soir sur Arte, Shutter Island, a marqué les esprits grâce à son récit psychologique et son enquête captivante. Toutefois, le film",
+      "isAI": false
+    },
     {
       "title": "\"Un uppercut\", \"tout est au top !\" : noté 4,2 sur 5, c'est le meilleur film de Jeremy Strong et il est tiré d'une histoire vraie !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226133.html",
@@ -11,30 +35,6 @@
       "title": "Aquaman 2 sur TF1 : pourquoi Amber Heard, alias Mera, est-elle quasiment absente dans le film DC ? Le réalisateur répond",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226705.html",
       "desc": "Pourquoi Mera, interprétée par Amber Heard, est-elle moins présente dans Aquaman 2 ? Le réalisateur James Wan a répondu à la question.",
-      "isAI": false
-    },
-    {
-      "title": "Elle a donné le oui le plus rapide : Russell T Davies explique le retour surprise de Billie Piper dans Doctor Who",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226256.html",
-      "desc": "Vous ne vous attendiez pas à la fin de la saison 2 de \"Doctor Who\" ? Le showrunner non plus, puisqu'il avait imaginé une toute autre scène f",
-      "isAI": false
-    },
-    {
-      "title": "Au cinéma le 14 octobre, ce sont les films à voir : Les Misérables, Malfaisante, Street Fighter...",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226063.html",
-      "desc": "Anecdotes de tournage, notes d'intention, informations cinéphiles : chaque semaine, découvrez les coulisses des sorties cinéma.",
-      "isAI": false
-    },
-    {
-      "title": "\"Comme un film d’action à 100 millions de dollars\" : il y a 11 ans, cet épisode de The Walking Dead a relevé le défi le plus démesuré de toute la série",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226897.html",
-      "desc": "Pour ouvrir la saison 6 de “The Walking Dead”, Greg Nicotero a imaginé une horde de 30 000 rôdeurs et mobilisé près de 1 000 figurants maqui",
-      "isAI": false
-    },
-    {
-      "title": "Quiz Cinéma : 9 images, 9 films à retrouver !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226761.html",
-      "desc": "Le thriller \"Shutter Island\" signé Martin Scorsese est rediffusé ce soir sur Arte. Ce qui nous a donné l'idée de ce quiz avec les deux stars",
       "isAI": false
     }
   ]
