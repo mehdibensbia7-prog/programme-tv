@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791951999419,
+  "updatedAt": 1791977651279,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -62,16 +62,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "MobLand",
-      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
-      "link": "https://www.themoviedb.org/tv/247718",
-      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
-      "status": "En cours",
-      "episodes": "2 saisons · 20 épisodes",
-      "nextEpisodeDate": "16 octobre 2026",
-      "platform": "Paramount Plus"
-    },
-    {
       "title": "Le Daily Show",
       "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
       "link": "https://www.themoviedb.org/tv/2224",
@@ -80,6 +70,16 @@
       "episodes": "31 saisons · 4288 épisodes",
       "nextEpisodeDate": "19 octobre 2026",
       "platform": null
+    },
+    {
+      "title": "Kamen Rider",
+      "image": "https://image.tmdb.org/t/p/w300/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "link": "https://www.themoviedb.org/tv/2661",
+      "synopsis": "Le monde est tourmenté par Shocker, une mystérieuse organisation terroriste, qui recrute ses agents en kidnappant des personnes qu'ils transforment en mutants c…",
+      "status": "En cours",
+      "episodes": "37 saisons · 1760 épisodes",
+      "nextEpisodeDate": "18 octobre 2026",
+      "platform": "Crunchyroll Amazon Channel"
     }
   ]
 }

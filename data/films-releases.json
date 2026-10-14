@@ -1,6 +1,15 @@
 {
-  "updatedAt": 1791951998890,
+  "updatedAt": 1791977649770,
   "items": [
+    {
+      "title": "Hope",
+      "image": "https://image.tmdb.org/t/p/w300/tGdFDoA9qyt0t6Qr9MFnOl8Z2Jz.jpg",
+      "link": "https://www.themoviedb.org/movie/1058424",
+      "synopsis": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissan…",
+      "releaseDate": "28 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
     {
       "title": "Infirmary",
       "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
@@ -16,15 +25,6 @@
       "link": "https://www.themoviedb.org/movie/1465063",
       "synopsis": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien …",
       "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Hope",
-      "image": "https://image.tmdb.org/t/p/w300/tGdFDoA9qyt0t6Qr9MFnOl8Z2Jz.jpg",
-      "link": "https://www.themoviedb.org/movie/1058424",
-      "synopsis": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissan…",
-      "releaseDate": "28 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
