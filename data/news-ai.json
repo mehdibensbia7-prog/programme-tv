@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1791930636367,
+  "updatedAt": 1791951998102,
   "items": [
+    {
+      "title": "9-1-1 : voici pourquoi vous ne verrez pas la suite de l'épisode de ce soir sur M6 ! Voici où regarder le fameux crossover avec Eddie et Buck",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227147.html",
+      "desc": "L'épisode 12 de la saison 9 de \"9-1-1\" est le premier volet d'un crossover avec le spin-off \"9-1-1 : Nashville\". Malheureusement, cet épisod",
+      "isAI": false
+    },
     {
       "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2313 du mercredi 14 octobre 2026 [SPOILERS]",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226720.html",
@@ -29,12 +35,6 @@
       "title": "Ce soir sur Netflix : 5 médecins, 20 ans d’amitié et une série coréenne qui fait autant rire que pleurer",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000219144.html",
       "desc": "Dans ce K-drama, les urgences, les opérations et les petits bonheurs du quotidien, cinq médecins prouvent que l’amitié peut être le meilleur",
-      "isAI": false
-    },
-    {
-      "title": "\"Le film nous a tous coulés\" : Martin Scorsese défendra pourtant jusqu'au bout ce chef-d'oeuvre maudit noté 4 sur 5",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226958.html",
-      "desc": "Chef-d'oeuvre absolu du cinéma, \"La Porte du Paradis\" a non seulement scellé le destin de son réalisateur, Michael Cimino, mais aussi entraî",
       "isAI": false
     }
   ]
