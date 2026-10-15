@@ -1,4 +1,41 @@
 {
-  "updatedAt": 1792042978424,
-  "items": []
+  "updatedAt": 1792062753803,
+  "items": [
+    {
+      "title": "Science-fiction : culte depuis 32 ans, cette saga dont le reboot avait été annulé aura finalement une suite !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227505.html",
+      "desc": "Contrairement à ce qui avait été annoncé il y a quelques mois, Prime Video aurait finalement décidé de ne pas annuler sa nouvelle série “Sta",
+      "isAI": false
+    },
+    {
+      "title": "\"Même à 86 ans\" : Ron Perlman est prêt à tout pour retrouver Hellboy dans un troisième film !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227489.html",
+      "desc": "Dans un entretien accordé à Deadline, Ron Perlman a renouvelé son intérêt pour reprendre le rôle de \"Hellboy\" sous la caméra de Guillermo De",
+      "isAI": false
+    },
+    {
+      "title": "Nicolas Cage de retour dans l'un de ses meilleurs rôles : on connaît la date de sortie de cette suite !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227492.html",
+      "desc": "Vingt-et-un ans après la sortie de \"Lord of War\", Nicolas Cage sera de retour au cinéma dans la peau du trafiquant d'armes Yuri Orlov, le te",
+      "isAI": false
+    },
+    {
+      "title": "Après Cat's Eyes, Camille Lou sera dans cette comédie avec Benoît Poelvoorde et on connaît la date de sortie !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227379.html",
+      "desc": "Après \"Cat's Eyes\" saison 2, où pourra-t-on voir Camille Lou ? L'actrice sera l'une des têtes d'affiche du long métrage \"Pourquoi pas nous?\"",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie : avez-vous remarqué cette incohérence autour du personnage d'Emma ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227502.html",
+      "desc": "Dans l'épisode de \"Plus belle la vie, encore plus belle\", diffusé ce jeudi, Emma se confie sur son passé compliqué à Chloé. Les scénaristes ",
+      "isAI": false
+    },
+    {
+      "title": "Tulsa King : l'un des \"personnages\" phares de la série poussé vers la sortie par Taylor Sheridan",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227493.html",
+      "desc": "Alors que la saison 4 débarque sur Paramount+, la série portée par Sylvester Stallone est déjà assurée de revenir pour une saison 5....avec ",
+      "isAI": false
+    }
+  ]
 }
