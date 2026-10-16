@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792123524210,
+  "updatedAt": 1792148851390,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -8,18 +8,8 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3226 épisodes",
-      "nextEpisodeDate": "15 octobre 2026",
+      "nextEpisodeDate": "18 octobre 2026",
       "platform": "Hayu Amazon Channel"
-    },
-    {
-      "title": "New York Unité Spéciale",
-      "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "link": "https://www.themoviedb.org/tv/2734",
-      "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
-      "status": "En cours",
-      "episodes": "28 saisons · 598 épisodes",
-      "nextEpisodeDate": "22 octobre 2026",
-      "platform": "Netflix"
     },
     {
       "title": "Les Simpson",
@@ -30,6 +20,16 @@
       "episodes": "38 saisons · 807 épisodes",
       "nextEpisodeDate": "18 octobre 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "New York Unité Spéciale",
+      "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "link": "https://www.themoviedb.org/tv/2734",
+      "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
+      "status": "En cours",
+      "episodes": "28 saisons · 598 épisodes",
+      "nextEpisodeDate": "22 octobre 2026",
+      "platform": "Netflix"
     },
     {
       "title": "New York Police Judiciaire",
@@ -78,7 +78,7 @@
       "synopsis": "La baie de Sète. Une violente explosion. Au milieu du chaos, une mère cherche son fils. Était-il sur l’un des bateaux qui se sont percutés ? Aurait-il participé…",
       "status": "En cours",
       "episodes": "3 saisons · 2315 épisodes",
-      "nextEpisodeDate": "15 octobre 2026",
+      "nextEpisodeDate": "16 octobre 2026",
       "platform": "TF1+"
     }
   ]
