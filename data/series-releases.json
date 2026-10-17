@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792183741499,
+  "updatedAt": 1792209362417,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -30,6 +30,16 @@
       "episodes": "38 saisons · 807 épisodes",
       "nextEpisodeDate": "18 octobre 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "Late Night with Seth Meyers",
+      "image": "https://image.tmdb.org/t/p/w300/u0ttHM5ZQCvnfL0lkueEgS4h2nI.jpg",
+      "link": "https://www.themoviedb.org/tv/61818",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "14 saisons · 1839 épisodes",
+      "nextEpisodeDate": "20 octobre 2026",
+      "platform": null
     },
     {
       "title": "New York Police Judiciaire",
@@ -70,16 +80,6 @@
       "episodes": "23 saisons · 466 épisodes",
       "nextEpisodeDate": "22 octobre 2026",
       "platform": "Disney Plus"
-    },
-    {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
-      "status": "En cours",
-      "episodes": "31 saisons · 4288 épisodes",
-      "nextEpisodeDate": "19 octobre 2026",
-      "platform": null
     }
   ]
 }
