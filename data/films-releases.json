@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792320331148,
+  "updatedAt": 1792338108297,
   "items": [
     {
       "title": "Hope",
@@ -29,20 +29,20 @@
       "category": "cinema"
     },
     {
-      "title": "Infirmary",
-      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
-      "link": "https://www.themoviedb.org/movie/1610703",
-      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
-      "releaseDate": "11 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Clayface",
       "image": "https://image.tmdb.org/t/p/w300/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
       "link": "https://www.themoviedb.org/movie/1400940",
       "synopsis": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atroceme…",
       "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Infirmary",
+      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
+      "link": "https://www.themoviedb.org/movie/1610703",
+      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
+      "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
