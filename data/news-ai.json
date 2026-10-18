@@ -1,4 +1,41 @@
 {
-  "updatedAt": 1792301755726,
-  "items": []
+  "updatedAt": 1792320330509,
+  "items": [
+    {
+      "title": "Ce soir en famille : noté 4 sur 5, ce film fantastique à la Miyazaki est parfait pour un dimanche soir avec les enfants",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000225412.html",
+      "desc": "Envie d'une belle aventure familiale inspirée du studio Ghibli ? Rendez-vous sur Disney+ avec ce film fantastique adapté pour les enfants dè",
+      "isAI": false
+    },
+    {
+      "title": "\"Les deux styles fonctionnent si bien ensemble\" : c'est le film préféré de Clint Eastwood et c'est l'un des plus grands chefs-d'œuvre de l'Histoire du cinéma !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227633.html",
+      "desc": "Quel est le film préféré de Clint Eastwood ? Contre toute attente, ce n’est pas un western ! La légende du cinéma américain a jeté son dévol",
+      "isAI": false
+    },
+    {
+      "title": "\"Un exploit\", \"juste excellent\" : noté 3,6 sur 5, c'est le meilleur film d'action de l'année 2019 et cette star de 54 ans assure 98% de ses cascades !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227167.html",
+      "desc": "Quel film d'action de l'année 2019 a été le mieux noté par les spectateurs AlloCiné ?  Son acteur principal enchaîne les combats à mains nue",
+      "isAI": false
+    },
+    {
+      "title": "Culte depuis 10 ans, cet épisode de The Walking Dead est encore considéré comme le meilleur de toute la série",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227948.html",
+      "desc": "Alexandria envahie, Carl grièvement blessé et Rick face à une horde : il y a 10 ans, “The Walking Dead” livrait un épisode aussi terrifiant ",
+      "isAI": false
+    },
+    {
+      "title": "Le film que l'Allemagne a mis 45 ans à oser réaliser : ce grand film de guerre est le vrai film définitif sur l'enfer de Stalingrad",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227569.html",
+      "desc": "Oubliez le film hollywoodien de 2001. En 1993, Joseph Vilsmaier livrait le chef-d'œuvre définitif sur l'enfer de la bataille de Stalingrad. ",
+      "isAI": false
+    },
+    {
+      "title": "\"J'ai omis de lui décrire la scène\" : Philippe Lacheau avait caché ce détail pour avoir cet acteur culte dans Marsupilami",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227129.html",
+      "desc": "Pour convaincre les plus grands acteurs de jouer dans un film, il faut parfois faire preuve d'ingéniosité. Philippe Lacheau a une méthode bi",
+      "isAI": false
+    }
+  ]
 }
