@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792413956375,
+  "updatedAt": 1792447931680,
   "items": [
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -10,6 +10,16 @@
       "episodes": "23 saisons · 3226 épisodes",
       "nextEpisodeDate": "19 octobre 2026",
       "platform": "Hayu Amazon Channel"
+    },
+    {
+      "title": "New York Unité Spéciale",
+      "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "link": "https://www.themoviedb.org/tv/2734",
+      "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
+      "status": "En cours",
+      "episodes": "28 saisons · 602 épisodes",
+      "nextEpisodeDate": "22 octobre 2026",
+      "platform": "Netflix"
     },
     {
       "title": "New York Police Judiciaire",
@@ -40,16 +50,6 @@
       "episodes": "1 saison · 826 épisodes",
       "nextEpisodeDate": "25 octobre 2026",
       "platform": "Kocowa"
-    },
-    {
-      "title": "New York Unité Spéciale",
-      "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "link": "https://www.themoviedb.org/tv/2734",
-      "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
-      "status": "En cours",
-      "episodes": "28 saisons · 602 épisodes",
-      "nextEpisodeDate": "22 octobre 2026",
-      "platform": "Netflix"
     },
     {
       "title": "Late Night with Seth Meyers",
