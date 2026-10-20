@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792470213721,
+  "updatedAt": 1792494972521,
   "items": [
     {
       "title": "Hope",
@@ -20,10 +20,10 @@
       "category": "streaming"
     },
     {
-      "title": "L'Île des Souvenirs",
-      "image": "https://image.tmdb.org/t/p/w300/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
-      "link": "https://www.themoviedb.org/movie/1465063",
-      "synopsis": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien …",
+      "title": "Klara et le Soleil",
+      "image": "https://image.tmdb.org/t/p/w300/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
+      "link": "https://www.themoviedb.org/movie/858035",
+      "synopsis": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux on…",
       "releaseDate": "21 octobre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
@@ -34,6 +34,24 @@
       "link": "https://www.themoviedb.org/movie/1400940",
       "synopsis": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atroceme…",
       "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "L'Île des Souvenirs",
+      "image": "https://image.tmdb.org/t/p/w300/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
+      "link": "https://www.themoviedb.org/movie/1465063",
+      "synopsis": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien …",
+      "releaseDate": "21 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "image": "https://image.tmdb.org/t/p/w300/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "link": "https://www.themoviedb.org/movie/891621",
+      "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu d…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -52,24 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1393326",
       "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
       "releaseDate": "31 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "The Good Boy",
-      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
-      "link": "https://www.themoviedb.org/movie/1381027",
-      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
-      "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Godzilla Minus Zero",
-      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
-      "link": "https://www.themoviedb.org/movie/1381071",
-      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
-      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
