@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792514458011,
+  "updatedAt": 1792531616331,
   "items": [
     {
       "title": "Hope",
@@ -7,6 +7,15 @@
       "link": "https://www.themoviedb.org/movie/1058424",
       "synopsis": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissan…",
       "releaseDate": "28 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "link": "https://www.themoviedb.org/movie/1381071",
+      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -52,15 +61,6 @@
       "link": "https://www.themoviedb.org/movie/891621",
       "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu d…",
       "releaseDate": "4 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Infirmary",
-      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
-      "link": "https://www.themoviedb.org/movie/1610703",
-      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
-      "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
