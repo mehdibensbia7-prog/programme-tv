@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792531616331,
+  "updatedAt": 1792556030724,
   "items": [
     {
       "title": "Hope",
@@ -29,33 +29,6 @@
       "category": "streaming"
     },
     {
-      "title": "Klara et le Soleil",
-      "image": "https://image.tmdb.org/t/p/w300/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
-      "link": "https://www.themoviedb.org/movie/858035",
-      "synopsis": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux on…",
-      "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Clayface",
-      "image": "https://image.tmdb.org/t/p/w300/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "link": "https://www.themoviedb.org/movie/1400940",
-      "synopsis": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atroceme…",
-      "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "L'Île des Souvenirs",
-      "image": "https://image.tmdb.org/t/p/w300/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
-      "link": "https://www.themoviedb.org/movie/1465063",
-      "synopsis": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien …",
-      "releaseDate": "21 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Wild Horse Nine",
       "image": "https://image.tmdb.org/t/p/w300/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
       "link": "https://www.themoviedb.org/movie/891621",
@@ -70,6 +43,33 @@
       "link": "https://www.themoviedb.org/movie/656908",
       "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
       "releaseDate": "6 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Infirmary",
+      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
+      "link": "https://www.themoviedb.org/movie/1610703",
+      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
+      "releaseDate": "11 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Ghost in the Cell",
+      "image": "https://image.tmdb.org/t/p/w300/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+      "link": "https://www.themoviedb.org/movie/1393326",
+      "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
+      "releaseDate": "31 octobre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Hunger Games: Lever de soleil sur la moisson",
+      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
+      "link": "https://www.themoviedb.org/movie/1300968",
+      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
+      "releaseDate": "18 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
