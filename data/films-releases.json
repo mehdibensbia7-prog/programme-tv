@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792729072770,
+  "updatedAt": 1792754501437,
   "items": [
     {
       "title": "Hope",
@@ -38,20 +38,20 @@
       "category": "cinema"
     },
     {
-      "title": "Wild Horse Nine",
-      "image": "https://image.tmdb.org/t/p/w300/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
-      "link": "https://www.themoviedb.org/movie/891621",
-      "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu d…",
-      "releaseDate": "4 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Infirmary",
       "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
       "link": "https://www.themoviedb.org/movie/1610703",
       "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
       "releaseDate": "11 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "image": "https://image.tmdb.org/t/p/w300/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "link": "https://www.themoviedb.org/movie/891621",
+      "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu d…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
