@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792856579161,
+  "updatedAt": 1792873933082,
   "items": [
     {
       "title": "Clayface",
@@ -37,10 +37,10 @@
       "isAI": false
     },
     {
-      "title": "Bad Apples",
-      "link": "https://www.themoviedb.org/movie/1198654",
-      "image": "https://image.tmdb.org/t/p/w300/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
-      "desc": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa cla...",
+      "title": "Street Fighter",
+      "link": "https://www.themoviedb.org/movie/1153576",
+      "image": "https://image.tmdb.org/t/p/w300/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "desc": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les rec...",
       "isAI": false
     }
   ]

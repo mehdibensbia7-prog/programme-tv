@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792856582390,
+  "updatedAt": 1792873935359,
   "items": [
     {
       "title": "Grey's Anatomy",
@@ -72,14 +72,14 @@
       "platform": null
     },
     {
-      "title": "VisionQuest",
-      "image": "https://image.tmdb.org/t/p/w300/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "link": "https://www.themoviedb.org/tv/213375",
-      "synopsis": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il …",
+      "title": "Doraemon",
+      "image": "https://image.tmdb.org/t/p/w300/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+      "link": "https://www.themoviedb.org/tv/65733",
+      "synopsis": "Les aventures du chat bleu.…",
       "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "27 octobre 2026",
-      "platform": "Disney Plus"
+      "episodes": "1 saison · 1464 épisodes",
+      "nextEpisodeDate": "24 octobre 2026",
+      "platform": null
     }
   ]
 }
