@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792901482356,
+  "updatedAt": 1792926353274,
   "items": [
     {
       "title": "Grey's Anatomy",
@@ -12,16 +12,6 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "South Park",
-      "image": "https://image.tmdb.org/t/p/w300/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
-      "link": "https://www.themoviedb.org/tv/2190",
-      "synopsis": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !…",
-      "status": "En cours",
-      "episodes": "29 saisons · 337 épisodes",
-      "nextEpisodeDate": "28 octobre 2026",
-      "platform": "Paramount Plus"
-    },
-    {
       "title": "New York Police Judiciaire",
       "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
       "link": "https://www.themoviedb.org/tv/549",
@@ -30,6 +20,16 @@
       "episodes": "26 saisons · 549 épisodes",
       "nextEpisodeDate": "29 octobre 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "South Park",
+      "image": "https://image.tmdb.org/t/p/w300/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
+      "link": "https://www.themoviedb.org/tv/2190",
+      "synopsis": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !…",
+      "status": "En cours",
+      "episodes": "29 saisons · 337 épisodes",
+      "nextEpisodeDate": "28 octobre 2026",
+      "platform": "Paramount Plus"
     },
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -72,14 +72,14 @@
       "platform": null
     },
     {
-      "title": "Doraemon",
-      "image": "https://image.tmdb.org/t/p/w300/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
-      "link": "https://www.themoviedb.org/tv/65733",
-      "synopsis": "Les aventures du chat bleu.…",
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
       "status": "En cours",
-      "episodes": "1 saison · 1464 épisodes",
-      "nextEpisodeDate": "24 octobre 2026",
-      "platform": null
+      "episodes": "38 saisons · 808 épisodes",
+      "nextEpisodeDate": "25 octobre 2026",
+      "platform": "Disney Plus"
     }
   ]
 }
