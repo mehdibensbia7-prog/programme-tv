@@ -1,13 +1,6 @@
 {
-  "updatedAt": 1792943658770,
+  "updatedAt": 1792960800310,
   "items": [
-    {
-      "title": "The Cycle",
-      "link": "https://www.themoviedb.org/movie/1290418",
-      "image": "https://image.tmdb.org/t/p/w300/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
-      "desc": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible....",
-      "isAI": false
-    },
     {
       "title": "Clayface",
       "link": "https://www.themoviedb.org/movie/1400940",
@@ -37,10 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Bad Apples",
-      "link": "https://www.themoviedb.org/movie/1198654",
-      "image": "https://image.tmdb.org/t/p/w300/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
-      "desc": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa cla...",
+      "title": "Avengers : Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
+      "isAI": false
+    },
+    {
+      "title": "Vaiana, la légende du bout du monde",
+      "link": "https://www.themoviedb.org/movie/1108427",
+      "image": "https://image.tmdb.org/t/p/w300/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
+      "desc": "Répondant à l'appel de l'océan, Vaiana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi...",
       "isAI": false
     }
   ]
