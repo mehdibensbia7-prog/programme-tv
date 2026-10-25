@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792926352254,
+  "updatedAt": 1792943659365,
   "items": [
     {
       "title": "Hope",
@@ -29,6 +29,15 @@
       "category": "cinema"
     },
     {
+      "title": "Ramayana : L'avènement d'une légende",
+      "image": "https://image.tmdb.org/t/p/w300/gOWnXaBxqT6k2y40hKfYU6c0Ym.jpg",
+      "link": "https://www.themoviedb.org/movie/656908",
+      "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
+      "releaseDate": "6 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Wild Horse Nine",
       "image": "https://image.tmdb.org/t/p/w300/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
       "link": "https://www.themoviedb.org/movie/891621",
@@ -38,11 +47,11 @@
       "category": "cinema"
     },
     {
-      "title": "Ramayana : L'avènement d'une légende",
-      "image": "https://image.tmdb.org/t/p/w300/gOWnXaBxqT6k2y40hKfYU6c0Ym.jpg",
-      "link": "https://www.themoviedb.org/movie/656908",
-      "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
-      "releaseDate": "6 novembre 2026",
+      "title": "Soldat fantôme",
+      "image": "https://image.tmdb.org/t/p/w300/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+      "link": "https://www.themoviedb.org/movie/1562642",
+      "synopsis": "Un ingénieur en systèmes d'armement et ancien béret vert protège ses voisins du Wyoming contre une multinationale impitoyable qui menace leur communauté rurale.…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -61,15 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1393326",
       "synopsis": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’effor…",
       "releaseDate": "31 octobre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
-      "link": "https://www.themoviedb.org/movie/1300968",
-      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
-      "releaseDate": "18 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
