@@ -1,17 +1,17 @@
 # Rapport de santé — Programme TV
 
 **Statut global : 🟠 SURVEILLANCE**
-Généré le 27 octobre 2026 à 13:04
+Généré le 27 octobre 2026 à 22:53
 
 11 OK · 1 avertissement(s) · 0 échec(s) · 0 auto-réparation(s)
 
 ## Détail
 
-- ⚠️ **data/news-ai.json** — Donnée périmée : dernière mise à jour il y a 164.4h (seuil : 8h).
-- ✅ **data/trends-ai.json** — 6 élément(s), mis à jour il y a 1.2h.
-- ✅ **data/videos.json** — 5 élément(s), mis à jour il y a 1.9h.
-- ✅ **data/films-releases.json** — 8 élément(s), mis à jour il y a 1.2h.
-- ✅ **data/series-releases.json** — 8 élément(s), mis à jour il y a 1.2h.
+- ⚠️ **data/news-ai.json** — Donnée périmée : dernière mise à jour il y a 174.2h (seuil : 8h).
+- ✅ **data/trends-ai.json** — 6 élément(s), mis à jour il y a 0.9h.
+- ✅ **data/videos.json** — 5 élément(s), mis à jour il y a 1.3h.
+- ✅ **data/films-releases.json** — 8 élément(s), mis à jour il y a 0.9h.
+- ✅ **data/series-releases.json** — 8 élément(s), mis à jour il y a 0.9h.
 - ✅ **Radio · France Info** — Flux joignable (HTTP 200).
 - ✅ **Radio · France Culture** — Flux joignable (HTTP 200).
 - ✅ **Radio · France Musique** — Flux joignable (HTTP 200).
