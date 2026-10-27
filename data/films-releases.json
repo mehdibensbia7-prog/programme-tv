@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793123399739,
+  "updatedAt": 1793138462856,
   "items": [
     {
       "title": "Hope",
@@ -29,15 +29,6 @@
       "category": "cinema"
     },
     {
-      "title": "Soldat fantôme",
-      "image": "https://image.tmdb.org/t/p/w300/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
-      "link": "https://www.themoviedb.org/movie/1562642",
-      "synopsis": "Un ingénieur en systèmes d'armement et ancien béret vert protège ses voisins du Wyoming contre une multinationale impitoyable qui menace leur communauté rurale.…",
-      "releaseDate": "4 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Ghost in the Cell",
       "image": "https://image.tmdb.org/t/p/w300/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
       "link": "https://www.themoviedb.org/movie/1393326",
@@ -47,8 +38,17 @@
       "category": "cinema"
     },
     {
+      "title": "Soldat fantôme",
+      "image": "https://image.tmdb.org/t/p/w300/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+      "link": "https://www.themoviedb.org/movie/1562642",
+      "synopsis": "Un ingénieur en systèmes d'armement et ancien béret vert protège ses voisins du Wyoming contre une multinationale impitoyable qui menace leur communauté rurale.…",
+      "releaseDate": "4 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Ramayana : L'avènement d'une légende",
-      "image": "https://image.tmdb.org/t/p/w300/f3yZZw7zIsWo6m9xJStfjDauIZX.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
       "link": "https://www.themoviedb.org/movie/656908",
       "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
       "releaseDate": "6 novembre 2026",
