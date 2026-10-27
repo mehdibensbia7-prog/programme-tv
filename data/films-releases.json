@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793075666368,
+  "updatedAt": 1793102103399,
   "items": [
     {
       "title": "Hope",
@@ -47,15 +47,6 @@
       "category": "cinema"
     },
     {
-      "title": "Ramayana : L'avènement d'une légende",
-      "image": "https://image.tmdb.org/t/p/w300/f3yZZw7zIsWo6m9xJStfjDauIZX.jpg",
-      "link": "https://www.themoviedb.org/movie/656908",
-      "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
-      "releaseDate": "6 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Wild Horse Nine",
       "image": "https://image.tmdb.org/t/p/w300/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
       "link": "https://www.themoviedb.org/movie/891621",
@@ -70,6 +61,15 @@
       "link": "https://www.themoviedb.org/movie/1610703",
       "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
       "releaseDate": "11 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Ramayana : L'avènement d'une légende",
+      "image": "https://image.tmdb.org/t/p/w300/f3yZZw7zIsWo6m9xJStfjDauIZX.jpg",
+      "link": "https://www.themoviedb.org/movie/656908",
+      "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
+      "releaseDate": "6 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

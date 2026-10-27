@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793075667375,
+  "updatedAt": 1793102104420,
   "items": [
     {
       "title": "Grey's Anatomy",
@@ -9,6 +9,16 @@
       "status": "En cours",
       "episodes": "23 saisons · 466 épisodes",
       "nextEpisodeDate": "29 octobre 2026",
+      "platform": "Disney Plus"
+    },
+    {
+      "title": "Les Simpson",
+      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "link": "https://www.themoviedb.org/tv/456",
+      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
+      "status": "En cours",
+      "episodes": "38 saisons · 816 épisodes",
+      "nextEpisodeDate": "1 novembre 2026",
       "platform": "Disney Plus"
     },
     {
@@ -22,23 +32,13 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "South Park",
-      "image": "https://image.tmdb.org/t/p/w300/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
-      "link": "https://www.themoviedb.org/tv/2190",
-      "synopsis": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !…",
-      "status": "En cours",
-      "episodes": "29 saisons · 337 épisodes",
-      "nextEpisodeDate": "28 octobre 2026",
-      "platform": "Paramount Plus"
-    },
-    {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
       "link": "https://www.themoviedb.org/tv/22980",
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3234 épisodes",
-      "nextEpisodeDate": "26 octobre 2026",
+      "nextEpisodeDate": "27 octobre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -50,6 +50,16 @@
       "episodes": "1 saison · 828 épisodes",
       "nextEpisodeDate": "1 novembre 2026",
       "platform": "Kocowa"
+    },
+    {
+      "title": "South Park",
+      "image": "https://image.tmdb.org/t/p/w300/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
+      "link": "https://www.themoviedb.org/tv/2190",
+      "synopsis": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !…",
+      "status": "En cours",
+      "episodes": "29 saisons · 337 épisodes",
+      "nextEpisodeDate": "28 octobre 2026",
+      "platform": "Paramount Plus"
     },
     {
       "title": "New York Unité Spéciale",
@@ -70,16 +80,6 @@
       "episodes": "14 saisons · 2433 épisodes",
       "nextEpisodeDate": "27 octobre 2026",
       "platform": null
-    },
-    {
-      "title": "Les Simpson",
-      "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "link": "https://www.themoviedb.org/tv/456",
-      "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
-      "status": "En cours",
-      "episodes": "38 saisons · 816 épisodes",
-      "nextEpisodeDate": "1 novembre 2026",
-      "platform": "Disney Plus"
     }
   ]
 }
