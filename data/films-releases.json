@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793251142805,
+  "updatedAt": 1793277757586,
   "items": [
     {
       "title": "Soldat fantôme",
@@ -7,6 +7,15 @@
       "link": "https://www.themoviedb.org/movie/1562642",
       "synopsis": "Un ingénieur en systèmes d'armement et ancien béret vert protège ses voisins du Wyoming contre une multinationale impitoyable qui menace leur communauté rurale.…",
       "releaseDate": "4 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Ramayana : L'avènement d'une légende",
+      "image": "https://image.tmdb.org/t/p/w300/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
+      "link": "https://www.themoviedb.org/movie/656908",
+      "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
+      "releaseDate": "6 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -34,15 +43,6 @@
       "link": "https://www.themoviedb.org/movie/891621",
       "synopsis": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu d…",
       "releaseDate": "4 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Ramayana : L'avènement d'une légende",
-      "image": "https://image.tmdb.org/t/p/w300/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
-      "link": "https://www.themoviedb.org/movie/656908",
-      "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
-      "releaseDate": "6 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
