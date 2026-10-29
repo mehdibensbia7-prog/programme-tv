@@ -1,6 +1,15 @@
 {
-  "updatedAt": 1793277757586,
+  "updatedAt": 1793313507699,
   "items": [
+    {
+      "title": "Hunger Games : Lever de soleil sur la moisson",
+      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
+      "link": "https://www.themoviedb.org/movie/1300968",
+      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
+      "releaseDate": "18 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
     {
       "title": "Soldat fantôme",
       "image": "https://image.tmdb.org/t/p/w300/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
@@ -16,15 +25,6 @@
       "link": "https://www.themoviedb.org/movie/656908",
       "synopsis": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'…",
       "releaseDate": "6 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
-      "link": "https://www.themoviedb.org/movie/1300968",
-      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
-      "releaseDate": "18 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -47,19 +47,19 @@
       "category": "cinema"
     },
     {
-      "title": "Infirmary",
-      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
-      "link": "https://www.themoviedb.org/movie/1610703",
-      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
+      "title": "Scrooge",
+      "image": "https://image.tmdb.org/t/p/w300/9RCnWkVOevfAVuSkYkQOg1k8QvO.jpg",
+      "link": "https://www.themoviedb.org/movie/1567605",
+      "synopsis": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'i…",
       "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
     {
-      "title": "Scrooge",
-      "image": "https://image.tmdb.org/t/p/w300/9RCnWkVOevfAVuSkYkQOg1k8QvO.jpg",
-      "link": "https://www.themoviedb.org/movie/1567605",
-      "synopsis": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'i…",
+      "title": "Infirmary",
+      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
+      "link": "https://www.themoviedb.org/movie/1610703",
+      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
       "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
