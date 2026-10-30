@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793337521855,
+  "updatedAt": 1793363660107,
   "items": [
     {
       "title": "Grey's Anatomy",
@@ -8,7 +8,7 @@
       "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
       "status": "En cours",
       "episodes": "23 saisons · 466 épisodes",
-      "nextEpisodeDate": "29 octobre 2026",
+      "nextEpisodeDate": "5 novembre 2026",
       "platform": "Disney Plus"
     },
     {
@@ -18,7 +18,7 @@
       "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
       "status": "En cours",
       "episodes": "28 saisons · 602 épisodes",
-      "nextEpisodeDate": "29 octobre 2026",
+      "nextEpisodeDate": "5 novembre 2026",
       "platform": "Netflix"
     },
     {
@@ -38,7 +38,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3234 épisodes",
-      "nextEpisodeDate": "29 octobre 2026",
+      "nextEpisodeDate": "1 novembre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -52,14 +52,14 @@
       "platform": "Kocowa"
     },
     {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
+      "title": "New York Police Judiciaire",
+      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
+      "link": "https://www.themoviedb.org/tv/549",
+      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
       "status": "En cours",
-      "episodes": "14 saisons · 2433 épisodes",
-      "nextEpisodeDate": "29 octobre 2026",
-      "platform": null
+      "episodes": "26 saisons · 549 épisodes",
+      "nextEpisodeDate": "5 novembre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "VisionQuest",
@@ -72,14 +72,14 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "New York Police Judiciaire",
-      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "link": "https://www.themoviedb.org/tv/549",
-      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
+      "title": "MobLand",
+      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
+      "link": "https://www.themoviedb.org/tv/247718",
+      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
       "status": "En cours",
-      "episodes": "26 saisons · 549 épisodes",
-      "nextEpisodeDate": "5 novembre 2026",
-      "platform": "Amazon Prime Video"
+      "episodes": "2 saisons · 20 épisodes",
+      "nextEpisodeDate": "30 octobre 2026",
+      "platform": "Paramount Plus"
     }
   ]
 }
