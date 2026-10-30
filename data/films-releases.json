@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793313507699,
+  "updatedAt": 1793337521082,
   "items": [
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
@@ -65,13 +65,13 @@
       "category": "cinema"
     },
     {
-      "title": "Si tu tends l'oreille",
-      "image": "https://image.tmdb.org/t/p/w300/y0MAMtcsKSCTq1WJbdsiBa5fckY.jpg",
-      "link": "https://www.themoviedb.org/movie/37797",
-      "synopsis": "Shizuku est une jeune collégienne de quatorze ans comme toutes les autres, mais elle est passionnée de littérature et elle écrit des chansons. C’est l’été à Tok…",
-      "releaseDate": "4 novembre 2026",
-      "platform": "Netflix",
-      "category": "streaming"
+      "title": "Le Sabre des gardiens",
+      "image": "https://image.tmdb.org/t/p/w300/ki0ilBYgbOZKUuE1NN53FYWK9zQ.jpg",
+      "link": "https://www.themoviedb.org/movie/1305781",
+      "synopsis": "Dao Ma, le « deuxième fugitif le plus recherché », se voit confier par son bienfaiteur, le chef du clan Mo, une mystérieuse mission d'escorte : accompagner le «…",
+      "releaseDate": "25 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
     }
   ]
 }
