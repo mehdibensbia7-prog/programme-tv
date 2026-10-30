@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1793363660107,
+  "updatedAt": 1793398067323,
   "items": [
-    {
-      "title": "Grey's Anatomy",
-      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "link": "https://www.themoviedb.org/tv/1416",
-      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
-      "status": "En cours",
-      "episodes": "23 saisons · 466 épisodes",
-      "nextEpisodeDate": "5 novembre 2026",
-      "platform": "Disney Plus"
-    },
     {
       "title": "New York Unité Spéciale",
       "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
@@ -32,6 +22,46 @@
       "platform": "Disney Plus"
     },
     {
+      "title": "Grey's Anatomy",
+      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "link": "https://www.themoviedb.org/tv/1416",
+      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
+      "status": "En cours",
+      "episodes": "23 saisons · 466 épisodes",
+      "nextEpisodeDate": "5 novembre 2026",
+      "platform": "Disney Plus"
+    },
+    {
+      "title": "WWE NXT",
+      "image": "https://image.tmdb.org/t/p/w300/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "link": "https://www.themoviedb.org/tv/31991",
+      "synopsis": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE ave…",
+      "status": "En cours",
+      "episodes": "20 saisons · 905 épisodes",
+      "nextEpisodeDate": "4 novembre 2026",
+      "platform": "Netflix"
+    },
+    {
+      "title": "Diepe Waters",
+      "image": "https://image.tmdb.org/t/p/w300/uF5SpFjMmYTMF0sc5MbjnDsoBcG.jpg",
+      "link": "https://www.themoviedb.org/tv/231962",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "5 saisons · 869 épisodes",
+      "nextEpisodeDate": "2 novembre 2026",
+      "platform": null
+    },
+    {
+      "title": "WWE Raw",
+      "image": "https://image.tmdb.org/t/p/w300/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "link": "https://www.themoviedb.org/tv/4656",
+      "synopsis": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à t…",
+      "status": "En cours",
+      "episodes": "34 saisons · 1756 épisodes",
+      "nextEpisodeDate": "2 novembre 2026",
+      "platform": "Netflix"
+    },
+    {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
       "link": "https://www.themoviedb.org/tv/22980",
@@ -50,36 +80,6 @@
       "episodes": "1 saison · 828 épisodes",
       "nextEpisodeDate": "1 novembre 2026",
       "platform": "Kocowa"
-    },
-    {
-      "title": "New York Police Judiciaire",
-      "image": "https://image.tmdb.org/t/p/w300/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "link": "https://www.themoviedb.org/tv/549",
-      "synopsis": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.…",
-      "status": "En cours",
-      "episodes": "26 saisons · 549 épisodes",
-      "nextEpisodeDate": "5 novembre 2026",
-      "platform": "Amazon Prime Video"
-    },
-    {
-      "title": "VisionQuest",
-      "image": "https://image.tmdb.org/t/p/w300/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "link": "https://www.themoviedb.org/tv/213375",
-      "synopsis": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il …",
-      "status": "En cours",
-      "episodes": "1 saison · 8 épisodes",
-      "nextEpisodeDate": "3 novembre 2026",
-      "platform": "Disney Plus"
-    },
-    {
-      "title": "MobLand",
-      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
-      "link": "https://www.themoviedb.org/tv/247718",
-      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
-      "status": "En cours",
-      "episodes": "2 saisons · 20 épisodes",
-      "nextEpisodeDate": "30 octobre 2026",
-      "platform": "Paramount Plus"
     }
   ]
 }
