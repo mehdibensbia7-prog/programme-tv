@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793597384769,
+  "updatedAt": 1793632947447,
   "items": [
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
@@ -7,6 +7,15 @@
       "link": "https://www.themoviedb.org/movie/1300968",
       "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
       "releaseDate": "18 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "link": "https://www.themoviedb.org/movie/1381071",
+      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
+      "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -24,15 +33,6 @@
       "image": "https://image.tmdb.org/t/p/w300/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
       "link": "https://www.themoviedb.org/movie/1562642",
       "synopsis": "Un ingénieur en systèmes d'armement et ancien béret vert protège ses voisins du Wyoming contre une multinationale impitoyable qui menace leur communauté rurale.…",
-      "releaseDate": "4 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Godzilla Minus Zero",
-      "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
-      "link": "https://www.themoviedb.org/movie/1381071",
-      "synopsis": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symptômes de stress post…",
       "releaseDate": "4 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
