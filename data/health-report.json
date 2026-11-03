@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-02T22:14:15.985Z",
-  "globalStatus": "🟠 SURVEILLANCE",
+  "generatedAt": "2026-11-03T07:44:01.243Z",
+  "globalStatus": "🟢 SAIN",
   "summary": {
-    "ok": 11,
-    "warn": 1,
+    "ok": 12,
+    "warn": 0,
     "fail": 0,
     "repaired": 0
   },
@@ -22,8 +22,8 @@
     },
     {
       "check": "data/videos.json",
-      "status": "warn",
-      "detail": "Donnée périmée : dernière mise à jour il y a 8.2h (seuil : 8h).",
+      "status": "ok",
+      "detail": "5 élément(s), mis à jour il y a 7.6h.",
       "repaired": false
     },
     {
