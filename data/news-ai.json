@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1793747132961,
+  "updatedAt": 1793771290652,
   "items": [
+    {
+      "title": "Il avait pourtant annoncé sa retraite : le nouveau film d'action de Liam Neeson est disponible aujourd'hui sur Prime Video",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230342.html",
+      "desc": "Un nouveau film d’action mettant en scène Liam Neeson vient d’arriver sur Prime Video. Dans quelle situation dangereuse retrouve-t-on cette ",
+      "isAI": false
+    },
+    {
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 708 du jeudi 5 novembre 2026 [SPOILERS]",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230316.html",
+      "desc": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"..., Morgane est placée en garde à vue, et le comportement de Laura interr",
+      "isAI": false
+    },
+    {
+      "title": "Les Disparus des Argonnes sur France 2 : pourquoi le tournage a été \"très particulier\" pour Mehdi Nebbou (HPI) ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000229621.html",
+      "desc": "Ce soir, France 2 diffuse les premiers épisodes de sa nouvelle série événement : Les Disparus des Argonnes. Un projet qui marque la première",
+      "isAI": false
+    },
     {
       "title": "L'ours sur 6ter : il y a 38 ans, le tournage de ce film d'aventure culte a bien failli coûter la vie à Jean-Jacques Annaud",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000210366.html",
@@ -17,24 +35,6 @@
       "title": "Quiz Cinéma : si tu aimes les biopics, tu dois faire 7/7 !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230393.html",
       "desc": "Ce soir, France 2 diffuse le biopic \"The Apprentice\", décrivant l'ascension de Donald Trump durant les années 70-80. Le cinéma nous a offert",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1560 du mercredi 4 novembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000229970.html",
-      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... Face à Hector, Anouk lève le voile sur son passé... Grâce à Oriane, Arno tire les ficelles",
-      "isAI": false
-    },
-    {
-      "title": "Ce soir sur Netflix : une inconnue lui propose d’avouer un meurtre à sa place, mais le prix à payer pourrait être terrible dans cette série coréenne impossible à lâcher",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000219161.html",
-      "desc": "Voilà un K-drama qui nous plonge dans un dangereux jeu de manipulation lorsqu’une femme accusée du meurtre de son mari reçoit une propositio",
-      "isAI": false
-    },
-    {
-      "title": "Ce soir sur Netflix : ni Dumb and Dumber, ni The Mask... Cette comédie avec Jim Carrey est un peu oubliée mais elle est irrésistible !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000228012.html",
-      "desc": "Envie d'une comédie légère et feel-good pour illuminer votre soirée ? Sortie en 2008, ce long-métrage porté à l'écran par un Jim Carrey part",
       "isAI": false
     }
   ]
