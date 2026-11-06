@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793944864589,
+  "updatedAt": 1793992200991,
   "items": [
     {
       "title": "You Can See Everything",
@@ -56,19 +56,19 @@
       "category": "cinema"
     },
     {
-      "title": "The Good Boy",
-      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
-      "link": "https://www.themoviedb.org/movie/1381027",
-      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
-      "releaseDate": "11 novembre 2026",
+      "title": "Mon beau-père, ma belle-fille et moi",
+      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
+      "link": "https://www.themoviedb.org/movie/1400336",
+      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
+      "releaseDate": "25 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
     {
-      "title": "Infirmary",
-      "image": "https://image.tmdb.org/t/p/w300/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
-      "link": "https://www.themoviedb.org/movie/1610703",
-      "synopsis": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui con…",
+      "title": "The Good Boy",
+      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
+      "link": "https://www.themoviedb.org/movie/1381027",
+      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
       "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793944865320,
+  "updatedAt": 1793992202198,
   "items": [
     {
       "title": "New York Unité Spéciale",
@@ -38,7 +38,7 @@
       "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
       "status": "En cours",
       "episodes": "23 saisons · 466 épisodes",
-      "nextEpisodeDate": "5 novembre 2026",
+      "nextEpisodeDate": "12 novembre 2026",
       "platform": "Disney Plus"
     },
     {
@@ -52,16 +52,6 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Diepe Waters",
-      "image": "https://image.tmdb.org/t/p/w300/uF5SpFjMmYTMF0sc5MbjnDsoBcG.jpg",
-      "link": "https://www.themoviedb.org/tv/231962",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "5 saisons · 869 épisodes",
-      "nextEpisodeDate": "9 novembre 2026",
-      "platform": null
-    },
-    {
       "title": "Running Man",
       "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
       "link": "https://www.themoviedb.org/tv/33238",
@@ -72,14 +62,24 @@
       "platform": "Kocowa"
     },
     {
-      "title": "WWE Raw",
-      "image": "https://image.tmdb.org/t/p/w300/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
-      "link": "https://www.themoviedb.org/tv/4656",
-      "synopsis": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à t…",
+      "title": "Le Tonight Show",
+      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
+      "link": "https://www.themoviedb.org/tv/59941",
+      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
-      "episodes": "34 saisons · 1756 épisodes",
-      "nextEpisodeDate": "9 novembre 2026",
-      "platform": "Netflix"
+      "episodes": "14 saisons · 2433 épisodes",
+      "nextEpisodeDate": "6 novembre 2026",
+      "platform": null
+    },
+    {
+      "title": "MobLand",
+      "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
+      "link": "https://www.themoviedb.org/tv/247718",
+      "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
+      "status": "En cours",
+      "episodes": "2 saisons · 20 épisodes",
+      "nextEpisodeDate": "6 novembre 2026",
+      "platform": "Paramount Plus"
     }
   ]
 }

@@ -1,18 +1,11 @@
 {
-  "updatedAt": 1793944863345,
+  "updatedAt": 1793992200184,
   "items": [
     {
       "title": "Resident Evil",
       "link": "https://www.themoviedb.org/movie/1423191",
       "image": "https://image.tmdb.org/t/p/w300/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
       "desc": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa surv...",
-      "isAI": false
-    },
-    {
-      "title": "Heart of the Beast",
-      "link": "https://www.themoviedb.org/movie/1263337",
-      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "desc": "Après un terrible écrasement d'avion, James Belmont, ancien des forces spéciales, se retrouve perdu au coeur de l'Alaska avec son chien Odin...",
       "isAI": false
     },
     {
@@ -23,6 +16,20 @@
       "isAI": false
     },
     {
+      "title": "Apocalypse Z : Nouveau Monde",
+      "link": "https://www.themoviedb.org/movie/1507696",
+      "image": "https://image.tmdb.org/t/p/w300/hQaxPNX2He3K8bupE0JSX48XNY8.jpg",
+      "desc": "Depuis l'apparition du virus TSJ, les îles Canaries sont devenues le dernier refuge en Europe. Alors qu'une unité part chercher du ravitaill...",
+      "isAI": false
+    },
+    {
+      "title": "Le Chat Chapeauté",
+      "link": "https://www.themoviedb.org/movie/1117898",
+      "image": "https://image.tmdb.org/t/p/w300/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
+      "desc": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nou...",
+      "isAI": false
+    },
+    {
       "title": "Godzilla Minus Zero",
       "link": "https://www.themoviedb.org/movie/1381071",
       "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
@@ -30,17 +37,10 @@
       "isAI": false
     },
     {
-      "title": "The Mongoose",
-      "link": "https://www.themoviedb.org/movie/1294189",
-      "image": "https://image.tmdb.org/t/p/w300/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "desc": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumati...",
-      "isAI": false
-    },
-    {
-      "title": "Ramayana : L'avènement d'une légende",
-      "link": "https://www.themoviedb.org/movie/656908",
-      "image": "https://image.tmdb.org/t/p/w300/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
-      "desc": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendai...",
+      "title": "Hunger Games : Lever de soleil sur la moisson",
+      "link": "https://www.themoviedb.org/movie/1300968",
+      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
+      "desc": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Qu...",
       "isAI": false
     }
   ]
