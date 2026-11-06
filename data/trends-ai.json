@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793907980007,
+  "updatedAt": 1793944863345,
   "items": [
     {
       "title": "Resident Evil",
@@ -9,17 +9,10 @@
       "isAI": false
     },
     {
-      "title": "Verity",
-      "link": "https://www.themoviedb.org/movie/1283515",
-      "image": "https://image.tmdb.org/t/p/w300/1ob7dZ1rvAgHOpVJGjJ2voibOp.jpg",
-      "desc": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen A...",
-      "isAI": false
-    },
-    {
-      "title": "Wildwood : La prophétie de la forêt",
-      "link": "https://www.themoviedb.org/movie/791523",
-      "image": "https://image.tmdb.org/t/p/w300/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
-      "desc": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures ench...",
+      "title": "Heart of the Beast",
+      "link": "https://www.themoviedb.org/movie/1263337",
+      "image": "https://image.tmdb.org/t/p/w300/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
+      "desc": "Après un terrible écrasement d'avion, James Belmont, ancien des forces spéciales, se retrouve perdu au coeur de l'Alaska avec son chien Odin...",
       "isAI": false
     },
     {
@@ -30,17 +23,24 @@
       "isAI": false
     },
     {
-      "title": "Apocalypse Z : Nouveau Monde",
-      "link": "https://www.themoviedb.org/movie/1507696",
-      "image": "https://image.tmdb.org/t/p/w300/hQaxPNX2He3K8bupE0JSX48XNY8.jpg",
-      "desc": "Depuis l'apparition du virus TSJ, les îles Canaries sont devenues le dernier refuge en Europe. Alors qu'une unité part chercher du ravitaill...",
-      "isAI": false
-    },
-    {
       "title": "Godzilla Minus Zero",
       "link": "https://www.themoviedb.org/movie/1381071",
       "image": "https://image.tmdb.org/t/p/w300/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
       "desc": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symp...",
+      "isAI": false
+    },
+    {
+      "title": "The Mongoose",
+      "link": "https://www.themoviedb.org/movie/1294189",
+      "image": "https://image.tmdb.org/t/p/w300/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "desc": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumati...",
+      "isAI": false
+    },
+    {
+      "title": "Ramayana : L'avènement d'une légende",
+      "link": "https://www.themoviedb.org/movie/656908",
+      "image": "https://image.tmdb.org/t/p/w300/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
+      "desc": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendai...",
       "isAI": false
     }
   ]
