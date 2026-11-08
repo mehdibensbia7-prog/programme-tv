@@ -1,6 +1,12 @@
 {
-  "updatedAt": 1794116088842,
+  "updatedAt": 1794143121721,
   "items": [
+    {
+      "title": "145 millions de dollars : avant La La Land, Ryan Gosling et Emma Stone brillaient dans ce film culte qui quitte Netflix !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231056.html",
+      "desc": "Quinze ans après sa sortie, cette comédie romantique portée par Ryan Gosling, Steve Carell et Emma Stone n'a pas pris une ride. Vite, les ab",
+      "isAI": false
+    },
     {
       "title": "\"Ce film est balèze\" : Éric Judor est un grand fan de cette comédie culte depuis 47 ans et notée 4 sur 5",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230790.html",
@@ -29,12 +35,6 @@
       "title": "Cette mini-série à la Stephen King et Squid Game s'est classée dans le top 5 directement, et elle pourrait avoir une saison 2 !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230866.html",
       "desc": "Avec son mélange explosif de survie à la \"Squid Game\" et d'horreur à la Stephen King, cette mini-série sud-coréenne a conquis les abonnés de",
-      "isAI": false
-    },
-    {
-      "title": "52 secondes pour 250 000 dollars : voici la scène la plus chère de toute l’Histoire de The Office !",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231236.html",
-      "desc": "Une station-service, quatre voies et de la pluie artificielle : il en a fallu, du travail, pour que la demande en mariage de Jim à Pam ait l",
       "isAI": false
     }
   ]
