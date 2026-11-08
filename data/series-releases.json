@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794143124487,
+  "updatedAt": 1794174807286,
   "items": [
     {
       "title": "New York Unité Spéciale",
@@ -32,16 +32,6 @@
       "platform": "Netflix"
     },
     {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "23 saisons · 3234 épisodes",
-      "nextEpisodeDate": "8 novembre 2026",
-      "platform": "Hayu Amazon Channel"
-    },
-    {
       "title": "Running Man",
       "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
       "link": "https://www.themoviedb.org/tv/33238",
@@ -50,6 +40,16 @@
       "episodes": "1 saison · 828 épisodes",
       "nextEpisodeDate": "8 novembre 2026",
       "platform": "Kocowa"
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "23 saisons · 3234 épisodes",
+      "nextEpisodeDate": "8 novembre 2026",
+      "platform": "Hayu Amazon Channel"
     },
     {
       "title": "MobLand",
@@ -67,7 +67,7 @@
       "link": "https://www.themoviedb.org/tv/1416",
       "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
       "status": "En cours",
-      "episodes": "23 saisons · 466 épisodes",
+      "episodes": "23 saisons · 467 épisodes",
       "nextEpisodeDate": "12 novembre 2026",
       "platform": "Disney Plus"
     },
