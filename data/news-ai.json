@@ -1,6 +1,24 @@
 {
-  "updatedAt": 1794174805395,
+  "updatedAt": 1794203062267,
   "items": [
+    {
+      "title": "Novembre avec Jean Dujardin, Anaïs Demoustier et Lyna Khoudri : leurs personnages ont-ils vraiment existé ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231024.html",
+      "desc": "Novembre, diffusé sur France 2, met en scène ses acteurs dans la peau d'enquêteurs et de témoins clés. Mais ces visages correspondent-ils à ",
+      "isAI": false
+    },
+    {
+      "title": "\"Je ne pouvais pas faire ça\" : il y a 38 ans, Jackie Chan a refusé de jouer face à Michael Douglas dans ce thriller culte des années 80 signé Ridley Scott",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231105.html",
+      "desc": "Black Rain est un polar noir qui mérite largement le détour, mis en scène par l'immense Ridley Scott en 1989. Saviez-vous que Jackie Chan au",
+      "isAI": false
+    },
+    {
+      "title": "The Office : cette scène culte de 52 secondes est la plus chère des 9 saisons",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231236.html",
+      "desc": "Une station-service, quatre voies et de la pluie artificielle : il en a fallu, du travail, pour que la demande en mariage de Jim à Pam ait l",
+      "isAI": false
+    },
     {
       "title": "Largo Winch 3 sur TF1 : Tomer Sisley a-t-il assuré lui-même ses cascades sur le tournage \"le plus éprouvant de la saga\" ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231018.html",
@@ -17,24 +35,6 @@
       "title": "\"C'était très doux et très simple\" : Jean Dujardin revient sur cette expérience hors du commun avec l'une des plus grandes légendes du cinéma",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230862.html",
       "desc": "En 2013, Jean Dujardin tournait aux côtés de Leonardo DiCaprio sous la direction de Martin Scorsese dans “Le Loup de Wall Street”. Treize an",
-      "isAI": false
-    },
-    {
-      "title": "C'est l'une des scènes les plus célèbres de Pulp Fiction : son trucage était pourtant d'une simplicité absolue",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231237.html",
-      "desc": "Dans “Pulp Fiction”, Vincent Vega plante une seringue dans la poitrine de Mia Wallace. Mais sur le plateau, John Travolta a fait exactement ",
-      "isAI": false
-    },
-    {
-      "title": "\"Je le vois encore\" : 15 ans après son dernier rôle, que devient Jack Nicholson ? Michael Douglas donne de ses nouvelles",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000230548.html",
-      "desc": "Jack Nicholson, 89 ans, n'a plus tourné au cinéma depuis 15 longues années. Le comédien aspire désormais à une vie loin des projecteurs. Son",
-      "isAI": false
-    },
-    {
-      "title": "Ce soir entre amis : plongez dans le multivers avec le film d'action le plus impressionnant de ces dernières années",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231073.html",
-      "desc": "Couronné de 7 Oscars, \"Everything Everywhere All at Once\" est un vertigineux ovni SF. Porté par Michelle Yeoh, Ke Huy Quan et Jamie Lee Curt",
       "isAI": false
     }
   ]
