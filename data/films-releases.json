@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794239380270,
+  "updatedAt": 1794273776906,
   "items": [
     {
       "title": "You Can See Everything",
@@ -47,20 +47,20 @@
       "category": "cinema"
     },
     {
-      "title": "Mon beau-père, ma belle-fille et moi",
-      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
-      "link": "https://www.themoviedb.org/movie/1400336",
-      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
-      "releaseDate": "25 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Comment braquer une banque",
       "image": "https://image.tmdb.org/t/p/w300/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
       "link": "https://www.themoviedb.org/movie/1437511",
       "synopsis": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure …",
       "releaseDate": "11 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Mon beau-père, ma belle-fille et moi",
+      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
+      "link": "https://www.themoviedb.org/movie/1400336",
+      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
+      "releaseDate": "25 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
