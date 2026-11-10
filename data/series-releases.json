@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794321602852,
+  "updatedAt": 1794351824842,
   "items": [
     {
       "title": "New York Unité Spéciale",
@@ -22,16 +22,6 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 828 épisodes",
-      "nextEpisodeDate": "15 novembre 2026",
-      "platform": "Kocowa"
-    },
-    {
       "title": "Watch What Happens Live with Andy Cohen",
       "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
       "link": "https://www.themoviedb.org/tv/22980",
@@ -40,6 +30,16 @@
       "episodes": "23 saisons · 3234 épisodes",
       "nextEpisodeDate": "10 novembre 2026",
       "platform": "Hayu Amazon Channel"
+    },
+    {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 828 épisodes",
+      "nextEpisodeDate": "15 novembre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "WWE NXT",
