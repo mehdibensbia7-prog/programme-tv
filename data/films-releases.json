@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794273776906,
+  "updatedAt": 1794321601805,
   "items": [
     {
       "title": "You Can See Everything",
@@ -7,15 +7,6 @@
       "link": "https://www.themoviedb.org/movie/1765072",
       "synopsis": "Aucun synopsis disponible.",
       "releaseDate": "1 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
-      "link": "https://www.themoviedb.org/movie/1300968",
-      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
-      "releaseDate": "18 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -29,6 +20,15 @@
       "category": "cinema"
     },
     {
+      "title": "Hunger Games : Lever de soleil sur la moisson",
+      "image": "https://image.tmdb.org/t/p/w300/7w6v7FHdTbxuKqAPiMqKxEq8hro.jpg",
+      "link": "https://www.themoviedb.org/movie/1300968",
+      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
+      "releaseDate": "18 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Ojczyzna",
       "image": "https://image.tmdb.org/t/p/w300/z8qlHO94lYIsZ7EKS4FVe6TwsGo.jpg",
       "link": "https://www.themoviedb.org/movie/1437696",
@@ -38,20 +38,20 @@
       "category": "cinema"
     },
     {
+      "title": "Comment braquer une banque",
+      "image": "https://image.tmdb.org/t/p/w300/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
+      "link": "https://www.themoviedb.org/movie/1437511",
+      "synopsis": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure …",
+      "releaseDate": "10 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Le Sabre des gardiens",
       "image": "https://image.tmdb.org/t/p/w300/ki0ilBYgbOZKUuE1NN53FYWK9zQ.jpg",
       "link": "https://www.themoviedb.org/movie/1305781",
       "synopsis": "Dao Ma, le « deuxième fugitif le plus recherché », se voit confier par son bienfaiteur, le chef du clan Mo, une mystérieuse mission d'escorte : accompagner le «…",
       "releaseDate": "25 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Comment braquer une banque",
-      "image": "https://image.tmdb.org/t/p/w300/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
-      "link": "https://www.themoviedb.org/movie/1437511",
-      "synopsis": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure …",
-      "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },

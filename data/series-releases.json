@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794273778118,
+  "updatedAt": 1794321602852,
   "items": [
     {
       "title": "New York Unité Spéciale",
@@ -22,16 +22,6 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "WWE NXT",
-      "image": "https://image.tmdb.org/t/p/w300/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "link": "https://www.themoviedb.org/tv/31991",
-      "synopsis": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE ave…",
-      "status": "En cours",
-      "episodes": "20 saisons · 905 épisodes",
-      "nextEpisodeDate": "10 novembre 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "Running Man",
       "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
       "link": "https://www.themoviedb.org/tv/33238",
@@ -52,6 +42,16 @@
       "platform": "Hayu Amazon Channel"
     },
     {
+      "title": "WWE NXT",
+      "image": "https://image.tmdb.org/t/p/w300/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "link": "https://www.themoviedb.org/tv/31991",
+      "synopsis": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE ave…",
+      "status": "En cours",
+      "episodes": "20 saisons · 905 épisodes",
+      "nextEpisodeDate": "10 novembre 2026",
+      "platform": "Netflix"
+    },
+    {
       "title": "MobLand",
       "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "link": "https://www.themoviedb.org/tv/247718",
@@ -67,7 +67,7 @@
       "link": "https://www.themoviedb.org/tv/59941",
       "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
       "status": "En cours",
-      "episodes": "14 saisons · 2433 épisodes",
+      "episodes": "14 saisons · 2441 épisodes",
       "nextEpisodeDate": "10 novembre 2026",
       "platform": null
     },
