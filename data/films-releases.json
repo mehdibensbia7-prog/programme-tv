@@ -1,21 +1,21 @@
 {
-  "updatedAt": 1794351823409,
+  "updatedAt": 1794375705889,
   "items": [
+    {
+      "title": "Wildwood : La prophétie de la forêt",
+      "image": "https://image.tmdb.org/t/p/w300/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
+      "link": "https://www.themoviedb.org/movie/791523",
+      "synopsis": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés ina…",
+      "releaseDate": "9 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
     {
       "title": "You Can See Everything",
       "image": "https://image.tmdb.org/t/p/w300/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
       "link": "https://www.themoviedb.org/movie/1765072",
       "synopsis": "Aucun synopsis disponible.",
       "releaseDate": "1 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Scrooge",
-      "image": "https://image.tmdb.org/t/p/w300/9RCnWkVOevfAVuSkYkQOg1k8QvO.jpg",
-      "link": "https://www.themoviedb.org/movie/1567605",
-      "synopsis": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'i…",
-      "releaseDate": "11 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -38,15 +38,6 @@
       "category": "cinema"
     },
     {
-      "title": "Comment braquer une banque",
-      "image": "https://image.tmdb.org/t/p/w300/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
-      "link": "https://www.themoviedb.org/movie/1437511",
-      "synopsis": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure …",
-      "releaseDate": "10 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Mon beau-père, ma belle-fille et moi",
       "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
       "link": "https://www.themoviedb.org/movie/1400336",
@@ -65,11 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "The Good Boy",
-      "image": "https://image.tmdb.org/t/p/w300/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
-      "link": "https://www.themoviedb.org/movie/1381027",
-      "synopsis": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une m…",
-      "releaseDate": "11 novembre 2026",
+      "title": "Hot Spot",
+      "image": "https://image.tmdb.org/t/p/w300/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
+      "link": "https://www.themoviedb.org/movie/813418",
+      "synopsis": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.…",
+      "releaseDate": "9 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Paper Tiger",
+      "image": "https://image.tmdb.org/t/p/w300/vlWqitWiT34gGVRNMyPnHmCA7q8.jpg",
+      "link": "https://www.themoviedb.org/movie/1381273",
+      "synopsis": "New York, Queens, 1986. Deux frères que tout oppose s’unissent pour une affaire douteuse liée à la mafia russe. Mais ce qui devait être une opportunité devient …",
+      "releaseDate": "25 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
