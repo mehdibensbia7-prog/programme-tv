@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794375706262,
+  "updatedAt": 1794405331309,
   "items": [
     {
       "title": "New York Unité Spéciale",
@@ -28,7 +28,7 @@
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
       "episodes": "23 saisons · 3234 épisodes",
-      "nextEpisodeDate": "10 novembre 2026",
+      "nextEpisodeDate": "11 novembre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -42,16 +42,6 @@
       "platform": "Kocowa"
     },
     {
-      "title": "WWE NXT",
-      "image": "https://image.tmdb.org/t/p/w300/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "link": "https://www.themoviedb.org/tv/31991",
-      "synopsis": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE ave…",
-      "status": "En cours",
-      "episodes": "20 saisons · 905 épisodes",
-      "nextEpisodeDate": "17 novembre 2026",
-      "platform": "Netflix"
-    },
-    {
       "title": "MobLand",
       "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "link": "https://www.themoviedb.org/tv/247718",
@@ -60,6 +50,16 @@
       "episodes": "2 saisons · 20 épisodes",
       "nextEpisodeDate": "13 novembre 2026",
       "platform": "Paramount Plus"
+    },
+    {
+      "title": "WWE NXT",
+      "image": "https://image.tmdb.org/t/p/w300/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "link": "https://www.themoviedb.org/tv/31991",
+      "synopsis": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE ave…",
+      "status": "En cours",
+      "episodes": "20 saisons · 905 épisodes",
+      "nextEpisodeDate": "17 novembre 2026",
+      "platform": "Netflix"
     },
     {
       "title": "Le Tonight Show",
