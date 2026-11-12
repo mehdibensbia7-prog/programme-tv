@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794443011536,
+  "updatedAt": 1794495408910,
   "items": [
     {
       "title": "New York Unité Spéciale",
@@ -27,8 +27,8 @@
       "link": "https://www.themoviedb.org/tv/22980",
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "23 saisons · 3234 épisodes",
-      "nextEpisodeDate": "11 novembre 2026",
+      "episodes": "24 saisons · 3246 épisodes",
+      "nextEpisodeDate": "12 novembre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -62,24 +62,24 @@
       "platform": "Netflix"
     },
     {
-      "title": "Le Tonight Show",
-      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "link": "https://www.themoviedb.org/tv/59941",
-      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
+      "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
+      "image": "https://image.tmdb.org/t/p/w300/8aiJ6pr5ibhHMWe3yOEZQsdkFox.jpg",
+      "link": "https://www.themoviedb.org/tv/84773",
+      "synopsis": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestue…",
       "status": "En cours",
-      "episodes": "14 saisons · 2441 épisodes",
-      "nextEpisodeDate": "11 novembre 2026",
-      "platform": null
+      "episodes": "3 saisons · 24 épisodes",
+      "nextEpisodeDate": "18 novembre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
-      "title": "Grey's Anatomy",
-      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "link": "https://www.themoviedb.org/tv/1416",
-      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
       "status": "En cours",
-      "episodes": "23 saisons · 467 épisodes",
+      "episodes": "31 saisons · 4292 épisodes",
       "nextEpisodeDate": "12 novembre 2026",
-      "platform": "Disney Plus"
+      "platform": null
     }
   ]
 }
