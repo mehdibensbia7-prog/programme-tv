@@ -1,13 +1,6 @@
 {
-  "updatedAt": 1794495406326,
+  "updatedAt": 1794525942609,
   "items": [
-    {
-      "title": "Model Citizen",
-      "link": "https://www.themoviedb.org/movie/1792170",
-      "image": "https://image.tmdb.org/t/p/w300/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
-      "desc": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition pa...",
-      "isAI": false
-    },
     {
       "title": "L'Odyssée",
       "link": "https://www.themoviedb.org/movie/1368337",
@@ -16,10 +9,24 @@
       "isAI": false
     },
     {
+      "title": "Avengers : Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
+      "isAI": false
+    },
+    {
       "title": "Heart of the Beast",
       "link": "https://www.themoviedb.org/movie/1263337",
       "image": "https://image.tmdb.org/t/p/w300/4t1ASmI2IQEAoO8hirEGQ6nMEib.jpg",
       "desc": "Après un terrible crash d'avion, James Belmont, ancien des forces spéciales, se retrouve perdu au cœur de l'Alaska avec son chien Odin, depu...",
+      "isAI": false
+    },
+    {
+      "title": "Model Citizen",
+      "link": "https://www.themoviedb.org/movie/1792170",
+      "image": "https://image.tmdb.org/t/p/w300/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+      "desc": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition pa...",
       "isAI": false
     },
     {
@@ -34,13 +41,6 @@
       "link": "https://www.themoviedb.org/movie/1400837",
       "image": "https://image.tmdb.org/t/p/w300/a6AztQlJvKy2tEOc10M7WXIF5gX.jpg",
       "desc": "Une jeune fille, Bela, développe dans son foyer une relation avec une entité troublante qui ressemble étrangement à sa mère. Son « autre mam...",
-      "isAI": false
-    },
-    {
-      "title": "Godzilla Minus Zero",
-      "link": "https://www.themoviedb.org/movie/1381071",
-      "image": "https://image.tmdb.org/t/p/w300/cZrs6whBv4JpPxsNJ2ZefhgUUEF.jpg",
-      "desc": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symp...",
       "isAI": false
     }
   ]
