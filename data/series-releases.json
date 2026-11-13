@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1794549895752,
+  "updatedAt": 1794598046652,
   "items": [
-    {
-      "title": "New York Unité Spéciale",
-      "image": "https://image.tmdb.org/t/p/w300/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "link": "https://www.themoviedb.org/tv/2734",
-      "synopsis": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature s…",
-      "status": "En cours",
-      "episodes": "28 saisons · 602 épisodes",
-      "nextEpisodeDate": "3 décembre 2026",
-      "platform": "Netflix"
-    },
     {
       "title": "Les Simpson",
       "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
@@ -30,6 +20,16 @@
       "episodes": "3 saisons · 24 épisodes",
       "nextEpisodeDate": "18 novembre 2026",
       "platform": "Amazon Prime Video"
+    },
+    {
+      "title": "The Voice (États-Unis)",
+      "image": "https://image.tmdb.org/t/p/w300/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "link": "https://www.themoviedb.org/tv/37678",
+      "synopsis": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format inno…",
+      "status": "En cours",
+      "episodes": "30 saisons · 708 épisodes",
+      "nextEpisodeDate": "16 novembre 2026",
+      "platform": "TF1+"
     },
     {
       "title": "Watch What Happens Live with Andy Cohen",
@@ -72,14 +72,14 @@
       "platform": "Netflix"
     },
     {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "title": "Grey's Anatomy",
+      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "link": "https://www.themoviedb.org/tv/1416",
+      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
       "status": "En cours",
-      "episodes": "31 saisons · 4292 épisodes",
-      "nextEpisodeDate": "16 novembre 2026",
-      "platform": null
+      "episodes": "23 saisons · 467 épisodes",
+      "nextEpisodeDate": "19 novembre 2026",
+      "platform": "Disney Plus"
     }
   ]
 }
