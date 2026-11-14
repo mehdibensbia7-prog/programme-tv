@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794635531968,
+  "updatedAt": 1794662273402,
   "items": [
     {
       "title": "L'Odyssée",
@@ -9,10 +9,10 @@
       "isAI": false
     },
     {
-      "title": "Avengers : Doomsday",
-      "link": "https://www.themoviedb.org/movie/1003596",
-      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
-      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
+      "title": "Model Citizen",
+      "link": "https://www.themoviedb.org/movie/1792170",
+      "image": "https://image.tmdb.org/t/p/w300/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+      "desc": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition pa...",
       "isAI": false
     },
     {
@@ -23,6 +23,13 @@
       "isAI": false
     },
     {
+      "title": "Scrooge",
+      "link": "https://www.themoviedb.org/movie/1567605",
+      "image": "https://image.tmdb.org/t/p/w300/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
+      "desc": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonhe...",
+      "isAI": false
+    },
+    {
       "title": "Heart of the Beast",
       "link": "https://www.themoviedb.org/movie/1263337",
       "image": "https://image.tmdb.org/t/p/w300/4t1ASmI2IQEAoO8hirEGQ6nMEib.jpg",
@@ -30,17 +37,10 @@
       "isAI": false
     },
     {
-      "title": "Resident Evil",
-      "link": "https://www.themoviedb.org/movie/1423191",
-      "image": "https://image.tmdb.org/t/p/w300/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
-      "desc": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa surv...",
-      "isAI": false
-    },
-    {
-      "title": "Model Citizen",
-      "link": "https://www.themoviedb.org/movie/1792170",
-      "image": "https://image.tmdb.org/t/p/w300/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
-      "desc": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition pa...",
+      "title": "Never Surrender",
+      "link": "https://www.themoviedb.org/movie/1616687",
+      "image": "https://image.tmdb.org/t/p/w300/nkE9esa0p8vBmY38jQasmVVRqoc.jpg",
+      "desc": "Quand un gang meurtrier prend d'assaut sa maison isolée, un vétéran rongé par le remords et ses petits-enfants qu'il connaît à peine unissen...",
       "isAI": false
     }
   ]

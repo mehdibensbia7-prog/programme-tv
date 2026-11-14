@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794635533138,
+  "updatedAt": 1794662276231,
   "items": [
     {
       "title": "Les Simpson",
@@ -42,16 +42,6 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 828 épisodes",
-      "nextEpisodeDate": "15 novembre 2026",
-      "platform": "Kocowa"
-    },
-    {
       "title": "MobLand",
       "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "link": "https://www.themoviedb.org/tv/247718",
@@ -62,14 +52,14 @@
       "platform": "Paramount Plus"
     },
     {
-      "title": "WWE NXT",
-      "image": "https://image.tmdb.org/t/p/w300/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "link": "https://www.themoviedb.org/tv/31991",
-      "synopsis": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE ave…",
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
       "status": "En cours",
-      "episodes": "20 saisons · 905 épisodes",
-      "nextEpisodeDate": "17 novembre 2026",
-      "platform": "Netflix"
+      "episodes": "1 saison · 828 épisodes",
+      "nextEpisodeDate": "15 novembre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "Grey's Anatomy",
@@ -80,6 +70,16 @@
       "episodes": "23 saisons · 467 épisodes",
       "nextEpisodeDate": "19 novembre 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "Le Daily Show",
+      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "link": "https://www.themoviedb.org/tv/2224",
+      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
+      "status": "En cours",
+      "episodes": "31 saisons · 4292 épisodes",
+      "nextEpisodeDate": "16 novembre 2026",
+      "platform": null
     }
   ]
 }
