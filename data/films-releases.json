@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794598045331,
+  "updatedAt": 1794635532674,
   "items": [
     {
       "title": "Wildwood : La prophétie de la forêt",
@@ -11,20 +11,20 @@
       "category": "cinema"
     },
     {
-      "title": "You Can See Everything",
-      "image": "https://image.tmdb.org/t/p/w300/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
-      "link": "https://www.themoviedb.org/movie/1765072",
-      "synopsis": "Aucun synopsis disponible.",
-      "releaseDate": "1 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Hunger Games : Lever de soleil sur la moisson",
       "image": "https://image.tmdb.org/t/p/w300/6lwqxIhsKsiz6PM4tzzScn3ok1d.jpg",
       "link": "https://www.themoviedb.org/movie/1300968",
       "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
       "releaseDate": "18 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "You Can See Everything",
+      "image": "https://image.tmdb.org/t/p/w300/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
+      "link": "https://www.themoviedb.org/movie/1765072",
+      "synopsis": "Aucun synopsis disponible.",
+      "releaseDate": "1 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
+      "title": "Paper Tiger",
+      "image": "https://image.tmdb.org/t/p/w300/vlWqitWiT34gGVRNMyPnHmCA7q8.jpg",
+      "link": "https://www.themoviedb.org/movie/1381273",
+      "synopsis": "New York, Queens, 1986. Deux frères que tout oppose s’unissent pour une affaire douteuse liée à la mafia russe. Mais ce qui devait être une opportunité devient …",
+      "releaseDate": "25 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
       "title": "Hot Spot",
       "image": "https://image.tmdb.org/t/p/w300/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
       "link": "https://www.themoviedb.org/movie/813418",
       "synopsis": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.…",
       "releaseDate": "9 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Les Braves (Coward)",
-      "image": "https://image.tmdb.org/t/p/w300/qy5ytiCeyR9uW5HsLDOFaOQ8yEr.jpg",
-      "link": "https://www.themoviedb.org/movie/1437981",
-      "synopsis": "Le jeune soldat Pierre veut faire ses preuves sur le front pendant la Première Guerre mondiale. Derrière les lignes, il rencontre Francis, chargé de remonter le…",
-      "releaseDate": "18 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
