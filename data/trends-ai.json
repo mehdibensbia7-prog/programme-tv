@@ -1,18 +1,11 @@
 {
-  "updatedAt": 1794662273402,
+  "updatedAt": 1794694296848,
   "items": [
     {
       "title": "L'Odyssée",
       "link": "https://www.themoviedb.org/movie/1368337",
       "image": "https://image.tmdb.org/t/p/w300/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
       "desc": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Médite...",
-      "isAI": false
-    },
-    {
-      "title": "Model Citizen",
-      "link": "https://www.themoviedb.org/movie/1792170",
-      "image": "https://image.tmdb.org/t/p/w300/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
-      "desc": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition pa...",
       "isAI": false
     },
     {
@@ -23,10 +16,10 @@
       "isAI": false
     },
     {
-      "title": "Scrooge",
-      "link": "https://www.themoviedb.org/movie/1567605",
-      "image": "https://image.tmdb.org/t/p/w300/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
-      "desc": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonhe...",
+      "title": "Avengers : Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
       "isAI": false
     },
     {
@@ -37,10 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Never Surrender",
-      "link": "https://www.themoviedb.org/movie/1616687",
-      "image": "https://image.tmdb.org/t/p/w300/nkE9esa0p8vBmY38jQasmVVRqoc.jpg",
-      "desc": "Quand un gang meurtrier prend d'assaut sa maison isolée, un vétéran rongé par le remords et ses petits-enfants qu'il connaît à peine unissen...",
+      "title": "Resident Evil",
+      "link": "https://www.themoviedb.org/movie/1423191",
+      "image": "https://image.tmdb.org/t/p/w300/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
+      "desc": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa surv...",
+      "isAI": false
+    },
+    {
+      "title": "The Beast",
+      "link": "https://www.themoviedb.org/movie/1185344",
+      "image": "https://image.tmdb.org/t/p/w300/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "desc": "Lorsqu'une milice coordonne un coup d'État contre les États-Unis, le président découvre l'étendue des capacités offensives de la Bête, la li...",
       "isAI": false
     }
   ]
