@@ -1,6 +1,30 @@
 {
-  "updatedAt": 1794694296743,
+  "updatedAt": 1794722010622,
   "items": [
+    {
+      "title": "X-Files : seulement 4 acteurs ont suffi pour créer l'un des meilleurs épisodes de cette série fantastique culte",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232372.html",
+      "desc": "Un manoir hanté, deux fantômes et un réveillon qui ne se passe pas tout à fait comme prévu : avec seulement quatre comédiens à l’écran, “X-F",
+      "isAI": false
+    },
+    {
+      "title": "Babylon : Margot Robbie \"ne comprend toujours pas\" pourquoi le film avec Brad Pitt a été un gigantesque flop",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231950.html",
+      "desc": "Margot Robbie a encore du mal à digérer l’échec commercial de Babylon. L’actrice, qui croyait fermement au projet de Damien Chazelle, ne com",
+      "isAI": false
+    },
+    {
+      "title": "François Civil + Gilles Lellouche + Pierre Niney : le casting des Douze Travaux d'Astérix que réalisera Jonathan Cohen s'avère très prometteur !",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232143.html",
+      "desc": "Surprise ! François Civil aurait été choisi pour succéder à Guillaume Canet dans le rôle d'Astérix ! L'acteur donnerait la réplique à Gilles",
+      "isAI": false
+    },
+    {
+      "title": "Deux des plus grosses stars Marvel de retour dans Avengers Doomsday ? L’info qui sème le doute",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232149.html",
+      "desc": "Deadpool et Wolverine prêteront-ils main forte aux Avengers face à Doctor Doom dans \"Doomsday\" en décembre ? Un nouvel indice pointe dans ce",
+      "isAI": false
+    },
     {
       "title": "16 ans après, ce mystère du premier épisode de The Walking Dead aurait dû avoir sa propre réponse",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232371.html",
@@ -11,30 +35,6 @@
       "title": "Ce soir sur Netflix : Benjamin Lavernhe est parfait dans l'une des meilleures comédies de ces dernières années injustement boudée par le public",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232173.html",
       "desc": "Gros plan sur l'excellente comédie \"Le Discours\", emmenée par un Benjamin Lavernhe au sommet de son art. Une franche réussite disponible sur",
-      "isAI": false
-    },
-    {
-      "title": "Aujourd'hui, elle est mondialement célèbre... Avez-vous reconnu cette jeune actrice française dans son tout premier rôle il y a plus de vingt ans ?",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232028.html",
-      "desc": "Aujourd'hui mondialement connue, Léa Seydoux a débuté sa carrière à l'écran en 2006 dans la comédie adolescente \"Mes copines\". Focus.",
-      "isAI": false
-    },
-    {
-      "title": "Noté 4,3 sur 5, ce chef-d'oeuvre est le meilleur film avec Denzel Washington dans les années 90",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232129.html",
-      "desc": "Noté 4,3 sur 5 par les spectateurs d'AlloCiné, ce film reste le sommet de Denzel Washington dans les années 90. Retour sur un drame judiciai",
-      "isAI": false
-    },
-    {
-      "title": "\"On se regarde sur le téléphone comme des idiots\" : cette star française évoque ses relations avec Christian Clavier, son partenaire sur 7 films",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000232270.html",
-      "desc": "Sept films et plus de trente ans de complicité : Jean Reno et Christian Clavier partagent une relation particulière. Invité sur France 2, l’",
-      "isAI": false
-    },
-    {
-      "title": "Cette série de gangsters en 63 épisodes disponible sur Netflix est officiellement la meilleure nouvelle série à regarder en rafale",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000231996.html",
-      "desc": "Disponible sur Netflix avec ses 63 épisodes, cette série culte a tout pour vous tenir en haleine pendant de longues heures. Portée par Omari",
       "isAI": false
     }
   ]
