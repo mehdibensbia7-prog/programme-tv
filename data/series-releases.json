@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794930440306,
+  "updatedAt": 1794963009267,
   "items": [
     {
       "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
@@ -12,6 +12,16 @@
       "platform": "Amazon Prime Video"
     },
     {
+      "title": "The Voice (États-Unis)",
+      "image": "https://image.tmdb.org/t/p/w300/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "link": "https://www.themoviedb.org/tv/37678",
+      "synopsis": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format inno…",
+      "status": "En cours",
+      "episodes": "30 saisons · 710 épisodes",
+      "nextEpisodeDate": "23 novembre 2026",
+      "platform": "TF1+"
+    },
+    {
       "title": "Les Simpson",
       "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
       "link": "https://www.themoviedb.org/tv/456",
@@ -20,16 +30,6 @@
       "episodes": "38 saisons · 816 épisodes",
       "nextEpisodeDate": "22 novembre 2026",
       "platform": "Disney Plus"
-    },
-    {
-      "title": "The Voice (États-Unis)",
-      "image": "https://image.tmdb.org/t/p/w300/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
-      "link": "https://www.themoviedb.org/tv/37678",
-      "synopsis": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format inno…",
-      "status": "En cours",
-      "episodes": "30 saisons · 709 épisodes",
-      "nextEpisodeDate": "23 novembre 2026",
-      "platform": "TF1+"
     },
     {
       "title": "Grey's Anatomy",
@@ -72,12 +72,12 @@
       "platform": "Kocowa"
     },
     {
-      "title": "Binnelanders",
-      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
-      "link": "https://www.themoviedb.org/tv/206559",
+      "title": "Goede Tijden, Slechte Tijden",
+      "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
+      "link": "https://www.themoviedb.org/tv/11890",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "22 saisons · 5243 épisodes",
+      "episodes": "37 saisons · 7475 épisodes",
       "nextEpisodeDate": "17 novembre 2026",
       "platform": null
     }
