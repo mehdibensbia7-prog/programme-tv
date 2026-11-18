@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794963008073,
+  "updatedAt": 1795015653749,
   "items": [
     {
       "title": "L'Odyssée",
@@ -37,10 +37,10 @@
       "isAI": false
     },
     {
-      "title": "Scrooge",
-      "link": "https://www.themoviedb.org/movie/1567605",
-      "image": "https://image.tmdb.org/t/p/w300/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
-      "desc": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonhe...",
+      "title": "Madden",
+      "link": "https://www.themoviedb.org/movie/1131943",
+      "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "desc": "Inspiré de la vie d'une icône américaine adorée de tous, Madden retrace le parcours incroyable de John Madden aux côtés de son meilleur ami ...",
       "isAI": false
     }
   ]

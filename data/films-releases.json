@@ -1,12 +1,21 @@
 {
-  "updatedAt": 1794963008475,
+  "updatedAt": 1795015654069,
   "items": [
     {
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "image": "https://image.tmdb.org/t/p/w300/6lwqxIhsKsiz6PM4tzzScn3ok1d.jpg",
-      "link": "https://www.themoviedb.org/movie/1300968",
-      "synopsis": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus …",
-      "releaseDate": "18 novembre 2026",
+      "title": "Avengers : Doomsday",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "synopsis": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouvent sur une trajectoi…",
+      "releaseDate": "16 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "La bola negra",
+      "image": "https://image.tmdb.org/t/p/w300/ttsFxxHKwCHrtAGJt58rpNqHdFw.jpg",
+      "link": "https://www.themoviedb.org/movie/1422041",
+      "synopsis": "Espagne 1932, 1937, 2017. Trois hommes. Trois époques. Un même fil invisible de désir, de douleur et d'héritage. LA BOLA NEGRA traverse le temps pour révéler ce…",
+      "releaseDate": "16 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -25,6 +34,15 @@
       "link": "https://www.themoviedb.org/movie/1765072",
       "synopsis": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, fondatrice tristement célèbre de la Silicon Valley, invite une équipe de tournage — d’abord scept…",
       "releaseDate": "1 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Dune : Troisième partie",
+      "image": "https://image.tmdb.org/t/p/w300/zfI58QKzav88liXLsk0lvFSMCdr.jpg",
+      "link": "https://www.themoviedb.org/movie/1170608",
+      "synopsis": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'échelle de la galaxie m…",
+      "releaseDate": "15 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -52,24 +70,6 @@
       "link": "https://www.themoviedb.org/movie/1305781",
       "synopsis": "Dao Ma, le « deuxième fugitif le plus recherché », se voit confier par son bienfaiteur, le chef du clan Mo, une mystérieuse mission d'escorte : accompagner le «…",
       "releaseDate": "25 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Paper Tiger",
-      "image": "https://image.tmdb.org/t/p/w300/vlWqitWiT34gGVRNMyPnHmCA7q8.jpg",
-      "link": "https://www.themoviedb.org/movie/1381273",
-      "synopsis": "New York, Queens, 1986. Deux frères que tout oppose s’unissent pour une affaire douteuse liée à la mafia russe. Mais ce qui devait être une opportunité devient …",
-      "releaseDate": "25 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Hot Spot",
-      "image": "https://image.tmdb.org/t/p/w300/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
-      "link": "https://www.themoviedb.org/movie/813418",
-      "synopsis": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.…",
-      "releaseDate": "9 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

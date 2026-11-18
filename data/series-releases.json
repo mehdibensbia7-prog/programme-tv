@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794963009267,
+  "updatedAt": 1795015655299,
   "items": [
     {
       "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
@@ -47,8 +47,8 @@
       "link": "https://www.themoviedb.org/tv/22980",
       "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
       "status": "En cours",
-      "episodes": "24 saisons · 3246 épisodes",
-      "nextEpisodeDate": "17 novembre 2026",
+      "episodes": "24 saisons · 3250 épisodes",
+      "nextEpisodeDate": "18 novembre 2026",
       "platform": "Hayu Amazon Channel"
     },
     {
@@ -62,6 +62,16 @@
       "platform": "Paramount Plus"
     },
     {
+      "title": "Le Tonight Show",
+      "image": "https://image.tmdb.org/t/p/w300/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
+      "link": "https://www.themoviedb.org/tv/59941",
+      "synopsis": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.…",
+      "status": "En cours",
+      "episodes": "14 saisons · 2441 épisodes",
+      "nextEpisodeDate": null,
+      "platform": null
+    },
+    {
       "title": "Running Man",
       "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
       "link": "https://www.themoviedb.org/tv/33238",
@@ -70,16 +80,6 @@
       "episodes": "1 saison · 831 épisodes",
       "nextEpisodeDate": "22 novembre 2026",
       "platform": "Kocowa"
-    },
-    {
-      "title": "Goede Tijden, Slechte Tijden",
-      "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
-      "link": "https://www.themoviedb.org/tv/11890",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "37 saisons · 7475 épisodes",
-      "nextEpisodeDate": "17 novembre 2026",
-      "platform": null
     }
   ]
 }
