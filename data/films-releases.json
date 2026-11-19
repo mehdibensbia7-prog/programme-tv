@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795046871749,
+  "updatedAt": 1795102385560,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -47,11 +47,11 @@
       "category": "cinema"
     },
     {
-      "title": "Dune : Troisième partie",
-      "image": "https://image.tmdb.org/t/p/w300/zfI58QKzav88liXLsk0lvFSMCdr.jpg",
-      "link": "https://www.themoviedb.org/movie/1170608",
-      "synopsis": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'échelle de la galaxie m…",
-      "releaseDate": "15 décembre 2026",
+      "title": "Billie, à la croisée des mondes",
+      "image": "https://image.tmdb.org/t/p/w300/oifSgkd0jb7ycHUld3IKRVCvmyZ.jpg",
+      "link": "https://www.themoviedb.org/movie/1538497",
+      "synopsis": "Une adolescente maladroite et sa mère supra-organisée découvrent que ce qui la rend unique pourrait bien provenir de pouvoirs magiques capables non seulement de…",
+      "releaseDate": "25 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -65,10 +65,10 @@
       "category": "cinema"
     },
     {
-      "title": "Billie, à la croisée des mondes",
-      "image": "https://image.tmdb.org/t/p/w300/oifSgkd0jb7ycHUld3IKRVCvmyZ.jpg",
-      "link": "https://www.themoviedb.org/movie/1538497",
-      "synopsis": "Une adolescente maladroite et sa mère supra-organisée découvrent que ce qui la rend unique pourrait bien provenir de pouvoirs magiques capables non seulement de…",
+      "title": "Mon beau-père, ma belle-fille et moi",
+      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
+      "link": "https://www.themoviedb.org/movie/1400336",
+      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
       "releaseDate": "25 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
