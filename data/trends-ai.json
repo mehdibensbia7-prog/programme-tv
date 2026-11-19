@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795015653749,
+  "updatedAt": 1795046870975,
   "items": [
     {
       "title": "L'Odyssée",
@@ -9,24 +9,10 @@
       "isAI": false
     },
     {
-      "title": "Hunger Games : Lever de soleil sur la moisson",
-      "link": "https://www.themoviedb.org/movie/1300968",
-      "image": "https://image.tmdb.org/t/p/w300/6lwqxIhsKsiz6PM4tzzScn3ok1d.jpg",
-      "desc": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Qu...",
-      "isAI": false
-    },
-    {
-      "title": "Avengers : Doomsday",
-      "link": "https://www.themoviedb.org/movie/1003596",
-      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
-      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
-      "isAI": false
-    },
-    {
-      "title": "Malfaisante",
-      "link": "https://www.themoviedb.org/movie/1400837",
-      "image": "https://image.tmdb.org/t/p/w300/a6AztQlJvKy2tEOc10M7WXIF5gX.jpg",
-      "desc": "Une jeune fille, Bela, développe dans son foyer une relation avec une entité troublante qui ressemble étrangement à sa mère. Son « autre mam...",
+      "title": "Madden",
+      "link": "https://www.themoviedb.org/movie/1131943",
+      "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "desc": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à...",
       "isAI": false
     },
     {
@@ -37,10 +23,24 @@
       "isAI": false
     },
     {
-      "title": "Madden",
-      "link": "https://www.themoviedb.org/movie/1131943",
-      "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
-      "desc": "Inspiré de la vie d'une icône américaine adorée de tous, Madden retrace le parcours incroyable de John Madden aux côtés de son meilleur ami ...",
+      "title": "Avengers : Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
+      "isAI": false
+    },
+    {
+      "title": "Hunger Games : Lever de soleil sur la moisson",
+      "link": "https://www.themoviedb.org/movie/1300968",
+      "image": "https://image.tmdb.org/t/p/w300/6lwqxIhsKsiz6PM4tzzScn3ok1d.jpg",
+      "desc": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Qu...",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man : Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
       "isAI": false
     }
   ]
