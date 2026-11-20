@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795102384495,
+  "updatedAt": 1795134589299,
   "items": [
     {
       "title": "L'Odyssée",
@@ -30,17 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Spider-Man : Brand New Day",
-      "link": "https://www.themoviedb.org/movie/969681",
-      "image": "https://image.tmdb.org/t/p/w300/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
+      "title": "Protection (très) rapprochée",
+      "link": "https://www.themoviedb.org/movie/1551025",
+      "image": "https://image.tmdb.org/t/p/w300/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "desc": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour e...",
       "isAI": false
     },
     {
-      "title": "Malfaisante",
-      "link": "https://www.themoviedb.org/movie/1400837",
-      "image": "https://image.tmdb.org/t/p/w300/a6AztQlJvKy2tEOc10M7WXIF5gX.jpg",
-      "desc": "Une jeune fille, Bela, développe dans son foyer une relation avec une entité troublante qui ressemble étrangement à sa mère. Son « autre mam...",
+      "title": "Godzilla Minus Zero",
+      "link": "https://www.themoviedb.org/movie/1381071",
+      "image": "https://image.tmdb.org/t/p/w300/cZrs6whBv4JpPxsNJ2ZefhgUUEF.jpg",
+      "desc": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symp...",
       "isAI": false
     }
   ]

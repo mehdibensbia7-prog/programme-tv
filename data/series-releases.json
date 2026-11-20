@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795102386172,
+  "updatedAt": 1795134591898,
   "items": [
     {
       "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
@@ -72,12 +72,12 @@
       "platform": "Kocowa"
     },
     {
-      "title": "Binnelanders",
-      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
-      "link": "https://www.themoviedb.org/tv/206559",
+      "title": "Diepe Waters",
+      "image": "https://image.tmdb.org/t/p/w300/uF5SpFjMmYTMF0sc5MbjnDsoBcG.jpg",
+      "link": "https://www.themoviedb.org/tv/231962",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "22 saisons · 5243 épisodes",
+      "episodes": "5 saisons · 869 épisodes",
       "nextEpisodeDate": "19 novembre 2026",
       "platform": null
     }
