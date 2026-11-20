@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795134590293,
+  "updatedAt": 1795187521343,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "Ojczyzna",
-      "image": "https://image.tmdb.org/t/p/w300/z8qlHO94lYIsZ7EKS4FVe6TwsGo.jpg",
-      "link": "https://www.themoviedb.org/movie/1437696",
-      "synopsis": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika…",
-      "releaseDate": "2 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Mon beau-père, ma belle-fille et moi",
       "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
       "link": "https://www.themoviedb.org/movie/1400336",
       "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
       "releaseDate": "25 novembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Ojczyzna",
+      "image": "https://image.tmdb.org/t/p/w300/z8qlHO94lYIsZ7EKS4FVe6TwsGo.jpg",
+      "link": "https://www.themoviedb.org/movie/1437696",
+      "synopsis": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika…",
+      "releaseDate": "2 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

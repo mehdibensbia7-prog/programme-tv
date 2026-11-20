@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795134591898,
+  "updatedAt": 1795187522889,
   "items": [
     {
       "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
@@ -32,26 +32,6 @@
       "platform": "Disney Plus"
     },
     {
-      "title": "Grey's Anatomy",
-      "image": "https://image.tmdb.org/t/p/w300/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "link": "https://www.themoviedb.org/tv/1416",
-      "synopsis": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'…",
-      "status": "En cours",
-      "episodes": "23 saisons · 467 épisodes",
-      "nextEpisodeDate": "19 novembre 2026",
-      "platform": "Disney Plus"
-    },
-    {
-      "title": "Watch What Happens Live with Andy Cohen",
-      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
-      "link": "https://www.themoviedb.org/tv/22980",
-      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
-      "status": "En cours",
-      "episodes": "24 saisons · 3250 épisodes",
-      "nextEpisodeDate": "19 novembre 2026",
-      "platform": "Hayu Amazon Channel"
-    },
-    {
       "title": "MobLand",
       "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "link": "https://www.themoviedb.org/tv/247718",
@@ -78,7 +58,27 @@
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
       "episodes": "5 saisons · 869 épisodes",
-      "nextEpisodeDate": "19 novembre 2026",
+      "nextEpisodeDate": "23 novembre 2026",
+      "platform": null
+    },
+    {
+      "title": "Bob l'éponge",
+      "image": "https://image.tmdb.org/t/p/w300/uUUzblARnPSjgqIGnrp799I13X2.jpg",
+      "link": "https://www.themoviedb.org/tv/387",
+      "synopsis": "Qui vit dans un ananas sous la mer ? Bob l'éponge bien sûr ! Suivez les aventures de cette éponge rigolote et de ses amis dont les bonnes intentions finissent t…",
+      "status": "En cours",
+      "episodes": "18 saisons · 659 épisodes",
+      "nextEpisodeDate": "20 novembre 2026",
+      "platform": "Paramount Plus"
+    },
+    {
+      "title": "Binnelanders",
+      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
+      "link": "https://www.themoviedb.org/tv/206559",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "22 saisons · 5243 épisodes",
+      "nextEpisodeDate": "20 novembre 2026",
       "platform": null
     }
   ]
