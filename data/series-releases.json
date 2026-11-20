@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795187522889,
+  "updatedAt": 1795218776761,
   "items": [
     {
       "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
@@ -32,12 +32,32 @@
       "platform": "Disney Plus"
     },
     {
+      "title": "Shetland",
+      "image": "https://image.tmdb.org/t/p/w300/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
+      "link": "https://www.themoviedb.org/tv/46923",
+      "synopsis": "Lorsqu'un jeune archéologue découvre des restes humains, les habitants de Shetland Island sont intrigués de savoir de qui il s'agit. Et quand une femme âgée est…",
+      "status": "En cours",
+      "episodes": "11 saisons · 60 épisodes",
+      "nextEpisodeDate": "26 novembre 2026",
+      "platform": "Canal+"
+    },
+    {
+      "title": "Diepe Waters",
+      "image": "https://image.tmdb.org/t/p/w300/uF5SpFjMmYTMF0sc5MbjnDsoBcG.jpg",
+      "link": "https://www.themoviedb.org/tv/231962",
+      "synopsis": "Aucun résumé disponible.",
+      "status": "En cours",
+      "episodes": "5 saisons · 869 épisodes",
+      "nextEpisodeDate": "23 novembre 2026",
+      "platform": null
+    },
+    {
       "title": "MobLand",
       "image": "https://image.tmdb.org/t/p/w300/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "link": "https://www.themoviedb.org/tv/247718",
       "synopsis": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mi…",
       "status": "En cours",
-      "episodes": "2 saisons · 20 épisodes",
+      "episodes": "3 saisons · 20 épisodes",
       "nextEpisodeDate": "20 novembre 2026",
       "platform": "Paramount Plus"
     },
@@ -52,33 +72,13 @@
       "platform": "Kocowa"
     },
     {
-      "title": "Diepe Waters",
-      "image": "https://image.tmdb.org/t/p/w300/uF5SpFjMmYTMF0sc5MbjnDsoBcG.jpg",
-      "link": "https://www.themoviedb.org/tv/231962",
+      "title": "Goede Tijden, Slechte Tijden",
+      "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
+      "link": "https://www.themoviedb.org/tv/11890",
       "synopsis": "Aucun résumé disponible.",
       "status": "En cours",
-      "episodes": "5 saisons · 869 épisodes",
+      "episodes": "37 saisons · 7475 épisodes",
       "nextEpisodeDate": "23 novembre 2026",
-      "platform": null
-    },
-    {
-      "title": "Bob l'éponge",
-      "image": "https://image.tmdb.org/t/p/w300/uUUzblARnPSjgqIGnrp799I13X2.jpg",
-      "link": "https://www.themoviedb.org/tv/387",
-      "synopsis": "Qui vit dans un ananas sous la mer ? Bob l'éponge bien sûr ! Suivez les aventures de cette éponge rigolote et de ses amis dont les bonnes intentions finissent t…",
-      "status": "En cours",
-      "episodes": "18 saisons · 659 épisodes",
-      "nextEpisodeDate": "20 novembre 2026",
-      "platform": "Paramount Plus"
-    },
-    {
-      "title": "Binnelanders",
-      "image": "https://image.tmdb.org/t/p/w300/3bzECfllho8PphdYujLUIuhncJD.jpg",
-      "link": "https://www.themoviedb.org/tv/206559",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "22 saisons · 5243 épisodes",
-      "nextEpisodeDate": "20 novembre 2026",
       "platform": null
     }
   ]

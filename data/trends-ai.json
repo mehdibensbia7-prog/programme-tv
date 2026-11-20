@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795187520060,
+  "updatedAt": 1795218773716,
   "items": [
     {
       "title": "L'Odyssée",
@@ -30,17 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Godzilla Minus Zero",
-      "link": "https://www.themoviedb.org/movie/1381071",
-      "image": "https://image.tmdb.org/t/p/w300/cZrs6whBv4JpPxsNJ2ZefhgUUEF.jpg",
-      "desc": "Japon après la Seconde Guerre mondiale, Shikishima Koichi, un ancien pilote kamikaze survit à une rencontre avec Godzilla et souffre de symp...",
-      "isAI": false
-    },
-    {
       "title": "Madden",
       "link": "https://www.themoviedb.org/movie/1131943",
       "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
       "desc": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à...",
+      "isAI": false
+    },
+    {
+      "title": "Soeurs de sort",
+      "link": "https://www.themoviedb.org/movie/1595124",
+      "image": "https://image.tmdb.org/t/p/w300/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "desc": "L'histoire de Cendrillon revisitée… mais racontée cette fois-ci du point de vue de Lilith, l'une des soi-disant « méchantes » belles-sœurs....",
       "isAI": false
     }
   ]
