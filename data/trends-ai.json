@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795218773716,
+  "updatedAt": 1795243182216,
   "items": [
     {
       "title": "L'Odyssée",
@@ -30,17 +30,17 @@
       "isAI": false
     },
     {
-      "title": "Madden",
-      "link": "https://www.themoviedb.org/movie/1131943",
-      "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
-      "desc": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à...",
-      "isAI": false
-    },
-    {
       "title": "Soeurs de sort",
       "link": "https://www.themoviedb.org/movie/1595124",
       "image": "https://image.tmdb.org/t/p/w300/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
-      "desc": "L'histoire de Cendrillon revisitée… mais racontée cette fois-ci du point de vue de Lilith, l'une des soi-disant « méchantes » belles-sœurs....",
+      "desc": "Vous pensiez tout savoir sur les \"méchantes\" demi-sœurs de Cendrillon ? Détrompez-vous ! Lassée de vivre dans l'ombre de Cendrillon, Lilith ...",
+      "isAI": false
+    },
+    {
+      "title": "Protection (très) rapprochée",
+      "link": "https://www.themoviedb.org/movie/1551025",
+      "image": "https://image.tmdb.org/t/p/w300/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "desc": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour e...",
       "isAI": false
     }
   ]
