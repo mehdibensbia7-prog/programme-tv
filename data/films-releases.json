@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795243183520,
+  "updatedAt": 1795287480138,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -65,11 +65,11 @@
       "category": "cinema"
     },
     {
-      "title": "Ojczyzna",
-      "image": "https://image.tmdb.org/t/p/w300/z8qlHO94lYIsZ7EKS4FVe6TwsGo.jpg",
-      "link": "https://www.themoviedb.org/movie/1437696",
-      "synopsis": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika…",
-      "releaseDate": "2 décembre 2026",
+      "title": "Dune : Troisième partie",
+      "image": "https://image.tmdb.org/t/p/w300/jry5ldPQuhomSzjP0XsZChq93ma.jpg",
+      "link": "https://www.themoviedb.org/movie/1170608",
+      "synopsis": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'échelle de la galaxie m…",
+      "releaseDate": "15 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
