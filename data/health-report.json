@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:58:04.781Z",
+  "generatedAt": "2026-11-21T08:07:28.716Z",
   "globalStatus": "🟠 SURVEILLANCE",
   "summary": {
     "ok": 11,
@@ -11,31 +11,31 @@
     {
       "check": "data/news-ai.json",
       "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 5.8h.",
+      "detail": "6 élément(s), mis à jour il y a 1.5h.",
       "repaired": false
     },
     {
       "check": "data/trends-ai.json",
       "status": "ok",
-      "detail": "6 élément(s), mis à jour il y a 5.8h.",
+      "detail": "6 élément(s), mis à jour il y a 1.5h.",
       "repaired": false
     },
     {
       "check": "data/videos.json",
       "status": "warn",
-      "detail": "Donnée périmée : dernière mise à jour il y a 185.1h (seuil : 8h).",
+      "detail": "Donnée périmée : dernière mise à jour il y a 196.2h (seuil : 8h).",
       "repaired": false
     },
     {
       "check": "data/films-releases.json",
       "status": "ok",
-      "detail": "8 élément(s), mis à jour il y a 5.8h.",
+      "detail": "8 élément(s), mis à jour il y a 1.5h.",
       "repaired": false
     },
     {
       "check": "data/series-releases.json",
       "status": "ok",
-      "detail": "8 élément(s), mis à jour il y a 5.8h.",
+      "detail": "8 élément(s), mis à jour il y a 1.5h.",
       "repaired": false
     },
     {
