@@ -1,6 +1,13 @@
 {
-  "updatedAt": 1795287479454,
+  "updatedAt": 1795327686277,
   "items": [
+    {
+      "title": "L'Odyssée",
+      "link": "https://www.themoviedb.org/movie/1368337",
+      "image": "https://image.tmdb.org/t/p/w300/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
+      "desc": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Médite...",
+      "isAI": false
+    },
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
       "link": "https://www.themoviedb.org/movie/1300968",
@@ -16,17 +23,10 @@
       "isAI": false
     },
     {
-      "title": "L'Odyssée",
-      "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
-      "desc": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Médite...",
-      "isAI": false
-    },
-    {
-      "title": "Soeurs de sort",
+      "title": "Sœurs de sort",
       "link": "https://www.themoviedb.org/movie/1595124",
       "image": "https://image.tmdb.org/t/p/w300/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
-      "desc": "Vous pensiez tout savoir sur les \"méchantes\" demi-sœurs de Cendrillon ? Détrompez-vous ! Lassée de vivre dans l'ombre de Cendrillon, Lilith ...",
+      "desc": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse ...",
       "isAI": false
     },
     {
@@ -37,10 +37,10 @@
       "isAI": false
     },
     {
-      "title": "Protection (très) rapprochée",
-      "link": "https://www.themoviedb.org/movie/1551025",
-      "image": "https://image.tmdb.org/t/p/w300/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
-      "desc": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour e...",
+      "title": "Madden",
+      "link": "https://www.themoviedb.org/movie/1131943",
+      "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "desc": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à...",
       "isAI": false
     }
   ]
