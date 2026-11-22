@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795327687663,
+  "updatedAt": 1795375197076,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -56,20 +56,20 @@
       "category": "cinema"
     },
     {
-      "title": "Mon beau-père, ma belle-fille et moi",
-      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
-      "link": "https://www.themoviedb.org/movie/1400336",
-      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
-      "releaseDate": "25 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Dune : Troisième partie",
       "image": "https://image.tmdb.org/t/p/w300/jry5ldPQuhomSzjP0XsZChq93ma.jpg",
       "link": "https://www.themoviedb.org/movie/1170608",
       "synopsis": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'échelle de la galaxie m…",
       "releaseDate": "15 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Mon beau-père, ma belle-fille et moi",
+      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
+      "link": "https://www.themoviedb.org/movie/1400336",
+      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
+      "releaseDate": "25 novembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

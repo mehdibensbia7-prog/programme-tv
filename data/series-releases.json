@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795327689244,
+  "updatedAt": 1795375198188,
   "items": [
     {
       "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
@@ -12,16 +12,6 @@
       "platform": "Amazon Prime Video"
     },
     {
-      "title": "The Voice (États-Unis)",
-      "image": "https://image.tmdb.org/t/p/w300/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
-      "link": "https://www.themoviedb.org/tv/37678",
-      "synopsis": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format inno…",
-      "status": "En cours",
-      "episodes": "30 saisons · 710 épisodes",
-      "nextEpisodeDate": "23 novembre 2026",
-      "platform": "TF1+"
-    },
-    {
       "title": "Shetland",
       "image": "https://image.tmdb.org/t/p/w300/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
       "link": "https://www.themoviedb.org/tv/46923",
@@ -32,6 +22,16 @@
       "platform": "Canal+"
     },
     {
+      "title": "The Voice (États-Unis)",
+      "image": "https://image.tmdb.org/t/p/w300/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "link": "https://www.themoviedb.org/tv/37678",
+      "synopsis": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format inno…",
+      "status": "En cours",
+      "episodes": "30 saisons · 710 épisodes",
+      "nextEpisodeDate": "23 novembre 2026",
+      "platform": "TF1+"
+    },
+    {
       "title": "Les Simpson",
       "image": "https://image.tmdb.org/t/p/w300/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
       "link": "https://www.themoviedb.org/tv/456",
@@ -40,6 +40,16 @@
       "episodes": "38 saisons · 816 épisodes",
       "nextEpisodeDate": "22 novembre 2026",
       "platform": "Disney Plus"
+    },
+    {
+      "title": "Watch What Happens Live with Andy Cohen",
+      "image": "https://image.tmdb.org/t/p/w300/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "link": "https://www.themoviedb.org/tv/22980",
+      "synopsis": "Andy Cohen, directeur du réseau Bravo, discute de sujets liés à la culture pop avec des célébrités et des personnalités de téléréalité.…",
+      "status": "En cours",
+      "episodes": "24 saisons · 3250 épisodes",
+      "nextEpisodeDate": "29 novembre 2026",
+      "platform": "Hayu Amazon Channel"
     },
     {
       "title": "Running Man",
@@ -62,24 +72,14 @@
       "platform": null
     },
     {
-      "title": "Diepe Waters",
-      "image": "https://image.tmdb.org/t/p/w300/uF5SpFjMmYTMF0sc5MbjnDsoBcG.jpg",
-      "link": "https://www.themoviedb.org/tv/231962",
-      "synopsis": "Aucun résumé disponible.",
+      "title": "Tulsa King",
+      "image": "https://image.tmdb.org/t/p/w300/oyovexqrZRbafJNlNb5Sxgp9exQ.jpg",
+      "link": "https://www.themoviedb.org/tv/153312",
+      "synopsis": "Dwight Manfredi, surnommé « Le Général », vient de sortir de prison où il a passé 25 ans. Cet ancien membre de la mafia new-yorkaise est cependant contraint de …",
       "status": "En cours",
-      "episodes": "5 saisons · 869 épisodes",
-      "nextEpisodeDate": "23 novembre 2026",
-      "platform": null
-    },
-    {
-      "title": "Late Night with Seth Meyers",
-      "image": "https://image.tmdb.org/t/p/w300/9T7nQYH98nwha0oj3rVIDe1gTiZ.jpg",
-      "link": "https://www.themoviedb.org/tv/61818",
-      "synopsis": "Aucun résumé disponible.",
-      "status": "En cours",
-      "episodes": "14 saisons · 1860 épisodes",
-      "nextEpisodeDate": "23 novembre 2026",
-      "platform": null
+      "episodes": "4 saisons · 39 épisodes",
+      "nextEpisodeDate": "27 novembre 2026",
+      "platform": "Paramount Plus"
     }
   ]
 }
