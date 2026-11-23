@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1795375198188,
+  "updatedAt": 1795417198456,
   "items": [
-    {
-      "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
-      "image": "https://image.tmdb.org/t/p/w300/8aiJ6pr5ibhHMWe3yOEZQsdkFox.jpg",
-      "link": "https://www.themoviedb.org/tv/84773",
-      "synopsis": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestue…",
-      "status": "En cours",
-      "episodes": "3 saisons · 24 épisodes",
-      "nextEpisodeDate": "25 novembre 2026",
-      "platform": "Amazon Prime Video"
-    },
     {
       "title": "Shetland",
       "image": "https://image.tmdb.org/t/p/w300/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
@@ -20,6 +10,16 @@
       "episodes": "11 saisons · 60 épisodes",
       "nextEpisodeDate": "26 novembre 2026",
       "platform": "Canal+"
+    },
+    {
+      "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
+      "image": "https://image.tmdb.org/t/p/w300/8aiJ6pr5ibhHMWe3yOEZQsdkFox.jpg",
+      "link": "https://www.themoviedb.org/tv/84773",
+      "synopsis": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestue…",
+      "status": "En cours",
+      "episodes": "3 saisons · 24 épisodes",
+      "nextEpisodeDate": "25 novembre 2026",
+      "platform": "Amazon Prime Video"
     },
     {
       "title": "The Voice (États-Unis)",
@@ -38,7 +38,7 @@
       "synopsis": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart…",
       "status": "En cours",
       "episodes": "38 saisons · 816 épisodes",
-      "nextEpisodeDate": "22 novembre 2026",
+      "nextEpisodeDate": "29 novembre 2026",
       "platform": "Disney Plus"
     },
     {
@@ -52,16 +52,6 @@
       "platform": "Hayu Amazon Channel"
     },
     {
-      "title": "Running Man",
-      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
-      "link": "https://www.themoviedb.org/tv/33238",
-      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
-      "status": "En cours",
-      "episodes": "1 saison · 831 épisodes",
-      "nextEpisodeDate": "22 novembre 2026",
-      "platform": "Kocowa"
-    },
-    {
       "title": "Goede Tijden, Slechte Tijden",
       "image": "https://image.tmdb.org/t/p/w300/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
       "link": "https://www.themoviedb.org/tv/11890",
@@ -70,6 +60,16 @@
       "episodes": "37 saisons · 7475 épisodes",
       "nextEpisodeDate": "23 novembre 2026",
       "platform": null
+    },
+    {
+      "title": "Running Man",
+      "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "link": "https://www.themoviedb.org/tv/33238",
+      "synopsis": "Les présentateurs de l'émission sont au nombre de 7, ils affrontent seul ou ensemble les invités afin de gagner la « course finale » et de gagner des « Running …",
+      "status": "En cours",
+      "episodes": "1 saison · 831 épisodes",
+      "nextEpisodeDate": "29 novembre 2026",
+      "platform": "Kocowa"
     },
     {
       "title": "Tulsa King",
