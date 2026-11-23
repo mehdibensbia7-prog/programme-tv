@@ -1,13 +1,6 @@
 {
-  "updatedAt": 1795417197291,
+  "updatedAt": 1795477265512,
   "items": [
-    {
-      "title": "L'Odyssée",
-      "link": "https://www.themoviedb.org/movie/1368337",
-      "image": "https://image.tmdb.org/t/p/w300/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
-      "desc": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Médite...",
-      "isAI": false
-    },
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
       "link": "https://www.themoviedb.org/movie/1300968",
@@ -23,24 +16,31 @@
       "isAI": false
     },
     {
-      "title": "The Beast",
-      "link": "https://www.themoviedb.org/movie/1185344",
-      "image": "https://image.tmdb.org/t/p/w300/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "desc": "Lorsqu'une attaque mondiale coordonnée plonge la planète dans le chaos, le président américain et son dernier agent des services secrets mon...",
+      "title": "L'Odyssée",
+      "link": "https://www.themoviedb.org/movie/1368337",
+      "image": "https://image.tmdb.org/t/p/w300/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
+      "desc": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Médite...",
       "isAI": false
     },
     {
-      "title": "Protection (très) rapprochée",
-      "link": "https://www.themoviedb.org/movie/1551025",
-      "image": "https://image.tmdb.org/t/p/w300/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
-      "desc": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour e...",
+      "title": "Sœurs de sort",
+      "link": "https://www.themoviedb.org/movie/1595124",
+      "image": "https://image.tmdb.org/t/p/w300/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "desc": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse ...",
       "isAI": false
     },
     {
-      "title": "Madden",
-      "link": "https://www.themoviedb.org/movie/1131943",
-      "image": "https://image.tmdb.org/t/p/w300/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
-      "desc": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à...",
+      "title": "Noël à la page",
+      "link": "https://www.themoviedb.org/movie/1611767",
+      "image": "https://image.tmdb.org/t/p/w300/8KKRRkvbIFrvwFzvg8026PquZWv.jpg",
+      "desc": "Coincés par une tempête de neige durant les fêtes de fin d'année, Ryan Mitchell et Hannah Hendricks, deux éditeurs que tout oppose, doivent ...",
+      "isAI": false
+    },
+    {
+      "title": "The Social Reckoning",
+      "link": "https://www.themoviedb.org/movie/1281331",
+      "image": "https://image.tmdb.org/t/p/w300/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
+      "desc": "L'histoire s'inspire de \"The Facebook Files\" du Wall Street Journal, une série d'articles publiés en octobre 2021 par Jeff Horowitz, qui ont...",
       "isAI": false
     }
   ]
