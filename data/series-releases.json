@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795512360314,
+  "updatedAt": 1795558336130,
   "items": [
     {
       "title": "Shetland",
@@ -52,6 +52,16 @@
       "platform": "Hayu Amazon Channel"
     },
     {
+      "title": "The Gilded Age",
+      "image": "https://image.tmdb.org/t/p/w300/l36aFd248esuJJ1uIe0Za96bLTR.jpg",
+      "link": "https://www.themoviedb.org/tv/81723",
+      "synopsis": "Aux États-Unis, le Gilded Age désigne la période de prospérité qui suivit la guerre de Sécession. En 1882, la jeune Marian Brook quitte la Pennsylvanie après la…",
+      "status": "En cours",
+      "episodes": "4 saisons · 33 épisodes",
+      "nextEpisodeDate": "29 novembre 2026",
+      "platform": "HBO Max"
+    },
+    {
       "title": "Running Man",
       "image": "https://image.tmdb.org/t/p/w300/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
       "link": "https://www.themoviedb.org/tv/33238",
@@ -69,16 +79,6 @@
       "status": "En cours",
       "episodes": "37 saisons · 7475 épisodes",
       "nextEpisodeDate": "24 novembre 2026",
-      "platform": null
-    },
-    {
-      "title": "Le Daily Show",
-      "image": "https://image.tmdb.org/t/p/w300/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
-      "link": "https://www.themoviedb.org/tv/2224",
-      "synopsis": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.…",
-      "status": "En cours",
-      "episodes": "31 saisons · 4292 épisodes",
-      "nextEpisodeDate": "30 novembre 2026",
       "platform": null
     }
   ]

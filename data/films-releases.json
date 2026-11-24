@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795512359682,
+  "updatedAt": 1795558334601,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -20,15 +20,6 @@
       "category": "cinema"
     },
     {
-      "title": "You Can See Everything",
-      "image": "https://image.tmdb.org/t/p/w300/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
-      "link": "https://www.themoviedb.org/movie/1765072",
-      "synopsis": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, fondatrice tristement célèbre de la Silicon Valley, invite une équipe de tournage — d’abord scept…",
-      "releaseDate": "1 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Wildwood : La prophétie de la forêt",
       "image": "https://image.tmdb.org/t/p/w300/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
       "link": "https://www.themoviedb.org/movie/791523",
@@ -38,11 +29,11 @@
       "category": "cinema"
     },
     {
-      "title": "Le Chat Chapeauté",
-      "image": "https://image.tmdb.org/t/p/w300/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
-      "link": "https://www.themoviedb.org/movie/1117898",
-      "synopsis": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.…",
-      "releaseDate": "9 décembre 2026",
+      "title": "You Can See Everything",
+      "image": "https://image.tmdb.org/t/p/w300/hzRa2W9PIZkAwuijlsSMbte0bfq.jpg",
+      "link": "https://www.themoviedb.org/movie/1765072",
+      "synopsis": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, ancienne figure de la Silicon Valley et fondatrice déchue de Theranos, condamnée à plus de onze a…",
+      "releaseDate": "1 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -57,7 +48,7 @@
     },
     {
       "title": "Mon beau-père, ma belle-fille et moi",
-      "image": "https://image.tmdb.org/t/p/w300/j66QF4oquvSMe9rb7A7x1JayG1a.jpg",
+      "image": "https://image.tmdb.org/t/p/w300/tAJeM7WTjgkvGeCH8zjIA7kFlHW.jpg",
       "link": "https://www.themoviedb.org/movie/1400336",
       "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
       "releaseDate": "26 novembre 2026",
@@ -70,6 +61,15 @@
       "link": "https://www.themoviedb.org/movie/1170608",
       "synopsis": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'échelle de la galaxie m…",
       "releaseDate": "15 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Le Chat Chapeauté",
+      "image": "https://image.tmdb.org/t/p/w300/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
+      "link": "https://www.themoviedb.org/movie/1117898",
+      "synopsis": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.…",
+      "releaseDate": "9 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }
