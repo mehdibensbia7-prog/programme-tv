@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795558334601,
+  "updatedAt": 1795593465037,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -29,29 +29,11 @@
       "category": "cinema"
     },
     {
-      "title": "You Can See Everything",
-      "image": "https://image.tmdb.org/t/p/w300/hzRa2W9PIZkAwuijlsSMbte0bfq.jpg",
-      "link": "https://www.themoviedb.org/movie/1765072",
-      "synopsis": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, ancienne figure de la Silicon Valley et fondatrice déchue de Theranos, condamnée à plus de onze a…",
-      "releaseDate": "1 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Billie, à la croisée des mondes",
-      "image": "https://image.tmdb.org/t/p/w300/oifSgkd0jb7ycHUld3IKRVCvmyZ.jpg",
-      "link": "https://www.themoviedb.org/movie/1538497",
-      "synopsis": "Une adolescente maladroite et sa mère supra-organisée découvrent que ce qui la rend unique pourrait bien provenir de pouvoirs magiques capables non seulement de…",
-      "releaseDate": "25 novembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
-      "title": "Mon beau-père, ma belle-fille et moi",
-      "image": "https://image.tmdb.org/t/p/w300/tAJeM7WTjgkvGeCH8zjIA7kFlHW.jpg",
-      "link": "https://www.themoviedb.org/movie/1400336",
-      "synopsis": "Henry Focker, fils de Greg et Pam, fait face au chaos familial lorsqu'il décide d'épouser une femme têtue qui semble totalement incompatible avec lui.…",
-      "releaseDate": "26 novembre 2026",
+      "title": "I Play Rocky",
+      "image": "https://image.tmdb.org/t/p/w300/sPID7NqwpNdSAEMhazCvidxxeNo.jpg",
+      "link": "https://www.themoviedb.org/movie/1286656",
+      "synopsis": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’a…",
+      "releaseDate": "23 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
@@ -70,6 +52,24 @@
       "link": "https://www.themoviedb.org/movie/1117898",
       "synopsis": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.…",
       "releaseDate": "9 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "La La Land",
+      "image": "https://image.tmdb.org/t/p/w300/5KIj6aioW1UtUT1IV0qqW5iZbNH.jpg",
+      "link": "https://www.themoviedb.org/movie/313369",
+      "synopsis": "Au cœur de Los Angeles, une actrice en devenir prénommée Mia sert des cafés entre deux auditions. De son côté, Sebastian, passionné de jazz, joue du piano dans …",
+      "releaseDate": "25 janvier 2017",
+      "platform": "Apple TV Store (location)",
+      "category": "streaming"
+    },
+    {
+      "title": "Ojczyzna",
+      "image": "https://image.tmdb.org/t/p/w300/z8qlHO94lYIsZ7EKS4FVe6TwsGo.jpg",
+      "link": "https://www.themoviedb.org/movie/1437696",
+      "synopsis": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika…",
+      "releaseDate": "2 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     }

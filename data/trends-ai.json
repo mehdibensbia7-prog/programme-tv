@@ -1,13 +1,6 @@
 {
-  "updatedAt": 1795558333358,
+  "updatedAt": 1795593464502,
   "items": [
-    {
-      "title": "Avengers : Doomsday",
-      "link": "https://www.themoviedb.org/movie/1003596",
-      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
-      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
-      "isAI": false
-    },
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
       "link": "https://www.themoviedb.org/movie/1300968",
@@ -23,24 +16,31 @@
       "isAI": false
     },
     {
+      "title": "Avengers : Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
+      "isAI": false
+    },
+    {
+      "title": "Sœurs de sort",
+      "link": "https://www.themoviedb.org/movie/1595124",
+      "image": "https://image.tmdb.org/t/p/w300/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "desc": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse ...",
+      "isAI": false
+    },
+    {
+      "title": "Spider-Man : Brand New Day",
+      "link": "https://www.themoviedb.org/movie/969681",
+      "image": "https://image.tmdb.org/t/p/w300/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
+      "desc": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttan...",
+      "isAI": false
+    },
+    {
       "title": "You Can See Everything",
       "link": "https://www.themoviedb.org/movie/1765072",
       "image": "https://image.tmdb.org/t/p/w300/hzRa2W9PIZkAwuijlsSMbte0bfq.jpg",
       "desc": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, ancienne figure de la Silicon Valley et fondatrice déchue de Theranos, condam...",
-      "isAI": false
-    },
-    {
-      "title": "Billie, à la croisée des mondes",
-      "link": "https://www.themoviedb.org/movie/1538497",
-      "image": "https://image.tmdb.org/t/p/w300/oifSgkd0jb7ycHUld3IKRVCvmyZ.jpg",
-      "desc": "Une adolescente maladroite et sa mère supra-organisée découvrent que ce qui la rend unique pourrait bien provenir de pouvoirs magiques capab...",
-      "isAI": false
-    },
-    {
-      "title": "The Social Reckoning",
-      "link": "https://www.themoviedb.org/movie/1281331",
-      "image": "https://image.tmdb.org/t/p/w300/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
-      "desc": "Frances Haugen, une jeune ingénieure chez Facebook, qui sollicite l'aide de Jeff Horwitz, journaliste au Wall Street Journal. Ensemble, ils ...",
       "isAI": false
     }
   ]
