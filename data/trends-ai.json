@@ -1,18 +1,18 @@
 {
-  "updatedAt": 1795642120161,
+  "updatedAt": 1795679376078,
   "items": [
-    {
-      "title": "Avengers : Doomsday",
-      "link": "https://www.themoviedb.org/movie/1003596",
-      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
-      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
-      "isAI": false
-    },
     {
       "title": "Hunger Games : Lever de soleil sur la moisson",
       "link": "https://www.themoviedb.org/movie/1300968",
       "image": "https://image.tmdb.org/t/p/w300/2crlvf4VsSQORysk1A8o2jBUduI.jpg",
       "desc": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Qu...",
+      "isAI": false
+    },
+    {
+      "title": "Avengers : Doomsday",
+      "link": "https://www.themoviedb.org/movie/1003596",
+      "image": "https://image.tmdb.org/t/p/w300/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+      "desc": "Les Avengers, les Wakandais, les Quatre Fantastiques, les New Avengers et les X-Men, tous héros issus de trois univers distincts se retrouve...",
       "isAI": false
     },
     {
@@ -23,24 +23,24 @@
       "isAI": false
     },
     {
+      "title": "Sœurs de sort",
+      "link": "https://www.themoviedb.org/movie/1595124",
+      "image": "https://image.tmdb.org/t/p/w300/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "desc": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse ...",
+      "isAI": false
+    },
+    {
+      "title": "Dune : Troisième partie",
+      "link": "https://www.themoviedb.org/movie/1170608",
+      "image": "https://image.tmdb.org/t/p/w300/jry5ldPQuhomSzjP0XsZChq93ma.jpg",
+      "desc": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'éch...",
+      "isAI": false
+    },
+    {
       "title": "Billie, à la croisée des mondes",
       "link": "https://www.themoviedb.org/movie/1538497",
       "image": "https://image.tmdb.org/t/p/w300/oifSgkd0jb7ycHUld3IKRVCvmyZ.jpg",
       "desc": "Une adolescente maladroite et sa mère supra-organisée découvrent que ce qui la rend unique pourrait bien provenir de pouvoirs magiques capab...",
-      "isAI": false
-    },
-    {
-      "title": "The Mosquito Bowl",
-      "link": "https://www.themoviedb.org/movie/1458300",
-      "image": "https://image.tmdb.org/t/p/w300/9vqBni5nflDX9CmvftTB08Q9kca.jpg",
-      "desc": "Après l'attaque de Pearl Harbor, quatre des plus grands noms du football universitaire américain mettent leur célébrité de côté pour s'engag...",
-      "isAI": false
-    },
-    {
-      "title": "You Can See Everything",
-      "link": "https://www.themoviedb.org/movie/1765072",
-      "image": "https://image.tmdb.org/t/p/w300/hzRa2W9PIZkAwuijlsSMbte0bfq.jpg",
-      "desc": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, ancienne figure de la Silicon Valley et fondatrice déchue de Theranos, condam...",
       "isAI": false
     }
   ]
