@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795727764538,
+  "updatedAt": 1795765763335,
   "items": [
     {
       "title": "Avengers : Doomsday",
@@ -20,20 +20,20 @@
       "category": "cinema"
     },
     {
-      "title": "Wildwood : La prophétie de la forêt",
-      "image": "https://image.tmdb.org/t/p/w300/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
-      "link": "https://www.themoviedb.org/movie/791523",
-      "synopsis": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés ina…",
-      "releaseDate": "9 décembre 2026",
-      "platform": "Sortie cinéma",
-      "category": "cinema"
-    },
-    {
       "title": "Dune : Troisième partie",
       "image": "https://image.tmdb.org/t/p/w300/jry5ldPQuhomSzjP0XsZChq93ma.jpg",
       "link": "https://www.themoviedb.org/movie/1170608",
       "synopsis": "L'empereur Paul Atraides fait face aux retombées de son ascensions au pouvoir alors que des complots politiques et une guerre sainte à l'échelle de la galaxie m…",
       "releaseDate": "15 décembre 2026",
+      "platform": "Sortie cinéma",
+      "category": "cinema"
+    },
+    {
+      "title": "Wildwood : La prophétie de la forêt",
+      "image": "https://image.tmdb.org/t/p/w300/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
+      "link": "https://www.themoviedb.org/movie/791523",
+      "synopsis": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés ina…",
+      "releaseDate": "9 décembre 2026",
       "platform": "Sortie cinéma",
       "category": "cinema"
     },
