@@ -1,16 +1,6 @@
 {
-  "updatedAt": 1795765763827,
+  "updatedAt": 1795813089626,
   "items": [
-    {
-      "title": "Shetland",
-      "image": "https://image.tmdb.org/t/p/w300/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
-      "link": "https://www.themoviedb.org/tv/46923",
-      "synopsis": "Lorsqu'un jeune archéologue découvre des restes humains, les habitants de Shetland Island sont intrigués de savoir de qui il s'agit. Et quand une femme âgée est…",
-      "status": "En cours",
-      "episodes": "11 saisons · 60 épisodes",
-      "nextEpisodeDate": "3 décembre 2026",
-      "platform": "Canal+"
-    },
     {
       "title": "The Gilded Age",
       "image": "https://image.tmdb.org/t/p/w300/l36aFd248esuJJ1uIe0Za96bLTR.jpg",
@@ -20,6 +10,16 @@
       "episodes": "4 saisons · 33 épisodes",
       "nextEpisodeDate": "29 novembre 2026",
       "platform": "HBO Max"
+    },
+    {
+      "title": "Shetland",
+      "image": "https://image.tmdb.org/t/p/w300/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
+      "link": "https://www.themoviedb.org/tv/46923",
+      "synopsis": "Lorsqu'un jeune archéologue découvre des restes humains, les habitants de Shetland Island sont intrigués de savoir de qui il s'agit. Et quand une femme âgée est…",
+      "status": "En cours",
+      "episodes": "11 saisons · 60 épisodes",
+      "nextEpisodeDate": "3 décembre 2026",
+      "platform": "Canal+"
     },
     {
       "title": "New York Unité Spéciale",
@@ -77,7 +77,7 @@
       "link": "https://www.themoviedb.org/tv/65733",
       "synopsis": "Les aventures du chat bleu.…",
       "status": "En cours",
-      "episodes": "1 saison · 1464 épisodes",
+      "episodes": "1 saison · 1551 épisodes",
       "nextEpisodeDate": "28 novembre 2026",
       "platform": null
     }
