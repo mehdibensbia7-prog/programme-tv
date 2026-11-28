@@ -1,6 +1,18 @@
 {
-  "updatedAt": 1795813086841,
+  "updatedAt": 1795850284360,
   "items": [
+    {
+      "title": "Astrid et Raphaëlle sur France 2 : Lola Dewaere va-t-elle quitter la série ? On a la réponse",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234379.html",
+      "desc": "L'épisode 2 de la saison 7 de \"Astrid et Raphaëlle\" est marqué par un événement qui pourrait tout changer pour la suite de la série policièr",
+      "isAI": false
+    },
+    {
+      "title": "Vertival : et si votre nouvelle série favorite vous attendait sur votre téléphone ?",
+      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234599.html",
+      "desc": "Qui a dit que les séries étaient réservées à la télévision ou aux plateformes ? Pour sa première édition, le Vertival met en lumière des fic",
+      "isAI": false
+    },
     {
       "title": "Un si grand soleil : après des mois de disputes, ce rebondissement inattendu entre Yann et Johanna va vous surprendre !",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234494.html",
@@ -23,18 +35,6 @@
       "title": "Demain nous appartient : qu’est-il vraiment arrivé à Judith ?",
       "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234498.html",
       "desc": "Judith vient de faire un malaise dans Demain nous appartient. Mais que lui est-il vraiment arrivé ? A-t-elle été empoisonnée ? Réponse.",
-      "isAI": false
-    },
-    {
-      "title": "Demain nous appartient : ce qui vous attend dans l'épisode 2346 du lundi 30 novembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000233409.html",
-      "desc": "Dans le prochain épisode de \"Demain nous appartient\"... Avec l'aide de Jordan, les enquêteurs tendent un piège au principal suspect. Sans le",
-      "isAI": false
-    },
-    {
-      "title": "Ici tout commence : ce qui vous attend dans l'épisode 1578 du lundi 30 novembre 2026 [SPOILERS]",
-      "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000233400.html",
-      "desc": "Dans le prochain épisode d'\"Ici tout commence\"... A L'institut, Teyssier est seul contre tous. A l'ouverture du Monsieur J, Lionel et Mehdi ",
       "isAI": false
     }
   ]
